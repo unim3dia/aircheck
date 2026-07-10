@@ -62,7 +62,7 @@ struct LibraryView: View {
                 .tracking(2.2)
                 .foregroundStyle(AircheckTheme.ink.opacity(0.62))
                 .padding(.top, 8)
-            Image("Howard1")
+            Image(uiImage: UIImage(named: "Howard1") ?? UIImage())
                 .resizable()
                 .scaledToFill()
                 .frame(height: 190)

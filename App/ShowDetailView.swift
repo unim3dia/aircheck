@@ -38,7 +38,7 @@ struct ShowDetailView: View {
 
     private var hero: some View {
         ZStack(alignment: .leading) {
-            Image("Howard2")
+            Image(uiImage: UIImage(named: "Howard2") ?? UIImage())
                 .resizable()
                 .scaledToFill()
                 .frame(height: 320)
