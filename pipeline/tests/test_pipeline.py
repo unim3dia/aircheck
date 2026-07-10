@@ -1,6 +1,13 @@
 import unittest
 
-from aircheck_pipeline import build_jobs, editorial_title, merge_chunk_transcripts, normalize_known_names, topic_windows
+from aircheck_pipeline import (
+    build_jobs,
+    editorial_title,
+    merge_chunk_transcripts,
+    normalize_known_names,
+    topic_windows,
+    validate_topic_draft,
+)
 
 
 class CatalogJobsTests(unittest.TestCase):
@@ -50,6 +57,21 @@ class TranscriptMergeTests(unittest.TestCase):
 
 
 class TopicWindowTests(unittest.TestCase):
+    def test_rejects_unverified_named_speaker_claims(self):
+        self.assertIsNone(validate_topic_draft({"title": "Bush on Sirius", "summary": "George Bush discusses Sirius Radio."}))
+
+    def test_accepts_show_level_summary_and_caps_title(self):
+        self.assertEqual(
+            validate_topic_draft({
+                "title": "A Very Long Headline About The First Satellite Broadcast Today",
+                "summary": "The show discusses its first satellite broadcast and technical problems.",
+            }),
+            {
+                "title": "A Very Long Headline About The First Satellite",
+                "summary": "The show discusses its first satellite broadcast and technical problems.",
+            },
+        )
+
     def test_editorial_title_removes_sentence_punctuation_and_limits_words(self):
         self.assertEqual(
             editorial_title("Howard and Robin discover technical problems in the new studio."),
