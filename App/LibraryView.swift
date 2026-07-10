@@ -52,9 +52,13 @@ struct LibraryView: View {
                 }
                 .accessibilityLabel("Search the archive")
                 Button {
-                    if let show = player.currentShow ?? catalog.shows.sorted(by: { $0.date < $1.date }).first { player.play(show) }
+                    if player.currentShow != nil {
+                        player.toggle()
+                    } else if let show = catalog.shows.sorted(by: { $0.date < $1.date }).first {
+                        player.play(show)
+                    }
                 } label: {
-                    Image(systemName: "play.fill")
+                    Image(systemName: player.isPlaying ? "pause.fill" : "play.fill")
                         .font(.subheadline.bold())
                         .foregroundStyle(Color(red: 0.35, green: 0.72, blue: 0.34))
                         .frame(width: 42, height: 42)
@@ -66,11 +70,6 @@ struct LibraryView: View {
                 .font(.system(size: 12, weight: .semibold, design: .rounded))
                 .tracking(2.2)
                 .foregroundStyle(AircheckTheme.signal)
-            Text("WELCOME TO THE ARCHIVE")
-                .font(.system(size: 12, weight: .bold, design: .rounded))
-                .tracking(2.2)
-                .foregroundStyle(AircheckTheme.ink.opacity(0.62))
-                .padding(.top, 8)
             Image(uiImage: UIImage(named: "Howard1") ?? UIImage())
                 .resizable()
                 .scaledToFit()
