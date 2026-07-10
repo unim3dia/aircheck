@@ -1,6 +1,6 @@
 import unittest
 
-from aircheck_pipeline import build_jobs, merge_chunk_transcripts, normalize_known_names, topic_windows
+from aircheck_pipeline import build_jobs, editorial_title, merge_chunk_transcripts, normalize_known_names, topic_windows
 
 
 class CatalogJobsTests(unittest.TestCase):
@@ -50,6 +50,12 @@ class TranscriptMergeTests(unittest.TestCase):
 
 
 class TopicWindowTests(unittest.TestCase):
+    def test_editorial_title_removes_sentence_punctuation_and_limits_words(self):
+        self.assertEqual(
+            editorial_title("Howard and Robin discover technical problems in the new studio."),
+            "Howard and Robin discover technical problems in the",
+        )
+
     def test_groups_transcript_into_prompt_sized_windows_with_timestamps(self):
         segments = [
             {"id": 0, "startTime": 0, "endTime": 10, "speaker": None, "text": "a" * 30},
