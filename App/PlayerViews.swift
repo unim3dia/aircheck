@@ -118,7 +118,6 @@ private struct VintageMicrophoneGlyph: View {
             Capsule().fill(Color(white: 0.38)).frame(width: 12, height: 2)
         }
         .padding(3)
-        .background(Color(white: 0.88).opacity(0.92), in: Circle())
         .rotationEffect(.degrees(-13))
         .accessibilityHidden(true)
     }
