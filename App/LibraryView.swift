@@ -87,6 +87,18 @@ struct LibraryView: View {
                         endPoint: .bottom
                     )
                 }
+                .mask {
+                    LinearGradient(
+                        stops: [
+                            .init(color: .clear, location: 0),
+                            .init(color: .black, location: 0.14),
+                            .init(color: .black, location: 0.86),
+                            .init(color: .clear, location: 1)
+                        ],
+                        startPoint: .leading,
+                        endPoint: .trailing
+                    )
+                }
                 .accessibilityLabel("Howard Stern at the microphone")
         }
         .padding(.top, 12)
