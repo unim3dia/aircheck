@@ -33,7 +33,7 @@ struct MiniPlayer: View {
                     onSeek: player.seek
                 )
                 HStack(spacing: 12) {
-                    SignalGlyph(isActive: player.isPlaying).scaleEffect(0.78).frame(width: 44)
+                    VintageMicrophoneGlyph().frame(width: 36, height: 36)
                     VStack(alignment: .leading, spacing: 2) {
                         Text(show.shortDate).font(.headline)
                         Text(player.currentTime.timecode + " / " + show.duration.timecode).font(.caption.monospacedDigit()).foregroundStyle(.secondary)
@@ -48,7 +48,28 @@ struct MiniPlayer: View {
                 }
                 .padding(.horizontal, 12).padding(.vertical, 8)
             }
-            .background(.ultraThinMaterial)
+            .background {
+                LinearGradient(
+                    colors: [
+                        Color(red: 0.58, green: 0.28, blue: 0.16),
+                        Color(red: 0.76, green: 0.43, blue: 0.24),
+                        Color(red: 0.48, green: 0.21, blue: 0.12)
+                    ],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+                .overlay {
+                    Canvas { context, size in
+                        for index in 0..<48 {
+                            let y = CGFloat((index * 29) % 100) / 100 * size.height
+                            var grain = Path()
+                            grain.move(to: CGPoint(x: 0, y: y))
+                            grain.addCurve(to: CGPoint(x: size.width, y: y + CGFloat((index % 3) - 1)), control1: CGPoint(x: size.width * 0.3, y: y - 2), control2: CGPoint(x: size.width * 0.7, y: y + 2))
+                            context.stroke(grain, with: .color(.black.opacity(0.10)), lineWidth: CGFloat(index % 3 + 1))
+                        }
+                    }
+                }
+            }
             .foregroundStyle(AircheckTheme.ink)
         }
     }

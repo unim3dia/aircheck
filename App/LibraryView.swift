@@ -15,7 +15,6 @@ struct LibraryView: View {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 24) {
                     masthead
-                    if let current = player.currentShow { continueCard(current) }
                     monthRail
                     showList
                     sourceNote
@@ -149,15 +148,6 @@ private struct TunedDialCard: View {
             DialKnob(isActive: isPlaying)
 
             VStack(alignment: .leading, spacing: 5) {
-                HStack(spacing: 7) {
-                    Text("TUNED IN")
-                    Circle().fill(AircheckTheme.signal).frame(width: 5, height: 5)
-                    Text("2006 ARCHIVE")
-                }
-                .font(.caption2.bold())
-                .tracking(1.15)
-                .foregroundStyle(AircheckTheme.ink.opacity(0.68))
-
                 HStack(alignment: .lastTextBaseline) {
                     Text(show.shortDate.uppercased())
                         .font(.system(size: 30, weight: .bold, design: .serif))

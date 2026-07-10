@@ -72,9 +72,10 @@ final class AudioPlayer {
     }
 
     func restoreLastShow(from shows: [Show]) {
-        guard currentShow == nil,
-              let id = defaults.string(forKey: lastShowKey),
-              let show = shows.first(where: { $0.id == id }) else { return }
+        guard currentShow == nil, !shows.isEmpty else { return }
+        let show = defaults.string(forKey: lastShowKey).flatMap { id in
+            shows.first(where: { $0.id == id })
+        } ?? shows.sorted(by: { $0.date < $1.date }).first!
         prepare(show, at: nil, recordsHistory: false)
     }
 
