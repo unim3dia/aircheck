@@ -1,11 +1,11 @@
 import Foundation
-import Testing
+import XCTest
 @testable import AircheckCore
 
-struct SearchEngineTests {
+final class SearchEngineTests: XCTestCase {
     private let show = Show(
         id: "2006-01-09",
-        date: DateComponents(calendar: .gregorian, year: 2006, month: 1, day: 9).date!,
+        date: DateComponents(calendar: Calendar(identifier: .gregorian), year: 2006, month: 1, day: 9).date!,
         duration: 18_706,
         audioURL: URL(string: "https://example.com/show.mp3")!,
         topics: [Topic(id: "revelations", title: "The Revelations Game", summary: "The staff shares secrets.", startTime: 420)],
@@ -15,27 +15,27 @@ struct SearchEngineTests {
         ]
     )
 
-    @Test func searchesTopicsAndReturnsJumpTime() {
+    func testSearchesTopicsAndReturnsJumpTime() {
         let hits = CatalogSearch.search(query: "revelations", shows: [show])
-        #expect(hits.count == 1)
-        #expect(hits[0].time == 420)
-        #expect(hits[0].kind == .topic)
+        XCTAssertEqual(hits.count, 1)
+        XCTAssertEqual(hits[0].time, 420)
+        XCTAssertEqual(hits[0].kind, SearchHit.Kind.topic)
     }
 
-    @Test func searchesTranscriptCaseInsensitively() {
+    func testSearchesTranscriptCaseInsensitively() {
         let hits = CatalogSearch.search(query: "KNICKS", shows: [show])
-        #expect(hits.count == 1)
-        #expect(hits[0].time == 4_200)
-        #expect(hits[0].kind == .transcript)
+        XCTAssertEqual(hits.count, 1)
+        XCTAssertEqual(hits[0].time, 4_200)
+        XCTAssertEqual(hits[0].kind, SearchHit.Kind.transcript)
     }
 
-    @Test func emptySearchReturnsNoHits() {
-        #expect(CatalogSearch.search(query: "   ", shows: [show]).isEmpty)
+    func testEmptySearchReturnsNoHits() {
+        XCTAssertTrue(CatalogSearch.search(query: "   ", shows: [show]).isEmpty)
     }
 
-    @Test func activeTranscriptSegmentUsesTimeBoundaries() {
-        #expect(TranscriptTimeline.activeSegment(at: 409, in: show.transcript) == nil)
-        #expect(TranscriptTimeline.activeSegment(at: 415, in: show.transcript)?.id == 0)
-        #expect(TranscriptTimeline.activeSegment(at: 430, in: show.transcript) == nil)
+    func testActiveTranscriptSegmentUsesTimeBoundaries() {
+        XCTAssertNil(TranscriptTimeline.activeSegment(at: 409, in: show.transcript))
+        XCTAssertEqual(TranscriptTimeline.activeSegment(at: 415, in: show.transcript)?.id, 0)
+        XCTAssertNil(TranscriptTimeline.activeSegment(at: 430, in: show.transcript))
     }
 }

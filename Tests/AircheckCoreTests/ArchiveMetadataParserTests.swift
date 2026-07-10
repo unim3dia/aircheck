@@ -1,29 +1,31 @@
 import Foundation
-import Testing
+import XCTest
 @testable import AircheckCore
 
-struct ArchiveMetadataParserTests {
-    @Test func parsesPlayableMP3sAndSortsByBroadcastDate() throws {
-        let data = try #require(sampleMetadata.data(using: .utf8))
+final class ArchiveMetadataParserTests: XCTestCase {
+    func testParsesPlayableMP3sAndSortsByBroadcastDate() throws {
+        let data = try XCTUnwrap(sampleMetadata.data(using: .utf8))
         let shows = try ArchiveMetadataParser(collectionYear: 2006).parse(data)
 
-        #expect(shows.map(\.id) == ["2006-01-09", "2006-04-20"])
-        #expect(shows[0].duration == 18_706.13)
-        #expect(shows[0].audioURL.absoluteString.contains("Howard_Stern_24k_01-09-06_cf.mp3"))
+        XCTAssertEqual(shows.map(\.id), ["2006-01-09", "2006-04-20"])
+        XCTAssertEqual(shows[0].duration, 18_706.13)
+        XCTAssertTrue(shows[0].audioURL.absoluteString.contains("Howard_Stern_24k_01-09-06_cf.mp3"))
     }
 
-    @Test func repairsTheKnownNinetySixFilenameTypoUsingCollectionYear() throws {
-        let data = try #require(sampleMetadata.data(using: .utf8))
+    func testRepairsTheKnownNinetySixFilenameTypoUsingCollectionYear() throws {
+        let data = try XCTUnwrap(sampleMetadata.data(using: .utf8))
         let shows = try ArchiveMetadataParser(collectionYear: 2006).parse(data)
 
-        #expect(shows[1].date == DateComponents(calendar: .gregorian, year: 2006, month: 4, day: 20).date)
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(secondsFromGMT: 0)!
+        XCTAssertEqual(shows[1].date, DateComponents(calendar: calendar, year: 2006, month: 4, day: 20).date)
     }
 
-    @Test func ignoresNonAudioDerivativesAndMalformedFiles() throws {
-        let data = try #require(sampleMetadata.data(using: .utf8))
+    func testIgnoresNonAudioDerivativesAndMalformedFiles() throws {
+        let data = try XCTUnwrap(sampleMetadata.data(using: .utf8))
         let shows = try ArchiveMetadataParser(collectionYear: 2006).parse(data)
 
-        #expect(shows.count == 2)
+        XCTAssertEqual(shows.count, 2)
     }
 
     private let sampleMetadata = #"""

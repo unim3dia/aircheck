@@ -10,8 +10,7 @@ let package = Package(
         .target(name: "AircheckCore"),
         .testTarget(
             name: "AircheckCoreTests",
-            dependencies: ["AircheckCore"],
-            resources: [.process("Fixtures")]
+            dependencies: ["AircheckCore"]
         )
     ],
     swiftLanguageModes: [.v6]
