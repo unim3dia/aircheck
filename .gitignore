@@ -12,3 +12,4 @@ aircheck-final.png
 pipeline/topic-indexer
 pipeline/week.log
 pipeline/week.pid
+pipeline/logs/

@@ -6,7 +6,13 @@ extension Show {
     var shortDate: String { date.formatted(.dateTime.month(.abbreviated).day()) }
     var dayNumber: String { date.formatted(.dateTime.day(.twoDigits)) }
     var weekday: String { date.formatted(.dateTime.weekday(.abbreviated)).uppercased() }
-    var displayTitle: String { id.hasSuffix("artie-roast") ? "The Artie Lange Roast" : "The Howard Stern Show" }
+    var displayTitle: String {
+        if id.hasSuffix("artie-roast") { return "The Artie Lange Roast" }
+        if let headline = topics.first?.title.trimmingCharacters(in: .whitespacesAndNewlines), headline.count >= 6 {
+            return headline
+        }
+        return "Archive broadcast · \(shortDate)"
+    }
     var durationText: String { duration.aircheckDuration }
 }
 
