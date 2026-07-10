@@ -76,15 +76,11 @@ struct LibraryView: View {
                 .aspectRatio(1, contentMode: .fit)
                 .frame(maxWidth: .infinity)
                 .mask {
-                    LinearGradient(
-                        stops: [
-                            .init(color: .clear, location: 0),
-                            .init(color: .black, location: 0.16),
-                            .init(color: .black, location: 0.84),
-                            .init(color: .clear, location: 1)
-                        ],
-                        startPoint: .top,
-                        endPoint: .bottom
+                    RadialGradient(
+                        colors: [.black, .black.opacity(0.94), .clear],
+                        center: .center,
+                        startRadius: 90,
+                        endRadius: 260
                     )
                 }
                 .accessibilityLabel("Howard Stern at the microphone")
