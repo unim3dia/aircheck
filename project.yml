@@ -1,0 +1,39 @@
+name: Aircheck06
+options:
+  bundleIdPrefix: com.aylon
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  AircheckCore:
+    path: .
+targets:
+  Aircheck06:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes:
+          - Info.plist
+    resources:
+      - path: App/Resources
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Aircheck ’06
+        UILaunchScreen: {}
+        UIBackgroundModes:
+          - audio
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aylon.aircheck06
+        PRODUCT_NAME: Aircheck06
+        SWIFT_VERSION: 6.0
+        SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+        SWIFT_STRICT_CONCURRENCY: complete
+        GENERATE_INFOPLIST_FILE: false
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - package: AircheckCore
