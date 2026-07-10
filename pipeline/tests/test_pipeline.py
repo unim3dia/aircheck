@@ -1,6 +1,6 @@
 import unittest
 
-from aircheck_pipeline import build_jobs, merge_chunk_transcripts, topic_windows
+from aircheck_pipeline import build_jobs, merge_chunk_transcripts, normalize_known_names, topic_windows
 
 
 class CatalogJobsTests(unittest.TestCase):
@@ -22,6 +22,13 @@ class CatalogJobsTests(unittest.TestCase):
 
 
 class TranscriptMergeTests(unittest.TestCase):
+    def test_normalizes_recurring_stern_names_without_changing_unrelated_text(self):
+        text = "George DeKay introduced Artie Lang and Gary Delabati. The fragile eagle joke landed."
+        self.assertEqual(
+            normalize_known_names(text),
+            "George Takei introduced Artie Lange and Gary Dell'Abate. The fragile ego joke landed.",
+        )
+
     def test_offsets_chunk_segments_and_assigns_stable_ids(self):
         chunks = [
             (0, {"transcription": [{"offsets": {"from": 1000, "to": 3000}, "text": " First line. "}]}),
