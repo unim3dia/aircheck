@@ -152,24 +152,73 @@ private struct TunedDialCard: View {
                         .background(AircheckTheme.ink, in: Circle())
                 }
 
-                Text("THE PERFECT STATION")
-                    .font(.caption2.bold())
-                    .tracking(1.2)
-                    .foregroundStyle(AircheckTheme.signal)
-
                 RadioScale()
             }
         }
         .padding(16)
         .background {
             RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(AircheckTheme.peach)
+                .fill(LinearGradient(
+                    colors: [
+                        Color(red: 0.65, green: 0.31, blue: 0.19),
+                        Color(red: 0.78, green: 0.45, blue: 0.28),
+                        Color(red: 0.56, green: 0.25, blue: 0.16)
+                    ],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                ))
+                .overlay {
+                    RusticRadioTexture()
+                        .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
+                }
                 .overlay {
                     RoundedRectangle(cornerRadius: 28, style: .continuous)
-                        .stroke(.white.opacity(0.42), lineWidth: 1)
+                        .stroke(Color(red: 0.32, green: 0.14, blue: 0.09).opacity(0.64), lineWidth: 1.5)
                 }
         }
-        .shadow(color: AircheckTheme.ink.opacity(0.07), radius: 14, y: 7)
+        .shadow(color: AircheckTheme.ink.opacity(0.18), radius: 14, y: 8)
+    }
+}
+
+private struct RusticRadioTexture: View {
+    var body: some View {
+        Canvas { context, size in
+            for index in 0..<84 {
+                let x = CGFloat((index * 47 + 19) % 101) / 100 * size.width
+                let y = CGFloat((index * 31 + 7) % 97) / 96 * size.height
+                let length = CGFloat(2 + (index * 13) % 13)
+                var grain = Path()
+                grain.move(to: CGPoint(x: x, y: y))
+                grain.addLine(to: CGPoint(x: min(x + length, size.width), y: y + CGFloat((index % 3) - 1)))
+                context.stroke(
+                    grain,
+                    with: .color(index.isMultiple(of: 4) ? .white.opacity(0.10) : AircheckTheme.ink.opacity(0.10)),
+                    lineWidth: index.isMultiple(of: 5) ? 1.2 : 0.6
+                )
+            }
+
+            for index in 0..<9 {
+                let x = CGFloat(12 + (index * 41) % 88) / 100 * size.width
+                let y = CGFloat(8 + (index * 23) % 82) / 100 * size.height
+                var scratch = Path()
+                scratch.move(to: CGPoint(x: x, y: y))
+                scratch.addQuadCurve(
+                    to: CGPoint(x: min(x + CGFloat(18 + index * 5), size.width), y: y + CGFloat(index % 2 == 0 ? 2 : -3)),
+                    control: CGPoint(x: x + 9, y: y - 2)
+                )
+                context.stroke(scratch, with: .color(.white.opacity(0.16)), lineWidth: 0.8)
+            }
+
+            let wornAreas = [
+                CGRect(x: -10, y: -7, width: 70, height: 28),
+                CGRect(x: size.width - 50, y: size.height - 18, width: 66, height: 30),
+                CGRect(x: size.width * 0.43, y: -10, width: 84, height: 22)
+            ]
+            for area in wornAreas {
+                context.fill(Path(ellipseIn: area), with: .color(.white.opacity(0.07)))
+            }
+        }
+        .accessibilityHidden(true)
     }
 }
 
@@ -186,21 +235,67 @@ private struct DialKnob: View {
                     .rotationEffect(.degrees(Double(tick) * 30))
             }
             Circle()
-                .fill(LinearGradient(
-                    colors: [Color(white: 0.94), Color(white: 0.59), Color(white: 0.82)],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
+                .fill(Color(red: 0.22, green: 0.20, blue: 0.17))
+                .frame(width: 64, height: 64)
+                .overlay(Circle().stroke(Color.black.opacity(0.72), lineWidth: 2))
+                .shadow(color: AircheckTheme.ink.opacity(0.42), radius: 4, y: 3)
+            Circle()
+                .fill(AngularGradient(
+                    colors: [
+                        Color(white: 0.83), Color(white: 0.37), Color(white: 0.68),
+                        Color(white: 0.26), Color(white: 0.75), Color(white: 0.43), Color(white: 0.83)
+                    ],
+                    center: .center
                 ))
-                .overlay(Circle().stroke(AircheckTheme.ink.opacity(0.33), lineWidth: 1))
-                .shadow(color: AircheckTheme.ink.opacity(0.18), radius: 3, y: 2)
+                .frame(width: 57, height: 57)
+                .overlay(Circle().stroke(.white.opacity(0.24), lineWidth: 1))
+                .overlay(KnobPatina().clipShape(Circle()))
             Capsule()
-                .fill(isActive ? AircheckTheme.signal : AircheckTheme.ink)
+                .fill(isActive ? Color(red: 0.38, green: 0.08, blue: 0.05) : Color.black.opacity(0.76))
                 .frame(width: 3, height: 21)
                 .offset(y: -10)
                 .rotationEffect(.degrees(-28))
-            Circle().fill(Color.white.opacity(0.32)).frame(width: 15, height: 15)
+            Circle()
+                .fill(RadialGradient(
+                    colors: [.white.opacity(0.36), Color(white: 0.36)],
+                    center: .topLeading,
+                    startRadius: 1,
+                    endRadius: 10
+                ))
+                .frame(width: 15, height: 15)
+                .overlay(Circle().stroke(Color.black.opacity(0.28), lineWidth: 0.7))
         }
         .frame(width: 72, height: 72)
+        .accessibilityHidden(true)
+    }
+}
+
+private struct KnobPatina: View {
+    var body: some View {
+        Canvas { context, size in
+            for index in 0..<32 {
+                let angle = Double(index * 137 % 360) * .pi / 180
+                let radius = CGFloat(7 + (index * 11) % 21)
+                let center = CGPoint(
+                    x: size.width / 2 + cos(angle) * radius,
+                    y: size.height / 2 + sin(angle) * radius
+                )
+                let diameter = CGFloat(index.isMultiple(of: 6) ? 4 : 1.5)
+                let mark = CGRect(x: center.x - diameter / 2, y: center.y - diameter / 2, width: diameter, height: diameter)
+                context.fill(
+                    Path(ellipseIn: mark),
+                    with: .color(index.isMultiple(of: 4) ? .black.opacity(0.24) : .white.opacity(0.22))
+                )
+            }
+
+            for index in 0..<7 {
+                let y = CGFloat(8 + index * 7)
+                var scrape = Path()
+                scrape.move(to: CGPoint(x: CGFloat(5 + index * 3), y: y))
+                scrape.addLine(to: CGPoint(x: CGFloat(27 + index * 2), y: y - 2))
+                context.stroke(scrape, with: .color(.white.opacity(0.22)), lineWidth: 0.7)
+            }
+        }
         .accessibilityHidden(true)
     }
 }
@@ -234,7 +329,7 @@ private struct RadioScale: View {
                 Spacer()
                 Text("96")
                 Spacer()
-                Text("100")
+                Text("00")
             }
             .font(.system(size: 8, weight: .bold, design: .monospaced))
             .foregroundStyle(AircheckTheme.ink.opacity(0.55))
