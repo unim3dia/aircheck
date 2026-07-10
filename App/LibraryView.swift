@@ -226,16 +226,46 @@ private struct RusticRadioTexture: View {
 
 private struct DialKnob: View {
     let isActive: Bool
+    @State private var rotation: Double = 0
+    @State private var lastTouchAngle: Double?
 
     var body: some View {
-        ZStack {
-            ForEach(0..<12, id: \.self) { tick in
-                Capsule()
-                    .fill(AircheckTheme.ink.opacity(tick.isMultiple(of: 3) ? 0.48 : 0.22))
-                    .frame(width: tick.isMultiple(of: 3) ? 2 : 1, height: tick.isMultiple(of: 3) ? 8 : 5)
-                    .offset(y: -35)
-                    .rotationEffect(.degrees(Double(tick) * 30))
+        GeometryReader { proxy in
+            ZStack {
+                ForEach(0..<12, id: \.self) { tick in
+                    Capsule()
+                        .fill(AircheckTheme.ink.opacity(tick.isMultiple(of: 3) ? 0.48 : 0.22))
+                        .frame(width: tick.isMultiple(of: 3) ? 2 : 1, height: tick.isMultiple(of: 3) ? 8 : 5)
+                        .offset(y: -35)
+                        .rotationEffect(.degrees(Double(tick) * 30))
+                }
+                knobBody
+                    .rotationEffect(.degrees(rotation))
             }
+            .contentShape(Circle())
+            .gesture(
+                DragGesture(minimumDistance: 0)
+                    .onChanged { value in
+                        let center = CGPoint(x: proxy.size.width / 2, y: proxy.size.height / 2)
+                        let angle = atan2(value.location.y - center.y, value.location.x - center.x)
+                        if let lastTouchAngle {
+                            var delta = angle - lastTouchAngle
+                            if delta > .pi { delta -= 2 * .pi }
+                            if delta < -.pi { delta += 2 * .pi }
+                            rotation += delta * 180 / .pi
+                        }
+                        lastTouchAngle = angle
+                    }
+                    .onEnded { _ in lastTouchAngle = nil }
+            )
+        }
+        .frame(width: 72, height: 72)
+        .accessibilityLabel("Decorative tuning knob")
+        .accessibilityHint("Drag around the knob to spin it")
+    }
+
+    private var knobBody: some View {
+        ZStack {
             Circle()
                 .fill(Color(red: 0.22, green: 0.20, blue: 0.17))
                 .frame(width: 64, height: 64)
@@ -267,8 +297,6 @@ private struct DialKnob: View {
                 .frame(width: 15, height: 15)
                 .overlay(Circle().stroke(Color.black.opacity(0.28), lineWidth: 0.7))
         }
-        .frame(width: 72, height: 72)
-        .accessibilityHidden(true)
     }
 }
 
