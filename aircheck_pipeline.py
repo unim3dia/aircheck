@@ -9,6 +9,7 @@ import math
 import os
 import re
 import shutil
+import sqlite3
 import subprocess
 import tempfile
 import urllib.parse
@@ -63,7 +64,7 @@ def merge_chunk_transcripts(chunks: Iterable[tuple[float, dict[str, Any]]]) -> l
             start_ms = offsets.get("from", entry.get("start", 0) * 1000)
             end_ms = offsets.get("to", entry.get("end", 0) * 1000)
             text = normalize_known_names(str(entry.get("text", "")).strip())
-            if not text or end_ms <= start_ms:
+            if not text or end_ms <= start_ms or re.fullmatch(r"\[[^]]+\]", text):
                 continue
             merged.append({
                 "id": len(merged),
@@ -328,6 +329,72 @@ def export_enrichments(data_root: Path, output: Path) -> int:
     return len(values)
 
 
+def export_sqlite(data_root: Path, output: Path) -> int:
+    output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = output.with_suffix(output.suffix + ".tmp")
+    temporary.unlink(missing_ok=True)
+    connection = sqlite3.connect(temporary)
+    connection.executescript("""
+        PRAGMA journal_mode = OFF;
+        PRAGMA synchronous = OFF;
+        CREATE TABLE topics (
+            id TEXT NOT NULL,
+            show_id TEXT NOT NULL,
+            title TEXT NOT NULL,
+            summary TEXT NOT NULL,
+            start_time REAL NOT NULL,
+            image_url TEXT,
+            PRIMARY KEY (show_id, id)
+        );
+        CREATE TABLE segments (
+            show_id TEXT NOT NULL,
+            segment_id INTEGER NOT NULL,
+            start_time REAL NOT NULL,
+            end_time REAL NOT NULL,
+            speaker TEXT,
+            text TEXT NOT NULL,
+            PRIMARY KEY (show_id, segment_id)
+        );
+        CREATE INDEX segments_show_time ON segments(show_id, start_time);
+        CREATE VIRTUAL TABLE transcript_fts USING fts5(
+            text, show_id UNINDEXED, segment_id UNINDEXED,
+            tokenize = 'unicode61 remove_diacritics 2'
+        );
+        CREATE VIRTUAL TABLE topic_fts USING fts5(
+            title, summary, show_id UNINDEXED, topic_id UNINDEXED, start_time UNINDEXED,
+            tokenize = 'unicode61 remove_diacritics 2'
+        );
+    """)
+    count = 0
+    for enrichment_path in sorted(data_root.glob("*/enrichment.json")):
+        enrichment = json.loads(enrichment_path.read_text())
+        show_id = enrichment["showID"]
+        count += 1
+        for topic in enrichment.get("topics", []):
+            connection.execute(
+                "INSERT INTO topics VALUES (?, ?, ?, ?, ?, ?)",
+                (topic["id"], show_id, topic["title"], topic["summary"], topic["startTime"], topic.get("imageURL")),
+            )
+            connection.execute(
+                "INSERT INTO topic_fts VALUES (?, ?, ?, ?, ?)",
+                (topic["title"], topic["summary"], show_id, topic["id"], topic["startTime"]),
+            )
+        for segment in enrichment.get("transcript", []):
+            connection.execute(
+                "INSERT INTO segments VALUES (?, ?, ?, ?, ?, ?)",
+                (show_id, segment["id"], segment["startTime"], segment["endTime"], segment.get("speaker"), segment["text"]),
+            )
+            connection.execute(
+                "INSERT INTO transcript_fts VALUES (?, ?, ?)",
+                (segment["text"], show_id, segment["id"]),
+            )
+    connection.commit()
+    connection.execute("PRAGMA optimize")
+    connection.close()
+    temporary.replace(output)
+    return count
+
+
 def load_jobs(data_root: Path) -> list[dict[str, Any]]:
     path = data_root / "jobs.json"
     return json.loads(path.read_text()) if path.exists() else initialize(data_root)
@@ -342,8 +409,8 @@ def main() -> None:
     transcribe.add_argument("--show-id")
     transcribe.add_argument("--model", type=Path, default=Path("pipeline/models/ggml-small.en.bin"))
     transcribe.add_argument("--chunk-seconds", type=int, default=1800)
-    export = subparsers.add_parser("export", help="Build the JSON bundle consumed by the iOS app")
-    export.add_argument("--output", type=Path, default=Path("App/Resources/enrichments.json"))
+    export = subparsers.add_parser("export", help="Build the SQLite FTS bundle consumed by the iOS app")
+    export.add_argument("--output", type=Path, default=Path("App/Resources/archive.sqlite"))
     topics = subparsers.add_parser("topics", help="Refine one completed transcript into editorial topic cards")
     topics.add_argument("--show-id", required=True)
     topics.add_argument("--indexer", type=Path, default=Path("pipeline/topic-indexer"))
@@ -368,7 +435,7 @@ def main() -> None:
         transcribe_job(job, args.data_root, args.model, args.chunk_seconds)
         print(f"Completed {job['show_id']}")
     elif args.command == "export":
-        print(f"Exported {export_enrichments(args.data_root, args.output)} shows to {args.output}")
+        print(f"Exported {export_sqlite(args.data_root, args.output)} shows to {args.output}")
     elif args.command == "topics":
         show_root = args.data_root / args.show_id
         transcript = json.loads((show_root / "transcript.json").read_text())
