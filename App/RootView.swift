@@ -2,6 +2,7 @@ import AircheckCore
 import SwiftUI
 
 struct RootView: View {
+    @Environment(CatalogStore.self) private var catalog
     @Environment(AudioPlayer.self) private var player
     @State private var path: [Show] = []
 
@@ -15,5 +16,9 @@ struct RootView: View {
         }
         .sheet(isPresented: Bindable(player).showsFullPlayer) { FullPlayerView() }
         .tint(AircheckTheme.signal)
+        .onChange(of: catalog.shows) { _, shows in player.restoreLastShow(from: shows) }
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.didEnterBackgroundNotification)) { _ in
+            player.persistHistory()
+        }
     }
 }

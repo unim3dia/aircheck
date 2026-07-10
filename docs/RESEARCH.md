@@ -16,7 +16,7 @@ The official site’s 2006 month pages group material by broadcast date, then br
 - https://www.howardstern.com/show/08/2006/
 - https://www.howardstern.com/show/2006/05/16/from-wnbc-to-sirius-rundowngallerymodel-12989/
 
-Aircheck ’06 translates that editorial grammar into playable cards. Each story adds the missing archival affordance: an exact audio jump time and matching transcript passage.
+Airhcheck translates that editorial grammar into playable cards. Each story adds the missing archival affordance: an exact audio jump time and matching transcript passage.
 
 ## Source boundary
 

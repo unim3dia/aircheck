@@ -16,6 +16,7 @@
 		94162DE2FAE2EA9FDA788A81 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D320A3557A2D97F13CE5DA /* AudioPlayer.swift */; };
 		B8A278E39C404E3962C2503C /* AircheckCore in Frameworks */ = {isa = PBXBuildFile; productRef = BDD95EA072FB7B438C7AA40C /* AircheckCore */; };
 		C648F52935BBB1A7197B0910 /* archive.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 768D26EBB511CC1741F7C5C2 /* archive.sqlite */; };
+		C89094BDF77199FC46589D08 /* ListeningHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BD5631F52BC79CD94121F /* ListeningHistoryView.swift */; };
 		CD7BCF56FF78654B18654A2E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA8755329B63689618BE5BB /* libsqlite3.tbd */; };
 		CDA95C19A81C2CF60FC8A505 /* ShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540D7E0BC0F12A6FDACEDC3 /* ShowDetailView.swift */; };
 		DB40347CFF345A6BBDDED5FE /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507700811941ECEADF740D39 /* CatalogStore.swift */; };
@@ -36,6 +37,7 @@
 		7238B55CC9800ACE8192E1CA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		768D26EBB511CC1741F7C5C2 /* archive.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = archive.sqlite; sourceTree = "<group>"; };
 		B3E5704D0A21E3F4F2DF0E98 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B50BD5631F52BC79CD94121F /* ListeningHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningHistoryView.swift; sourceTree = "<group>"; };
 		BEA8755329B63689618BE5BB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D86D32D0837FF1656A51252D /* ArchiveDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDatabase.swift; sourceTree = "<group>"; };
 		E0D320A3557A2D97F13CE5DA /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				507700811941ECEADF740D39 /* CatalogStore.swift */,
 				442E37A2F81152986A75E38F /* Formatters.swift */,
 				B3E5704D0A21E3F4F2DF0E98 /* LibraryView.swift */,
+				B50BD5631F52BC79CD94121F /* ListeningHistoryView.swift */,
 				1637093C2C62AEF86710E1DB /* PlayerViews.swift */,
 				1B04504336952C463F0CAF5C /* RootView.swift */,
 				6A64C483BA5519FF5B1AAF05 /* SearchView.swift */,
@@ -196,6 +199,7 @@
 				DB40347CFF345A6BBDDED5FE /* CatalogStore.swift in Sources */,
 				FBE2C400174695E930366CDD /* Formatters.swift in Sources */,
 				509FF6A267C2ACA03D783A65 /* LibraryView.swift in Sources */,
+				C89094BDF77199FC46589D08 /* ListeningHistoryView.swift in Sources */,
 				18106901A02D5AA55C0FBE24 /* PlayerViews.swift in Sources */,
 				43B960B5B8B0199C33950E08 /* RootView.swift in Sources */,
 				EDB6D37697C88EC43A09E35D /* SearchView.swift in Sources */,

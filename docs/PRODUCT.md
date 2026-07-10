@@ -1,6 +1,6 @@
-# Aircheck ’06
+# Airhcheck
 
-Aircheck ’06 is a personal, native iOS listening room for a year of long-form radio. It turns an undifferentiated 826-hour Internet Archive item into a calendar, a searchable transcript, and a visual story index whose entries seek the player to the exact conversation.
+Airhcheck is a personal, native iOS listening room for a year of long-form radio. It turns an undifferentiated 826-hour Internet Archive item into a calendar, a searchable transcript, and a visual story index whose entries seek the player to the exact conversation.
 
 ## Product promise
 

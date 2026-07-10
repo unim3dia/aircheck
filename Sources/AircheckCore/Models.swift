@@ -76,3 +76,46 @@ public struct SearchHit: Identifiable, Hashable, Sendable {
         self.kind = kind
     }
 }
+
+public struct ListeningHistoryEntry: Identifiable, Codable, Hashable, Sendable {
+    public var id: Show.ID { showID }
+    public let showID: Show.ID
+    public private(set) var lastPosition: TimeInterval
+    public private(set) var furthestPosition: TimeInterval
+    public private(set) var secondsListened: TimeInterval
+    public let duration: TimeInterval
+    public private(set) var lastListenedAt: Date
+
+    public var completionFraction: Double {
+        guard duration > 0 else { return 0 }
+        return min(max(furthestPosition / duration, 0), 1)
+    }
+
+    public init(
+        showID: Show.ID,
+        lastPosition: TimeInterval,
+        furthestPosition: TimeInterval,
+        secondsListened: TimeInterval,
+        duration: TimeInterval,
+        lastListenedAt: Date
+    ) {
+        self.showID = showID
+        self.duration = max(duration, 0)
+        self.lastPosition = min(max(lastPosition, 0), self.duration)
+        self.furthestPosition = min(max(furthestPosition, 0), self.duration)
+        self.secondsListened = max(secondsListened, 0)
+        self.lastListenedAt = lastListenedAt
+    }
+
+    public mutating func record(position: TimeInterval, listenedDelta: TimeInterval, at date: Date) {
+        let position = min(max(position, 0), duration)
+        lastPosition = position
+        furthestPosition = max(furthestPosition, position)
+        secondsListened += max(listenedDelta, 0)
+        lastListenedAt = date
+    }
+
+    public static func mostRecentFirst(_ entries: [Self]) -> [Self] {
+        entries.sorted { $0.lastListenedAt > $1.lastListenedAt }
+    }
+}

@@ -19,7 +19,7 @@ targets:
     info:
       path: App/Info.plist
       properties:
-        CFBundleDisplayName: Aircheck ’06
+        CFBundleDisplayName: Airhcheck
         UILaunchScreen: {}
         UIBackgroundModes:
           - audio

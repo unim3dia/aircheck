@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Resumable, local-first transcription pipeline for Aircheck ’06."""
+"""Resumable, local-first transcription pipeline for Airhcheck."""
 
 from __future__ import annotations
 

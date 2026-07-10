@@ -9,13 +9,20 @@ final class AudioPlayer {
     private(set) var isPlaying = false
     private(set) var currentTime: TimeInterval = 0
     private(set) var duration: TimeInterval = 0
+    private(set) var history: [ListeningHistoryEntry] = []
     var showsFullPlayer = false
 
     @ObservationIgnored private let player = AVPlayer()
     @ObservationIgnored private var timeObserver: Any?
     @ObservationIgnored private let defaults = UserDefaults.standard
+    @ObservationIgnored private var lastListeningTick = Date()
+    @ObservationIgnored private var lastHistorySave = Date.distantPast
+
+    private let historyKey = "listening.history.v1"
+    private let lastShowKey = "playback.lastShowID"
 
     init() {
+        restoreHistory()
         configureAudioSession()
         configureRemoteCommands()
         observePlayer()
@@ -23,14 +30,13 @@ final class AudioPlayer {
 
     func play(_ show: Show, at requestedTime: TimeInterval? = nil) {
         if currentShow?.id != show.id {
-            currentShow = show
-            duration = show.duration
-            player.replaceCurrentItem(with: AVPlayerItem(url: show.audioURL))
-            let saved = defaults.object(forKey: progressKey(show.id)) as? Double
-            seek(to: requestedTime ?? ResumePositionPolicy.startTime(saved: saved, duration: show.duration))
+            prepare(show, at: requestedTime, recordsHistory: true)
         } else if let requestedTime {
             seek(to: requestedTime)
         }
+        defaults.set(show.id, forKey: lastShowKey)
+        touchHistory(for: show)
+        lastListeningTick = Date()
         player.play()
         isPlaying = true
         updateNowPlaying()
@@ -40,13 +46,20 @@ final class AudioPlayer {
         guard currentShow != nil else { return }
         if isPlaying { player.pause() } else { player.play() }
         isPlaying.toggle()
+        lastListeningTick = Date()
+        persistHistory()
         updateNowPlaying()
     }
 
     func seek(to time: TimeInterval) {
+        seek(to: time, recordsHistory: true)
+    }
+
+    private func seek(to time: TimeInterval, recordsHistory: Bool) {
         let target = max(0, min(time, duration))
         player.seek(to: CMTime(seconds: target, preferredTimescale: 600), toleranceBefore: .zero, toleranceAfter: .zero)
         currentTime = target
+        if recordsHistory, let show = currentShow { recordHistory(for: show, listenedDelta: 0) }
         updateNowPlaying()
     }
 
@@ -56,6 +69,27 @@ final class AudioPlayer {
         let saved = currentShow?.id == show.id ? currentTime : defaults.double(forKey: progressKey(show.id))
         guard show.duration > 0 else { return 0 }
         return min(max(saved / show.duration, 0), 1)
+    }
+
+    func restoreLastShow(from shows: [Show]) {
+        guard currentShow == nil,
+              let id = defaults.string(forKey: lastShowKey),
+              let show = shows.first(where: { $0.id == id }) else { return }
+        prepare(show, at: nil, recordsHistory: false)
+    }
+
+    func historyEntry(for show: Show) -> ListeningHistoryEntry? {
+        history.first { $0.showID == show.id }
+    }
+
+    func persistHistory() {
+        if let data = try? JSONEncoder().encode(history) {
+            defaults.set(data, forKey: historyKey)
+            lastHistorySave = Date()
+        }
+        if let show = currentShow {
+            defaults.set(currentTime, forKey: progressKey(show.id))
+        }
     }
 
     private func observePlayer() {
@@ -68,6 +102,11 @@ final class AudioPlayer {
                 self.currentTime = time.seconds.isFinite ? time.seconds : 0
                 self.isPlaying = self.player.timeControlStatus == .playing
                 self.defaults.set(self.currentTime, forKey: self.progressKey(show.id))
+                let now = Date()
+                let delta = self.isPlaying ? min(max(now.timeIntervalSince(self.lastListeningTick), 0), 1) : 0
+                self.lastListeningTick = now
+                self.recordHistory(for: show, listenedDelta: delta, at: now)
+                if now.timeIntervalSince(self.lastHistorySave) >= 5 { self.persistHistory() }
                 self.updateNowPlaying()
             }
         }
@@ -104,7 +143,7 @@ final class AudioPlayer {
     }
 
     private func pauseFromRemote() -> MPRemoteCommandHandlerStatus {
-        player.pause(); isPlaying = false; updateNowPlaying(); return .success
+        player.pause(); isPlaying = false; persistHistory(); updateNowPlaying(); return .success
     }
 
     private func skipFromRemote(_ seconds: TimeInterval) -> MPRemoteCommandHandlerStatus {
@@ -115,7 +154,7 @@ final class AudioPlayer {
         guard let show = currentShow else { return }
         MPNowPlayingInfoCenter.default().nowPlayingInfo = [
             MPMediaItemPropertyTitle: show.formattedDate,
-            MPMediaItemPropertyAlbumTitle: "Aircheck ’06",
+            MPMediaItemPropertyAlbumTitle: "Airhcheck",
             MPMediaItemPropertyArtist: "The Howard Stern Show — 2006 archive",
             MPMediaItemPropertyPlaybackDuration: show.duration,
             MPNowPlayingInfoPropertyElapsedPlaybackTime: currentTime,
@@ -124,4 +163,45 @@ final class AudioPlayer {
     }
 
     private func progressKey(_ showID: String) -> String { "playback.progress.\(showID)" }
+
+    private func prepare(_ show: Show, at requestedTime: TimeInterval?, recordsHistory: Bool) {
+        currentShow = show
+        duration = show.duration
+        player.replaceCurrentItem(with: AVPlayerItem(url: show.audioURL))
+        let historyPosition = historyEntry(for: show)?.lastPosition
+        let legacyPosition = defaults.object(forKey: progressKey(show.id)) as? Double
+        let saved = historyPosition ?? legacyPosition
+        seek(
+            to: requestedTime ?? ResumePositionPolicy.startTime(saved: saved, duration: show.duration),
+            recordsHistory: recordsHistory
+        )
+        defaults.set(show.id, forKey: lastShowKey)
+        updateNowPlaying()
+    }
+
+    private func touchHistory(for show: Show) {
+        recordHistory(for: show, listenedDelta: 0)
+    }
+
+    private func recordHistory(for show: Show, listenedDelta: TimeInterval, at date: Date = Date()) {
+        if let index = history.firstIndex(where: { $0.showID == show.id }) {
+            history[index].record(position: currentTime, listenedDelta: listenedDelta, at: date)
+        } else {
+            history.append(ListeningHistoryEntry(
+                showID: show.id,
+                lastPosition: currentTime,
+                furthestPosition: currentTime,
+                secondsListened: max(listenedDelta, 0),
+                duration: show.duration,
+                lastListenedAt: date
+            ))
+        }
+        history = ListeningHistoryEntry.mostRecentFirst(history)
+    }
+
+    private func restoreHistory() {
+        guard let data = defaults.data(forKey: historyKey),
+              let saved = try? JSONDecoder().decode([ListeningHistoryEntry].self, from: data) else { return }
+        history = ListeningHistoryEntry.mostRecentFirst(saved)
+    }
 }

@@ -7,6 +7,7 @@ struct LibraryView: View {
     @Binding var path: [Show]
     @State private var selectedMonth = 1
     @State private var showsSearch = false
+    @State private var showsHistory = false
 
     var body: some View {
         ZStack {
@@ -25,13 +26,14 @@ struct LibraryView: View {
         }
         .toolbar(.hidden, for: .navigationBar)
         .sheet(isPresented: $showsSearch) { SearchView(path: $path) }
+        .sheet(isPresented: $showsHistory) { ListeningHistoryView() }
     }
 
     private var masthead: some View {
         VStack(alignment: .leading, spacing: 4) {
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("AIRCHECK")
+                    Text("AIRHCHECK")
                         .font(.system(size: 13, weight: .bold, design: .rounded))
                         .tracking(4)
                     Text("’06")
@@ -39,6 +41,13 @@ struct LibraryView: View {
                         .tracking(-6)
                 }
                 Spacer()
+                Button { showsHistory = true } label: {
+                    Image(systemName: "clock.arrow.circlepath")
+                        .font(.title3.weight(.semibold))
+                        .frame(width: 48, height: 48)
+                        .background(.white.opacity(0.7), in: Circle())
+                }
+                .accessibilityLabel("Listening history")
                 Button { showsSearch = true } label: {
                     Image(systemName: "text.magnifyingglass")
                         .font(.title3.weight(.semibold))
@@ -59,7 +68,7 @@ struct LibraryView: View {
     }
 
     private func continueCard(_ show: Show) -> some View {
-        Button { player.showsFullPlayer = true } label: {
+        Button { player.toggle() } label: {
             HStack(spacing: 16) {
                 SignalGlyph(isActive: player.isPlaying)
                 VStack(alignment: .leading, spacing: 4) {
@@ -68,7 +77,7 @@ struct LibraryView: View {
                     ProgressView(value: player.progress(for: show)).tint(AircheckTheme.ink)
                 }
                 Spacer()
-                Image(systemName: "arrow.up.right").font(.headline)
+                Image(systemName: player.isPlaying ? "pause.fill" : "play.fill").font(.headline)
             }
             .foregroundStyle(AircheckTheme.ink)
             .softCard(AircheckTheme.peach)

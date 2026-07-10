@@ -1,4 +1,4 @@
-# Aircheck ’06
+# Airhcheck
 
 A native iOS listening room for the 2006 Howard Stern archive: 179 streams, month/day browsing, background playback, lock-screen controls, resume positions, editorial jump cards, synchronized transcripts, and full-text search.
 

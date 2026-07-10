@@ -26,7 +26,12 @@ struct MiniPlayer: View {
 
     var body: some View {
         if let show = player.currentShow {
-            Button { player.showsFullPlayer = true } label: {
+            VStack(spacing: 0) {
+                MicrophoneScrubber(
+                    value: player.currentTime,
+                    duration: show.duration,
+                    onSeek: player.seek
+                )
                 HStack(spacing: 12) {
                     SignalGlyph(isActive: player.isPlaying).scaleEffect(0.78).frame(width: 44)
                     VStack(alignment: .leading, spacing: 2) {
@@ -36,13 +41,79 @@ struct MiniPlayer: View {
                     Spacer()
                     Button { player.toggle() } label: { Image(systemName: player.isPlaying ? "pause.fill" : "play.fill").frame(width: 44, height: 44) }
                         .buttonStyle(.plain).accessibilityLabel(player.isPlaying ? "Pause" : "Play")
+                    Button { player.showsFullPlayer = true } label: {
+                        Image(systemName: "chevron.up").frame(width: 32, height: 44)
+                    }
+                    .buttonStyle(.plain).accessibilityLabel("Open expanded player")
                 }
                 .padding(.horizontal, 12).padding(.vertical, 8)
-                .background(.ultraThinMaterial)
-                .overlay(alignment: .top) { ProgressView(value: player.progress(for: show)).tint(AircheckTheme.signal) }
             }
-            .buttonStyle(.plain).foregroundStyle(AircheckTheme.ink)
+            .background(.ultraThinMaterial)
+            .foregroundStyle(AircheckTheme.ink)
         }
+    }
+}
+
+private struct MicrophoneScrubber: View {
+    let value: TimeInterval
+    let duration: TimeInterval
+    let onSeek: (TimeInterval) -> Void
+
+    private var fraction: Double {
+        guard duration > 0 else { return 0 }
+        return min(max(value / duration, 0), 1)
+    }
+
+    var body: some View {
+        GeometryReader { proxy in
+            let usableWidth = max(proxy.size.width - 24, 1)
+            let x = 12 + usableWidth * fraction
+            ZStack(alignment: .leading) {
+                Capsule().fill(AircheckTheme.ink.opacity(0.14)).frame(height: 3).padding(.horizontal, 12)
+                Capsule().fill(AircheckTheme.signal).frame(width: max(x, 12), height: 4)
+                VintageMicrophoneGlyph()
+                    .frame(width: 28, height: 28)
+                    .position(x: x, y: 14)
+                    .shadow(color: AircheckTheme.ink.opacity(0.16), radius: 2, y: 1)
+            }
+            .contentShape(Rectangle())
+            .gesture(DragGesture(minimumDistance: 0).onChanged { gesture in
+                let draggedFraction = min(max((gesture.location.x - 12) / usableWidth, 0), 1)
+                onSeek(duration * draggedFraction)
+            })
+        }
+        .frame(height: 28)
+        .accessibilityRepresentation {
+            Slider(
+                value: Binding(get: { value }, set: onSeek),
+                in: 0...max(duration, 1)
+            ) {
+                Text("Show position")
+            }
+        }
+    }
+}
+
+private struct VintageMicrophoneGlyph: View {
+    var body: some View {
+        VStack(spacing: 0) {
+            ZStack {
+                Capsule()
+                    .fill(AircheckTheme.paper)
+                    .stroke(AircheckTheme.signal, lineWidth: 1.5)
+                VStack(spacing: 2) {
+                    ForEach(0..<4, id: \.self) { _ in
+                        Capsule().fill(AircheckTheme.signal.opacity(0.72)).frame(width: 7, height: 1)
+                    }
+                }
+            }
+            .frame(width: 13, height: 17)
+            Rectangle().fill(AircheckTheme.signal).frame(width: 2, height: 4)
+            Capsule().fill(AircheckTheme.signal).frame(width: 12, height: 2)
+        }
+        .padding(3)
+        .background(.regularMaterial, in: Circle())
+        .accessibilityHidden(true)
     }
 }
 
@@ -60,7 +131,7 @@ struct FullPlayerView: View {
                     SignalGlyph(isActive: player.isPlaying).scaleEffect(2.5).frame(height: 140)
                     VStack(spacing: 7) {
                         Text(show.formattedDate).font(.system(.title2, design: .serif, weight: .semibold)).multilineTextAlignment(.center)
-                        Text("AIRCHECK ’06").font(.caption.bold()).tracking(2).foregroundStyle(AircheckTheme.signal)
+                        Text("AIRHCHECK").font(.caption.bold()).tracking(2).foregroundStyle(AircheckTheme.signal)
                     }
                     VStack(spacing: 8) {
                         Slider(value: Binding(get: { player.currentTime }, set: { player.seek(to: $0) }), in: 0...max(show.duration, 1)).tint(AircheckTheme.signal)
