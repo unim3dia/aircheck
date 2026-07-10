@@ -95,24 +95,31 @@ private struct MicrophoneScrubber: View {
 }
 
 private struct VintageMicrophoneGlyph: View {
+    private let silver = LinearGradient(
+        colors: [.white, Color(white: 0.74), Color(white: 0.48), Color(white: 0.82)],
+        startPoint: .topLeading,
+        endPoint: .bottomTrailing
+    )
+
     var body: some View {
         VStack(spacing: 0) {
             ZStack {
                 Capsule()
-                    .fill(AircheckTheme.paper)
-                    .stroke(AircheckTheme.signal, lineWidth: 1.5)
+                    .fill(silver)
+                    .stroke(AircheckTheme.ink.opacity(0.62), lineWidth: 1)
                 VStack(spacing: 2) {
                     ForEach(0..<4, id: \.self) { _ in
-                        Capsule().fill(AircheckTheme.signal.opacity(0.72)).frame(width: 7, height: 1)
+                        Capsule().fill(AircheckTheme.ink.opacity(0.64)).frame(width: 7, height: 1)
                     }
                 }
             }
             .frame(width: 13, height: 17)
-            Rectangle().fill(AircheckTheme.signal).frame(width: 2, height: 4)
-            Capsule().fill(AircheckTheme.signal).frame(width: 12, height: 2)
+            Rectangle().fill(Color(white: 0.42)).frame(width: 2, height: 4)
+            Capsule().fill(Color(white: 0.38)).frame(width: 12, height: 2)
         }
         .padding(3)
-        .background(.regularMaterial, in: Circle())
+        .background(Color(white: 0.88).opacity(0.92), in: Circle())
+        .rotationEffect(.degrees(-13))
         .accessibilityHidden(true)
     }
 }

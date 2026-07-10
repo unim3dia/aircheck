@@ -121,33 +121,83 @@ private struct TopicArtwork: View {
                     abstractSignal
                 }
             }
-            .frame(height: 112).clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+            .frame(width: 176, height: 72)
+            .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
         } else {
-            abstractSignal.frame(height: 78)
+            abstractSignal.frame(height: 52)
         }
     }
 
     private var abstractSignal: some View {
         Canvas { context, size in
             let seed = topic.id.unicodeScalars.reduce(0) { $0 + Int($1.value) }
-            let center = CGPoint(x: size.width * 0.76, y: size.height * 0.46)
-            for ring in 1...3 {
-                let diameter = CGFloat(18 + ring * 23 + seed % 9)
-                let rect = CGRect(x: center.x - diameter / 2, y: center.y - diameter / 2, width: diameter, height: diameter)
-                context.stroke(Path(ellipseIn: rect), with: .color(AircheckTheme.ink.opacity(0.16)), lineWidth: 1.5)
+            switch seed % 4 {
+            case 0: drawSignalRings(context: &context, size: size, seed: seed)
+            case 1: drawLevelBars(context: &context, size: size, seed: seed)
+            case 2: drawTuningDial(context: &context, size: size, seed: seed)
+            default: drawTapePath(context: &context, size: size, seed: seed)
             }
-            var wave = Path()
-            wave.move(to: CGPoint(x: 0, y: size.height * 0.6))
-            let steps = 32
-            for step in 1...steps {
-                let x = size.width * CGFloat(step) / CGFloat(steps)
-                let amplitude = CGFloat(8 + seed % 16)
-                let y = size.height * 0.6 + sin(CGFloat(step + seed) * 0.72) * amplitude
-                wave.addLine(to: CGPoint(x: x, y: y))
-            }
-            context.stroke(wave, with: .color(AircheckTheme.ink.opacity(0.62)), lineWidth: 2)
         }
         .accessibilityHidden(true)
+    }
+
+    private func drawSignalRings(context: inout GraphicsContext, size: CGSize, seed: Int) {
+        let center = CGPoint(x: size.width * 0.82, y: size.height * 0.5)
+        for ring in 1...3 {
+            let diameter = CGFloat(10 + ring * 15 + seed % 5)
+            let rect = CGRect(x: center.x - diameter / 2, y: center.y - diameter / 2, width: diameter, height: diameter)
+            context.stroke(Path(ellipseIn: rect), with: .color(AircheckTheme.ink.opacity(0.18)), lineWidth: 1.2)
+        }
+        drawWave(context: &context, size: size, seed: seed, baseline: 0.58)
+    }
+
+    private func drawLevelBars(context: inout GraphicsContext, size: CGSize, seed: Int) {
+        let count = 18
+        for index in 0..<count {
+            let x = size.width * CGFloat(index) / CGFloat(count - 1)
+            let height = CGFloat(8 + (index * 13 + seed) % 34)
+            let rect = CGRect(x: x, y: (size.height - height) / 2, width: 3, height: height)
+            context.fill(Path(roundedRect: rect, cornerRadius: 1.5), with: .color(AircheckTheme.ink.opacity(index.isMultiple(of: 3) ? 0.62 : 0.24)))
+        }
+    }
+
+    private func drawTuningDial(context: inout GraphicsContext, size: CGSize, seed: Int) {
+        let y = size.height * 0.56
+        var baseline = Path()
+        baseline.move(to: CGPoint(x: 0, y: y))
+        baseline.addLine(to: CGPoint(x: size.width, y: y))
+        context.stroke(baseline, with: .color(AircheckTheme.ink.opacity(0.38)), lineWidth: 1.5)
+        for index in 0...12 {
+            let x = size.width * CGFloat(index) / 12
+            let tickHeight: CGFloat = index == seed % 13 ? 24 : (index.isMultiple(of: 3) ? 15 : 8)
+            var tick = Path()
+            tick.move(to: CGPoint(x: x, y: y - tickHeight / 2))
+            tick.addLine(to: CGPoint(x: x, y: y + tickHeight / 2))
+            context.stroke(tick, with: .color(AircheckTheme.ink.opacity(index == seed % 13 ? 0.72 : 0.26)), lineWidth: index == seed % 13 ? 2.5 : 1)
+        }
+    }
+
+    private func drawTapePath(context: inout GraphicsContext, size: CGSize, seed: Int) {
+        for offset in [0.28, 0.72] {
+            let center = CGPoint(x: size.width * offset, y: size.height * 0.48)
+            let rect = CGRect(x: center.x - 15, y: center.y - 15, width: 30, height: 30)
+            context.stroke(Path(ellipseIn: rect), with: .color(AircheckTheme.ink.opacity(0.28)), lineWidth: 1.5)
+            let hub = CGRect(x: center.x - 4, y: center.y - 4, width: 8, height: 8)
+            context.fill(Path(ellipseIn: hub), with: .color(AircheckTheme.ink.opacity(0.55)))
+        }
+        drawWave(context: &context, size: size, seed: seed, baseline: 0.5)
+    }
+
+    private func drawWave(context: inout GraphicsContext, size: CGSize, seed: Int, baseline: CGFloat) {
+        var wave = Path()
+        wave.move(to: CGPoint(x: 0, y: size.height * baseline))
+        for step in 1...32 {
+            let x = size.width * CGFloat(step) / 32
+            let amplitude = CGFloat(5 + seed % 9)
+            let y = size.height * baseline + sin(CGFloat(step + seed) * 0.72) * amplitude
+            wave.addLine(to: CGPoint(x: x, y: y))
+        }
+        context.stroke(wave, with: .color(AircheckTheme.ink.opacity(0.62)), lineWidth: 1.7)
     }
 }
 

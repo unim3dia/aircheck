@@ -144,7 +144,10 @@ private struct ShowRow: View {
             Rectangle().fill(AircheckTheme.ink.opacity(0.16)).frame(width: 1, height: 54)
             VStack(alignment: .leading, spacing: 6) {
                 Text(show.displayTitle).font(.headline)
-                HStack { Text(show.durationText); Text("·"); Text(show.topics.isEmpty ? "Index pending" : "\(show.topics.count) stories") }
+                HStack {
+                    Text(show.durationText)
+                    if show.topics.isEmpty { Text("·"); Text("Index pending") }
+                }
                     .font(.caption).foregroundStyle(.secondary)
                 if player.progress(for: show) > 0 { ProgressView(value: player.progress(for: show)).tint(AircheckTheme.signal) }
             }
