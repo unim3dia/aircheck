@@ -57,6 +57,7 @@ class TranscriptMergeTests(unittest.TestCase):
         chunks = [(0, {"transcription": [
             {"offsets": {"from": 1000, "to": 500}, "text": "bad"},
             {"offsets": {"from": 1000, "to": 2000}, "text": "   "},
+            {"offsets": {"from": 2000, "to": 3000}, "text": "[wind blowing]"},
         ]})]
         self.assertEqual(merge_chunk_transcripts(chunks), [])
 
