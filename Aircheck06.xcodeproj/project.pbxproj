@@ -21,6 +21,8 @@
 		CD7BCF56FF78654B18654A2E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA8755329B63689618BE5BB /* libsqlite3.tbd */; };
 		CDA95C19A81C2CF60FC8A505 /* ShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540D7E0BC0F12A6FDACEDC3 /* ShowDetailView.swift */; };
 		D77F37EB125166DBD51D670E /* archive_progress.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB8E8463D92C26C15BD81B /* archive_progress.json */; };
+		E11A1B2C3D4E5F60718293A4 /* Howard1.png in Resources */ = {isa = PBXBuildFile; fileRef = E11A1B2C3D4E5F60718293A5 /* Howard1.png */; };
+		E11A1B2C3D4E5F60718293A6 /* Howard2.png in Resources */ = {isa = PBXBuildFile; fileRef = E11A1B2C3D4E5F60718293A7 /* Howard2.png */; };
 		DB40347CFF345A6BBDDED5FE /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507700811941ECEADF740D39 /* CatalogStore.swift */; };
 		EDB6D37697C88EC43A09E35D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64C483BA5519FF5B1AAF05 /* SearchView.swift */; };
 		FBE2C400174695E930366CDD /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442E37A2F81152986A75E38F /* Formatters.swift */; };
@@ -31,7 +33,7 @@
 		1637093C2C62AEF86710E1DB /* PlayerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViews.swift; sourceTree = "<group>"; };
 		1B04504336952C463F0CAF5C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		1EE1770745348ECB35F89F99 /* aircheck-06 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "aircheck-06"; path = .; sourceTree = SOURCE_ROOT; };
-		254CEB1CF7063B59B8169CAD /* Aircheck06.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Aircheck06.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254CEB1CF7063B59B8169CAD /* Aircheck06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aircheck06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		442E37A2F81152986A75E38F /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		507700811941ECEADF740D39 /* CatalogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogStore.swift; sourceTree = "<group>"; };
 		51860F0900F5851881921BB9 /* AircheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircheckApp.swift; sourceTree = "<group>"; };
@@ -43,6 +45,8 @@
 		B50BD5631F52BC79CD94121F /* ListeningHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningHistoryView.swift; sourceTree = "<group>"; };
 		BEA8755329B63689618BE5BB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D4352A6415B7901C3A059A26 /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		E11A1B2C3D4E5F60718293A5 /* Howard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Howard1.png; sourceTree = "<group>"; };
+		E11A1B2C3D4E5F60718293A7 /* Howard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Howard2.png; sourceTree = "<group>"; };
 		D86D32D0837FF1656A51252D /* ArchiveDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDatabase.swift; sourceTree = "<group>"; };
 		E0D320A3557A2D97F13CE5DA /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +77,8 @@
 		7824CB00305109894457C1A7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E11A1B2C3D4E5F60718293A5 /* Howard1.png */,
+				E11A1B2C3D4E5F60718293A7 /* Howard2.png */,
 				7ADB8E8463D92C26C15BD81B /* archive_progress.json */,
 				768D26EBB511CC1741F7C5C2 /* archive.sqlite */,
 			);
@@ -154,12 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-					3C4599B61882F21F4B2C28F9 = {
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastUpgradeCheck = 2630;
 			};
 			buildConfigurationList = 42663A9E31171DE441BC4FF5 /* Build configuration list for PBXProject "Aircheck06" */;
 			developmentRegion = en;
@@ -190,6 +191,8 @@
 			files = (
 				C648F52935BBB1A7197B0910 /* archive.sqlite in Resources */,
 				D77F37EB125166DBD51D670E /* archive_progress.json in Resources */,
+				E11A1B2C3D4E5F60718293A4 /* Howard1.png in Resources */,
+				E11A1B2C3D4E5F60718293A6 /* Howard2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +257,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4533R9524J;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -276,6 +281,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -317,8 +323,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4533R9524J;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -332,6 +340,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -343,7 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = App/Info.plist;
@@ -351,8 +360,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aylon.aircheck06;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aylon.airhcheck.test;
 				PRODUCT_NAME = Aircheck06;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_STRICT_CONCURRENCY = complete;
@@ -366,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = App/Info.plist;
@@ -374,8 +384,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aylon.aircheck06;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aylon.airhcheck.test;
 				PRODUCT_NAME = Aircheck06;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_STRICT_CONCURRENCY = complete;

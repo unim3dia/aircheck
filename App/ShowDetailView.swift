@@ -37,19 +37,33 @@ struct ShowDetailView: View {
     }
 
     private var hero: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            Text(show.weekday).font(.caption.bold()).tracking(3).foregroundStyle(AircheckTheme.signal)
-            Text(show.date.formatted(.dateTime.month(.wide).day()))
-                .font(.system(size: 56, weight: .bold, design: .serif)).tracking(-3)
-            Text(show.displayTitle).font(.title3.weight(.medium))
-            Text(show.durationText + "  ·  24 kbps archive stream").font(.subheadline).foregroundStyle(.secondary)
-            Button { player.play(show) } label: {
-                Label(player.currentShow?.id == show.id && player.isPlaying ? "Playing" : "Listen from here", systemImage: "play.fill")
-                    .font(.headline).frame(maxWidth: .infinity).padding(.vertical, 16)
-                    .foregroundStyle(AircheckTheme.paper)
-                    .background(AircheckTheme.ink, in: Capsule())
+        ZStack(alignment: .leading) {
+            Image("Howard2")
+                .resizable()
+                .scaledToFill()
+                .frame(height: 320)
+                .frame(maxWidth: .infinity)
+                .clipped()
+                .overlay {
+                    LinearGradient(colors: [.clear, AircheckTheme.paper.opacity(0.96)], startPoint: .trailing, endPoint: .leading)
+                }
+                .clipShape(RoundedRectangle(cornerRadius: 26, style: .continuous))
+            VStack(alignment: .leading, spacing: 12) {
+                Text(show.weekday).font(.caption.bold()).tracking(3).foregroundStyle(AircheckTheme.signal)
+                Text(show.date.formatted(.dateTime.month(.wide).day()))
+                    .font(.system(size: 48, weight: .bold, design: .serif)).tracking(-3)
+                Text(show.displayTitle).font(.title3.weight(.medium)).frame(maxWidth: 260, alignment: .leading)
+                Text(show.durationText + "  ·  24 kbps archive stream").font(.subheadline).foregroundStyle(.secondary)
+                Button { player.play(show) } label: {
+                    Label(player.currentShow?.id == show.id && player.isPlaying ? "Playing" : "Listen from here", systemImage: "play.fill")
+                        .font(.headline).frame(maxWidth: 260).padding(.vertical, 14)
+                        .foregroundStyle(AircheckTheme.paper)
+                        .background(AircheckTheme.ink, in: Capsule())
+                }
             }
+            .padding(22)
         }
+        .frame(height: 320)
         .padding(.top, 10)
     }
 

@@ -4,7 +4,6 @@ import SwiftUI
 struct LibraryView: View {
     @Environment(CatalogStore.self) private var catalog
     @Environment(AudioPlayer.self) private var player
-    @Environment(ProgressStore.self) private var progress
     @Binding var path: [Show]
     @State private var selectedMonth = 1
     @State private var showsSearch = false
@@ -16,7 +15,6 @@ struct LibraryView: View {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 24) {
                     masthead
-                    TranscriptionDesk(snapshot: progress.snapshot)
                     if let current = player.currentShow { continueCard(current) }
                     monthRail
                     showList
@@ -35,12 +33,9 @@ struct LibraryView: View {
         VStack(alignment: .leading, spacing: 4) {
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("AIRHCHECK")
-                        .font(.system(size: 13, weight: .bold, design: .rounded))
-                        .tracking(4)
-                    Text("’06")
-                        .font(.system(size: 76, weight: .black, design: .serif))
-                        .tracking(-6)
+                    Text("AIRCHECK 2006")
+                        .font(.system(size: 34, weight: .black, design: .serif))
+                        .tracking(-1.5)
                 }
                 Spacer()
                 Button { showsHistory = true } label: {
@@ -62,9 +57,22 @@ struct LibraryView: View {
                 .font(.system(size: 12, weight: .semibold, design: .rounded))
                 .tracking(2.2)
                 .foregroundStyle(AircheckTheme.signal)
-            Text("A year of radio, remapped as stories.")
-                .font(.system(size: 24, weight: .medium, design: .serif))
+            Text("WELCOME TO THE ARCHIVE")
+                .font(.system(size: 12, weight: .bold, design: .rounded))
+                .tracking(2.2)
+                .foregroundStyle(AircheckTheme.ink.opacity(0.62))
                 .padding(.top, 8)
+            Image("Howard1")
+                .resizable()
+                .scaledToFill()
+                .frame(height: 190)
+                .frame(maxWidth: .infinity)
+                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                .overlay {
+                    RoundedRectangle(cornerRadius: 24, style: .continuous)
+                        .stroke(AircheckTheme.ink.opacity(0.16), lineWidth: 1)
+                }
+                .accessibilityLabel("Howard Stern at the microphone")
         }
         .padding(.top, 12)
     }
