@@ -1,4 +1,8 @@
 import unittest
+import json
+import sqlite3
+import tempfile
+from pathlib import Path
 
 from aircheck_pipeline import (
     build_jobs,
@@ -7,6 +11,7 @@ from aircheck_pipeline import (
     normalize_known_names,
     topic_windows,
     validate_topic_draft,
+    export_sqlite,
 )
 
 
@@ -90,6 +95,28 @@ class TopicWindowTests(unittest.TestCase):
         self.assertEqual(len(windows), 2)
         self.assertEqual(windows[0]["start_time"], 0)
         self.assertEqual(windows[1]["start_time"], 21)
+
+
+class SQLiteExportTests(unittest.TestCase):
+    def test_exports_topics_segments_and_full_text_search(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            show = root / "2006-01-09"
+            show.mkdir()
+            (show / "enrichment.json").write_text(json.dumps({
+                "showID": "2006-01-09",
+                "topics": [{"id": "opening", "title": "First Sirius Show", "summary": "The show debuts.", "startTime": 288, "imageURL": None}],
+                "transcript": [{"id": 0, "startTime": 288, "endTime": 293, "speaker": None, "text": "Welcome to satellite radio."}],
+            }))
+            database = root / "archive.sqlite"
+
+            self.assertEqual(export_sqlite(root, database), 1)
+
+            connection = sqlite3.connect(database)
+            self.assertEqual(connection.execute("select count(*) from segments").fetchone()[0], 1)
+            hit = connection.execute("select show_id, segment_id from transcript_fts where transcript_fts match 'satellite'").fetchone()
+            self.assertEqual(hit, ("2006-01-09", 0))
+            connection.close()
 
 
 if __name__ == "__main__":
