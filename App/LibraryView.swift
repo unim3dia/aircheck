@@ -32,9 +32,9 @@ struct LibraryView: View {
         VStack(alignment: .leading, spacing: 4) {
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("AIRCHECK 2006")
-                        .font(.system(size: 34, weight: .black, design: .serif))
-                        .tracking(-1.5)
+                    Text("AIRCHECK ’06")
+                        .font(.system(size: 27, weight: .black, design: .serif))
+                        .tracking(-1)
                 }
                 Spacer()
                 Button { showsHistory = true } label: {
@@ -51,6 +51,16 @@ struct LibraryView: View {
                         .background(.white.opacity(0.7), in: Circle())
                 }
                 .accessibilityLabel("Search the archive")
+                Button {
+                    if let show = player.currentShow ?? catalog.shows.sorted(by: { $0.date < $1.date }).first { player.play(show) }
+                } label: {
+                    Image(systemName: "play.fill")
+                        .font(.subheadline.bold())
+                        .foregroundStyle(Color(red: 0.16, green: 0.28, blue: 0.18))
+                        .frame(width: 48, height: 48)
+                        .background(Color(red: 0.72, green: 0.88, blue: 0.68), in: Circle())
+                }
+                .accessibilityLabel("Quick play")
             }
             Text("THE FIRST SATELLITE YEAR")
                 .font(.system(size: 12, weight: .semibold, design: .rounded))

@@ -34,7 +34,10 @@ struct MiniPlayer: View {
                     onSeek: player.seek
                 )
                 HStack(spacing: 12) {
-                    VintageMicrophoneGlyph().frame(width: 36, height: 36)
+                    Image(systemName: "antenna.radiowaves.left.and.right")
+                        .font(.title3.weight(.semibold))
+                        .foregroundStyle(AircheckTheme.signal)
+                        .frame(width: 36, height: 36)
                     Button {
                         if path.last?.id != show.id { path.append(show) }
                     } label: {
@@ -65,9 +68,9 @@ struct MiniPlayer: View {
             .background {
                 LinearGradient(
                     colors: [
-                        Color(red: 0.58, green: 0.28, blue: 0.16),
-                        Color(red: 0.76, green: 0.43, blue: 0.24),
-                        Color(red: 0.48, green: 0.21, blue: 0.12)
+                        Color(red: 0.78, green: 0.66, blue: 0.48),
+                        Color(red: 0.88, green: 0.78, blue: 0.62),
+                        Color(red: 0.70, green: 0.57, blue: 0.39)
                     ],
                     startPoint: .topLeading,
                     endPoint: .bottomTrailing
@@ -85,6 +88,7 @@ struct MiniPlayer: View {
                 }
             }
             .foregroundStyle(AircheckTheme.ink)
+            .frame(minHeight: 62, maxHeight: 72)
         }
     }
 }
