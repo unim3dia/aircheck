@@ -9,6 +9,7 @@ from aircheck_pipeline import (
     editorial_title,
     merge_chunk_transcripts,
     normalize_known_names,
+    target_topic_count,
     topic_windows,
     validate_topic_draft,
     export_sqlite,
@@ -83,6 +84,29 @@ class TopicWindowTests(unittest.TestCase):
             editorial_title("Howard and Robin discover technical problems in the new studio."),
             "Howard and Robin discover technical problems in the",
         )
+
+    def test_editorial_title_removes_presenter_boilerplate(self):
+        self.assertEqual(editorial_title("Host Discusses Knicks Playoff Run"), "Knicks Playoff Run")
+        self.assertEqual(
+            editorial_title("Howard Stern and Guest Talk About Rosie O'Donnell"),
+            "Rosie O'Donnell",
+        )
+        self.assertEqual(editorial_title("Radio Host Interviews George Takei"), "George Takei")
+
+    def test_five_hour_show_targets_seventeen_topic_cards(self):
+        self.assertEqual(target_topic_count(5 * 60 * 60), 17)
+        self.assertEqual(target_topic_count(5 * 60 * 60 + 12 * 60), 18)
+
+    def test_balances_requested_topic_count_across_show_time(self):
+        segments = [
+            {"id": index, "startTime": index * 60, "endTime": index * 60 + 59, "speaker": None, "text": f"segment {index}"}
+            for index in range(30)
+        ]
+
+        windows = topic_windows(segments, target_count=3)
+
+        self.assertEqual(len(windows), 3)
+        self.assertEqual([window["start_time"] for window in windows], [0, 600, 1200])
 
     def test_groups_transcript_into_prompt_sized_windows_with_timestamps(self):
         segments = [
