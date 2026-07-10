@@ -2,10 +2,13 @@
 __pycache__/
 *.pyc
 .build/
-DerivedData/
+DerivedData*/
 *.xcuserstate
 xcuserdata/
 pipeline/data/
 pipeline/models/
 aircheck-home.png
+aircheck-final.png
 pipeline/topic-indexer
+pipeline/week.log
+pipeline/week.pid

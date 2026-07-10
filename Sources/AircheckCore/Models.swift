@@ -66,4 +66,13 @@ public struct SearchHit: Identifiable, Hashable, Sendable {
     public let title: String
     public let excerpt: String
     public let kind: Kind
+
+    public init(id: String, showID: Show.ID, time: TimeInterval, title: String, excerpt: String, kind: Kind) {
+        self.id = id
+        self.showID = showID
+        self.time = time
+        self.title = title
+        self.excerpt = excerpt
+        self.kind = kind
+    }
 }

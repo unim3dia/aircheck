@@ -3,8 +3,11 @@ import SwiftUI
 
 struct ShowDetailView: View {
     @Environment(AudioPlayer.self) private var player
+    @Environment(CatalogStore.self) private var catalog
     let show: Show
     @State private var mode = DetailMode.stories
+    @State private var transcriptSegments: [TranscriptSegment] = []
+    @State private var isLoadingTranscript = false
 
     private enum DetailMode: String, CaseIterable { case stories = "Stories", transcript = "Transcript" }
 
@@ -25,6 +28,12 @@ struct ShowDetailView: View {
         }
         .navigationTitle(show.shortDate)
         .navigationBarTitleDisplayMode(.inline)
+        .task(id: mode) {
+            guard mode == .transcript, transcriptSegments.isEmpty else { return }
+            isLoadingTranscript = true
+            transcriptSegments = catalog.database.transcript(showID: show.id)
+            isLoadingTranscript = false
+        }
     }
 
     private var hero: some View {
@@ -62,12 +71,20 @@ struct ShowDetailView: View {
     }
 
     @ViewBuilder private var transcript: some View {
-        if show.transcript.isEmpty {
+        if isLoadingTranscript {
+            ProgressView("Opening transcript…").frame(maxWidth: .infinity).padding(.vertical, 60)
+        } else if transcriptSegments.isEmpty {
             ContentUnavailableView("Transcript in the queue", systemImage: "text.badge.clock", description: Text("This show remains fully streamable while local transcription continues."))
                 .padding(.vertical, 50)
         } else {
-            TranscriptView(show: show)
+            TranscriptView(show: transcriptShow)
         }
+    }
+
+    private var transcriptShow: Show {
+        var value = show
+        value.transcript = transcriptSegments
+        return value
     }
 }
 
@@ -83,11 +100,54 @@ private struct TopicCard: View {
             player.play(show, at: topic.startTime)
         } label: {
             VStack(alignment: .leading, spacing: 16) {
+                TopicArtwork(topic: topic)
                 HStack { Text(topic.startTime.timecode).font(.caption.monospacedDigit().bold()); Spacer(); Image(systemName: "arrowtriangle.right.fill") }
                 Text(topic.title).font(.system(size: 29, weight: .semibold, design: .serif)).multilineTextAlignment(.leading)
                 Text(topic.summary).font(.body).multilineTextAlignment(.leading).foregroundStyle(AircheckTheme.ink.opacity(0.72))
             }.frame(maxWidth: .infinity, alignment: .leading).softCard(color)
         }.buttonStyle(.plain).foregroundStyle(AircheckTheme.ink)
+    }
+}
+
+private struct TopicArtwork: View {
+    let topic: Topic
+
+    var body: some View {
+        if let url = topic.imageURL {
+            AsyncImage(url: url) { phase in
+                if let image = phase.image {
+                    image.resizable().scaledToFill()
+                } else {
+                    abstractSignal
+                }
+            }
+            .frame(height: 112).clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+        } else {
+            abstractSignal.frame(height: 78)
+        }
+    }
+
+    private var abstractSignal: some View {
+        Canvas { context, size in
+            let seed = topic.id.unicodeScalars.reduce(0) { $0 + Int($1.value) }
+            let center = CGPoint(x: size.width * 0.76, y: size.height * 0.46)
+            for ring in 1...3 {
+                let diameter = CGFloat(18 + ring * 23 + seed % 9)
+                let rect = CGRect(x: center.x - diameter / 2, y: center.y - diameter / 2, width: diameter, height: diameter)
+                context.stroke(Path(ellipseIn: rect), with: .color(AircheckTheme.ink.opacity(0.16)), lineWidth: 1.5)
+            }
+            var wave = Path()
+            wave.move(to: CGPoint(x: 0, y: size.height * 0.6))
+            let steps = 32
+            for step in 1...steps {
+                let x = size.width * CGFloat(step) / CGFloat(steps)
+                let amplitude = CGFloat(8 + seed % 16)
+                let y = size.height * 0.6 + sin(CGFloat(step + seed) * 0.72) * amplitude
+                wave.addLine(to: CGPoint(x: x, y: y))
+            }
+            context.stroke(wave, with: .color(AircheckTheme.ink.opacity(0.62)), lineWidth: 2)
+        }
+        .accessibilityHidden(true)
     }
 }
 

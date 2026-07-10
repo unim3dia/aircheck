@@ -29,6 +29,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.aylon.aircheck06
         PRODUCT_NAME: Aircheck06
+        TARGETED_DEVICE_FAMILY: 1
         SWIFT_VERSION: 6.0
         SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
         SWIFT_STRICT_CONCURRENCY: complete
@@ -37,3 +38,4 @@ targets:
         CODE_SIGN_STYLE: Automatic
     dependencies:
       - package: AircheckCore
+      - sdk: libsqlite3.tbd

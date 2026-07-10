@@ -414,6 +414,9 @@ def main() -> None:
     topics = subparsers.add_parser("topics", help="Refine one completed transcript into editorial topic cards")
     topics.add_argument("--show-id", required=True)
     topics.add_argument("--indexer", type=Path, default=Path("pipeline/topic-indexer"))
+    rebuild = subparsers.add_parser("rebuild-transcript", help="Re-merge cached Whisper chunks without rerunning models")
+    rebuild.add_argument("--show-id", required=True)
+    rebuild.add_argument("--chunk-seconds", type=int, default=1800)
     subparsers.add_parser("status", help="Print queue progress")
     args = parser.parse_args()
 
@@ -445,6 +448,20 @@ def main() -> None:
         write_json(show_root / "enrichment.json", enrichment)
         update_manifest(show_root, topic_count=len(values))
         print(f"Indexed {len(values)} topics for {args.show_id}")
+    elif args.command == "rebuild-transcript":
+        show_root = args.data_root / args.show_id
+        raw_files = sorted((show_root / "raw").glob("*.json"))
+        chunks = [(index * args.chunk_seconds, json.loads(path.read_text())) for index, path in enumerate(raw_files)]
+        transcript = merge_chunk_transcripts(chunks)
+        topics = json.loads((show_root / "topics.json").read_text()) if (show_root / "topics.json").exists() else []
+        if transcript:
+            for topic in topics:
+                topic["startTime"] = max(float(topic["startTime"]), transcript[0]["startTime"])
+        write_json(show_root / "transcript.json", transcript)
+        write_json(show_root / "topics.json", topics)
+        write_json(show_root / "enrichment.json", {"showID": args.show_id, "topics": topics, "transcript": transcript})
+        update_manifest(show_root, segment_count=len(transcript))
+        print(f"Rebuilt {len(transcript)} transcript segments for {args.show_id}")
     elif args.command == "status":
         jobs = load_jobs(args.data_root)
         complete = sum((args.data_root / job["show_id"] / "enrichment.json").exists() for job in jobs)

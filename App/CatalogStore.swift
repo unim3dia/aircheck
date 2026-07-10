@@ -10,6 +10,7 @@ final class CatalogStore {
 
     private let metadataURL = URL(string: "https://archive.org/metadata/howard-stern-24k-complete-2006")!
     private let parser = ArchiveMetadataParser(collectionYear: 2006)
+    let database = ArchiveDatabase()
 
     var months: [Int] {
         Array(Set(shows.map { Calendar(identifier: .gregorian).component(.month, from: $0.date) })).sorted()
@@ -28,7 +29,7 @@ final class CatalogStore {
         do {
             let data = try await metadataData()
             var parsed = try parser.parse(data)
-            applyBundledEnrichments(to: &parsed)
+            applyDatabaseTopics(to: &parsed)
             shows = parsed
             errorMessage = nil
         } catch {
@@ -51,23 +52,9 @@ final class CatalogStore {
         return data
     }
 
-    private func applyBundledEnrichments(to shows: inout [Show]) {
-        guard let url = Bundle.main.url(forResource: "enrichments", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let enrichments = try? JSONDecoder().decode([Enrichment].self, from: data)
-        else { return }
-
-        let byID = Dictionary(uniqueKeysWithValues: enrichments.map { ($0.showID, $0) })
+    private func applyDatabaseTopics(to shows: inout [Show]) {
         for index in shows.indices {
-            guard let enrichment = byID[shows[index].id] else { continue }
-            shows[index].topics = enrichment.topics
-            shows[index].transcript = enrichment.transcript
+            shows[index].topics = database.topics(showID: shows[index].id)
         }
     }
-}
-
-private struct Enrichment: Decodable {
-    let showID: String
-    let topics: [Topic]
-    let transcript: [TranscriptSegment]
 }

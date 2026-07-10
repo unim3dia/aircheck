@@ -8,7 +8,7 @@ struct SearchView: View {
     @Binding var path: [Show]
     @State private var query = ""
 
-    private var hits: [SearchHit] { CatalogSearch.search(query: query, shows: catalog.shows) }
+    private var hits: [SearchHit] { catalog.database.search(query) }
     private var dateMatches: [Show] {
         guard !query.trimmingCharacters(in: .whitespaces).isEmpty else { return [] }
         return catalog.shows.filter { $0.formattedDate.localizedCaseInsensitiveContains(query) || $0.shortDate.localizedCaseInsensitiveContains(query) }

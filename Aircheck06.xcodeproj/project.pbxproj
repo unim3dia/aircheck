@@ -12,9 +12,11 @@
 		43B960B5B8B0199C33950E08 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B04504336952C463F0CAF5C /* RootView.swift */; };
 		509FF6A267C2ACA03D783A65 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5704D0A21E3F4F2DF0E98 /* LibraryView.swift */; };
 		602D70A10EAC705410B16694 /* AircheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51860F0900F5851881921BB9 /* AircheckApp.swift */; };
+		780BD20AAC9FAC9DA284132A /* ArchiveDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D32D0837FF1656A51252D /* ArchiveDatabase.swift */; };
 		94162DE2FAE2EA9FDA788A81 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D320A3557A2D97F13CE5DA /* AudioPlayer.swift */; };
-		A534726916BED423C3AD5564 /* enrichments.json in Resources */ = {isa = PBXBuildFile; fileRef = A75394B2CFDDECE839C2B71D /* enrichments.json */; };
 		B8A278E39C404E3962C2503C /* AircheckCore in Frameworks */ = {isa = PBXBuildFile; productRef = BDD95EA072FB7B438C7AA40C /* AircheckCore */; };
+		C648F52935BBB1A7197B0910 /* archive.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 768D26EBB511CC1741F7C5C2 /* archive.sqlite */; };
+		CD7BCF56FF78654B18654A2E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA8755329B63689618BE5BB /* libsqlite3.tbd */; };
 		CDA95C19A81C2CF60FC8A505 /* ShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540D7E0BC0F12A6FDACEDC3 /* ShowDetailView.swift */; };
 		DB40347CFF345A6BBDDED5FE /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507700811941ECEADF740D39 /* CatalogStore.swift */; };
 		EDB6D37697C88EC43A09E35D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64C483BA5519FF5B1AAF05 /* SearchView.swift */; };
@@ -32,8 +34,10 @@
 		51860F0900F5851881921BB9 /* AircheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircheckApp.swift; sourceTree = "<group>"; };
 		6A64C483BA5519FF5B1AAF05 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		7238B55CC9800ACE8192E1CA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		A75394B2CFDDECE839C2B71D /* enrichments.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = enrichments.json; sourceTree = "<group>"; };
+		768D26EBB511CC1741F7C5C2 /* archive.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = archive.sqlite; sourceTree = "<group>"; };
 		B3E5704D0A21E3F4F2DF0E98 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		BEA8755329B63689618BE5BB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D86D32D0837FF1656A51252D /* ArchiveDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDatabase.swift; sourceTree = "<group>"; };
 		E0D320A3557A2D97F13CE5DA /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8A278E39C404E3962C2503C /* AircheckCore in Frameworks */,
+				CD7BCF56FF78654B18654A2E /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,7 @@
 			children = (
 				995F82A5010FD16FE6A8F38D /* App */,
 				F7FBCC5771906B0816F624CE /* Packages */,
+				A21962427FCC1FDC0C89C9C5 /* Frameworks */,
 				C326D14D6B0A9730BF9C4BFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +67,7 @@
 		7824CB00305109894457C1A7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A75394B2CFDDECE839C2B71D /* enrichments.json */,
+				768D26EBB511CC1741F7C5C2 /* archive.sqlite */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -70,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				51860F0900F5851881921BB9 /* AircheckApp.swift */,
+				D86D32D0837FF1656A51252D /* ArchiveDatabase.swift */,
 				E0D320A3557A2D97F13CE5DA /* AudioPlayer.swift */,
 				507700811941ECEADF740D39 /* CatalogStore.swift */,
 				442E37A2F81152986A75E38F /* Formatters.swift */,
@@ -82,6 +89,14 @@
 				7824CB00305109894457C1A7 /* Resources */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		A21962427FCC1FDC0C89C9C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8755329B63689618BE5BB /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C326D14D6B0A9730BF9C4BFF /* Products */ = {
@@ -164,7 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A534726916BED423C3AD5564 /* enrichments.json in Resources */,
+				C648F52935BBB1A7197B0910 /* archive.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602D70A10EAC705410B16694 /* AircheckApp.swift in Sources */,
+				780BD20AAC9FAC9DA284132A /* ArchiveDatabase.swift in Sources */,
 				94162DE2FAE2EA9FDA788A81 /* AudioPlayer.swift in Sources */,
 				DB40347CFF345A6BBDDED5FE /* CatalogStore.swift in Sources */,
 				FBE2C400174695E930366CDD /* Formatters.swift in Sources */,
@@ -329,7 +345,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -352,7 +368,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
