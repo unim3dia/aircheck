@@ -40,14 +40,14 @@ struct LibraryView: View {
                 Button { showsHistory = true } label: {
                     Image(systemName: "clock.arrow.circlepath")
                         .font(.title3.weight(.semibold))
-                        .frame(width: 48, height: 48)
+                        .frame(width: 42, height: 42)
                         .background(.white.opacity(0.7), in: Circle())
                 }
                 .accessibilityLabel("Listening history")
                 Button { showsSearch = true } label: {
                     Image(systemName: "text.magnifyingglass")
                         .font(.title3.weight(.semibold))
-                        .frame(width: 48, height: 48)
+                        .frame(width: 42, height: 42)
                         .background(.white.opacity(0.7), in: Circle())
                 }
                 .accessibilityLabel("Search the archive")
@@ -56,9 +56,9 @@ struct LibraryView: View {
                 } label: {
                     Image(systemName: "play.fill")
                         .font(.subheadline.bold())
-                        .foregroundStyle(Color(red: 0.16, green: 0.28, blue: 0.18))
-                        .frame(width: 48, height: 48)
-                        .background(Color(red: 0.72, green: 0.88, blue: 0.68), in: Circle())
+                        .foregroundStyle(Color(red: 0.35, green: 0.72, blue: 0.34))
+                        .frame(width: 42, height: 42)
+                        .background(.white.opacity(0.72), in: Circle())
                 }
                 .accessibilityLabel("Quick play")
             }

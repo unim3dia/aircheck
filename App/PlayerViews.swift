@@ -65,30 +65,10 @@ struct MiniPlayer: View {
                 }
                 .padding(.horizontal, 12).padding(.vertical, 8)
             }
-            .background {
-                LinearGradient(
-                    colors: [
-                        Color(red: 0.78, green: 0.66, blue: 0.48),
-                        Color(red: 0.88, green: 0.78, blue: 0.62),
-                        Color(red: 0.70, green: 0.57, blue: 0.39)
-                    ],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-                .overlay {
-                    Canvas { context, size in
-                        for index in 0..<48 {
-                            let y = CGFloat((index * 29) % 100) / 100 * size.height
-                            var grain = Path()
-                            grain.move(to: CGPoint(x: 0, y: y))
-                            grain.addCurve(to: CGPoint(x: size.width, y: y + CGFloat((index % 3) - 1)), control1: CGPoint(x: size.width * 0.3, y: y - 2), control2: CGPoint(x: size.width * 0.7, y: y + 2))
-                            context.stroke(grain, with: .color(.black.opacity(0.10)), lineWidth: CGFloat(index % 3 + 1))
-                        }
-                    }
-                }
-            }
+            .background(AircheckTheme.paper.opacity(0.98))
             .foregroundStyle(AircheckTheme.ink)
-            .frame(minHeight: 62, maxHeight: 72)
+            .frame(minHeight: 58, maxHeight: 64)
+            .ignoresSafeArea(edges: .bottom)
         }
     }
 }
