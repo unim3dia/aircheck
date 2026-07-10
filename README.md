@@ -43,3 +43,11 @@ caffeinate -dimsu ./pipeline/run-week.sh
 ```
 
 Check progress with `python3 aircheck_pipeline.py status`.
+
+The homepage's **Transcription Desk** is a bundled snapshot of that same queue. Refresh it by exporting and rebuilding:
+
+```sh
+python3 aircheck_pipeline.py export
+```
+
+The export writes `App/Resources/archive_progress.json` alongside the searchable SQLite bundle. The iPhone cannot read the Mac's working directory directly, so install the rebuilt app in Xcode to see the new count on-device.

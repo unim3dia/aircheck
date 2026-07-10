@@ -1,0 +1,13 @@
+{
+  "completedShows": 2,
+  "totalShows": 179,
+  "completedSourceHours": 9.378008333333334,
+  "totalSourceHours": 826.4911805555555,
+  "latestCompletedShowID": "2006-01-10",
+  "failedShows": [],
+  "generatedAt": "2026-07-10T19:24:41.595582+00:00",
+  "activeShowID": "2006-01-11",
+  "activeState": "transcribing",
+  "activeChunksCompleted": 9,
+  "activeTotalChunks": 9
+}

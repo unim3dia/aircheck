@@ -4,6 +4,7 @@ import SwiftUI
 struct LibraryView: View {
     @Environment(CatalogStore.self) private var catalog
     @Environment(AudioPlayer.self) private var player
+    @Environment(ProgressStore.self) private var progress
     @Binding var path: [Show]
     @State private var selectedMonth = 1
     @State private var showsSearch = false
@@ -15,6 +16,7 @@ struct LibraryView: View {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 24) {
                     masthead
+                    TranscriptionDesk(snapshot: progress.snapshot)
                     if let current = player.currentShow { continueCard(current) }
                     monthRail
                     showList
@@ -335,6 +337,77 @@ private struct RadioScale: View {
             .foregroundStyle(AircheckTheme.ink.opacity(0.55))
         }
         .accessibilityHidden(true)
+    }
+}
+
+private struct TranscriptionDesk: View {
+    let snapshot: ArchiveProgress
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 13) {
+            HStack(alignment: .firstTextBaseline) {
+                Text("TRANSCRIPTION DESK")
+                    .font(.caption.bold())
+                    .tracking(1.7)
+                Spacer()
+                Text("LOCAL INDEX")
+                    .font(.caption2.bold())
+                    .tracking(1.1)
+                    .foregroundStyle(.secondary)
+            }
+
+            HStack(alignment: .lastTextBaseline, spacing: 6) {
+                Text("\(snapshot.completedShows)")
+                    .font(.system(size: 42, weight: .bold, design: .serif))
+                Text("/ \(snapshot.totalShows) SHOWS")
+                    .font(.caption.bold())
+                    .tracking(1.2)
+                    .foregroundStyle(.secondary)
+                Spacer()
+                Text("\(Int(snapshot.completionFraction * 100))%")
+                    .font(.system(.headline, design: .monospaced, weight: .semibold))
+                    .foregroundStyle(AircheckTheme.signal)
+            }
+
+            ProgressView(value: snapshot.completionFraction)
+                .tint(AircheckTheme.signal)
+
+            HStack(alignment: .top, spacing: 16) {
+                deskDetail(label: "LAST COMPLETE", value: snapshot.latestCompletedShowID ?? "—")
+                Spacer()
+                if let activeShowID = snapshot.activeShowID {
+                    deskDetail(
+                        label: "IN THE BOOTH",
+                        value: "\(activeShowID) · \(snapshot.activeChunksCompleted)/\(snapshot.activeTotalChunks) chunks"
+                    )
+                } else {
+                    deskDetail(label: "NEXT RUN", value: "Waiting for worker")
+                }
+            }
+
+            Text("Refreshes when the Mac exports a new archive snapshot.")
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+        }
+        .foregroundStyle(AircheckTheme.ink)
+        .softCard(AircheckTheme.blue)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(accessibilitySummary)
+    }
+
+    private var accessibilitySummary: String {
+        var summary = "Transcription progress: \(snapshot.completedShows) of \(snapshot.totalShows) shows complete"
+        if let activeShowID = snapshot.activeShowID {
+            summary += ". \(activeShowID) is transcribing, chunk \(snapshot.activeChunksCompleted) of \(snapshot.activeTotalChunks)."
+        }
+        return summary
+    }
+
+    private func deskDetail(label: String, value: String) -> some View {
+        VStack(alignment: .leading, spacing: 3) {
+            Text(label).font(.caption2.bold()).tracking(1.1).foregroundStyle(AircheckTheme.signal)
+            Text(value).font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+        }
     }
 }
 

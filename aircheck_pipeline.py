@@ -15,6 +15,7 @@ import tempfile
 import urllib.parse
 import urllib.request
 from collections import Counter
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -361,6 +362,47 @@ def update_manifest(show_root: Path, **changes: Any) -> None:
     write_json(path, value)
 
 
+def progress_snapshot(data_root: Path, jobs: list[dict[str, Any]]) -> dict[str, Any]:
+    completed_ids = [
+        job["show_id"] for job in jobs
+        if (data_root / job["show_id"] / "enrichment.json").exists()
+    ]
+    active: dict[str, Any] | None = None
+    failed: list[str] = []
+    for job in jobs:
+        manifest_path = data_root / job["show_id"] / "manifest.json"
+        if not manifest_path.exists():
+            continue
+        manifest = json.loads(manifest_path.read_text())
+        state = manifest.get("state")
+        if state == "failed":
+            failed.append(job["show_id"])
+        elif state in {"transcribing", "indexing", "exporting"} and active is None:
+            active = {
+                "activeShowID": job["show_id"],
+                "activeState": state,
+                "activeChunksCompleted": int(manifest.get("completed_chunks", 0) or 0),
+                "activeTotalChunks": int(manifest.get("total_chunks", 0) or 0),
+            }
+    total_hours = sum(float(job.get("duration", 0) or 0) for job in jobs) / 3600
+    snapshot = {
+        "completedShows": len(completed_ids),
+        "totalShows": len(jobs),
+        "completedSourceHours": sum(float(job.get("duration", 0) or 0) for job in jobs if job["show_id"] in completed_ids) / 3600,
+        "totalSourceHours": total_hours,
+        "latestCompletedShowID": max(completed_ids) if completed_ids else None,
+        "failedShows": failed,
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "activeShowID": None,
+        "activeState": None,
+        "activeChunksCompleted": 0,
+        "activeTotalChunks": 0,
+    }
+    if active:
+        snapshot.update(active)
+    return snapshot
+
+
 def export_enrichments(data_root: Path, output: Path) -> int:
     values = []
     for enrichment in sorted(data_root.glob("*/enrichment.json")):
@@ -433,6 +475,12 @@ def export_sqlite(data_root: Path, output: Path) -> int:
     connection.execute("PRAGMA optimize")
     connection.close()
     temporary.replace(output)
+    jobs_path = data_root / "jobs.json"
+    jobs = json.loads(jobs_path.read_text()) if jobs_path.exists() else [
+        {"show_id": path.parent.name, "duration": 0}
+        for path in data_root.glob("*/manifest.json")
+    ]
+    write_json(output.parent / "archive_progress.json", progress_snapshot(data_root, jobs))
     return count
 
 
@@ -505,9 +553,13 @@ def main() -> None:
         print(f"Rebuilt {len(transcript)} transcript segments for {args.show_id}")
     elif args.command == "status":
         jobs = load_jobs(args.data_root)
-        complete = sum((args.data_root / job["show_id"] / "enrichment.json").exists() for job in jobs)
-        hours = sum(job["duration"] for job in jobs) / 3600
-        print(f"{complete}/{len(jobs)} shows complete · {hours:.1f} source hours total")
+        snapshot = progress_snapshot(args.data_root, jobs)
+        line = f"{snapshot['completedShows']}/{snapshot['totalShows']} shows complete · {snapshot['totalSourceHours']:.1f} source hours total"
+        if snapshot["activeShowID"]:
+            line += f" · active {snapshot['activeShowID']} {snapshot['activeChunksCompleted']}/{snapshot['activeTotalChunks']} chunks"
+        if snapshot["failedShows"]:
+            line += f" · failed {len(snapshot['failedShows'])}"
+        print(line)
 
 
 if __name__ == "__main__":
