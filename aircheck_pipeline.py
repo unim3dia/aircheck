@@ -21,6 +21,13 @@ ARCHIVE_IDENTIFIER = "howard-stern-24k-complete-2006"
 METADATA_URL = f"https://archive.org/metadata/{ARCHIVE_IDENTIFIER}"
 DOWNLOAD_ROOT = f"https://archive.org/download/{ARCHIVE_IDENTIFIER}"
 DATE_PATTERN = re.compile(r"_(\d{2})-(\d{2})-(\d{2})_")
+KNOWN_TRANSCRIPT_CORRECTIONS = {
+    r"\bGeorge DeKay\b": "George Takei",
+    r"\bGary Delabati\b": "Gary Dell'Abate",
+    r"\bArtie Lang\b": "Artie Lange",
+    r"\bBenji Brock\b": "Benjy Bronk",
+    r"\bfragile eagle\b": "fragile ego",
+}
 
 
 def build_jobs(metadata: dict[str, Any], collection_year: int) -> list[dict[str, Any]]:
@@ -55,7 +62,7 @@ def merge_chunk_transcripts(chunks: Iterable[tuple[float, dict[str, Any]]]) -> l
             offsets = entry.get("offsets", {})
             start_ms = offsets.get("from", entry.get("start", 0) * 1000)
             end_ms = offsets.get("to", entry.get("end", 0) * 1000)
-            text = str(entry.get("text", "")).strip()
+            text = normalize_known_names(str(entry.get("text", "")).strip())
             if not text or end_ms <= start_ms:
                 continue
             merged.append({
@@ -66,6 +73,12 @@ def merge_chunk_transcripts(chunks: Iterable[tuple[float, dict[str, Any]]]) -> l
                 "text": text,
             })
     return merged
+
+
+def normalize_known_names(text: str) -> str:
+    for pattern, replacement in KNOWN_TRANSCRIPT_CORRECTIONS.items():
+        text = re.sub(pattern, replacement, text)
+    return text
 
 
 def topic_windows(segments: list[dict[str, Any]], max_characters: int = 9000) -> list[dict[str, Any]]:
@@ -144,7 +157,7 @@ def transcribe_job(job: dict[str, Any], data_root: Path, model: Path, chunk_seco
             ], check=True)
             subprocess.run([
                 "whisper-cli", "-m", str(model), "-f", str(wav), "-l", "en", "-oj", "-of", str(output_base),
-                "-t", str(max((os.cpu_count() or 8) - 2, 4)), "--print-progress", "false",
+                "-t", str(max((os.cpu_count() or 8) - 2, 4)),
             ], check=True)
             generated = output_base.with_suffix(".json")
             if not generated.exists():

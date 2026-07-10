@@ -12,7 +12,7 @@ python3 aircheck_pipeline.py transcribe --show-id 2006-01-09
 python3 aircheck_pipeline.py export
 ```
 
-Run the entire queue with `caffeinate -dimsu ./pipeline/run-week.sh`. The small English model is the default because the M4 Pro can plausibly finish this 826-hour corpus within roughly a week. After sampling quality, individual low-quality shows can be re-run with a larger Whisper model by deleting their `raw` directory and passing `--model`.
+Run the entire queue with `caffeinate -dimsu ./pipeline/run-week.sh`. A real ten-minute sample ran in 13 seconds on this M4 Pro (about 46× real time), making the 826-hour corpus roughly 18 hours of model compute before transfer and topic work. The small English model preserved more overlapping speech than the tested large-v3-turbo-q5 model; a normalization layer repairs recurring proper-name errors. Individual low-quality shows can still be re-run with another model by deleting their `raw` directory and passing `--model`.
 
 `pipeline/data` and model weights are ignored by Git. Completed app-ready data is exported to `App/Resources/enrichments.json`.
 
