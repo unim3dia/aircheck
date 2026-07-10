@@ -5,9 +5,9 @@
   "totalSourceHours": 826.4911805555555,
   "latestCompletedShowID": "2006-01-11",
   "failedShows": [],
-  "generatedAt": "2026-07-10T19:32:24.742315+00:00",
+  "generatedAt": "2026-07-10T19:34:36.766650+00:00",
   "activeShowID": "2006-01-12",
   "activeState": "transcribing",
-  "activeChunksCompleted": 6,
+  "activeChunksCompleted": 8,
   "activeTotalChunks": 10
 }
