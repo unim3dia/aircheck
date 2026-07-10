@@ -64,13 +64,20 @@ struct LibraryView: View {
                 .padding(.top, 8)
             Image(uiImage: UIImage(named: "Howard1") ?? UIImage())
                 .resizable()
-                .scaledToFill()
-                .frame(height: 190)
+                .scaledToFit()
+                .aspectRatio(1, contentMode: .fit)
                 .frame(maxWidth: .infinity)
-                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-                .overlay {
-                    RoundedRectangle(cornerRadius: 24, style: .continuous)
-                        .stroke(AircheckTheme.ink.opacity(0.16), lineWidth: 1)
+                .mask {
+                    LinearGradient(
+                        stops: [
+                            .init(color: .clear, location: 0),
+                            .init(color: .black, location: 0.16),
+                            .init(color: .black, location: 0.84),
+                            .init(color: .clear, location: 1)
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    )
                 }
                 .accessibilityLabel("Howard Stern at the microphone")
         }
