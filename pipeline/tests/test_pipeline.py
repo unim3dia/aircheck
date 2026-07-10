@@ -1,0 +1,61 @@
+import unittest
+
+from aircheck_pipeline import build_jobs, merge_chunk_transcripts, topic_windows
+
+
+class CatalogJobsTests(unittest.TestCase):
+    def test_builds_sorted_unique_jobs_and_repairs_source_typo(self):
+        metadata = {
+            "metadata": {"identifier": "howard-stern-24k-complete-2006"},
+            "files": [
+                {"name": "Howard_Stern_24k_04-20-96_cf.mp3", "length": "100"},
+                {"name": "Howard_Stern_24k_01-09-06_cf.mp3", "length": "200"},
+                {"name": "Howard_Stern_24k_06-08-06_Artie_Roast_cf.mp3", "length": "300"},
+                {"name": "cover.png"},
+            ],
+        }
+
+        jobs = build_jobs(metadata, 2006)
+
+        self.assertEqual([job["show_id"] for job in jobs], ["2006-01-09", "2006-04-20", "2006-06-08-artie-roast"])
+        self.assertEqual(jobs[1]["date"], "2006-04-20")
+
+
+class TranscriptMergeTests(unittest.TestCase):
+    def test_offsets_chunk_segments_and_assigns_stable_ids(self):
+        chunks = [
+            (0, {"transcription": [{"offsets": {"from": 1000, "to": 3000}, "text": " First line. "}]}),
+            (1800, {"transcription": [{"offsets": {"from": 500, "to": 1500}, "text": "Second line."}]}),
+        ]
+
+        segments = merge_chunk_transcripts(chunks)
+
+        self.assertEqual(segments[0], {"id": 0, "startTime": 1.0, "endTime": 3.0, "speaker": None, "text": "First line."})
+        self.assertEqual(segments[1]["startTime"], 1800.5)
+        self.assertEqual(segments[1]["id"], 1)
+
+    def test_drops_empty_and_non_monotonic_segments(self):
+        chunks = [(0, {"transcription": [
+            {"offsets": {"from": 1000, "to": 500}, "text": "bad"},
+            {"offsets": {"from": 1000, "to": 2000}, "text": "   "},
+        ]})]
+        self.assertEqual(merge_chunk_transcripts(chunks), [])
+
+
+class TopicWindowTests(unittest.TestCase):
+    def test_groups_transcript_into_prompt_sized_windows_with_timestamps(self):
+        segments = [
+            {"id": 0, "startTime": 0, "endTime": 10, "speaker": None, "text": "a" * 30},
+            {"id": 1, "startTime": 11, "endTime": 20, "speaker": None, "text": "b" * 30},
+            {"id": 2, "startTime": 21, "endTime": 30, "speaker": None, "text": "c" * 30},
+        ]
+
+        windows = topic_windows(segments, max_characters=65)
+
+        self.assertEqual(len(windows), 2)
+        self.assertEqual(windows[0]["start_time"], 0)
+        self.assertEqual(windows[1]["start_time"], 21)
+
+
+if __name__ == "__main__":
+    unittest.main()
