@@ -50,7 +50,7 @@ class TopicWindowTests(unittest.TestCase):
             {"id": 2, "startTime": 21, "endTime": 30, "speaker": None, "text": "c" * 30},
         ]
 
-        windows = topic_windows(segments, max_characters=65)
+        windows = topic_windows(segments, max_characters=90)
 
         self.assertEqual(len(windows), 2)
         self.assertEqual(windows[0]["start_time"], 0)
