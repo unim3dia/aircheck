@@ -105,6 +105,11 @@ def timecode(seconds: float) -> str:
     return f"{total // 3600:02d}:{(total % 3600) // 60:02d}:{total % 60:02d}"
 
 
+def editorial_title(title: str, maximum_words: int = 8) -> str:
+    cleaned = title.strip().strip(" .,!?:;-—–")
+    return " ".join(cleaned.split()[:maximum_words])
+
+
 def fetch_json(url: str) -> dict[str, Any]:
     request = urllib.request.Request(url, headers={"User-Agent": "Aircheck06/1.0 personal archive indexer"})
     with urllib.request.urlopen(request, timeout=60) as response:
@@ -138,7 +143,9 @@ def command_exists(name: str) -> bool:
 def transcribe_job(job: dict[str, Any], data_root: Path, model: Path, chunk_seconds: int) -> None:
     show_root = data_root / job["show_id"]
     raw_root = show_root / "raw"
+    log_root = show_root / "logs"
     raw_root.mkdir(parents=True, exist_ok=True)
+    log_root.mkdir(parents=True, exist_ok=True)
     total_chunks = math.ceil(job["duration"] / chunk_seconds)
     update_manifest(show_root, state="transcribing", total_chunks=total_chunks)
 
@@ -155,10 +162,11 @@ def transcribe_job(job: dict[str, Any], data_root: Path, model: Path, chunk_seco
                 "ffmpeg", "-hide_banner", "-loglevel", "error", "-ss", str(start), "-t", str(length),
                 "-i", job["url"], "-ar", "16000", "-ac", "1", "-c:a", "pcm_s16le", "-y", str(wav),
             ], check=True)
-            subprocess.run([
-                "whisper-cli", "-m", str(model), "-f", str(wav), "-l", "en", "-oj", "-of", str(output_base),
-                "-t", str(max((os.cpu_count() or 8) - 2, 4)),
-            ], check=True)
+            with (log_root / f"{index:04d}.log").open("w") as log:
+                subprocess.run([
+                    "whisper-cli", "-m", str(model), "-f", str(wav), "-l", "en", "-oj", "-of", str(output_base),
+                    "-t", str(max((os.cpu_count() or 8) - 2, 4)), "-np",
+                ], check=True, stdout=log, stderr=subprocess.STDOUT)
             generated = output_base.with_suffix(".json")
             if not generated.exists():
                 raise RuntimeError(f"whisper-cli did not create {generated}")
@@ -168,7 +176,8 @@ def transcribe_job(job: dict[str, Any], data_root: Path, model: Path, chunk_seco
     chunks = [(index * chunk_seconds, json.loads((raw_root / f"{index:04d}.json").read_text())) for index in range(total_chunks)]
     transcript = merge_chunk_transcripts(chunks)
     write_json(show_root / "transcript.json", transcript)
-    topics = heuristic_topics(transcript)
+    indexer = Path("pipeline/topic-indexer")
+    topics = apple_topics(transcript, indexer) if indexer.exists() else heuristic_topics(transcript)
     write_json(show_root / "topics.json", topics)
     write_json(show_root / "enrichment.json", {"showID": job["show_id"], "topics": topics, "transcript": transcript})
     update_manifest(show_root, state="complete", segment_count=len(transcript), topic_count=len(topics))
@@ -191,6 +200,40 @@ def heuristic_topics(segments: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "startTime": window["start_time"],
             "imageURL": None,
         })
+    return topics
+
+
+def apple_topics(segments: list[dict[str, Any]], indexer: Path) -> list[dict[str, Any]]:
+    topics: list[dict[str, Any]] = []
+    for index, window in enumerate(topic_windows(segments, max_characters=9000)):
+        try:
+            result = subprocess.run(
+                [str(indexer)],
+                input=json.dumps(window),
+                text=True,
+                capture_output=True,
+                check=True,
+                timeout=120,
+            )
+            draft = json.loads(result.stdout)
+            title = editorial_title(str(draft["title"]))
+            summary = str(draft["summary"]).strip()
+            if not title or not summary:
+                raise ValueError("empty model output")
+            topics.append({
+                "id": f"topic-{index:03d}",
+                "title": title,
+                "summary": summary,
+                "startTime": window["start_time"],
+                "imageURL": None,
+            })
+        except (subprocess.SubprocessError, OSError, ValueError, KeyError, json.JSONDecodeError):
+            fallback_segments = [segment for segment in segments if segment["startTime"] >= window["start_time"]]
+            fallback = heuristic_topics(fallback_segments[:80])
+            if fallback:
+                fallback[0]["id"] = f"topic-{index:03d}"
+                fallback[0]["startTime"] = window["start_time"]
+                topics.append(fallback[0])
     return topics
 
 
@@ -225,6 +268,9 @@ def main() -> None:
     transcribe.add_argument("--chunk-seconds", type=int, default=1800)
     export = subparsers.add_parser("export", help="Build the JSON bundle consumed by the iOS app")
     export.add_argument("--output", type=Path, default=Path("App/Resources/enrichments.json"))
+    topics = subparsers.add_parser("topics", help="Refine one completed transcript into editorial topic cards")
+    topics.add_argument("--show-id", required=True)
+    topics.add_argument("--indexer", type=Path, default=Path("pipeline/topic-indexer"))
     subparsers.add_parser("status", help="Print queue progress")
     args = parser.parse_args()
 
@@ -247,6 +293,15 @@ def main() -> None:
         print(f"Completed {job['show_id']}")
     elif args.command == "export":
         print(f"Exported {export_enrichments(args.data_root, args.output)} shows to {args.output}")
+    elif args.command == "topics":
+        show_root = args.data_root / args.show_id
+        transcript = json.loads((show_root / "transcript.json").read_text())
+        values = apple_topics(transcript, args.indexer) if args.indexer.exists() else heuristic_topics(transcript)
+        write_json(show_root / "topics.json", values)
+        enrichment = {"showID": args.show_id, "topics": values, "transcript": transcript}
+        write_json(show_root / "enrichment.json", enrichment)
+        update_manifest(show_root, topic_count=len(values))
+        print(f"Indexed {len(values)} topics for {args.show_id}")
     elif args.command == "status":
         jobs = load_jobs(args.data_root)
         complete = sum((args.data_root / job["show_id"] / "enrichment.json").exists() for job in jobs)

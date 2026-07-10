@@ -18,4 +18,4 @@ Run the entire queue with `caffeinate -dimsu ./pipeline/run-week.sh`. A real ten
 
 ## Topic quality
 
-Every completed show gets deterministic topic blocks immediately. A separate on-device Apple Foundation Models refinement stage is planned for editorial titles and summaries; this fallback keeps the transcription queue independent of Apple Intelligence availability.
+When Apple Intelligence is available, `setup.sh` compiles `TopicIndexer.swift` and each completed transcript is packaged into structured editorial titles and summaries by Apple's on-device model. Headings are deterministically capped at eight words. If the model is disabled, unavailable, times out, or rejects a window, the same job receives a deterministic fallback so transcription never stalls.

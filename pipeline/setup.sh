@@ -12,4 +12,10 @@ if [ ! -f "$MODEL" ]; then
     "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en.bin"
 fi
 
+if [ -d /Applications/Xcode.app ] && [ ! -x "$ROOT/pipeline/topic-indexer" ]; then
+  DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
+    xcrun swiftc -parse-as-library "$ROOT/pipeline/TopicIndexer.swift" \
+    -framework FoundationModels -o "$ROOT/pipeline/topic-indexer" || true
+fi
+
 echo "Ready: $MODEL"
