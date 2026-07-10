@@ -23,6 +23,7 @@ struct SignalGlyph: View {
 
 struct MiniPlayer: View {
     @Environment(AudioPlayer.self) private var player
+    @Binding var path: [Show]
 
     var body: some View {
         if let show = player.currentShow {
@@ -34,13 +35,26 @@ struct MiniPlayer: View {
                 )
                 HStack(spacing: 12) {
                     VintageMicrophoneGlyph().frame(width: 36, height: 36)
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(show.shortDate).font(.headline)
-                        Text(player.currentTime.timecode + " / " + show.duration.timecode).font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+                    Button {
+                        if path.last?.id != show.id { path.append(show) }
+                    } label: {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(show.shortDate).font(.headline)
+                            Text(show.displayTitle).font(.caption.weight(.semibold)).lineLimit(1)
+                            Text(player.currentTime.timecode + " / " + show.duration.timecode).font(.caption2.monospacedDigit()).foregroundStyle(.secondary)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("Open (show.displayTitle)")
+                    .accessibilityHint("Open this show's detail page")
                     Spacer()
+                    Button { player.skip(by: -15) } label: { Image(systemName: "gobackward.15").frame(width: 34, height: 44) }
+                        .buttonStyle(.plain).accessibilityLabel("Back 15 seconds")
                     Button { player.toggle() } label: { Image(systemName: player.isPlaying ? "pause.fill" : "play.fill").frame(width: 44, height: 44) }
                         .buttonStyle(.plain).accessibilityLabel(player.isPlaying ? "Pause" : "Play")
+                    Button { player.skip(by: 15) } label: { Image(systemName: "goforward.15").frame(width: 34, height: 44) }
+                        .buttonStyle(.plain).accessibilityLabel("Forward 15 seconds")
                     Button { player.showsFullPlayer = true } label: {
                         Image(systemName: "chevron.up").frame(width: 32, height: 44)
                     }

@@ -12,7 +12,7 @@ struct RootView: View {
                 .navigationDestination(for: Show.self) { ShowDetailView(show: $0) }
         }
         .safeAreaInset(edge: .bottom, spacing: 0) {
-            if player.currentShow != nil { MiniPlayer() }
+            if player.currentShow != nil { MiniPlayer(path: $path) }
         }
         .sheet(isPresented: Bindable(player).showsFullPlayer) { FullPlayerView() }
         .tint(AircheckTheme.signal)
