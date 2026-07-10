@@ -138,6 +138,7 @@ def editorial_title(title: str, maximum_words: int = 8) -> str:
     presenter_prefixes = (
         r"^Howard Stern(?:\s+and\s+.+?)?\s+(?:discuss(?:es)?|talk(?:s)?\s+about|interview(?:s)?)\s+",
         r"^(?:the\s+)?(?:radio\s+)?host\s+(?:discuss(?:es)?|talk(?:s)?\s+about|interview(?:s)?)\s+",
+        r"^(?:a\s+)?discussion\s+(?:of|on|about)\s+",
     )
     for prefix in presenter_prefixes:
         cleaned = re.sub(prefix, "", cleaned, flags=re.IGNORECASE)
@@ -410,13 +411,14 @@ def export_sqlite(data_root: Path, output: Path) -> int:
         show_id = enrichment["showID"]
         count += 1
         for topic in enrichment.get("topics", []):
+            title = editorial_title(topic["title"])
             connection.execute(
                 "INSERT INTO topics VALUES (?, ?, ?, ?, ?, ?)",
-                (topic["id"], show_id, topic["title"], topic["summary"], topic["startTime"], topic.get("imageURL")),
+                (topic["id"], show_id, title, topic["summary"], topic["startTime"], topic.get("imageURL")),
             )
             connection.execute(
                 "INSERT INTO topic_fts VALUES (?, ?, ?, ?, ?)",
-                (topic["title"], topic["summary"], show_id, topic["id"], topic["startTime"]),
+                (title, topic["summary"], show_id, topic["id"], topic["startTime"]),
             )
         for segment in enrichment.get("transcript", []):
             connection.execute(
