@@ -9,6 +9,7 @@ from aircheck_pipeline import (
     editorial_title,
     merge_chunk_transcripts,
     normalize_known_names,
+    progress_snapshot,
     target_topic_count,
     topic_windows,
     validate_topic_draft,
@@ -32,6 +33,31 @@ class CatalogJobsTests(unittest.TestCase):
 
         self.assertEqual([job["show_id"] for job in jobs], ["2006-01-09", "2006-04-20", "2006-06-08-artie-roast"])
         self.assertEqual(jobs[1]["date"], "2006-04-20")
+
+    def test_progress_snapshot_reports_completed_and_active_work(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            jobs = [
+                {"show_id": "2006-01-09", "duration": 100},
+                {"show_id": "2006-01-10", "duration": 200},
+                {"show_id": "2006-01-11", "duration": 300},
+            ]
+            for job in jobs:
+                show_root = root / job["show_id"]
+                show_root.mkdir()
+                (show_root / "manifest.json").write_text(json.dumps({"state": "queued"}))
+            (root / "2006-01-09" / "enrichment.json").write_text("{}")
+            (root / "2006-01-10" / "manifest.json").write_text(json.dumps({
+                "state": "transcribing", "completed_chunks": 2, "total_chunks": 4
+            }))
+
+            snapshot = progress_snapshot(root, jobs)
+
+            self.assertEqual(snapshot["completedShows"], 1)
+            self.assertEqual(snapshot["totalShows"], 3)
+            self.assertEqual(snapshot["activeShowID"], "2006-01-10")
+            self.assertEqual(snapshot["activeChunksCompleted"], 2)
+            self.assertEqual(snapshot["activeTotalChunks"], 4)
 
 
 class TranscriptMergeTests(unittest.TestCase):
