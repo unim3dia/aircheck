@@ -18,4 +18,4 @@ Run the entire queue with `caffeinate -dimsu ./pipeline/run-week.sh`. A real ten
 
 ## Topic quality
 
-When Apple Intelligence is available, `setup.sh` compiles `TopicIndexer.swift` and each completed transcript is packaged into structured editorial titles and summaries by Apple's on-device model. Headings are deterministically capped at eight words. If the model is disabled, unavailable, times out, or rejects a window, the same job receives a deterministic fallback so transcription never stalls.
+The preferred topic packager is local Ollama with `gemma4:12b`; a real 30-minute sample produced three factual cards in about 105 seconds and handled the show's adult language more consistently than Apple's guarded model. Summaries must begin with “The show” or “The studio,” preventing an unlabeled transcript from turning a passing name into a false speaker claim. Apple Foundation Models is the second local option, and deterministic extraction is the final fallback. Headings are capped at eight words and no topic failure can stall transcription.
