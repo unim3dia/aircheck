@@ -45,7 +45,7 @@ struct ShowDetailView: View {
                 .frame(maxWidth: .infinity)
                 .clipped()
                 .overlay {
-                    LinearGradient(colors: [.clear, AircheckTheme.paper.opacity(0.96)], startPoint: .trailing, endPoint: .leading)
+                    LinearGradient(colors: [AircheckTheme.paper.opacity(0.94), AircheckTheme.paper.opacity(0.72), .clear], startPoint: .leading, endPoint: .trailing)
                 }
                 .clipShape(RoundedRectangle(cornerRadius: 26, style: .continuous))
             VStack(alignment: .leading, spacing: 12) {
@@ -55,13 +55,16 @@ struct ShowDetailView: View {
                 Text(show.displayTitle).font(.title3.weight(.medium)).frame(maxWidth: 260, alignment: .leading)
                 Text(show.durationText + "  ·  24 kbps archive stream").font(.subheadline).foregroundStyle(.secondary)
                 Button { player.play(show) } label: {
-                    Label(player.currentShow?.id == show.id && player.isPlaying ? "Playing" : "Listen from here", systemImage: "play.fill")
+                    Label(player.currentShow?.id == show.id && player.isPlaying ? "Playing" : "Hey Now", systemImage: "play.fill")
                         .font(.headline).frame(maxWidth: 260).padding(.vertical, 14)
                         .foregroundStyle(AircheckTheme.paper)
                         .background(AircheckTheme.ink, in: Capsule())
                 }
             }
             .padding(22)
+            .background(.ultraThinMaterial.opacity(0.42), in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .shadow(color: .white.opacity(0.72), radius: 10)
+            .foregroundStyle(AircheckTheme.ink)
         }
         .frame(height: 320)
         .padding(.top, 10)
