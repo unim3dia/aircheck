@@ -92,6 +92,8 @@ class TopicWindowTests(unittest.TestCase):
             "Rosie O'Donnell",
         )
         self.assertEqual(editorial_title("Radio Host Interviews George Takei"), "George Takei")
+        self.assertEqual(editorial_title("Discussion of Radio Industry Transitions"), "Radio Industry Transitions")
+        self.assertEqual(editorial_title("A Discussion on Personal Grooming"), "Personal Grooming")
 
     def test_five_hour_show_targets_seventeen_topic_cards(self):
         self.assertEqual(target_topic_count(5 * 60 * 60), 17)
@@ -130,7 +132,7 @@ class SQLiteExportTests(unittest.TestCase):
             show.mkdir()
             (show / "enrichment.json").write_text(json.dumps({
                 "showID": "2006-01-09",
-                "topics": [{"id": "opening", "title": "First Sirius Show", "summary": "The show debuts.", "startTime": 288, "imageURL": None}],
+                "topics": [{"id": "opening", "title": "Radio Host Discusses First Sirius Show", "summary": "The show debuts.", "startTime": 288, "imageURL": None}],
                 "transcript": [{"id": 0, "startTime": 288, "endTime": 293, "speaker": None, "text": "Welcome to satellite radio."}],
             }))
             database = root / "archive.sqlite"
@@ -139,6 +141,7 @@ class SQLiteExportTests(unittest.TestCase):
 
             connection = sqlite3.connect(database)
             self.assertEqual(connection.execute("select count(*) from segments").fetchone()[0], 1)
+            self.assertEqual(connection.execute("select title from topics").fetchone()[0], "First Sirius Show")
             hit = connection.execute("select show_id, segment_id from transcript_fts where transcript_fts match 'satellite'").fetchone()
             self.assertEqual(hit, ("2006-01-09", 0))
             connection.close()
