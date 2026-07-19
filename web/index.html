@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aircheck — a browsable listening archive of 2006 and 2007 broadcasts.">
+  <title>Aircheck</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#home">AIRCHECK</a>
+    <label class="global-search"><span>⌕</span><input id="global-search" type="search" placeholder="Search every show & transcript" autocomplete="off"></label>
+    <nav><button id="home-button">Home</button><button id="back-button">Back</button><button id="random-button" class="random">✦ Play a random segment</button><button id="toggle-button" class="transport" aria-label="Play current broadcast">▶ Play</button></nav>
+  </header>
+  <main id="app"></main>
+  <footer id="bottom-player" class="bottom-player" hidden>
+    <button id="player-title" class="player-title"><small id="player-date">ON YOUR DIAL</small><strong></strong><span id="player-segment"></span></button>
+    <div class="player-track"><input id="progress" type="range" min="0" max="100" value="0" aria-label="Playback position"><span id="mic-playhead" class="mic-icon" aria-hidden="true"><i></i><b></b></span></div>
+    <span id="player-time" class="player-time">0:00 / 0:00</span>
+    <button id="player-toggle" class="player-toggle" aria-label="Play current broadcast">▶</button>
+    <button id="skip-back" aria-label="Back 15 seconds">↶ 15</button><button id="skip-forward" aria-label="Forward 15 seconds">15 ↷</button>
+    <label class="volume-control" aria-label="Volume"><span id="volume-dial" class="volume-dial" aria-hidden="true"></span><input id="volume" type="range" min="0" max="1" step="0.01" value="1" aria-label="Volume"></label>
+    <audio id="audio"></audio>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
