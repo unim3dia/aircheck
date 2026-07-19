@@ -12,6 +12,18 @@ const go = value => { location.hash=value };
 const showRoute = (id, seconds=0) => go(`show/${id}/${Math.floor(seconds)}`);
 const esc = value => String(value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
 
+function updateMediaSession() {
+  if (!('mediaSession' in navigator) || !state.show) return;
+  if (typeof MediaMetadata !== 'undefined' && state.mediaShowId !== state.show.id) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: title(state.show), artist: state.show.date, album: 'Aircheck',
+      artwork: [{src:'assets/howard1.png',sizes:'512x512',type:'image/png'}]
+    });
+    state.mediaShowId=state.show.id;
+  }
+  navigator.mediaSession.playbackState = $('#audio').paused ? 'paused' : 'playing';
+}
+
 function setYear(year) { state.year=year; state.month=1; go('home'); }
 function card(show) { const date=new Date(`${show.date}T00:00:00Z`); return `<button class="show" data-show="${show.id}"><div class="date">${String(date.getUTCDate()).padStart(2,'0')}<small>${date.toLocaleDateString('en',{weekday:'short'}).toUpperCase()}</small></div><div><strong>${esc(title(show))}</strong><p>${duration(show.duration)}</p></div><span class="arrow">›</span></button>`; }
 
@@ -49,6 +61,7 @@ function updatePlayer() {
   $('#player-time').textContent=`${time(value)} / ${time(maximum)}`;
   const toggle=$('#toggle-button'); toggle.textContent=audio.paused?'▶ Play':'Ⅱ Pause'; toggle.setAttribute('aria-label', audio.paused?'Play current broadcast':'Pause current broadcast');
   $('#player-toggle').textContent=audio.paused?'▶':'Ⅱ'; $('#player-toggle').setAttribute('aria-label',audio.paused?'Play current broadcast':'Pause current broadcast');
+  updateMediaSession();
 }
 function play(show, at=0) {
   state.show=show; state.time=at;
@@ -105,5 +118,19 @@ $('#progress').oninput=event=>{ $('#audio').currentTime=Number(event.target.valu
 $('#volume').oninput=event=>{ const value=Number(event.target.value); $('#audio').volume=value; $('#volume-dial').style.setProperty('--volume-turn',`${-135+270*value}deg`); };
 let searchTimer; $('#global-search').oninput=event=>{ clearTimeout(searchTimer); const query=event.target.value; searchTimer=setTimeout(()=>{ if(query.trim().length>=3) go(`search/${encodeURIComponent(query.trim())}`); else if(route()[0]==='search') go('home'); },220); };
 $('#audio').ontimeupdate=()=>{ updatePlayer(); syncTranscript(); }; $('#audio').onloadedmetadata=updatePlayer; $('#audio').onplay=()=>{updatePlayer(); if(route()[0]==='show') renderDetail()}; $('#audio').onpause=()=>{updatePlayer(); if(route()[0]==='show') renderDetail()};
+if ('mediaSession' in navigator) {
+  navigator.mediaSession.setActionHandler('play', () => $('#audio').play());
+  navigator.mediaSession.setActionHandler('pause', () => $('#audio').pause());
+  navigator.mediaSession.setActionHandler('seekbackward', () => $('#audio').currentTime=Math.max(0,$('#audio').currentTime-15));
+  navigator.mediaSession.setActionHandler('seekforward', () => $('#audio').currentTime+=15);
+}
+let swipeStart=null;
+$('#app').addEventListener('touchstart', event => { if(route()[0]==='show' && event.touches.length===1) swipeStart={x:event.touches[0].clientX,y:event.touches[0].clientY}; }, {passive:true});
+$('#app').addEventListener('touchend', event => {
+  if(!swipeStart || route()[0]!=='show') return;
+  const point=event.changedTouches[0], dx=point.clientX-swipeStart.x, dy=point.clientY-swipeStart.y; swipeStart=null;
+  if(Math.abs(dx)<70 || Math.abs(dx)<Math.abs(dy)*1.25) return;
+  const next=dx<0?'transcript':'segments'; if(next!==state.tab) {state.tab=next; renderDetail(); syncTranscript();}
+}, {passive:true});
 window.onhashchange=render;
 fetch('data/catalog.json').then(response=>response.json()).then(data=>{state.catalog=data;render()});

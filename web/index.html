@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Aircheck — a browsable listening archive of 2006 and 2007 broadcasts.">
-  <title>Aircheck</title><link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#f6f0e5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Aircheck</title><link rel="stylesheet" href="styles.css"><link rel="manifest" href="site.webmanifest"><link rel="apple-touch-icon" href="assets/howard1.png">
 </head>
 <body>
   <header class="topbar">
@@ -19,7 +22,7 @@
     <button id="player-toggle" class="player-toggle" aria-label="Play current broadcast">▶</button>
     <button id="skip-back" aria-label="Back 15 seconds">↶ 15</button><button id="skip-forward" aria-label="Forward 15 seconds">15 ↷</button>
     <label class="volume-control" aria-label="Volume"><span id="volume-dial" class="volume-dial" aria-hidden="true"></span><input id="volume" type="range" min="0" max="1" step="0.01" value="1" aria-label="Volume"></label>
-    <audio id="audio"></audio>
+    <audio id="audio" preload="metadata"></audio>
   </footer>
   <script type="module" src="app.js"></script>
 </body>

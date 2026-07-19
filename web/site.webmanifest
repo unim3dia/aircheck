@@ -1,0 +1,12 @@
+{
+  "name": "Aircheck",
+  "short_name": "Aircheck",
+  "description": "A browsable listening archive of 2006 and 2007 broadcasts.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f0e5",
+  "theme_color": "#f6f0e5",
+  "icons": [
+    { "src": "assets/howard1.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
