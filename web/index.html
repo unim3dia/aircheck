@@ -17,13 +17,16 @@
   <main id="app"></main>
   <footer id="bottom-player" class="bottom-player" hidden>
     <button id="player-title" class="player-title"><small id="player-date">ON YOUR DIAL</small><strong></strong><span id="player-segment"></span></button>
-    <div class="player-track"><input id="progress" type="range" min="0" max="100" value="0" aria-label="Playback position"><span id="mic-playhead" class="mic-icon" aria-hidden="true"><i></i><b></b></span></div>
-    <span id="player-time" class="player-time">0:00 / 0:00</span>
-    <button id="player-toggle" class="player-toggle" aria-label="Play current broadcast">▶</button>
-    <button id="skip-back" aria-label="Back 15 seconds">↶ 15</button><button id="skip-forward" aria-label="Forward 15 seconds">15 ↷</button>
-    <label class="volume-control" aria-label="Volume"><span id="volume-dial" class="volume-dial" aria-hidden="true"></span><input id="volume" type="range" min="0" max="1" step="0.01" value="1" aria-label="Volume"></label>
+    <div class="player-track"><span id="elapsed" class="time-marker">0:00</span><div class="seek-rail"><input id="progress" type="range" min="0" max="100" value="0" aria-label="Playback position"><span id="mic-playhead" class="mic-icon" aria-hidden="true"><i></i><b></b></span></div><span id="remaining" class="time-marker">0:00</span></div>
+    <div class="player-controls"><button id="skip-back" aria-label="Back 15 seconds">↶ 15</button><button id="player-toggle" class="player-toggle" aria-label="Play current broadcast">▶</button><button id="skip-forward" aria-label="Forward 15 seconds">15 ↷</button><label class="volume-control" aria-label="Volume"><span id="volume-dial" class="volume-dial" aria-hidden="true"></span><input id="volume" type="range" min="0" max="1" step="0.01" value="1" aria-label="Volume"></label></div>
     <audio id="audio" preload="metadata"></audio>
   </footer>
+  <section id="expanded-player" class="expanded-player" hidden aria-label="Now playing">
+    <button id="close-player" class="close-player" aria-label="Minimize player">⌄</button><img src="assets/howard1.png" alt="Howard Stern at the microphone">
+    <p id="expanded-date" class="kicker"></p><h1 id="expanded-title"></h1><p id="expanded-segment"></p>
+    <div class="expanded-track"><input id="expanded-progress" type="range" min="0" max="100" value="0" aria-label="Playback position"></div>
+    <div class="expanded-controls"><button id="expanded-back">↶ 15</button><button id="expanded-toggle">▶</button><button id="expanded-forward">15 ↷</button></div>
+  </section>
   <script type="module" src="app.js"></script>
 </body>
 </html>
