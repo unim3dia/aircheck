@@ -43,7 +43,7 @@ struct MiniPlayer: View {
                     } label: {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(show.shortDate).font(.headline)
-                            Text(show.displayTitle).font(.caption.weight(.semibold)).lineLimit(1)
+                            Text(player.currentSectionTitle ?? show.displayTitle).font(.caption.weight(.semibold)).lineLimit(1)
                             Text(player.currentTime.timecode + " / " + show.duration.timecode).font(.caption2.monospacedDigit()).foregroundStyle(.secondary)
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -155,7 +155,8 @@ struct FullPlayerView: View {
                     Spacer()
                     SignalGlyph(isActive: player.isPlaying).scaleEffect(2.5).frame(height: 140)
                     VStack(spacing: 7) {
-                        Text(show.formattedDate).font(.system(.title2, design: .serif, weight: .semibold)).multilineTextAlignment(.center)
+                        Text(player.currentSectionTitle ?? show.displayTitle).font(.system(.title2, design: .serif, weight: .semibold)).multilineTextAlignment(.center)
+                        Text(show.formattedDate).font(.caption.weight(.semibold)).foregroundStyle(.secondary)
                         Text("AIRHCHECK").font(.caption.bold()).tracking(2).foregroundStyle(AircheckTheme.signal)
                     }
                     VStack(spacing: 8) {

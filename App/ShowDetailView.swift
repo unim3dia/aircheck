@@ -13,10 +13,8 @@ struct ShowDetailView: View {
     private var isPad: Bool { UIDevice.current.userInterfaceIdiom == .pad }
 
     private var liveHeadline: String {
-        guard player.currentShow?.id == show.id,
-              let index = show.topics.lastIndex(where: { $0.startTime <= player.currentTime })
-        else { return show.displayTitle }
-        return show.topics[index].title
+        guard player.currentShow?.id == show.id else { return show.topics.first?.title ?? show.displayTitle }
+        return player.currentSectionTitle ?? show.topics.first?.title ?? show.displayTitle
     }
 
     private enum DetailMode: String, CaseIterable { case stories = "Stories", transcript = "Transcript" }

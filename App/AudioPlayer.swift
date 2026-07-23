@@ -13,6 +13,13 @@ final class AudioPlayer {
     private(set) var history: [ListeningHistoryEntry] = []
     var showsFullPlayer = false
 
+    var currentSectionTitle: String? {
+        guard let show = currentShow else { return nil }
+        return show.topics.last(where: { $0.startTime <= currentTime })?.title
+            ?? show.topics.first?.title
+            ?? show.displayTitle
+    }
+
     @ObservationIgnored private let player = AVPlayer()
     @ObservationIgnored private var timeObserver: Any?
     @ObservationIgnored private let defaults = UserDefaults.standard
@@ -154,8 +161,9 @@ final class AudioPlayer {
 
     private func updateNowPlaying() {
         guard let show = currentShow else { return }
+        let sectionTitle = currentSectionTitle ?? show.displayTitle
         var info: [String: Any] = [
-            MPMediaItemPropertyTitle: show.formattedDate,
+            MPMediaItemPropertyTitle: sectionTitle,
             MPMediaItemPropertyAlbumTitle: "Airhcheck",
             MPMediaItemPropertyArtist: "The Howard Stern Show — 2006 archive",
             MPMediaItemPropertyPlaybackDuration: show.duration,
