@@ -163,7 +163,7 @@ final class AudioPlayer {
             MPNowPlayingInfoPropertyPlaybackRate: isPlaying ? 1.0 : 0.0
         ]
         if let image = UIImage(named: "Howard2") {
-            info[MPMediaItemPropertyArtwork] = MPMediaItemArtwork(bounds: image.size) { _ in image }
+            info[MPMediaItemPropertyArtwork] = MPMediaItemArtwork(boundsSize: image.size) { _ in image }
         }
         MPNowPlayingInfoCenter.default().nowPlayingInfo = info
     }
