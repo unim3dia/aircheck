@@ -161,7 +161,7 @@ final class AudioPlayer {
 
     private func updateNowPlaying() {
         guard let show = currentShow else { return }
-        let sectionTitle = currentSectionTitle ?? show.displayTitle
+        let sectionTitle = (currentSectionTitle ?? show.displayTitle) + " · " + show.date.formatted(.dateTime.month(.twoDigits).year(.twoDigits))
         var info: [String: Any] = [
             MPMediaItemPropertyTitle: sectionTitle,
             MPMediaItemPropertyAlbumTitle: "Airhcheck",

@@ -12,7 +12,7 @@
   <header class="topbar">
     <a class="wordmark" href="#home">AIRCHECK</a>
     <label class="global-search"><span>⌕</span><input id="global-search" type="search" placeholder="Search every show & transcript" autocomplete="off"></label>
-    <nav><button id="back-button" title="Back" aria-label="Back">‹</button><button id="random-button" class="random" title="Random segment" aria-label="Play a random segment">✦ Random segment</button><button id="toggle-button" class="transport" data-state="play" aria-label="Play current broadcast"></button><button id="history-button" title="Listening history" aria-label="Listening history">◷</button></nav>
+    <nav><button id="back-button" title="Back" aria-label="Back">‹</button><button id="random-button" class="random" title="Random segment" aria-label="Play a random segment">Random segment</button><button id="toggle-button" class="transport" data-state="play" aria-label="Play current broadcast"></button><button id="history-button" title="Listening history" aria-label="Listening history">◷</button></nav>
   </header>
   <main id="app"></main>
   <footer id="bottom-player" class="bottom-player" hidden><span class="player-lip" aria-hidden="true"></span>
@@ -22,6 +22,7 @@
     <audio id="audio" preload="metadata"></audio>
   </footer>
   <section id="expanded-player" class="expanded-player" hidden aria-label="Now playing">
+    <button id="expanded-random" class="expanded-random" aria-label="Play a random segment">Random</button>
     <button id="close-player" class="close-player" aria-label="Minimize player">−</button><img src="assets/howard1.png" alt="Howard Stern at the microphone">
     <p id="expanded-date" class="kicker"></p><h1 id="expanded-title"></h1><p id="expanded-segment"></p>
     <div class="expanded-track"><div class="expanded-times"><span id="expanded-elapsed">0:00</span><span id="expanded-remaining">−0:00</span></div><input id="expanded-progress" type="range" min="0" max="100" value="0" aria-label="Playback position"></div>
