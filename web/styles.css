@@ -55,6 +55,7 @@
 
 /* Expanded deck: oversized sleeve, solid receiver buttons, and the same moving mic. */
 .expanded-seek-rail{position:relative;padding:10px 0}.expanded-track input{appearance:none;-webkit-appearance:none;width:100%;height:4px;border-radius:99px;background:linear-gradient(90deg,#b52c2c 0%,#b52c2c var(--playhead-position,0%),#d8ccba var(--playhead-position,0%),#d8ccba 100%)}.expanded-track input::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:1px;height:1px;opacity:0}.expanded-track input::-moz-range-thumb{width:1px;height:1px;opacity:0;border:0}.expanded-mic-icon{top:50%;transform:translate(-50%,-50%) scale(1.08)}
+.seek-rail,.expanded-seek-rail{cursor:grab;touch-action:none}.seek-rail:active,.expanded-seek-rail:active{cursor:grabbing}.mic-icon{pointer-events:auto;cursor:grab;touch-action:none}.mic-icon:active{cursor:grabbing}
 @media(max-width:850px){.expanded-player{padding-top:46px}.expanded-player>img{width:min(390px,94vw);max-height:34vh}.expanded-controls{margin-top:15px}.expanded-controls button,.expanded-controls #expanded-toggle{height:64px;min-width:102px;font-size:16px!important}.expanded-controls #expanded-toggle{height:70px;min-width:80px;font-size:27px!important}.expanded-seek-rail{padding:14px 0}.expanded-mic-icon{transform:translate(-50%,-50%) scale(1.15)}}
 
 /* Mobile landing portrait sits behind the existing shelf rather than taking its space. */
