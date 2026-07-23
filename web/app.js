@@ -1,5 +1,5 @@
 const $ = selector => document.querySelector(selector);
-const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const state = {catalog:null,year:'2006',month:1,show:null,data:null,playingShow:null,playingData:null,tab:'segments',activeSegment:null,search:'',mediaShowId:null};
 const indexes={},showCache={}; let lastHistoryWrite=0;
 const time = seconds => {seconds=Math.max(0,Math.floor(seconds||0));return `${Math.floor(seconds/3600)}:${String(Math.floor(seconds%3600/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`};
@@ -19,14 +19,14 @@ function remember(){
 }
 function updateMediaSession(){
   if(!('mediaSession'in navigator)||!state.playingShow)return;
-  if(typeof MediaMetadata!=='undefined'&&state.mediaShowId!==state.playingShow.id){navigator.mediaSession.metadata=new MediaMetadata({title:title(state.playingShow),artist:state.playingShow.date,album:'Aircheck',artwork:[{src:'assets/howard1.png',sizes:'512x512',type:'image/png'}]});state.mediaShowId=state.playingShow.id;}
+  if(typeof MediaMetadata!=='undefined'&&state.mediaShowId!==state.playingShow.id){navigator.mediaSession.metadata=new MediaMetadata({title:title(state.playingShow),artist:state.playingShow.date,album:'Aircheck',artwork:[{src:'assets/howard2.png',sizes:'512x512',type:'image/png'}]});state.mediaShowId=state.playingShow.id;}
   navigator.mediaSession.playbackState=$('#audio').paused?'paused':'playing';
 }
 function card(show){const d=new Date(`${show.date}T00:00:00Z`);return `<button class="show" data-show="${show.id}"><div class="date">${String(d.getUTCDate()).padStart(2,'0')}<small>${d.toLocaleDateString('en',{weekday:'short'}).toUpperCase()}</small></div><div><strong>${esc(title(show))}</strong><p>${duration(show.duration)}</p></div><span class="arrow">›</span></button>`;}
 function historyShelf(){const byId=new Map(allShows().map(show=>[show.id,show]));const rows=savedHistory().map(item=>({...item,show:byId.get(item.id)})).filter(item=>item.show).slice(0,4);return rows.length?`<section class="history"><p class="kicker">LISTENING HISTORY</p><h2>Pick up the signal</h2>${rows.map(item=>`<button class="history-row" data-history="${item.id}" data-history-time="${item.position}"><span>${shortDate(item.date)}</span><strong>${esc(item.title)}</strong><em>${time(item.position)} · ${new Date(item.updatedAt).toLocaleDateString('en',{month:'short',day:'numeric'})}</em></button>`).join('')}</section>`:'';}
 function library(){
   const list=yearShows().filter(show=>new Date(`${show.date}T00:00:00Z`).getUTCMonth()+1===state.month);
-  $('#app').innerHTML=`<div class="shell"><aside class="rail"><p class="kicker">${state.year==='2006'?'THE FIRST SATELLITE YEAR':'SATELLITE YEAR TWO'}</p><img src="assets/howard1.png" alt="Howard Stern at the microphone">${historyShelf()}</aside><section class="library"><header class="library-head"><div class="date-wheel" aria-label="Browse broadcast date"><label><select id="month-wheel">${months.map((month,index)=>`<option value="${index+1}" ${state.month===index+1?'selected':''}>${month[0]+month.slice(1).toLowerCase()}</option>`).join('')}</select></label><label><select id="year-wheel"><option value="2006" ${state.year==='2006'?'selected':''}>2006</option><option value="2007" ${state.year==='2007'?'selected':''}>2007</option></select></label></div></header><div class="show-grid">${list.map(card).join('')}</div></section></div>`;
+  $('#app').innerHTML=`<div class="shell"><aside class="rail"><p class="kicker">${state.year==='2006'?'THE FIRST SATELLITE YEAR':'SATELLITE YEAR TWO'}</p><img src="assets/howard1.png" alt="Howard Stern at the microphone">${historyShelf()}</aside><section class="library"><header class="library-head"><div class="date-wheel" aria-label="Browse broadcast date"><label><select id="month-wheel">${months.map((month,index)=>`<option value="${index+1}" ${state.month===index+1?'selected':''}>${month}</option>`).join('')}</select></label><label><select id="year-wheel"><option value="2006" ${state.year==='2006'?'selected':''}>2006</option><option value="2007" ${state.year==='2007'?'selected':''}>2007</option></select></label></div></header><div class="show-grid">${list.map(card).join('')}</div></section></div>`;
 }
 async function detail(id){
   const show=allShows().find(item=>item.id===id);if(!show)return go('home');

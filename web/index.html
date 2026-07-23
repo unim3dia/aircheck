@@ -15,14 +15,14 @@
     <nav><button id="back-button" title="Back" aria-label="Back">‹</button><button id="random-button" class="random" title="Random segment" aria-label="Play a random segment">✦ Random segment</button><button id="toggle-button" class="transport" aria-label="Play current broadcast">▶ Play</button><button id="history-button" title="Listening history" aria-label="Listening history">◷</button></nav>
   </header>
   <main id="app"></main>
-  <footer id="bottom-player" class="bottom-player" hidden>
+  <footer id="bottom-player" class="bottom-player" hidden><span class="player-lip" aria-hidden="true"></span>
     <button id="player-title" class="player-title"><small id="player-date">ON YOUR DIAL</small><strong></strong><span id="player-segment"></span></button>
     <div class="player-track"><span id="elapsed" class="time-marker">0:00</span><div class="seek-rail"><input id="progress" type="range" min="0" max="100" value="0" aria-label="Playback position"><span id="mic-playhead" class="mic-icon" aria-hidden="true"><i></i><b></b></span></div><span id="remaining" class="time-marker">0:00</span></div>
     <div class="player-controls"><button id="skip-back" aria-label="Back 15 seconds">◀◀ 15</button><button id="player-toggle" class="player-toggle" aria-label="Play current broadcast">▶</button><button id="skip-forward" aria-label="Forward 15 seconds">15 ▶▶</button><div class="volume-control"><button id="mute-volume" class="volume-dial" aria-label="Mute volume"><span id="volume-state"></span></button></div></div>
     <audio id="audio" preload="metadata"></audio>
   </footer>
   <section id="expanded-player" class="expanded-player" hidden aria-label="Now playing">
-    <button id="close-player" class="close-player" aria-label="Minimize player">⌄</button><img src="assets/howard1.png" alt="Howard Stern at the microphone">
+    <button id="close-player" class="close-player" aria-label="Minimize player">−</button><img src="assets/howard1.png" alt="Howard Stern at the microphone">
     <p id="expanded-date" class="kicker"></p><h1 id="expanded-title"></h1><p id="expanded-segment"></p>
     <div class="expanded-track"><div class="expanded-times"><span id="expanded-elapsed">0:00</span><span id="expanded-remaining">−0:00</span></div><input id="expanded-progress" type="range" min="0" max="100" value="0" aria-label="Playback position"></div>
     <div class="expanded-controls"><button id="expanded-back">◀◀ 15</button><button id="expanded-toggle">▶</button><button id="expanded-forward">15 ▶▶</button></div>
