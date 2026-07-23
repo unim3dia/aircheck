@@ -4,10 +4,20 @@ import SwiftUI
 struct ShowDetailView: View {
     @Environment(AudioPlayer.self) private var player
     @Environment(CatalogStore.self) private var catalog
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     let show: Show
     @State private var mode = DetailMode.stories
     @State private var transcriptSegments: [TranscriptSegment] = []
     @State private var isLoadingTranscript = false
+
+    private var isPad: Bool { UIDevice.current.userInterfaceIdiom == .pad }
+
+    private var liveHeadline: String {
+        guard player.currentShow?.id == show.id,
+              let index = show.topics.lastIndex(where: { $0.startTime <= player.currentTime })
+        else { return show.displayTitle }
+        return show.topics[index].title
+    }
 
     private enum DetailMode: String, CaseIterable { case stories = "Stories", transcript = "Transcript" }
 
@@ -23,7 +33,10 @@ struct ShowDetailView: View {
                     .pickerStyle(.segmented)
                     if mode == .stories { stories } else { transcript }
                 }
-                .padding(.horizontal, 20).padding(.bottom, 40)
+                .frame(maxWidth: 1_120, alignment: .leading)
+                .padding(.horizontal, isPad ? 24 : 20)
+                .padding(.bottom, 40)
+                .frame(maxWidth: .infinity)
             }
         }
         .navigationTitle(show.shortDate)
@@ -36,7 +49,15 @@ struct ShowDetailView: View {
         }
     }
 
-    private var hero: some View {
+    @ViewBuilder private var hero: some View {
+        if isPad {
+            wideHero
+        } else {
+            compactHero
+        }
+    }
+
+    private var compactHero: some View {
         ZStack(alignment: .leading) {
             Image(uiImage: UIImage(named: "Howard2") ?? UIImage())
                 .resizable()
@@ -52,7 +73,7 @@ struct ShowDetailView: View {
                 Text(show.weekday).font(.caption.bold()).tracking(3).foregroundStyle(AircheckTheme.signal)
                 Text(show.date.formatted(.dateTime.month(.wide).day()))
                     .font(.system(size: 48, weight: .bold, design: .serif)).tracking(-3)
-                Text(show.displayTitle).font(.title3.weight(.medium)).frame(maxWidth: 260, alignment: .leading)
+                Text(liveHeadline).font(.title3.weight(.medium)).frame(maxWidth: 260, alignment: .leading)
                 Text(show.durationText + "  ·  24 kbps archive stream").font(.subheadline).foregroundStyle(.secondary)
                 Button { player.play(show) } label: {
                     Label(player.currentShow?.id == show.id && player.isPlaying ? "Playing" : "Hey Now", systemImage: "play.fill")
@@ -70,6 +91,49 @@ struct ShowDetailView: View {
         .padding(.top, 10)
     }
 
+    private var wideHero: some View {
+        ZStack(alignment: .leading) {
+            Image(uiImage: UIImage(named: "Howard2") ?? UIImage())
+                .resizable()
+                .scaledToFill()
+                .frame(height: 390)
+                .frame(maxWidth: .infinity)
+                .clipped()
+                .overlay {
+                    LinearGradient(
+                        colors: [AircheckTheme.paper.opacity(0.98), AircheckTheme.paper.opacity(0.78), AircheckTheme.paper.opacity(0.18), .clear],
+                        startPoint: .leading,
+                        endPoint: .trailing
+                    )
+                }
+                .clipShape(RoundedRectangle(cornerRadius: 34, style: .continuous))
+
+            VStack(alignment: .leading, spacing: 14) {
+                Text(show.weekday).font(.caption.bold()).tracking(3).foregroundStyle(AircheckTheme.signal)
+                Text(show.date.formatted(.dateTime.month(.wide).day()))
+                    .font(.system(size: 64, weight: .bold, design: .serif)).tracking(-4)
+                Text(liveHeadline)
+                    .font(.system(.title2, design: .serif, weight: .semibold))
+                    .frame(maxWidth: 400, alignment: .leading)
+                Text(show.durationText + "  ·  24 kbps archive stream")
+                    .font(.subheadline).foregroundStyle(.secondary)
+                Button { player.play(show) } label: {
+                    Label(player.currentShow?.id == show.id && player.isPlaying ? "Playing" : "Hey Now", systemImage: "play.fill")
+                        .font(.headline).padding(.horizontal, 24).padding(.vertical, 15)
+                        .foregroundStyle(AircheckTheme.paper)
+                        .background(AircheckTheme.ink, in: Capsule())
+                }
+            }
+            .padding(30)
+            .background(.ultraThinMaterial.opacity(0.38), in: RoundedRectangle(cornerRadius: 24, style: .continuous))
+            .shadow(color: .white.opacity(0.72), radius: 12)
+            .foregroundStyle(AircheckTheme.ink)
+            .padding(30)
+        }
+        .frame(height: 390)
+        .padding(.top, 12)
+    }
+
     @ViewBuilder private var stories: some View {
         if show.topics.isEmpty {
             VStack(alignment: .leading, spacing: 10) {
@@ -79,7 +143,13 @@ struct ShowDetailView: View {
                 Label("Index pending", systemImage: "waveform.badge.magnifyingglass").font(.subheadline.bold()).padding(.top, 6)
             }.softCard(AircheckTheme.blue)
         } else {
-            LazyVStack(spacing: 18) {
+            LazyVGrid(
+                columns: isPad
+                    ? [GridItem(.flexible(), spacing: 20), GridItem(.flexible(), spacing: 20)]
+                    : [GridItem(.flexible())],
+                alignment: .leading,
+                spacing: 18
+            ) {
                 ForEach(Array(show.topics.enumerated()), id: \.element.id) { index, topic in
                     TopicCard(topic: topic, color: AircheckTheme.storyColors[index % AircheckTheme.storyColors.count])
                 }

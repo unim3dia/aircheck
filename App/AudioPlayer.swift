@@ -2,6 +2,7 @@ import AircheckCore
 import AVFoundation
 import MediaPlayer
 import Observation
+import UIKit
 
 @Observable
 final class AudioPlayer {
@@ -153,7 +154,7 @@ final class AudioPlayer {
 
     private func updateNowPlaying() {
         guard let show = currentShow else { return }
-        MPNowPlayingInfoCenter.default().nowPlayingInfo = [
+        var info: [String: Any] = [
             MPMediaItemPropertyTitle: show.formattedDate,
             MPMediaItemPropertyAlbumTitle: "Airhcheck",
             MPMediaItemPropertyArtist: "The Howard Stern Show — 2006 archive",
@@ -161,6 +162,10 @@ final class AudioPlayer {
             MPNowPlayingInfoPropertyElapsedPlaybackTime: currentTime,
             MPNowPlayingInfoPropertyPlaybackRate: isPlaying ? 1.0 : 0.0
         ]
+        if let image = UIImage(named: "Howard2") {
+            info[MPMediaItemPropertyArtwork] = MPMediaItemArtwork(bounds: image.size) { _ in image }
+        }
+        MPNowPlayingInfoCenter.default().nowPlayingInfo = info
     }
 
     private func progressKey(_ showID: String) -> String { "playback.progress.\(showID)" }
