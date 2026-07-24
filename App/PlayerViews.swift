@@ -69,6 +69,12 @@ struct MiniPlayer: View {
             .foregroundStyle(AircheckTheme.ink)
             .frame(minHeight: 58, maxHeight: 64)
             .ignoresSafeArea(edges: .bottom)
+            .simultaneousGesture(
+                DragGesture(minimumDistance: 18)
+                    .onEnded { gesture in
+                        if gesture.translation.height < -38 { player.showsFullPlayer = true }
+                    }
+            )
         }
     }
 }
