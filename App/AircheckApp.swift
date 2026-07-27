@@ -5,6 +5,7 @@ struct AircheckApp: App {
     @State private var catalog = CatalogStore()
     @State private var player = AudioPlayer()
     @State private var progress = ProgressStore()
+    @AppStorage("aircheck.appearance") private var appearance = "light"
 
     var body: some Scene {
         WindowGroup {
@@ -12,7 +13,7 @@ struct AircheckApp: App {
                 .environment(catalog)
                 .environment(player)
                 .environment(progress)
-                .preferredColorScheme(.light)
+                .preferredColorScheme(appearance == "dark" ? .dark : .light)
                 .task { await catalog.load() }
         }
     }

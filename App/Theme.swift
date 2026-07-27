@@ -1,9 +1,12 @@
 import SwiftUI
 
 enum AircheckTheme {
-    static let paper = Color(red: 0.965, green: 0.945, blue: 0.905)
-    static let paperDeep = Color(red: 0.91, green: 0.865, blue: 0.79)
-    static let ink = Color(red: 0.10, green: 0.095, blue: 0.085)
+    private static func adaptive(light: UIColor, dark: UIColor) -> Color {
+        Color(uiColor: UIColor { $0.userInterfaceStyle == .dark ? dark : light })
+    }
+    static let paper = adaptive(light: UIColor(red: 0.965, green: 0.945, blue: 0.905, alpha: 1), dark: UIColor(red: 0.09, green: 0.095, blue: 0.085, alpha: 1))
+    static let paperDeep = adaptive(light: UIColor(red: 0.91, green: 0.865, blue: 0.79, alpha: 1), dark: UIColor(red: 0.16, green: 0.17, blue: 0.15, alpha: 1))
+    static let ink = adaptive(light: UIColor(red: 0.10, green: 0.095, blue: 0.085, alpha: 1), dark: UIColor(red: 0.95, green: 0.92, blue: 0.86, alpha: 1))
     static let signal = Color(red: 0.72, green: 0.16, blue: 0.12)
     static let peach = Color(red: 0.91, green: 0.59, blue: 0.45)
     static let blue = Color(red: 0.47, green: 0.64, blue: 0.66)
