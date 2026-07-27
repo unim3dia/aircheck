@@ -2,7 +2,7 @@ const $ = selector => document.querySelector(selector);
 const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const state = {catalog:null,year:'2006',month:1,show:null,data:null,playingShow:null,playingData:null,tab:'segments',activeSegment:null,search:'',mediaShowId:null};
 const indexes={},showCache={}; let lastHistoryWrite=0;
-function setTheme(theme){document.body.dataset.theme=theme;localStorage.setItem('aircheck-theme',theme);const dark=theme==='dark',button=$('#theme-button');button.textContent=dark?'☀':'☾';button.title=dark?'Switch to light mode':'Switch to dark mode';button.setAttribute('aria-label',button.title);document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#171816':'#f6f0e5')}
+function setTheme(theme){document.documentElement.dataset.theme=theme;document.body.dataset.theme=theme;document.documentElement.style.colorScheme=theme;localStorage.setItem('aircheck-theme',theme);const dark=theme==='dark',button=$('#theme-button');button.textContent=dark?'☀':'☾';button.title=dark?'Switch to light mode':'Switch to dark mode';button.setAttribute('aria-label',button.title);document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#171816':'#f6f0e5')}
 const time = seconds => {seconds=Math.max(0,Math.floor(seconds||0));return `${Math.floor(seconds/3600)}:${String(Math.floor(seconds%3600/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`};
 const duration = seconds => `${Math.floor(seconds/3600)} hr ${Math.floor(seconds%3600/60)} min`;
 const shortDate = date => {const [year,month,day]=date.split('-');return `${month}/${day}/${year.slice(2)}`};
