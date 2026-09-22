@@ -14,6 +14,7 @@
     <label class="global-search"><span>⌕</span><input id="global-search" type="search" placeholder="Search every show & transcript" autocomplete="off"></label>
     <nav><button id="back-button" title="Back" aria-label="Back">‹</button><button id="random-button" class="random" title="Random segment" aria-label="Play a random segment">Random segment</button><button id="toggle-button" class="transport" data-state="play" aria-label="Play current broadcast"></button><button id="theme-button" title="Switch to dark mode" aria-label="Switch to dark mode">☾</button><button id="history-button" title="Listening history" aria-label="Listening history">◷</button></nav>
   </header>
+  <nav class="collection-nav" aria-label="Explore Aircheck"><a href="#home" data-section="broadcasts">Broadcasts</a><a href="#favorites" data-section="favorites">Fan favorites</a></nav>
   <main id="app"></main>
   <footer id="bottom-player" class="bottom-player" hidden><span class="player-lip" aria-hidden="true"></span>
     <button id="player-title" class="player-title"><small id="player-date">ON YOUR DIAL</small><strong></strong><span id="player-segment"></span></button>
@@ -28,6 +29,7 @@
     <div class="expanded-track"><div class="expanded-times"><span id="expanded-elapsed">0:00</span><span id="expanded-remaining">−0:00</span></div><div class="expanded-seek-rail"><input id="expanded-progress" type="range" min="0" max="100" value="0" aria-label="Playback position"><span id="expanded-mic-playhead" class="mic-icon expanded-mic-icon" aria-hidden="true"><i></i><b></b></span></div></div>
     <div class="expanded-controls"><button id="expanded-back">◀◀ 15</button><button id="expanded-toggle">▶</button><button id="expanded-forward">15 ▶▶</button></div>
   </section>
+  <link rel="stylesheet" href="favorites.css">
   <script type="module" src="app.js"></script>
 </body>
 </html>
