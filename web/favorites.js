@@ -2,6 +2,14 @@
 // Times refer to this archive's files; transcript-checked, not audio-audited.
 import gayPapa from './gay-papa.generated.js';
 export const favorites = [
+  {
+    id:'eric-ambien', title:'Eric the Midget Beats Ambien', category:'Studio classics', year:'2008', people:'Eric the Midget · JD · Howard',
+    description:'JD says Eric’s American Idol commentary show was so soporific he had to stand up to stay awake. Howard plays the tape, Eric calls in, and the studio keeps making the case.',
+    context:'The February 13, 2008 rundown places this beside Artie’s second sick day and Teddy’s call. This entry starts when Howard turns to Eric’s show, then lets the broadcast continue through the clips and Eric’s defense.',
+    aliases:'Eric the Midget Beats Ambien American Idol commentary JD Kendra', main:0,
+    chapters:[{show:'2008-02-13',at:738.78,label:'The tape and the call',title:'Eric’s show puts JD to sleep',description:'Howard introduces Eric’s American Idol commentary show, JD makes his plea, and Eric calls in to defend it.'}],
+    sources:[['Official February 13 rundown','https://www.howardstern.com/show/2008/02/13/one-out-of-three-aint-bad-rundowngallerymodel-8275/'],['Fan discussion of the 2008 run','https://www.reddit.com/r/howardstern/comments/krlt8s']]
+  },
   gayPapa,
   {
     id:'mike-walker-fart', title:'The Mike Walker Fart', category:'Studio classics', year:'2006', people:'Mike Walker · Richard · Artie',
