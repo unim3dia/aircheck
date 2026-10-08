@@ -1,15 +1,15 @@
 import {createFavorites} from './favorites.js';
 const $ = selector => document.querySelector(selector);
 const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-const state = {catalog:null,year:'2006',month:1,show:null,data:null,playingShow:null,playingData:null,tab:'segments',activeSegment:null,search:'',mediaShowId:null,sharedPlayerRoute:null};
+const state = {catalog:null,cassettes:null,year:'2006',month:1,show:null,data:null,playingShow:null,playingData:null,tab:'segments',activeSegment:null,search:'',mediaShowId:null,sharedPlayerRoute:null};
 const indexes={},showCache={}; let lastHistoryWrite=0;
 function setTheme(theme,remember=true){document.documentElement.dataset.theme=theme;document.body.dataset.theme=theme;document.documentElement.style.colorScheme=theme;if(remember)localStorage.setItem('aircheck-theme',theme);const dark=theme==='dark',button=$('#theme-button');button.textContent=dark?'☀':'☾';button.title=dark?'Switch to light mode':'Switch to dark mode';button.setAttribute('aria-label',button.title);document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#171816':'#f6f0e5')}
 const time = seconds => {seconds=Math.max(0,Math.floor(seconds||0));return `${Math.floor(seconds/3600)}:${String(Math.floor(seconds%3600/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`};
 const duration = seconds => `${Math.floor(seconds/3600)} hr ${Math.floor(seconds%3600/60)} min`;
-const shortDate = date => {const [year,month,day]=date.split('-');return `${month}/${day}/${year.slice(2)}`};
-const monthYear = date => {const [year,month]=date.split('-');return `${month}/${year.slice(2)}`};
-const title = show => show.topics?.[0]?.title || 'Archive broadcast';
-const allShows=()=>Object.values(state.catalog||{}).flat(); const yearShows=()=>state.catalog?.[state.year]||[];
+const shortDate = date => {const [year,month,day]=date.split('-');return month&&day?`${month}/${day}/${year.slice(2)}`:year==='undated'?'Date unknown':`${year} · Exact date unknown`};
+const monthYear = date => {const [year,month]=date.split('-');return month?`${month}/${year.slice(2)}`:year==='undated'?'Undated tape':year};
+const title = show => show.topics?.[0]?.title || show.title || 'Archive broadcast';
+const allShows=()=>[...Object.values(state.catalog||{}).flat(),...(state.cassettes?.items||[])]; const yearShows=()=>state.catalog?.[state.year]||[];
 const route=()=>location.hash.replace(/^#/,'').split('/'); const go=value=>{location.hash=value}; const showRoute=(id,seconds=0)=>go(`show/${id}/${Math.floor(seconds)}`);
 const esc=value=>String(value||'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
 const favoriteRoom=createFavorites({escape:esc,time,date:shortDate,playChapter:async chapter=>{const show=allShows().find(item=>item.id===chapter.show);if(!show)throw new Error('Broadcast unavailable');const data=await loadShowData(show.id,show);await play(show,chapter.at,data);}});
@@ -29,11 +29,15 @@ function updateMediaSession(){
   if(typeof MediaMetadata!=='undefined'&&state.mediaShowId!==mediaKey){navigator.mediaSession.metadata=new MediaMetadata({title:lockTitle,artist:shortDate(state.playingShow.date),album:'Aircheck',artwork:[{src:'assets/howard2.png',sizes:'512x512',type:'image/png'}]});state.mediaShowId=mediaKey;}
   navigator.mediaSession.playbackState=$('#audio').paused?'paused':'playing';
 }
-function card(show){const d=new Date(`${show.date}T00:00:00Z`);return `<button class="show" data-show="${show.id}"><div class="date">${String(d.getUTCDate()).padStart(2,'0')}<small>${d.toLocaleDateString('en',{weekday:'short'}).toUpperCase()}</small></div><div><strong>${esc(title(show))}</strong><p>${duration(show.duration)}</p></div><span class="arrow">›</span></button>`;}
+function card(show){const d=new Date(`${show.date}T00:00:00Z`),dateLabel=Number.isNaN(d.getTime())?show.date:String(d.getUTCDate()).padStart(2,'0'),dayLabel=Number.isNaN(d.getTime())?'TAPE':'ARCHIVE',tape=show.id.startsWith('cassette-');return `<button class="show" data-show="${show.id}"><div class="date">${dateLabel}<small>${dayLabel}</small></div><div><strong>${esc(title(show))}</strong><p>${tape?`${esc(shortDate(show.date))} · `:''}${show.duration?duration(show.duration):'Streamable tape'}</p></div><span class="arrow">›</span></button>`;}
 function historyShelf(){const byId=new Map(allShows().map(show=>[show.id,show]));const rows=savedHistory().map(item=>({...item,show:byId.get(item.id)})).filter(item=>item.show).slice(0,4);return rows.length?`<section class="history"><p class="kicker">LISTENING HISTORY</p><h2>Pick up the signal</h2>${rows.map(item=>`<button class="history-row" data-history="${item.id}" data-history-time="${item.position}"><span>${shortDate(item.date)}</span><strong>${esc(item.title)}</strong><em>${time(item.position)} · ${new Date(item.updatedAt).toLocaleDateString('en',{month:'short',day:'numeric'})}</em></button>`).join('')}</section>`:'';}
 function library(){
   const list=yearShows().filter(show=>new Date(`${show.date}T00:00:00Z`).getUTCMonth()+1===state.month);
   $('#app').innerHTML=`<div class="shell"><aside class="rail"><p class="kicker">${state.year==='2006'?'THE FIRST SATELLITE YEAR':state.year==='2007'?'SATELLITE YEAR TWO':'SATELLITE YEAR THREE'}</p><img src="assets/howard1.png" alt="Howard Stern at the microphone">${historyShelf()}</aside><section class="library"><header class="library-head"><div class="date-wheel" aria-label="Browse broadcast date"><label><select id="month-wheel">${months.map((month,index)=>`<option value="${index+1}" ${state.month===index+1?'selected':''}>${month}</option>`).join('')}</select></label><label><select id="year-wheel"><option value="2006" ${state.year==='2006'?'selected':''}>2006</option><option value="2007" ${state.year==='2007'?'selected':''}>2007</option><option value="2008" ${state.year==='2008'?'selected':''}>2008</option></select></label></div></header><div class="show-grid">${list.map(card).join('')}</div></section></div>`;
+}
+function cassetteLibrary(){
+  const items=state.cassettes?.items||[], years=[...new Set(items.map(item=>item.date.slice(0,4)))];
+  $('#app').innerHTML=`<section class="cassette-library"><p class="kicker">THE CASSETTE TAPES</p><h1>Howard Stern Show Cassette Tapes</h1><p class="note">Digitized tapes spanning the early K-Rock years through the 1990s. Every entry is streamable; transcripts, segment notes, and historical context will be added in stages.</p>${years.map(year=>`<section class="cassette-year"><h2>${year==='unda'?'Undated':year}</h2><div class="show-grid">${items.filter(item=>item.date.slice(0,4)===year).map(card).join('')}</div></section>`).join('')}</section>`;
 }
 async function detail(id){
   const show=allShows().find(item=>item.id===id);if(!show)return go('home');
@@ -69,7 +73,7 @@ function historyPage(){const byId=new Map(allShows().map(show=>[show.id,show])),
 async function render(){
   const current=route();
   document.querySelectorAll('[data-section]').forEach(link=>{
-    if(link.dataset.section===(current[0]==='favorites'?'favorites':'broadcasts'))link.setAttribute('aria-current','page');
+    if(link.dataset.section===(current[0]==='favorites'?'favorites':current[0]==='cassettes'?'cassettes':'broadcasts'))link.setAttribute('aria-current','page');
     else link.removeAttribute('aria-current');
   });
   if(current[0]!=='player'&&state.sharedPlayerRoute){state.sharedPlayerRoute=null;closeExpanded();}
@@ -78,6 +82,8 @@ async function render(){
     if(!show)return go('home');
     if(state.sharedPlayerRoute!==key){state.sharedPlayerRoute=key;await detail(id);play(state.show,at,state.data)?.catch(()=>{});}
     openExpanded();
+  }else if(current[0]==='cassettes'){
+    state.randomMode=false;cassetteLibrary();
   }else if(current[0]==='favorites'){
     state.randomMode=false;$('#app').innerHTML=favoriteRoom.render(current[1]);window.scrollTo({top:0,behavior:'instant'});
   }else if(current[0]==='show'){
@@ -100,4 +106,4 @@ if('mediaSession'in navigator){navigator.mediaSession.setActionHandler('play',()
 let swipeStart=null;$('#app').addEventListener('touchstart',event=>{if(route()[0]==='show'&&event.touches.length===1)swipeStart={x:event.touches[0].clientX,y:event.touches[0].clientY}},{passive:true});$('#app').addEventListener('touchend',event=>{if(!swipeStart||route()[0]!=='show')return;const point=event.changedTouches[0],dx=point.clientX-swipeStart.x,dy=point.clientY-swipeStart.y;swipeStart=null;if(Math.abs(dx)<70||Math.abs(dx)<Math.abs(dy)*1.25)return;const next=dx<0?'transcript':'segments';if(next!==state.tab){state.tab=next;renderDetail();syncTranscript()}},{passive:true});
 let playerTouch=null;$('#bottom-player').addEventListener('touchstart',event=>{playerTouch={x:event.touches[0].clientX,y:event.touches[0].clientY}},{passive:true});$('#bottom-player').addEventListener('touchend',event=>{if(playerTouch.y-event.changedTouches[0].clientY>45)openExpanded();playerTouch=null},{passive:true});$('#expanded-player').addEventListener('touchstart',event=>{playerTouch={x:event.touches[0].clientX,y:event.touches[0].clientY}},{passive:true});$('#expanded-player').addEventListener('touchend',event=>{const point=event.changedTouches[0],dx=point.clientX-playerTouch.x,dy=point.clientY-playerTouch.y;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy))nextSegment(dx<0?1:-1);else if(dy>60)closeExpanded();playerTouch=null},{passive:true});
 let mousePlayerDrag=null;$('#bottom-player').addEventListener('pointerdown',event=>{if(event.pointerType==='mouse'&&!event.target.closest('input'))mousePlayerDrag={x:event.clientX,y:event.clientY}});$('#bottom-player').addEventListener('pointerup',event=>{if(mousePlayerDrag&&mousePlayerDrag.y-event.clientY>45)openExpanded();mousePlayerDrag=null});
-window.onhashchange=render;Promise.all([fetch('data/catalog.json').then(response=>response.json()),fetch('data/catalog-2008.json').then(response=>response.json()),fetch('data/catalog-2008-rest.json').then(response=>response.json())]).then(([data,shows2008,shows2008Rest])=>{state.catalog={...data,'2008':[...shows2008,...shows2008Rest].sort((left,right)=>left.date.localeCompare(right.date))};render()});
+window.onhashchange=render;Promise.all([fetch('data/catalog.json').then(response=>response.json()),fetch('data/catalog-2008.json').then(response=>response.json()),fetch('data/catalog-2008-rest.json').then(response=>response.json()),fetch('data/catalog-cassettes.json').then(response=>response.json())]).then(([data,shows2008,shows2008Rest,cassettes])=>{state.catalog={...data,'2008':[...shows2008,...shows2008Rest].sort((left,right)=>left.date.localeCompare(right.date))};state.cassettes=cassettes;render()});
