@@ -155,18 +155,54 @@
     {
       "id": "cassette-the-howard-stern-show-1986-02-20-inc-k-rock-morning-shift-day-3",
       "date": "1986-02-20",
-      "title": "1986-02-20 INC K-Rock Morning Shift Day 3",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Neighborhood Tag Sales & Receptionist Frustrations",
+      "summary": "A caller describes unusual behavior in his neighborhood, including upper-middle class residents holding tag sales and using garage chairs. The conversation shifts to the difficulties faced by receptionists at local businesses, with callers expressing frustration over their perceived incompetence when answering phones.",
+      "duration": 3783.88,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201986-02-20%20INC%20K-Rock%20Morning%20Shift%20Day%203.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1986-02-20 INC K-Rock Morning Shift Day 3",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Neighborhood Tag Sales & Receptionist Frustrations",
+          "summary": "A caller describes unusual behavior in his neighborhood, including upper-middle class residents holding tag sales and using garage chairs. The conversation shifts to the difficulties faced by receptionists at local businesses, with callers expressing frustration over their perceived incompetence when answering phones.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "H&R Block Hostage Situation & Weather Forecast",
+          "summary": "Following a hostage situation at an H&R Block office involving fired employee Eddie Hernandez who took the manager and his son captive, police negotiations continued until Hernandez’s surrender after unsuccessful attempts to contact family. CBS News reported production of ‘The Equalizer’ was halted while weather updates detailed rain forecasts across western states.",
+          "startTime": 631.24,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Stern Bow’s Radio Assault",
+          "summary": "Stern Bow attempts to disrupt a morning radio show through increasingly bizarre challenges and conversations, involving giveaways, personal questions, and absurd demands. The hosts engage in playful banter and unusual requests with callers as Stern Bow tries to establish dominance.",
+          "startTime": 1262.36,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Traffic Reports and Unstructured Conversations",
+          "summary": "During the broadcast, traffic reports detail congested roadways in New York City including BQE, FDR Drive, and LIE with pothole warnings. Frequent interruptions include a lengthy conversation between Howard Stern and an unidentified caller discussing Eisenhower, Carter, personal preferences, explicit content requests for London travel, and various unrelated topics.",
+          "startTime": 1893.28,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Gary Attempts to Contact France and Nils Lofgren",
+          "summary": "During the broadcast, hosts discuss Gary’s attempts to contact someone in France referencing musician Nils Lofgren's past involvement with Bruce Springsteen. They debate a remote appearance from Drivehead, make lighthearted comments about Lofgren’s bandanas and unusual behavior, and attempt unsuccessfully to reach an operator for a call to France.",
+          "startTime": 2519.52,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Radio Hosts Attempt to Contact French Tailor",
+          "summary": "During a radio broadcast, hosts repeatedly attempt to contact Taylor, a tailor in Hempstead, Long Island via telephone. The calls fail due to circuit issues and difficulty reaching him directly, leading to humorous exchanges about international communication and attempts to understand his potential interests.",
+          "startTime": 3151.92,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1986-02-20 INC K-Rock Morning Shift Day 3"
@@ -428,7 +464,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1988-06-xx-live-from-london-inc",
-      "date": "1988",
+      "date": "1988-06",
       "title": "1988-06-xx Live from London INC",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -447,7 +483,7 @@
     },
     {
       "id": "cassette-clip-jack-bruce-leslie-west-theme-for-an-imaginary-western-live-on-the-howard-stern-show-june-1988",
-      "date": "1988",
+      "date": "1988-06",
       "title": "[CLIP] Jack Bruce & Leslie West - Theme For An Imaginary Western (Live on The Howard Stern Show, June 1988)",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -485,7 +521,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1989-tape-007-1989-03",
-      "date": "1989",
+      "date": "1989-03",
       "title": "1989 Tape 007 1989-03",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -561,7 +597,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1989-tape-011-1989-04",
-      "date": "1989",
+      "date": "1989-04",
       "title": "1989 Tape 011 1989-04",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -618,7 +654,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1989-tape-014-1989-04-best-of-stern",
-      "date": "1989",
+      "date": "1989-04",
       "title": "1989 Tape 014 1989-04 Best of Stern",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -2871,7 +2907,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1989-tape-095-1989-09-best-of-stern",
-      "date": "1989",
+      "date": "1989-09",
       "title": "Geraldo Issues Repeated Child Removal Warning",
       "summary": "During the broadcast, Geraldo Rivera repeatedly urged viewers to remove their children from the room due to concerns about potentially disturbing content. He issued fourteen disclaimers and escalated his insistence on this action before transitioning into commercial breaks and discussing unrelated topics like Ozzy Osbourne’s tattoos or a fetus discussion.",
       "duration": 5155.08,
@@ -2926,7 +2962,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1989-tape-096-1989-09-best-of-stern",
-      "date": "1989",
+      "date": "1989-09",
       "title": "Dominic Barbara’s Chaotic Courtroom Attempt",
       "summary": "During a radio segment, super lawyer Dominic Barbara attempts to simulate a courtroom scene with increasingly bizarre and unsuccessful results. The segment devolves into fabricated stories of rape, chaotic phone calls demanding assistance, and ultimately ends with the show's host questioning his professionalism.",
       "duration": 5375.49,
@@ -3743,18 +3779,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-tape-121",
       "date": "1989",
-      "title": "1989 Tape 121",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Larry King’s Marriage & Turkey Hunting",
+      "summary": "During a radio broadcast, callers discuss Larry King’s recent marriage, expressing skepticism about his stability given past divorces. They analyze reader responses criticizing his character and suggest he prioritize his son's well-being if he were to marry again; the conversation then shifts to celebrity charity events including Regis Philbin attending a March of Dimes benefit followed by commentary on Tom’s personal life specifically his turkey hunting hobby.",
+      "duration": 5302.26,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Tape%20121.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Tape 121",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Larry King’s Marriage & Turkey Hunting",
+          "summary": "During a radio broadcast, callers discuss Larry King’s recent marriage, expressing skepticism about his stability given past divorces. They analyze reader responses criticizing his character and suggest he prioritize his son's well-being if he were to marry again; the conversation then shifts to celebrity charity events including Regis Philbin attending a March of Dimes benefit followed by commentary on Tom’s personal life specifically his turkey hunting hobby.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Gary's Breath and Berlin Wall Criticism",
+          "summary": "During a radio broadcast, hosts discuss Gary’s exceptionally bad breath, speculating about his dating life. They then criticize PLJ management over their handling of the Berlin Wall giveaway, highlighting poor decision-making and declining ratings, while also debating Eddie Murphy’s film and Ernie's confusing military service history.",
+          "startTime": 884.8,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Radio Host’s Frustrations and Musical Mishaps",
+          "summary": "During the broadcast, the host expresses frustration over Eddie Murphy’s language use and debates family values before transitioning to a loud segment featuring Caribbean steel drums alongside news reports. He discusses his housekeeper's musical tastes, a bizarre phone answering machine message from a friend obsessed with a Hollywood movie deal, tangents about Mexicans, and ultimately reveals plans for a film project.",
+          "startTime": 1768.72,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Spanky McFarland Discusses Childhood and Finances",
+          "summary": "During a radio interview, Spanky from ‘Little Rascals’ recounts his childhood filming experiences, revealing low pay and chaotic on-set behavior including potential antics with Mrs. Crabtree while admitting to occasional overwhelm. He discusses his wife's romantic nature, her reluctance to share money, and concerns about future financial control by others, particularly a telephone salesman.",
+          "startTime": 2651.32,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "RKL Guy’s Strange Questions and Stern’s Reactions",
+          "summary": "During a radio segment, Howard Stern interacts with an RKL guy who asks bizarre questions about ‘young rascals,’ leading to speculation he might be mentally unstable. Ernie attempts to smooth the conversation while new interviews reveal previous interactions involving a deceased dog named Snuggles and ongoing publicity challenges.",
+          "startTime": 3536.12,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Weather Forecast and Phone Call Chaos",
+          "summary": "The broadcast begins with a detailed weather forecast predicting thickening clouds, rain, and potential showers throughout the week. A chaotic phone call segment follows featuring Howard Stern discussing Ed Koch’s political aspirations and Deakins' transition team, culminating in a bizarre interaction involving a confused caller claiming to be possessed.",
+          "startTime": 4420.38,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Tape 121"
@@ -4046,7 +4118,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1989-vol-16",
-      "date": "1989",
+      "date": "1989-02",
       "title": "1989 Vol. 16",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -4061,7 +4133,9 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1989 Vol. 16"
+      "recordingLabel": "The Howard Stern Show 1989 Vol. 16",
+      "dateNote": "February 21–22, 1989 · multiple broadcasts",
+      "dateSource": "uploader guide: California trip sections dated February 21 and 22"
     },
     {
       "id": "cassette-the-howard-stern-show-1989-vol-18",
@@ -4236,7 +4310,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1989-vol-27",
-      "date": "1989",
+      "date": "1989-10",
       "title": "1989 Vol. 27",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -4251,11 +4325,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1989 Vol. 27"
+      "recordingLabel": "The Howard Stern Show 1989 Vol. 27",
+      "dateSource": "uploader guide: October 1989"
     },
     {
       "id": "cassette-the-howard-stern-show-1989-vol-28",
-      "date": "1989",
+      "date": "1989-10",
       "title": "1989 Vol. 28",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -4270,11 +4345,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1989 Vol. 28"
+      "recordingLabel": "The Howard Stern Show 1989 Vol. 28",
+      "dateSource": "uploader guide: October 1989"
     },
     {
       "id": "cassette-the-howard-stern-show-1989-vol-29",
-      "date": "1989",
+      "date": "1989-11",
       "title": "1989 Vol. 29",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -4289,11 +4365,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1989 Vol. 29"
+      "recordingLabel": "The Howard Stern Show 1989 Vol. 29",
+      "dateSource": "uploader guide: November 1989"
     },
     {
       "id": "cassette-the-howard-stern-show-1989-vol-30",
-      "date": "1989",
+      "date": "1989-11",
       "title": "1989 Vol. 30",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -4308,11 +4385,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1989 Vol. 30"
+      "recordingLabel": "The Howard Stern Show 1989 Vol. 30",
+      "dateSource": "uploader guide: November 1989"
     },
     {
       "id": "cassette-the-howard-stern-show-1989-vol-31",
-      "date": "1989",
+      "date": "1989-12",
       "title": "1989 Vol. 31",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -4327,7 +4405,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1989 Vol. 31"
+      "recordingLabel": "The Howard Stern Show 1989 Vol. 31",
+      "dateSource": "uploader guide: December 1989"
     },
     {
       "id": "cassette-the-howard-stern-show-1989-02-14-inc",
@@ -5110,7 +5189,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1990-vol-unknown-april-24",
-      "date": "1990",
+      "date": "1990-04-24",
       "title": "1990 Vol. Unknown April 24",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -5125,7 +5204,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1990 Vol. Unknown April 24"
+      "recordingLabel": "The Howard Stern Show 1990 Vol. Unknown April 24",
+      "dateSource": "uploader guide: Tuesday, April 24 1990 Show"
     },
     {
       "id": "cassette-stuttering-johnny-mel-show-on-wysp-1990-xx-xx",
@@ -6079,7 +6159,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1991-05-14a",
-      "date": "1991",
+      "date": "1991-05-14",
       "title": "1991-05-14A",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -6098,7 +6178,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1991-05-14b-1991-05-15",
-      "date": "1991-05-15",
+      "date": "1991-05-14",
       "title": "1991-05-14B, 1991-05-15",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -6459,7 +6539,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1993-tape-156-1993-04",
-      "date": "1993",
+      "date": "1993-04",
       "title": "1993 Tape 156 1993-04",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7136,7 +7216,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-01-june-19",
-      "date": "1998",
+      "date": "1998-06",
       "title": "1998 Tape 01 June 19",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7151,11 +7231,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 01 June 19"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 01 June 19",
+      "dateNote": "June 18–19, 1998 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-03-may-26-and-may-27",
-      "date": "1998",
+      "date": "1998-05",
       "title": "1998 Tape 03 May 26 and May 27",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7170,7 +7251,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 03 May 26 and May 27"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 03 May 26 and May 27",
+      "dateNote": "Tape label: May 26, May 27 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-13-march-xx-and-march-2",
@@ -7189,7 +7271,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 13 March xx and March 2"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 13 March xx and March 2",
+      "dateNote": "Includes March 2, 1998 · other dates unknown"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-14-march-30-and-march-31",
@@ -7208,7 +7291,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 14 March 30 and March 31"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 14 March 30 and March 31",
+      "dateNote": "Includes March 30–31, 1998 · other dates unknown"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-15-april-3",
@@ -7227,7 +7311,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 15 April 3"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 15 April 3",
+      "dateNote": "Includes April 3, 1998 · other dates unknown"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-16-april-xx-april-30-may-1",
@@ -7246,11 +7331,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 16 April xx, April 30, May 1"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 16 April xx, April 30, May 1",
+      "dateNote": "Tape label: April xx, April 30, May 1 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-17-may-xx-may-4",
-      "date": "1998",
+      "date": "1998-05",
       "title": "1998 Tape 17 May xx & May 4",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7265,11 +7351,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 17 May xx & May 4"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 17 May xx & May 4",
+      "dateNote": "Tape label: May xx, May 4 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-18-may-xx-may-6-may-7",
-      "date": "1998",
+      "date": "1998-05",
       "title": "1998 Tape 18 May xx, May 6, May 7",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7284,11 +7371,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 18 May xx, May 6, May 7"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 18 May xx, May 6, May 7",
+      "dateNote": "Tape label: May xx, May 6, May 7 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-19-may-xx-may-11",
-      "date": "1998",
+      "date": "1998-05",
       "title": "1998 Tape 19 May xx & May 11",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7303,11 +7391,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 19 May xx & May 11"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 19 May xx & May 11",
+      "dateNote": "Tape label: May xx, May 11 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-20-may-11-may-12",
-      "date": "1998",
+      "date": "1998-05",
       "title": "1998 Tape 20 May 11 & May 12",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7322,11 +7411,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 20 May 11 & May 12"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 20 May 11 & May 12",
+      "dateNote": "Tape label: May 11, May 12 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-21-june-4-june-5",
-      "date": "1998",
+      "date": "1998-06",
       "title": "1998 Tape 21  June 4 & June 5",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7341,11 +7431,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 21  June 4 & June 5"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 21  June 4 & June 5",
+      "dateNote": "Tape label: June 4, June 5 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-22-june-xx-june-22",
-      "date": "1998",
+      "date": "1998-06",
       "title": "1998 Tape 22 June xx & June 22",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7360,11 +7451,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 22 June xx & June 22"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 22 June xx & June 22",
+      "dateNote": "Tape label: June xx, June 22 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-23-june-23-june-24",
-      "date": "1998",
+      "date": "1998-06",
       "title": "1998 Tape 23 June 23 & June 24",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7379,11 +7471,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 23 June 23 & June 24"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 23 June 23 & June 24",
+      "dateNote": "Tape label: June 23, June 24 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-24-june-29-june-30",
-      "date": "1998",
+      "date": "1998-06",
       "title": "1998 Tape 24 June 29 & June 30",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7398,7 +7491,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 24 June 29 & June 30"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 24 June 29 & June 30",
+      "dateNote": "Tape label: June 29, June 30 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-25-june-30-july-1",
@@ -7417,11 +7511,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 25 June 30 & July 1"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 25 June 30 & July 1",
+      "dateNote": "Tape label: June 30, July 1 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-26-july-2",
-      "date": "1998",
+      "date": "1998-07-02",
       "title": "1998 Tape 26 July 2",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7440,7 +7535,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-27-july-20-july-21",
-      "date": "1998",
+      "date": "1998-07",
       "title": "1998 Tape 27 July 20 & July 21",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7455,11 +7550,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 27 July 20 & July 21"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 27 July 20 & July 21",
+      "dateNote": "Tape label: July 20, July 21 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-28-july-24-july-27",
-      "date": "1998",
+      "date": "1998-07",
       "title": "1998 Tape 28 July 24 & July 27",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7474,7 +7570,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 28 July 24 & July 27"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 28 July 24 & July 27",
+      "dateNote": "Tape label: July 24, July 27 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-29-july-29-july-30-august-3",
@@ -7493,11 +7590,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 29 July 29, July 30, August 3"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 29 July 29, July 30, August 3",
+      "dateNote": "Tape label: July 29, July 30, August 3 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-30-august-19-august-21",
-      "date": "1998",
+      "date": "1998-08",
       "title": "1998 Tape 30 August 19 & August 21",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7512,11 +7610,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 30 August 19 & August 21"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 30 August 19 & August 21",
+      "dateNote": "Tape label: August 19, August 21 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-31-august-24",
-      "date": "1998",
+      "date": "1998-08-24",
       "title": "1998 Tape 31 August 24",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7550,7 +7649,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 32 August 27 & September 2"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 32 August 27 & September 2",
+      "dateNote": "Tape label: August 27, September 2 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-32-august-27-august-28-september-2",
@@ -7569,11 +7669,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 32 August 27, August 28, September 2"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 32 August 27, August 28, September 2",
+      "dateNote": "Tape label: August 27, August 28, September 2 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-33-september-16",
-      "date": "1998",
+      "date": "1998-09-16",
       "title": "1998 Tape 33 September 16",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7592,7 +7693,7 @@
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-34-september-16-september-17",
-      "date": "1998",
+      "date": "1998-09",
       "title": "1998 Tape 34 September 16 & September 17",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7607,11 +7708,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 34 September 16 & September 17"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 34 September 16 & September 17",
+      "dateNote": "Tape label: September 16, September 17 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-35-september-18-september-21",
-      "date": "1998",
+      "date": "1998-09",
       "title": "1998 Tape 35 September 18 & September 21",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7626,11 +7728,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 35 September 18 & September 21"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 35 September 18 & September 21",
+      "dateNote": "Tape label: September 18, September 21 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-36-september-21-september-23",
-      "date": "1998",
+      "date": "1998-09",
       "title": "1998 Tape 36 September 21 & September 23",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7645,11 +7748,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 36 September 21 & September 23"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 36 September 21 & September 23",
+      "dateNote": "Tape label: September 21, September 23 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-37-september-23-september-24",
-      "date": "1998",
+      "date": "1998-09",
       "title": "1998 Tape 37 September 23 & September 24",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7664,11 +7768,12 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 37 September 23 & September 24"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 37 September 23 & September 24",
+      "dateNote": "Tape label: September 23, September 24 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-38-september-24-september-25-september-28",
-      "date": "1998",
+      "date": "1998-09",
       "title": "1998 Tape 38 September 24, September 25, September 28",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
       "duration": null,
@@ -7683,7 +7788,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 38 September 24, September 25, September 28"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 38 September 24, September 25, September 28",
+      "dateNote": "Tape label: September 24, September 25, September 28 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-tape-39-september-xx-october-1-october-2",
@@ -7702,7 +7808,8 @@
           "startTime": 0
         }
       ],
-      "recordingLabel": "The Howard Stern Show 1998 Tape 39 September xx, October 1, October 2"
+      "recordingLabel": "The Howard Stern Show 1998 Tape 39 September xx, October 1, October 2",
+      "dateNote": "Tape label: September xx, October 1, October 2 · multiple broadcasts"
     },
     {
       "id": "cassette-the-howard-stern-show-1998-01-16-inc",
