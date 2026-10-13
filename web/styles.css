@@ -92,3 +92,4 @@ html[data-theme="dark"]{background:#171816;color-scheme:dark}html[data-theme="da
 .cassette-library .date small{font-size:9px;letter-spacing:.02em}
 .show .date small{font-size:9px;letter-spacing:.02em}
 .show-hero .date-context{font-size:14px;line-height:1.45;color:var(--muted);max-width:38em}
+.hero-actions{display:flex;align-items:center;gap:15px;margin-top:8px}.show-hero .cassette-riff{width:92px;height:92px;flex:0 0 auto;object-fit:cover;object-position:center;border:3px solid #fff8ef;border-radius:16px;box-shadow:0 5px 0 #8d7962,0 11px 22px #3127192b;transform:rotate(2deg)}body[data-theme="dark"] .show-hero .cassette-riff{border-color:#4a443c;box-shadow:0 5px 0 #0d0e0d,0 11px 22px #0008}@media(max-width:850px){.hero-actions{gap:12px}.show-hero .cassette-riff{width:76px;height:76px;border-radius:13px;grid-row:auto}}

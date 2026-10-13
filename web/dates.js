@@ -15,7 +15,9 @@ export function archiveDate(value='') {
 
 export function dateBadge(value) {
   const {year,month,day}=archiveDate(value);
-  return {main:day!==null?String(day).padStart(2,'0'):month!==null?'—':year||'—',label:month!==null?months[month-1].toUpperCase():year?'YEAR ONLY':'UNDATED'};
+  // The date tile is deliberately compact. Keep the full year everywhere else,
+  // but avoid letting an undated cassette's four-digit year crowd its title.
+  return {main:day!==null?String(day).padStart(2,'0'):month!==null?'—':year?year.slice(-2):'—',label:month!==null?months[month-1].toUpperCase():year?'YEAR ONLY':'UNDATED'};
 }
 
 export function shortDate(value) {
