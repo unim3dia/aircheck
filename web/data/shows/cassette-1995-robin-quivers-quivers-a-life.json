@@ -1,6 +1,63 @@
 {
   "showID": "cassette-1995-robin-quivers-quivers-a-life",
-  "topics": [],
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Strip Club Secrets & Robin’s Reflections",
+      "summary": "On Howard Stern's show, a Dallas aerobics instructor performs for him and others while discussions arise about attraction and exploitation. Robin Quivers reflects on her long partnership with Howard, navigating controversial content, accusations of tokenism, childhood violence from her parents, and the complexities within the studio environment.",
+      "startTime": 11.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "Silent Judgments and Unexpected Paths",
+      "summary": "Growing up, a young woman faced constant criticism from her mother who prioritized her brother’s ambitions over hers, leading to painful words and resentment. Navigating racism in school and the instability of her father's life, she found solace in an uncle and later pursued nursing as a path toward independence, ultimately seeking fulfillment beyond familial expectations.”} make it concrete and specific, 2-8 words.",
+      "startTime": 1129.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Military Missteps & Lost Connections",
+      "summary": "After a turbulent Air Force nurse candidate experience marked by restlessness and infidelity, an individual falls into cycles of substance abuse and exploitation. Facing financial difficulties exacerbated by military overpayments, they ultimately find stability through unexpected connections like the YWCA and a new job, learning self-reliance after confronting past trauma.",
+      "startTime": 2244.32,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Baltimore Return & Payphone Call",
+      "summary": "A woman makes a collect call from California seeking to return home to Baltimore after a year away, expressing regret and frustration with lost opportunities including her mother’s criticism. She secures a nursing job and eventually finds work in radio following an unexpected turn involving Uncle Leroy's death and Howard Stern.",
+      "startTime": 3361.92,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "NBC Rescue Mission",
+      "summary": "Following a period of intense personal struggles and conflict at WNBC, Robin seeks professional help after contemplating suicide. She begins therapy sessions while navigating her challenging work environment with figures like Kevin Matheny and Mary Beth Janis, ultimately finding stability through ongoing support and eventually securing regular appointments.",
+      "startTime": 4473.4,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Navigating Family Conflict and Radio",
+      "summary": "The narrator struggles with anger towards their family while navigating a challenging work environment. After resisting advice from Dr. London and experiencing outbursts, they sever ties with their mother following years of difficult interactions, culminating in a conflict with their radio show’s new manager.”} 39 words",
+      "startTime": 5587.04,
+      "imageURL": null
+    },
+    {
+      "id": "topic-006",
+      "title": "Stern’s K-Rock Takeover",
+      "summary": "After being abruptly fired from WNBC due to low ratings, Howard Stern and Robin Quivers quickly transitioned to K-Rock, achieving phenomenal global success syndicating their show while undergoing personal changes like Dr. London’s breast reduction surgery and confronting family estrangement through therapy.",
+      "startTime": 6702.38,
+      "imageURL": null
+    },
+    {
+      "id": "topic-007",
+      "title": "Lost Rings and Family Reunion",
+      "summary": "A woman returns to her childhood home, encountering a confused elderly father and an overprotective mother who has established extensive neighborhood surveillance. After a heated exchange fueled by frustration, she discovers the missing rings in their original hiding place – her father had placed them there for safekeeping, highlighting complex familial dynamics and unresolved tensions.",
+      "startTime": 7817.72,
+      "imageURL": null
+    }
+  ],
   "transcript": [
     {
       "id": 0,

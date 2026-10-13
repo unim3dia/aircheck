@@ -1,0 +1,2639 @@
+{
+  "showID": "cassette-the-howard-stern-show-1998-01-16-inc",
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Voice Changer, Drug Ad & Legal News",
+      "summary": "A caller discusses using voice changers and the controversy surrounding an advertisement featuring Chris Farley promoting a drug rehabilitation center. Subsequently, news reports detail legal challenges regarding Melissa Drexler’s murder trial and John Glenn's planned return to space for research.",
+      "startTime": 0.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "Family Tragedy, Iraq Inspections, Tobacco Lawsuits",
+      "summary": "A father fatally shot his wife and himself in New Jersey, leaving three children orphans. Simultaneously, U.S. inspectors investigating potential chemical weapons sites in Iraq faced continued denial of access by Iraqi officials, while congressional hearings focused on tobacco companies’ alleged targeting of children with advertising.",
+      "startTime": 339.92,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Tobacco Settlement, Unabomber Hearing, Tucker Case",
+      "summary": "The tobacco industry reached a $4 billion settlement with Texas to address smoking-related healthcare costs. A federal psychiatrist concluded his examination of Ted Kaczynski and predicted competency for trial while Carla Tucker sought clemency from Pat Robertson after claiming religious conversion and influencing public opinion.",
+      "startTime": 678.16,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Restaurant Sanitation & Martian Life Debate",
+      "summary": "The broadcast begins with a discussion of restaurant sanitation concerns, including rat sightings and improper food handling. Later, participants debate scientific findings regarding past life on Mars, referencing skepticism and \"Mars Attacks!\", followed by opinions about abortion rights.",
+      "startTime": 1015.28,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "Broadcast Discusses Online Profile, Legal Cases",
+      "summary": "A military recruit’s online profile revealing his sexual orientation leads to discharge discussions. The broadcast then covers Paula Jones’ deposition with President Clinton and critiques of her appearance alongside reports on arrests related to the World Trade Center robbery and police shootings in Los Angeles, concluding with news about Norm McDonald's departure from Saturday Night Live.",
+      "startTime": 1352.32,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Actors Discuss Marijuana Film and News Events",
+      "summary": "During a radio broadcast, actors discuss their opinions regarding action versus dramatic roles in films, particularly concerning the portrayal of marijuana within Hollywood. The conversation shifts to unrelated news reports detailing a traffic accident with severe injuries and an assault involving domestic violence, concluding with advertisements for television shows.",
+      "startTime": 1688.48,
+      "imageURL": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 0,
+      "startTime": 0.0,
+      "endTime": 6.48,
+      "speaker": null,
+      "text": "what here's my regular voice i wouldn't recognize it anyway yeah who's going to know you"
+    },
+    {
+      "id": 1,
+      "startTime": 6.48,
+      "endTime": 10.4,
+      "speaker": null,
+      "text": "i'll hang out with you though all right go back to your other voice it was better do you like it more"
+    },
+    {
+      "id": 2,
+      "startTime": 10.4,
+      "endTime": 17.28,
+      "speaker": null,
+      "text": "yeah okay you can stay on the phone with that voice i'm just gonna have a harmonizer on his phone"
+    },
+    {
+      "id": 3,
+      "startTime": 18.64,
+      "endTime": 25.6,
+      "speaker": null,
+      "text": "i don't even know what a harmonizer is what are you using it's a a voice uh a voice changer oh"
+    },
+    {
+      "id": 4,
+      "startTime": 25.6,
+      "endTime": 31.52,
+      "speaker": null,
+      "text": "you got one of those yeah it's you know hundred dollar thing yeah i got one of those good for"
+    },
+    {
+      "id": 5,
+      "startTime": 37.12,
+      "endTime": 39.04,
+      "speaker": null,
+      "text": "is he talking to something or is it on his phone"
+    },
+    {
+      "id": 6,
+      "startTime": 48.88,
+      "endTime": 55.92,
+      "speaker": null,
+      "text": "yeah"
+    },
+    {
+      "id": 7,
+      "startTime": 64.16,
+      "endTime": 67.76,
+      "speaker": null,
+      "text": "how come he's so much clearer than you're if he's talking to i don't have a hundred dollar machine"
+    },
+    {
+      "id": 8,
+      "startTime": 68.8,
+      "endTime": 71.36,
+      "speaker": null,
+      "text": "tom wouldn't pay for it all right yeah go ahead"
+    },
+    {
+      "id": 9,
+      "startTime": 72.32,
+      "endTime": 79.6,
+      "speaker": null,
+      "text": "chris farley has done an ad that was a good idea it's an anti-drug newspaper ad oh that's helping"
+    },
+    {
+      "id": 10,
+      "startTime": 79.6,
+      "endTime": 85.68,
+      "speaker": null,
+      "text": "people avoid his fate he's looking down from heaven and giving his approval to our support of"
+    },
+    {
+      "id": 11,
+      "startTime": 85.68,
+      "endTime": 93.44,
+      "speaker": null,
+      "text": "this said tom farley his uh father oh i thought he was looking down from heaven in the ad no no no"
+    },
+    {
+      "id": 12,
+      "startTime": 93.44,
+      "endTime": 99.52,
+      "speaker": null,
+      "text": "that's what tom farley said when he uh was approached about uh what he did this what is"
+    },
+    {
+      "id": 13,
+      "startTime": 99.52,
+      "endTime": 107.28,
+      "speaker": null,
+      "text": "the ad it's a newspaper ad for uh someplace called the rebos house of wisconsin it runs homes for"
+    },
+    {
+      "id": 14,
+      "startTime": 107.28,
+      "endTime": 113.44,
+      "speaker": null,
+      "text": "recovering drug and alcohol abusers the ad shows a healthy beaming farley and the message says"
+    },
+    {
+      "id": 15,
+      "startTime": 113.44,
+      "endTime": 120.64,
+      "speaker": null,
+      "text": "drugs and alcohol can kill the laughter in anybody well uh he's a good guy to use as a poster boy"
+    },
+    {
+      "id": 16,
+      "startTime": 120.64,
+      "endTime": 127.6,
+      "speaker": null,
+      "text": "for that if i had a drug and rehab place i wouldn't want chris farley's picture because"
+    },
+    {
+      "id": 17,
+      "startTime": 127.6,
+      "endTime": 133.2,
+      "speaker": null,
+      "text": "if he was going there it didn't work he wasn't going there oh that's the problem excuse me"
+    },
+    {
+      "id": 18,
+      "startTime": 133.2,
+      "endTime": 137.2,
+      "speaker": null,
+      "text": "where did they get a healthy picture of him that's it that's even more interesting yeah"
+    },
+    {
+      "id": 19,
+      "startTime": 137.2,
+      "endTime": 142.72,
+      "speaker": null,
+      "text": "it's a very early picture all right the ad was created by larry anderson who liked farley"
+    },
+    {
+      "id": 20,
+      "startTime": 142.72,
+      "endTime": 147.12,
+      "speaker": null,
+      "text": "performed at the second city in chicago and developed an attraction to illegal drugs must"
+    },
+    {
+      "id": 21,
+      "startTime": 147.12,
+      "endTime": 152.48,
+      "speaker": null,
+      "text": "have been his fifth grade picture farley a madison native died of cocaine and morphine overdose"
+    },
+    {
+      "id": 22,
+      "startTime": 153.2,
+      "endTime": 164.56,
+      "speaker": null,
+      "text": "last month so maybe something good right we'll come out of that that's what we always say isn't it"
+    },
+    {
+      "id": 23,
+      "startTime": 169.36,
+      "endTime": 174.4,
+      "speaker": null,
+      "text": "the bomb mom is back in the news her lawyer wants to move her murder trial out of manmas county new"
+    },
+    {
+      "id": 24,
+      "startTime": 174.4,
+      "endTime": 183.36,
+      "speaker": null,
+      "text": "jersey melissa drexler's attorney said and uh scheduled arguments that uh he just doesn't"
+    },
+    {
+      "id": 25,
+      "startTime": 183.36,
+      "endTime": 188.56,
+      "speaker": null,
+      "text": "think she can get a fair trial there there's been too much sensational coverage of the case"
+    },
+    {
+      "id": 26,
+      "startTime": 189.2,
+      "endTime": 195.6,
+      "speaker": null,
+      "text": "and so it has tainted the pool of potential jurors prom mom of course is the girl who had"
+    },
+    {
+      "id": 27,
+      "startTime": 195.6,
+      "endTime": 203.28,
+      "speaker": null,
+      "text": "her baby in the bathroom during her prom and then returned to the dance floor right her child was"
+    },
+    {
+      "id": 28,
+      "startTime": 203.28,
+      "endTime": 213.44,
+      "speaker": null,
+      "text": "later found dead in a trash can right yeah an autopsy determined that her newborn son was"
+    },
+    {
+      "id": 29,
+      "startTime": 213.44,
+      "endTime": 219.76,
+      "speaker": null,
+      "text": "strangled and suffocated so if that were the case he would have been born alive if convicted prom"
+    },
+    {
+      "id": 30,
+      "startTime": 219.76,
+      "endTime": 226.24,
+      "speaker": null,
+      "text": "mom would be sentenced to a mandatory minimum of 30 years in prison without parole you know it's"
+    },
+    {
+      "id": 31,
+      "startTime": 226.24,
+      "endTime": 230.64,
+      "speaker": null,
+      "text": "weird this guy says he's on the show four times this week i was thinking about you know i used to"
+    },
+    {
+      "id": 32,
+      "startTime": 230.64,
+      "endTime": 234.96,
+      "speaker": null,
+      "text": "listen to talk radio all the time when i was a kid and they had a rule you couldn't call in more than"
+    },
+    {
+      "id": 33,
+      "startTime": 234.96,
+      "endTime": 240.0,
+      "speaker": null,
+      "text": "once a week right or they'd hang up on you now why if a guy's a good phone caller would you care if"
+    },
+    {
+      "id": 34,
+      "startTime": 240.0,
+      "endTime": 244.0,
+      "speaker": null,
+      "text": "he i wouldn't care if he called 50 times a week it doesn't matter like why would you care as long"
+    },
+    {
+      "id": 35,
+      "startTime": 244.0,
+      "endTime": 249.36,
+      "speaker": null,
+      "text": "as your radio show was good i never understood that i said oh yeah they gotta have a once a week rule"
+    },
+    {
+      "id": 36,
+      "startTime": 251.68,
+      "endTime": 256.88,
+      "speaker": null,
+      "text": "uh it's your group they let you through yeah of course who cares you got something interesting"
+    },
+    {
+      "id": 37,
+      "startTime": 256.88,
+      "endTime": 262.08,
+      "speaker": null,
+      "text": "to say hell they let the host on five days a week did you hear that john glenn is going into space"
+    },
+    {
+      "id": 38,
+      "startTime": 262.08,
+      "endTime": 270.16,
+      "speaker": null,
+      "text": "again john glenn the first astronaut to circle the earth and outer space is now uh been cleared by"
+    },
+    {
+      "id": 39,
+      "startTime": 270.16,
+      "endTime": 276.64,
+      "speaker": null,
+      "text": "nasa to go on a space launch sometime later this year there's enough people out there on the space"
+    },
+    {
+      "id": 40,
+      "startTime": 276.64,
+      "endTime": 281.92,
+      "speaker": null,
+      "text": "shuttle discovery i think and uh they have decided they want to see what the effect of weightlessness"
+    },
+    {
+      "id": 41,
+      "startTime": 281.92,
+      "endTime": 289.84,
+      "speaker": null,
+      "text": "is on a man of his age he's about 77 years old now and uh he has passed the astronaut physical"
+    },
+    {
+      "id": 42,
+      "startTime": 289.84,
+      "endTime": 297.52,
+      "speaker": null,
+      "text": "every year wow so he's in very good shape and uh here is buzz aldren a former astronaut who says"
+    },
+    {
+      "id": 43,
+      "startTime": 297.52,
+      "endTime": 302.16,
+      "speaker": null,
+      "text": "that uh maybe this will open the door to space travel for all of us all the old fogeys"
+    },
+    {
+      "id": 44,
+      "startTime": 303.92,
+      "endTime": 312.56,
+      "speaker": null,
+      "text": "let's see he's uh paving the way for uh civilians in space tourists in space and uh things that i'm"
+    },
+    {
+      "id": 45,
+      "startTime": 312.56,
+      "endTime": 318.56,
+      "speaker": null,
+      "text": "working on hopefully winners of lotteries uh special lotteries that can get rides into space"
+    },
+    {
+      "id": 46,
+      "startTime": 319.52,
+      "endTime": 324.88,
+      "speaker": null,
+      "text": "he's working on special lotteries to get rides into space where do you go once you get up there"
+    },
+    {
+      "id": 47,
+      "startTime": 324.88,
+      "endTime": 328.8,
+      "speaker": null,
+      "text": "there's no place to go if i win this special lottery you can have my plays i don't want to go"
+    },
+    {
+      "id": 48,
+      "startTime": 328.8,
+      "endTime": 334.4,
+      "speaker": null,
+      "text": "like i need to go into space yeah and get up there you go up there and there's no way to go"
+    },
+    {
+      "id": 49,
+      "startTime": 334.4,
+      "endTime": 339.92,
+      "speaker": null,
+      "text": "yeah cramp quarters no food what are you going there for right it's a shower up there for two"
+    },
+    {
+      "id": 50,
+      "startTime": 339.92,
+      "endTime": 343.28,
+      "speaker": null,
+      "text": "weeks oh disgusting yeah sounds like stuttering john's house"
+    },
+    {
+      "id": 51,
+      "startTime": 346.8,
+      "endTime": 353.36,
+      "speaker": null,
+      "text": "and who goes there no one and now they're talking about another school teacher right having been"
+    },
+    {
+      "id": 52,
+      "startTime": 353.36,
+      "endTime": 360.4,
+      "speaker": null,
+      "text": "approved barbara morgan is referring all inquiries to nasa all morgan will say this morning is that"
+    },
+    {
+      "id": 53,
+      "startTime": 360.4,
+      "endTime": 365.92,
+      "speaker": null,
+      "text": "she was rushing to her teaching job and that she could not confirm reports that she'd soon"
+    },
+    {
+      "id": 54,
+      "startTime": 365.92,
+      "endTime": 372.24,
+      "speaker": null,
+      "text": "join the astronaut corps last teacher didn't have too much luck the washington post is quoting"
+    },
+    {
+      "id": 55,
+      "startTime": 372.24,
+      "endTime": 376.48,
+      "speaker": null,
+      "text": "sources are saying morgan's name would be put on the list today along with that of senator john"
+    },
+    {
+      "id": 56,
+      "startTime": 376.48,
+      "endTime": 381.76,
+      "speaker": null,
+      "text": "glenn of ohio morgan is an elementary school teacher who was number two on the list behind"
+    },
+    {
+      "id": 57,
+      "startTime": 381.76,
+      "endTime": 388.48,
+      "speaker": null,
+      "text": "fellow teacher krista mccollough we all remember her she died in the shuttle explosion in 1986 left"
+    },
+    {
+      "id": 58,
+      "startTime": 388.48,
+      "endTime": 392.08,
+      "speaker": null,
+      "text": "a couple of kids behind very important for her to go into space like robin says to go up and then"
+    },
+    {
+      "id": 59,
+      "startTime": 392.08,
+      "endTime": 398.0,
+      "speaker": null,
+      "text": "come down again how to leave her children an orphan where will the fox might as well be an"
+    },
+    {
+      "id": 60,
+      "startTime": 398.0,
+      "endTime": 402.64,
+      "speaker": null,
+      "text": "orphan does this one have any kids i don't know anything more about her she's not talking you know"
+    },
+    {
+      "id": 61,
+      "startTime": 402.64,
+      "endTime": 408.96,
+      "speaker": null,
+      "text": "let's send more young mothers into space wackos what else is in the news robin"
+    },
+    {
+      "id": 62,
+      "startTime": 410.64,
+      "endTime": 415.84,
+      "speaker": null,
+      "text": "three boys in freehold new jersey are orphans after authorities say their father shot and killed"
+    },
+    {
+      "id": 63,
+      "startTime": 415.84,
+      "endTime": 421.2,
+      "speaker": null,
+      "text": "their mother before turning the weapon on himself robert nolan had shown a violent side 17 years"
+    },
+    {
+      "id": 64,
+      "startTime": 421.2,
+      "endTime": 426.72,
+      "speaker": null,
+      "text": "earlier when he killed his first wife and her boyfriend in upstate new york right authorities"
+    },
+    {
+      "id": 65,
+      "startTime": 426.72,
+      "endTime": 431.52,
+      "speaker": null,
+      "text": "believe nolan snapped yesterday after his wife kimberly had served him with divorce papers"
+    },
+    {
+      "id": 66,
+      "startTime": 432.72,
+      "endTime": 436.88,
+      "speaker": null,
+      "text": "officials say their children ages four six and seven were at school when nolan fired a shotgun"
+    },
+    {
+      "id": 67,
+      "startTime": 436.88,
+      "endTime": 444.4,
+      "speaker": null,
+      "text": "into his wife's head and a pistol into himself they say that uh the latest mrs nolan knew about"
+    },
+    {
+      "id": 68,
+      "startTime": 444.4,
+      "endTime": 451.04,
+      "speaker": null,
+      "text": "his violent past when she married him right two juries in selvin county new york failed to convict"
+    },
+    {
+      "id": 69,
+      "startTime": 451.04,
+      "endTime": 456.88,
+      "speaker": null,
+      "text": "nolan of aggravated manslaughter in the 1981 slayings of his first wife and her boyfriend"
+    },
+    {
+      "id": 70,
+      "startTime": 456.88,
+      "endTime": 463.68,
+      "speaker": null,
+      "text": "nolan used a psychiatric defense well authorities say that they always felt it would happen again"
+    },
+    {
+      "id": 71,
+      "startTime": 464.56,
+      "endTime": 468.24,
+      "speaker": null,
+      "text": "we have tape of the husband i told you not to use the goddamn tapes"
+    },
+    {
+      "id": 72,
+      "startTime": 468.24,
+      "endTime": 473.84,
+      "speaker": null,
+      "text": "did i say you don't use the tape i told you get out of my way i told you get out of my way"
+    },
+    {
+      "id": 73,
+      "startTime": 475.04,
+      "endTime": 480.48,
+      "speaker": null,
+      "text": "i would never let you come if i knew you were going to use the tape no [ __ ] way gangie"
+    },
+    {
+      "id": 74,
+      "startTime": 481.44,
+      "endTime": 485.76,
+      "speaker": null,
+      "text": "now stay out of my face i told you get out of my face"
+    },
+    {
+      "id": 75,
+      "startTime": 491.2,
+      "endTime": 495.92,
+      "speaker": null,
+      "text": "get the camera out of here"
+    },
+    {
+      "id": 76,
+      "startTime": 499.76,
+      "endTime": 502.0,
+      "speaker": null,
+      "text": "right wow"
+    },
+    {
+      "id": 77,
+      "startTime": 504.0,
+      "endTime": 506.8,
+      "speaker": null,
+      "text": "that's the guy that's the guy who would marry him"
+    },
+    {
+      "id": 78,
+      "startTime": 508.24,
+      "endTime": 508.96,
+      "speaker": null,
+      "text": "peronica webb"
+    },
+    {
+      "id": 79,
+      "startTime": 511.44,
+      "endTime": 515.68,
+      "speaker": null,
+      "text": "what else is in the news we still have a problem with iraq we have a bunch of inspectors over"
+    },
+    {
+      "id": 80,
+      "startTime": 515.68,
+      "endTime": 520.4,
+      "speaker": null,
+      "text": "there who's supposed to go and look at chemical weapon sites and or possible chemical weapon"
+    },
+    {
+      "id": 81,
+      "startTime": 520.4,
+      "endTime": 526.56,
+      "speaker": null,
+      "text": "sites and make sure iraq is not up to anything but they keep refusing to allow one of the inspection"
+    },
+    {
+      "id": 82,
+      "startTime": 526.56,
+      "endTime": 533.28,
+      "speaker": null,
+      "text": "teams to go out at that is the team that is led by a man named scott ritter he has been accused"
+    },
+    {
+      "id": 83,
+      "startTime": 533.28,
+      "endTime": 540.4,
+      "speaker": null,
+      "text": "by iraqi officials of being a spy as well as uh several of the other americans on that team"
+    },
+    {
+      "id": 84,
+      "startTime": 540.4,
+      "endTime": 544.56,
+      "speaker": null,
+      "text": "so they have now pulled out here is scott ritter who says the u.s has not given up"
+    },
+    {
+      "id": 85,
+      "startTime": 545.6,
+      "endTime": 547.92,
+      "speaker": null,
+      "text": "on investigating what's going on in iraq"
+    },
+    {
+      "id": 86,
+      "startTime": 551.36,
+      "endTime": 554.8,
+      "speaker": null,
+      "text": "our departure today does not reflect anything else other than the fact that"
+    },
+    {
+      "id": 87,
+      "startTime": 555.36,
+      "endTime": 561.28,
+      "speaker": null,
+      "text": "we have come to the end of our inspect our inspection time in country unfortunately we"
+    },
+    {
+      "id": 88,
+      "startTime": 561.28,
+      "endTime": 567.68,
+      "speaker": null,
+      "text": "were only able to conduct inspections of on one of the planned days and weren't able to complete"
+    },
+    {
+      "id": 89,
+      "startTime": 567.68,
+      "endTime": 573.44,
+      "speaker": null,
+      "text": "the other tasks assigned to us the russians are now stepping in and offering to help out"
+    },
+    {
+      "id": 90,
+      "startTime": 573.44,
+      "endTime": 584.0,
+      "speaker": null,
+      "text": "in this dispute right"
+    },
+    {
+      "id": 91,
+      "startTime": 593.12,
+      "endTime": 596.0,
+      "speaker": null,
+      "text": "whammy on saddami everybody loves that that's what we need yeah"
+    },
+    {
+      "id": 92,
+      "startTime": 598.88,
+      "endTime": 604.16,
+      "speaker": null,
+      "text": "people are still going after the tobacco companies howard isn't that ridiculous great industry like"
+    },
+    {
+      "id": 93,
+      "startTime": 604.16,
+      "endTime": 612.56,
+      "speaker": null,
+      "text": "that you are never affected me right congressman henry waxman he says he's got more incriminating"
+    },
+    {
+      "id": 94,
+      "startTime": 612.56,
+      "endTime": 622.8,
+      "speaker": null,
+      "text": "documents from the rjr nubisco company showing that rjr had targeted kids with their ads that"
+    },
+    {
+      "id": 95,
+      "startTime": 622.8,
+      "endTime": 626.88,
+      "speaker": null,
+      "text": "they have been surreptitious and claiming that they never did such a thing and he's going to release"
+    },
+    {
+      "id": 96,
+      "startTime": 626.88,
+      "endTime": 633.04,
+      "speaker": null,
+      "text": "those documents and he says it's proof that we need to do more to protect children from"
+    },
+    {
+      "id": 97,
+      "startTime": 633.04,
+      "endTime": 636.88,
+      "speaker": null,
+      "text": "the cigarette company what a shock here's congressman henry waxman look what henry"
+    },
+    {
+      "id": 98,
+      "startTime": 636.88,
+      "endTime": 644.32,
+      "speaker": null,
+      "text": "waxman figured out the cigarette companies are trying to attract new smokers he figured that out"
+    },
+    {
+      "id": 99,
+      "startTime": 645.52,
+      "endTime": 651.44,
+      "speaker": null,
+      "text": "i never knew that they show that rjr's most wow executives well we got them developed"
+    },
+    {
+      "id": 100,
+      "startTime": 651.44,
+      "endTime": 659.76,
+      "speaker": null,
+      "text": "and implemented a sophisticated plan to market their cigarettes to our children oh wow gee i"
+    },
+    {
+      "id": 101,
+      "startTime": 659.76,
+      "endTime": 664.72,
+      "speaker": null,
+      "text": "didn't have any clue they were trying to get new customers why they put all those ads in the"
+    },
+    {
+      "id": 102,
+      "startTime": 664.72,
+      "endTime": 669.92,
+      "speaker": null,
+      "text": "magazines i mean they didn't want oh no they were trying to attract 50 year olds to start smoking"
+    },
+    {
+      "id": 103,
+      "startTime": 670.72,
+      "endTime": 678.16,
+      "speaker": null,
+      "text": "i always believed that listen this is absurd this is a witch hunt and uh it is that there are"
+    },
+    {
+      "id": 104,
+      "startTime": 678.16,
+      "endTime": 683.04,
+      "speaker": null,
+      "text": "thousands of millions of people who work for the cigarette companies in this country make a good"
+    },
+    {
+      "id": 105,
+      "startTime": 683.04,
+      "endTime": 689.52,
+      "speaker": null,
+      "text": "living we're acting like they're uh enemy number one the cigarette companies are dopey they should"
+    },
+    {
+      "id": 106,
+      "startTime": 689.52,
+      "endTime": 692.88,
+      "speaker": null,
+      "text": "just admit everything yes we're trying to attract like alcohol companies the alcohol companies are"
+    },
+    {
+      "id": 107,
+      "startTime": 692.88,
+      "endTime": 698.16,
+      "speaker": null,
+      "text": "brilliant you know what they say we are trying to we're dangerous don't drink us it's horrible it's"
+    },
+    {
+      "id": 108,
+      "startTime": 698.16,
+      "endTime": 701.68,
+      "speaker": null,
+      "text": "bad for you and you know what everyone drinks we don't even want to advertise let us learn the"
+    },
+    {
+      "id": 109,
+      "startTime": 701.68,
+      "endTime": 707.12,
+      "speaker": null,
+      "text": "cigarette companies are having trouble admitting that they were unhealthy so they hid the fact that"
+    },
+    {
+      "id": 110,
+      "startTime": 707.12,
+      "endTime": 711.84,
+      "speaker": null,
+      "text": "they were trying to get teenagers to smoke and it looks like uh big tobacco is caving in they've"
+    },
+    {
+      "id": 111,
+      "startTime": 711.84,
+      "endTime": 716.56,
+      "speaker": null,
+      "text": "apparently reached an agreement with another state over health care costs sources say the industry"
+    },
+    {
+      "id": 112,
+      "startTime": 716.56,
+      "endTime": 723.12,
+      "speaker": null,
+      "text": "has agreed to pay texas at least four billion dollars to settle the state lawsuit details will"
+    },
+    {
+      "id": 113,
+      "startTime": 723.12,
+      "endTime": 728.64,
+      "speaker": null,
+      "text": "be announced at a news conference in austin today texas is the third state to reach an out-of-court"
+    },
+    {
+      "id": 114,
+      "startTime": 728.64,
+      "endTime": 734.0,
+      "speaker": null,
+      "text": "settlement with cigarette makers to recoup state money spent on treating smoking related illnesses"
+    },
+    {
+      "id": 115,
+      "startTime": 734.56,
+      "endTime": 739.84,
+      "speaker": null,
+      "text": "the 14 billion would be the largest settlement to date nearly matching the agreement with florida"
+    },
+    {
+      "id": 116,
+      "startTime": 739.84,
+      "endTime": 746.16,
+      "speaker": null,
+      "text": "and mississippi combined jury selection was set to begin today in texarkana but the panelists were"
+    },
+    {
+      "id": 117,
+      "startTime": 746.16,
+      "endTime": 752.72,
+      "speaker": null,
+      "text": "dismissed earlier because of the deal here is uh texas d.a damn moralist to tell us why he went"
+    },
+    {
+      "id": 118,
+      "startTime": 752.72,
+      "endTime": 760.8,
+      "speaker": null,
+      "text": "after big tobacco we think that this industry views our most precious natural resource our"
+    },
+    {
+      "id": 119,
+      "startTime": 760.8,
+      "endTime": 768.88,
+      "speaker": null,
+      "text": "children as nothing more than replacement smokers uh in order to maximize uh profits for goodness"
+    },
+    {
+      "id": 120,
+      "startTime": 768.88,
+      "endTime": 773.84,
+      "speaker": null,
+      "text": "it's a which i mean you know there are so many drugs that children are taking when they"
+    },
+    {
+      "id": 121,
+      "startTime": 775.44,
+      "endTime": 779.04,
+      "speaker": null,
+      "text": "drugs drinking smoking they're going to make the cigarette companies pay"
+    },
+    {
+      "id": 122,
+      "startTime": 779.84,
+      "endTime": 783.76,
+      "speaker": null,
+      "text": "so they can bankrupt uh the cigarette companies but what's the point"
+    },
+    {
+      "id": 123,
+      "startTime": 785.6,
+      "endTime": 790.48,
+      "speaker": null,
+      "text": "and then people grow their own tobacco i guess i don't know it'd be like the marijuana industry"
+    },
+    {
+      "id": 124,
+      "startTime": 790.8,
+      "endTime": 798.56,
+      "speaker": null,
+      "text": "uh it's ridiculous a federal psychiatrist is wrapping up her examination of the unibomber"
+    },
+    {
+      "id": 125,
+      "startTime": 798.56,
+      "endTime": 805.52,
+      "speaker": null,
+      "text": "suspect ted kasinski dr sally johnson reports on kasinski kasinski's competency to stand trial"
+    },
+    {
+      "id": 126,
+      "startTime": 806.56,
+      "endTime": 813.52,
+      "speaker": null,
+      "text": "he is uh due to go on trial today and a competency hearing is set for thursday"
+    },
+    {
+      "id": 127,
+      "startTime": 814.72,
+      "endTime": 819.36,
+      "speaker": null,
+      "text": "one former prosecutor is predicting kasinski will be found competent to stand trial"
+    },
+    {
+      "id": 128,
+      "startTime": 819.36,
+      "endTime": 825.44,
+      "speaker": null,
+      "text": "and to represent himself good don heller says that's because kasinski probably"
+    },
+    {
+      "id": 129,
+      "startTime": 825.44,
+      "endTime": 830.32,
+      "speaker": null,
+      "text": "meets the legal definition of competency even though he may be seriously mentally ill"
+    },
+    {
+      "id": 130,
+      "startTime": 832.24,
+      "endTime": 836.96,
+      "speaker": null,
+      "text": "he's fine put him on trial he can still represent himself of course of course he's talking about"
+    },
+    {
+      "id": 131,
+      "startTime": 836.96,
+      "endTime": 841.6,
+      "speaker": null,
+      "text": "this carla fe tucker all week she's a woman who's on death row in texas she's trying to"
+    },
+    {
+      "id": 132,
+      "startTime": 842.32,
+      "endTime": 848.16,
+      "speaker": null,
+      "text": "prevent her own execution on february 3rd they should let her free do you know that she found"
+    },
+    {
+      "id": 133,
+      "startTime": 848.16,
+      "endTime": 852.24,
+      "speaker": null,
+      "text": "jesus she's been running around the country talking well running around she's been granting"
+    },
+    {
+      "id": 134,
+      "startTime": 852.24,
+      "endTime": 858.08,
+      "speaker": null,
+      "text": "interviews to people from prison so that she can influence the public she says she's repentant and"
+    },
+    {
+      "id": 135,
+      "startTime": 858.08,
+      "endTime": 864.64,
+      "speaker": null,
+      "text": "one person she swayed is pat robertson the head of that christian broadcasting network"
+    },
+    {
+      "id": 136,
+      "startTime": 865.28,
+      "endTime": 872.4,
+      "speaker": null,
+      "text": "he wants her to be spared he does because she found jesus there's forgiveness uh in the bible"
+    },
+    {
+      "id": 137,
+      "startTime": 872.4,
+      "endTime": 877.28,
+      "speaker": null,
+      "text": "and i think we need to to apply mercy in some of these cases i believe in the death penalty no"
+    },
+    {
+      "id": 138,
+      "startTime": 877.28,
+      "endTime": 881.28,
+      "speaker": null,
+      "text": "question about it oh you do i just think it's totally inappropriate here oh for goodness"
+    },
+    {
+      "id": 139,
+      "startTime": 881.28,
+      "endTime": 885.52,
+      "speaker": null,
+      "text": "sakes i can't wait till somebody puts an axe in someone he loves head and we'll see if he"
+    },
+    {
+      "id": 140,
+      "startTime": 885.52,
+      "endTime": 889.84,
+      "speaker": null,
+      "text": "believes in the death penalty you can be sure he'll be running around well for the death penalty"
+    },
+    {
+      "id": 141,
+      "startTime": 889.84,
+      "endTime": 894.32,
+      "speaker": null,
+      "text": "uh oh for god's sakes this woman deserves it so bad her and oj ought to marry and they can put"
+    },
+    {
+      "id": 142,
+      "startTime": 894.32,
+      "endTime": 902.4,
+      "speaker": null,
+      "text": "an axe in both their heads i would love to all right i would love to pat robertson oh for goodness"
+    },
+    {
+      "id": 143,
+      "startTime": 902.4,
+      "endTime": 907.6,
+      "speaker": null,
+      "text": "sake what you got to do is say you found jesus and everybody's ready to forgive you that jesus routine"
+    },
+    {
+      "id": 144,
+      "startTime": 908.32,
+      "endTime": 913.36,
+      "speaker": null,
+      "text": "i'll put take i take that woman take jesus and everybody else and uh put them all on trial how"
+    },
+    {
+      "id": 145,
+      "startTime": 913.36,
+      "endTime": 917.76,
+      "speaker": null,
+      "text": "come he's so easy to find after you kill somebody right if you kill somebody with death row oh there"
+    },
+    {
+      "id": 146,
+      "startTime": 917.76,
+      "endTime": 921.28,
+      "speaker": null,
+      "text": "he was he was there all the time i'm sitting in this chair 44 years i haven't found jesus i didn't"
+    },
+    {
+      "id": 147,
+      "startTime": 921.28,
+      "endTime": 928.16,
+      "speaker": null,
+      "text": "know to look there oh there he was he's in jail he's no death row all right jesus with the jesus"
+    },
+    {
+      "id": 148,
+      "startTime": 928.16,
+      "endTime": 936.96,
+      "speaker": null,
+      "text": "routine in atlantic city a 54 year old carpet salesman who faked a fall at valleys park place"
+    },
+    {
+      "id": 149,
+      "startTime": 936.96,
+      "endTime": 943.52,
+      "speaker": null,
+      "text": "casino was convicted of attempted theft yesterday for filing a 10 million dollar lawsuit good"
+    },
+    {
+      "id": 150,
+      "startTime": 943.52,
+      "endTime": 949.36,
+      "speaker": null,
+      "text": "against the casino he should be given the death penalty i'm serious people who file false claims"
+    },
+    {
+      "id": 151,
+      "startTime": 949.36,
+      "endTime": 955.68,
+      "speaker": null,
+      "text": "should be killed in april of 1995 the salesman accused valley of negligence claiming he had"
+    },
+    {
+      "id": 152,
+      "startTime": 955.68,
+      "endTime": 959.84,
+      "speaker": null,
+      "text": "hurt his back while stepping off one of the casinos moving sidewalk yeah hurt his back"
+    },
+    {
+      "id": 153,
+      "startTime": 959.84,
+      "endTime": 964.96,
+      "speaker": null,
+      "text": "prosecutors played a videotape taken from a casino security camera that showed him tossing a handful"
+    },
+    {
+      "id": 154,
+      "startTime": 964.96,
+      "endTime": 970.4,
+      "speaker": null,
+      "text": "of sand from an ashtray to the floor looking over his shoulder and then pretending to slip and fall"
+    },
+    {
+      "id": 155,
+      "startTime": 971.68,
+      "endTime": 976.8,
+      "speaker": null,
+      "text": "little did he know those cameras were there when he decided to file that claim maybe he"
+    },
+    {
+      "id": 156,
+      "startTime": 976.8,
+      "endTime": 980.32,
+      "speaker": null,
+      "text": "was going to tap dance we needed a camera everywhere in the country i know we have to"
+    },
+    {
+      "id": 157,
+      "startTime": 980.32,
+      "endTime": 987.76,
+      "speaker": null,
+      "text": "monitor everyone because everybody's full of crap frog beer can be sold in new york state howard"
+    },
+    {
+      "id": 158,
+      "startTime": 988.32,
+      "endTime": 990.0,
+      "speaker": null,
+      "text": "french beer frog beer"
+    },
+    {
+      "id": 159,
+      "startTime": 992.72,
+      "endTime": 997.6,
+      "speaker": null,
+      "text": "no really what are you talking about a federal appeals court ordered new york yesterday to lift"
+    },
+    {
+      "id": 160,
+      "startTime": 997.6,
+      "endTime": 1004.88,
+      "speaker": null,
+      "text": "its statewide ban against the sale of bad frog beer what is that the label depicts a cartoonish"
+    },
+    {
+      "id": 161,
+      "startTime": 1004.88,
+      "endTime": 1010.88,
+      "speaker": null,
+      "text": "frog with its middle finger upraised yeah and you can't sell that the united no the state of new"
+    },
+    {
+      "id": 162,
+      "startTime": 1010.88,
+      "endTime": 1015.28,
+      "speaker": null,
+      "text": "york said you couldn't sell it but the united states court of appeals said new york's interest"
+    },
+    {
+      "id": 163,
+      "startTime": 1015.28,
+      "endTime": 1020.8,
+      "speaker": null,
+      "text": "in protecting children against being offended or deterring underage drinking did not outweigh the"
+    },
+    {
+      "id": 164,
+      "startTime": 1020.8,
+      "endTime": 1028.72,
+      "speaker": null,
+      "text": "brewer's constitutional right to market the beer as it sees fit so you can sell bad frog beer"
+    },
+    {
+      "id": 165,
+      "startTime": 1028.72,
+      "endTime": 1039.2,
+      "speaker": null,
+      "text": "good new york state i'm all for it why sir that's fine did you see the list of of restaurants that"
+    },
+    {
+      "id": 166,
+      "startTime": 1039.2,
+      "endTime": 1045.68,
+      "speaker": null,
+      "text": "they say they found like nasty stuff in and everybody's shocked no i'm shocked i eat in"
+    },
+    {
+      "id": 167,
+      "startTime": 1045.68,
+      "endTime": 1051.52,
+      "speaker": null,
+      "text": "this place please you're crazy eating out in those places a lot of the restaurants"
+    },
+    {
+      "id": 168,
+      "startTime": 1051.52,
+      "endTime": 1057.04,
+      "speaker": null,
+      "text": "they're beautiful restaurants i know they're beautiful clear them up you can't get rid of the"
+    },
+    {
+      "id": 169,
+      "startTime": 1057.04,
+      "endTime": 1063.76,
+      "speaker": null,
+      "text": "rats you can assume there are rats in every building in manhattan never mind just the restaurants"
+    },
+    {
+      "id": 170,
+      "startTime": 1064.64,
+      "endTime": 1070.0,
+      "speaker": null,
+      "text": "but not only that well you know you gotta have like very sanitary conditions as a result"
+    },
+    {
+      "id": 171,
+      "startTime": 1070.72,
+      "endTime": 1076.48,
+      "speaker": null,
+      "text": "oh yeah sure first of all if you spray for the rats you got a bunch of dead rats"
+    },
+    {
+      "id": 172,
+      "startTime": 1077.84,
+      "endTime": 1079.6,
+      "speaker": null,
+      "text": "you're better off just letting the rats run free"
+    },
+    {
+      "id": 173,
+      "startTime": 1081.12,
+      "endTime": 1086.0,
+      "speaker": null,
+      "text": "yeah they're right to live here there are rats everywhere vermin mice droppings of course"
+    },
+    {
+      "id": 174,
+      "startTime": 1087.28,
+      "endTime": 1094.72,
+      "speaker": null,
+      "text": "faulty hair nets chairs after the rock after the droppings who cares greasy and dusting"
+    },
+    {
+      "id": 175,
+      "startTime": 1094.72,
+      "endTime": 1102.56,
+      "speaker": null,
+      "text": "ventilation systems little human hair look pretty good right dirty wiping cloths severely dented food"
+    },
+    {
+      "id": 176,
+      "startTime": 1102.56,
+      "endTime": 1107.68,
+      "speaker": null,
+      "text": "cans are being used everywhere there are concentrations of people there are rats"
+    },
+    {
+      "id": 177,
+      "startTime": 1108.56,
+      "endTime": 1114.48,
+      "speaker": null,
+      "text": "you move to the desert there's no rats you'll be fine no restaurants either nothing"
+    },
+    {
+      "id": 178,
+      "startTime": 1116.88,
+      "endTime": 1121.12,
+      "speaker": null,
+      "text": "go eat in the desert yeah build a restaurant i guess i'm gonna have to stay home and learn to cook"
+    },
+    {
+      "id": 179,
+      "startTime": 1121.12,
+      "endTime": 1125.76,
+      "speaker": null,
+      "text": "no you're gonna go there and keep eating right workers handling food with bare hands food"
+    },
+    {
+      "id": 180,
+      "startTime": 1125.76,
+      "endTime": 1130.4,
+      "speaker": null,
+      "text": "improperly stored of course you knew what was going on with your food you'd never eat it"
+    },
+    {
+      "id": 181,
+      "startTime": 1133.12,
+      "endTime": 1137.68,
+      "speaker": null,
+      "text": "oh i just i don't know i'm getting sick i've eaten at almost all these restaurants"
+    },
+    {
+      "id": 182,
+      "startTime": 1137.68,
+      "endTime": 1142.56,
+      "speaker": null,
+      "text": "hey nothing bothers me i'm eating right through the story food from a restaurant got a tough"
+    },
+    {
+      "id": 183,
+      "startTime": 1142.56,
+      "endTime": 1148.0,
+      "speaker": null,
+      "text": "stomach you got a strong constitution i gotta admit i'm getting a little queasy"
+    },
+    {
+      "id": 184,
+      "startTime": 1150.16,
+      "endTime": 1155.12,
+      "speaker": null,
+      "text": "what else is in the news rob oh you said earlier today that jenny mccarthy's uh tv show had been"
+    },
+    {
+      "id": 185,
+      "startTime": 1155.68,
+      "endTime": 1162.64,
+      "speaker": null,
+      "text": "canceled by nbc they say they have pulled it from the lineup but they will continue to"
+    },
+    {
+      "id": 186,
+      "startTime": 1163.92,
+      "endTime": 1170.72,
+      "speaker": null,
+      "text": "shoot the remaining episodes in the 22 episode contract with nbc and they are likely to air"
+    },
+    {
+      "id": 187,
+      "startTime": 1170.72,
+      "endTime": 1175.2,
+      "speaker": null,
+      "text": "sometime late this year after the season is over hey that's gotta be a fun shoot i like to go on"
+    },
+    {
+      "id": 188,
+      "startTime": 1175.2,
+      "endTime": 1179.12,
+      "speaker": null,
+      "text": "the set after shows been canceled to watch them shoot the rest of the episodes can we get an"
+    },
+    {
+      "id": 189,
+      "startTime": 1179.12,
+      "endTime": 1185.68,
+      "speaker": null,
+      "text": "e camera over there that must be great uh two new chemical studies find that uh meteorite samples"
+    },
+    {
+      "id": 190,
+      "startTime": 1185.68,
+      "endTime": 1193.04,
+      "speaker": null,
+      "text": "show no traces of past life on mars so fred never did live fred wiped them down before they examined"
+    },
+    {
+      "id": 191,
+      "startTime": 1193.04,
+      "endTime": 1197.6,
+      "speaker": null,
+      "text": "them there was no past life on mars you remember they found those meteorite samples and they said"
+    },
+    {
+      "id": 192,
+      "startTime": 1197.6,
+      "endTime": 1201.76,
+      "speaker": null,
+      "text": "oh there could have been life and who told you there was no life on mars you did of course but"
+    },
+    {
+      "id": 193,
+      "startTime": 1201.76,
+      "endTime": 1205.68,
+      "speaker": null,
+      "text": "you weren't saying it scientifically i don't care there is no life on mars and there never was and"
+    },
+    {
+      "id": 194,
+      "startTime": 1205.68,
+      "endTime": 1210.0,
+      "speaker": null,
+      "text": "there never will be and the only life is in this planet who told you that and you stopped dreaming"
+    },
+    {
+      "id": 195,
+      "startTime": 1210.72,
+      "endTime": 1216.96,
+      "speaker": null,
+      "text": "all years all years i'm serious everybody wants aliens and if there are aliens we're gonna come"
+    },
+    {
+      "id": 196,
+      "startTime": 1216.96,
+      "endTime": 1224.48,
+      "speaker": null,
+      "text": "down here and kick our ass so who needs them crying out loud why would they do that why because"
+    },
+    {
+      "id": 197,
+      "startTime": 1224.48,
+      "endTime": 1228.72,
+      "speaker": null,
+      "text": "they're superior if they could fly light years when we don't even have the technology to fly"
+    },
+    {
+      "id": 198,
+      "startTime": 1228.72,
+      "endTime": 1235.76,
+      "speaker": null,
+      "text": "light years they will kill us as piers brosnan says in uh mars attacks yeah obviously this high"
+    },
+    {
+      "id": 199,
+      "startTime": 1235.76,
+      "endTime": 1240.08,
+      "speaker": null,
+      "text": "level of intelligence indicates a peaceful society and then what happened to him they chopped his"
+    },
+    {
+      "id": 200,
+      "startTime": 1240.08,
+      "endTime": 1247.04,
+      "speaker": null,
+      "text": "head off yeah they took his head and put it on the dog's body i like that movie i'm probably the only"
+    },
+    {
+      "id": 201,
+      "startTime": 1247.04,
+      "endTime": 1254.24,
+      "speaker": null,
+      "text": "one i watch it on you know it's a bitter i think that i think that movie was so funny it's a better tv"
+    },
+    {
+      "id": 202,
+      "startTime": 1254.24,
+      "endTime": 1258.4,
+      "speaker": null,
+      "text": "movie than it was a big screen movie yeah i saw i showed it on video and i loved it yeah because"
+    },
+    {
+      "id": 203,
+      "startTime": 1258.4,
+      "endTime": 1263.12,
+      "speaker": null,
+      "text": "i just saw it on television not too long ago and i actually liked it yeah mars attacks this cool"
+    },
+    {
+      "id": 204,
+      "startTime": 1263.12,
+      "endTime": 1275.52,
+      "speaker": null,
+      "text": "movie can you believe this 25 years after roe versus wade that decision made by the supreme court"
+    },
+    {
+      "id": 205,
+      "startTime": 1275.52,
+      "endTime": 1281.92,
+      "speaker": null,
+      "text": "that allowed people to freely have abortions in this country right americans still largely"
+    },
+    {
+      "id": 206,
+      "startTime": 1281.92,
+      "endTime": 1290.4,
+      "speaker": null,
+      "text": "support the right to abortion but they think it should be harder to get stupid asses and chosen"
+    },
+    {
+      "id": 207,
+      "startTime": 1290.4,
+      "endTime": 1299.84,
+      "speaker": null,
+      "text": "less readily that's going to a new new york time cbs news poll it's too hard to get now i know you"
+    },
+    {
+      "id": 208,
+      "startTime": 1299.84,
+      "endTime": 1307.2,
+      "speaker": null,
+      "text": "can't find them no abortion is wonderful and should be encouraged even if someone has the"
+    },
+    {
+      "id": 209,
+      "startTime": 1307.2,
+      "endTime": 1311.68,
+      "speaker": null,
+      "text": "slightest doubt they should immediately get that fetus sucked out of them instead of dropping them"
+    },
+    {
+      "id": 210,
+      "startTime": 1311.68,
+      "endTime": 1319.68,
+      "speaker": null,
+      "text": "in the bath right or or or just ignoring them it is so a quick death is so much better than being"
+    },
+    {
+      "id": 211,
+      "startTime": 1319.68,
+      "endTime": 1327.68,
+      "speaker": null,
+      "text": "raised by mutants i don't know some of us were raised by mutants and like living i haven't met"
+    },
+    {
+      "id": 212,
+      "startTime": 1327.68,
+      "endTime": 1332.24,
+      "speaker": null,
+      "text": "too many people not raised by mutants that's right we none of us would be here right"
+    },
+    {
+      "id": 213,
+      "startTime": 1335.44,
+      "endTime": 1340.88,
+      "speaker": null,
+      "text": "you know this i love america online but if you're gay and in the military you have to be careful"
+    },
+    {
+      "id": 214,
+      "startTime": 1340.88,
+      "endTime": 1345.2,
+      "speaker": null,
+      "text": "about what you do what do you mean there's a sailor who's challenging his discharge from"
+    },
+    {
+      "id": 215,
+      "startTime": 1345.2,
+      "endTime": 1352.32,
+      "speaker": null,
+      "text": "the navy for violating the don't ask don't tell rule and they think that the only evidence against"
+    },
+    {
+      "id": 216,
+      "startTime": 1352.32,
+      "endTime": 1361.12,
+      "speaker": null,
+      "text": "him is that he went on america online and was filling out some survey a profile or something"
+    },
+    {
+      "id": 217,
+      "startTime": 1361.12,
+      "endTime": 1368.32,
+      "speaker": null,
+      "text": "right and in the section where it says marital status he wrote gay well is he an idiot"
+    },
+    {
+      "id": 218,
+      "startTime": 1370.24,
+      "endTime": 1371.84,
+      "speaker": null,
+      "text": "throw him out of the military because he's stupid"
+    },
+    {
+      "id": 219,
+      "startTime": 1374.32,
+      "endTime": 1378.24,
+      "speaker": null,
+      "text": "you know i guess he figured i'm in my off time i'm on america online"
+    },
+    {
+      "id": 220,
+      "startTime": 1379.12,
+      "endTime": 1382.4,
+      "speaker": null,
+      "text": "i can talk about this yeah i'm gonna come out of the closet on the web"
+    },
+    {
+      "id": 221,
+      "startTime": 1383.68,
+      "endTime": 1391.28,
+      "speaker": null,
+      "text": "smart man best way yeah that's ridiculous so here he is he's got an outstanding role model"
+    },
+    {
+      "id": 222,
+      "startTime": 1391.28,
+      "endTime": 1396.8,
+      "speaker": null,
+      "text": "performance review in his last evaluation but he did write that he was gay in the marital"
+    },
+    {
+      "id": 223,
+      "startTime": 1396.8,
+      "endTime": 1401.68,
+      "speaker": null,
+      "text": "status block on this profile in america online and so they made boot him out of the service wow"
+    },
+    {
+      "id": 224,
+      "startTime": 1403.52,
+      "endTime": 1408.96,
+      "speaker": null,
+      "text": "wow they're really serious about this don't ask don't tell president clinton is gearing up for"
+    },
+    {
+      "id": 225,
+      "startTime": 1408.96,
+      "endTime": 1414.56,
+      "speaker": null,
+      "text": "his interview or his deposition with the attorneys who are representing paula jones this weekend"
+    },
+    {
+      "id": 226,
+      "startTime": 1414.56,
+      "endTime": 1419.04,
+      "speaker": null,
+      "text": "and now they are saying they've got the seating all worked out and paula jones will almost be"
+    },
+    {
+      "id": 227,
+      "startTime": 1419.04,
+      "endTime": 1423.76,
+      "speaker": null,
+      "text": "right across from the president while he's answering these questions robin thinks paula"
+    },
+    {
+      "id": 228,
+      "startTime": 1423.76,
+      "endTime": 1428.48,
+      "speaker": null,
+      "text": "jones had plastic surgery yeah look at those two pictures i think it's just a hairdo and she lost"
+    },
+    {
+      "id": 229,
+      "startTime": 1428.48,
+      "endTime": 1434.4,
+      "speaker": null,
+      "text": "a little weight and they put some makeup on her anyway she was thin already no robin's right she's"
+    },
+    {
+      "id": 230,
+      "startTime": 1434.4,
+      "endTime": 1441.84,
+      "speaker": null,
+      "text": "a media baby now really what do you think she had done to her cheekbones maybe cheekbones"
+    },
+    {
+      "id": 231,
+      "startTime": 1443.04,
+      "endTime": 1447.28,
+      "speaker": null,
+      "text": "are you looking at the picture and evaluating yeah i don't know she didn't have a nose job why"
+    },
+    {
+      "id": 232,
+      "startTime": 1447.28,
+      "endTime": 1450.64,
+      "speaker": null,
+      "text": "wouldn't she get a nose job i think that they couldn't do too much you know that was one of"
+    },
+    {
+      "id": 233,
+      "startTime": 1450.64,
+      "endTime": 1455.92,
+      "speaker": null,
+      "text": "those things where all that nose was too identifiable so if she was worried about her image she wanted"
+    },
+    {
+      "id": 234,
+      "startTime": 1455.92,
+      "endTime": 1460.0,
+      "speaker": null,
+      "text": "to make sure people she didn't want people to know what she did but did you say they had blackwell"
+    },
+    {
+      "id": 235,
+      "startTime": 1460.0,
+      "endTime": 1466.24,
+      "speaker": null,
+      "text": "yes evaluate what went on here yes he liked it and he says oh i give them a lot of credit"
+    },
+    {
+      "id": 236,
+      "startTime": 1466.24,
+      "endTime": 1472.96,
+      "speaker": null,
+      "text": "and he figures that they must have paid 15 to 20 000 to get it done well no to buy her clothes"
+    },
+    {
+      "id": 237,
+      "startTime": 1472.96,
+      "endTime": 1477.44,
+      "speaker": null,
+      "text": "and get her hair done well yeah to get her wig over done right and he says that he wouldn't"
+    },
+    {
+      "id": 238,
+      "startTime": 1477.44,
+      "endTime": 1483.28,
+      "speaker": null,
+      "text": "have done it for anything less than 10 who's like yeah who needs him but he still says he'd do more"
+    },
+    {
+      "id": 239,
+      "startTime": 1483.28,
+      "endTime": 1490.16,
+      "speaker": null,
+      "text": "he would cut her hair cut her hair shorter yeah implants yeah soften the lips oh this blackwell"
+    },
+    {
+      "id": 240,
+      "startTime": 1490.16,
+      "endTime": 1496.8,
+      "speaker": null,
+      "text": "what would he do tweeze him the lips could be lighter it's a little red red red why don't"
+    },
+    {
+      "id": 241,
+      "startTime": 1496.8,
+      "endTime": 1503.04,
+      "speaker": null,
+      "text": "you tell him to look in the mirror the nails are better but i think they're too bright"
+    },
+    {
+      "id": 242,
+      "startTime": 1505.92,
+      "endTime": 1516.16,
+      "speaker": null,
+      "text": "and beware of the eyeliner what an evil man he's just constantly evaluating he has to have something"
+    },
+    {
+      "id": 243,
+      "startTime": 1516.16,
+      "endTime": 1520.96,
+      "speaker": null,
+      "text": "to say right we already talked about oj i don't want to talk about let's not deal with him anymore"
+    },
+    {
+      "id": 244,
+      "startTime": 1520.96,
+      "endTime": 1528.8,
+      "speaker": null,
+      "text": "tired of him right oj the police and the fbi believe they will soon have the third and final"
+    },
+    {
+      "id": 245,
+      "startTime": 1528.8,
+      "endTime": 1536.8,
+      "speaker": null,
+      "text": "suspect who robbed the brink's guards at the world trade center of one million dollars last tuesday"
+    },
+    {
+      "id": 246,
+      "startTime": 1536.8,
+      "endTime": 1541.04,
+      "speaker": null,
+      "text": "these guys are idiots yeah they were running out of the place they weren't even"
+    },
+    {
+      "id": 247,
+      "startTime": 1541.04,
+      "endTime": 1545.68,
+      "speaker": null,
+      "text": "out of the building yet and they took off their ski masks so there we they were these guys that"
+    },
+    {
+      "id": 248,
+      "startTime": 1545.68,
+      "endTime": 1550.88,
+      "speaker": null,
+      "text": "waved at the cameras as they went by visible and recognizable and now they're almost all rounded up"
+    },
+    {
+      "id": 249,
+      "startTime": 1552.64,
+      "endTime": 1559.52,
+      "speaker": null,
+      "text": "criminal masterminds they could have gotten away with it just kept on those ski masks right"
+    },
+    {
+      "id": 250,
+      "startTime": 1560.24,
+      "endTime": 1566.4,
+      "speaker": null,
+      "text": "thank goodness they're not that bright it's been a bad day for law enforcement in los angeles"
+    },
+    {
+      "id": 251,
+      "startTime": 1568.24,
+      "endTime": 1573.36,
+      "speaker": null,
+      "text": "four officers were shot yesterday in three separate incidents less than 12 hours apart"
+    },
+    {
+      "id": 252,
+      "startTime": 1573.36,
+      "endTime": 1577.28,
+      "speaker": null,
+      "text": "the bloodshed began in the morning when two la policemen were wounded as they investigated"
+    },
+    {
+      "id": 253,
+      "startTime": 1577.28,
+      "endTime": 1583.68,
+      "speaker": null,
+      "text": "a domestic violence report a mentally ill man was taken into custody and an assault rifle was seized"
+    },
+    {
+      "id": 254,
+      "startTime": 1584.24,
+      "endTime": 1589.76,
+      "speaker": null,
+      "text": "that evening an off-duty sheriff's deputy was shot in the face during a robbery attempt"
+    },
+    {
+      "id": 255,
+      "startTime": 1589.76,
+      "endTime": 1594.8,
+      "speaker": null,
+      "text": "that gunman escaped and a short time later an off-duty police officer and his son were shot"
+    },
+    {
+      "id": 256,
+      "startTime": 1594.8,
+      "endTime": 1600.72,
+      "speaker": null,
+      "text": "in circumstances that have yet to be explained their conditions are unknown a police union"
+    },
+    {
+      "id": 257,
+      "startTime": 1600.72,
+      "endTime": 1606.72,
+      "speaker": null,
+      "text": "official says the high number of shootings in one day is indicative of an increasing risk to law"
+    },
+    {
+      "id": 258,
+      "startTime": 1606.72,
+      "endTime": 1612.16,
+      "speaker": null,
+      "text": "enforcement officers as they are serving the public i think veronica webb's good at oral sex robin"
+    },
+    {
+      "id": 259,
+      "startTime": 1614.0,
+      "endTime": 1621.44,
+      "speaker": null,
+      "text": "you know it never crossed my mind we were talking about norm mcdonald right in the last couple of"
+    },
+    {
+      "id": 260,
+      "startTime": 1621.44,
+      "endTime": 1628.0,
+      "speaker": null,
+      "text": "weeks he's uh been booted from that new slot on saturday night live he now says it's a little"
+    },
+    {
+      "id": 261,
+      "startTime": 1628.0,
+      "endTime": 1634.56,
+      "speaker": null,
+      "text": "uncomfortable going to work every day he's still doing sketches for the show but he says you know"
+    },
+    {
+      "id": 262,
+      "startTime": 1634.56,
+      "endTime": 1639.2,
+      "speaker": null,
+      "text": "he's worked in uncomfortable situations before but the other people around him don't know what to say"
+    },
+    {
+      "id": 263,
+      "startTime": 1639.2,
+      "endTime": 1643.6,
+      "speaker": null,
+      "text": "it's almost like when you're suffering from cancer nobody knows what to say to you but he says he's"
+    },
+    {
+      "id": 264,
+      "startTime": 1643.6,
+      "endTime": 1649.12,
+      "speaker": null,
+      "text": "fine i did read in the paper earlier this week that lauren michaels is saying he has lost control"
+    },
+    {
+      "id": 265,
+      "startTime": 1649.12,
+      "endTime": 1654.08,
+      "speaker": null,
+      "text": "complete control of saturday night live but it happened two years ago when he was ordered by"
+    },
+    {
+      "id": 266,
+      "startTime": 1654.08,
+      "endTime": 1661.04,
+      "speaker": null,
+      "text": "executives at nbc to fire several members of the cast that he had no desire to let go"
+    },
+    {
+      "id": 267,
+      "startTime": 1661.04,
+      "endTime": 1667.76,
+      "speaker": null,
+      "text": "think norm is good at oral sex no yeah i don't think so either you're really getting desperate"
+    },
+    {
+      "id": 268,
+      "startTime": 1670.96,
+      "endTime": 1677.36,
+      "speaker": null,
+      "text": "christian slater has a new movie that's starting today called hard rain right and you're right this"
+    },
+    {
+      "id": 269,
+      "startTime": 1677.36,
+      "endTime": 1684.0,
+      "speaker": null,
+      "text": "idea of going to jail just as the movie is opening is a very good one it's publicity because i can't"
+    },
+    {
+      "id": 270,
+      "startTime": 1684.0,
+      "endTime": 1688.48,
+      "speaker": null,
+      "text": "stop talking about it as a result i have to go see the movie now wouldn't even be interested"
+    },
+    {
+      "id": 271,
+      "startTime": 1688.48,
+      "endTime": 1693.28,
+      "speaker": null,
+      "text": "in this movie if he wasn't on his way to jail here he is saying he's resigned to having to"
+    },
+    {
+      "id": 272,
+      "startTime": 1693.28,
+      "endTime": 1701.12,
+      "speaker": null,
+      "text": "serve his time i'm a human being oh i i i can't expect to to get away with anything and um at the"
+    },
+    {
+      "id": 273,
+      "startTime": 1701.12,
+      "endTime": 1708.4,
+      "speaker": null,
+      "text": "end of the day i'm more relieved uh by by just just the fact that i feel like a certain section"
+    },
+    {
+      "id": 274,
+      "startTime": 1708.4,
+      "endTime": 1720.72,
+      "speaker": null,
+      "text": "of my life um is is is just over with i love that way of speaking yes mini driver who probably is"
+    },
+    {
+      "id": 275,
+      "startTime": 1720.72,
+      "endTime": 1726.48,
+      "speaker": null,
+      "text": "the only actress in hollywood because she's in so many films i don't even think she's good looking"
+    },
+    {
+      "id": 276,
+      "startTime": 1727.04,
+      "endTime": 1735.12,
+      "speaker": null,
+      "text": "is in hard rain along with christian slater really and here she is talking about"
+    },
+    {
+      "id": 277,
+      "startTime": 1735.92,
+      "endTime": 1740.88,
+      "speaker": null,
+      "text": "acting in an action film it's a whole different verb this whole being in an action film it's"
+    },
+    {
+      "id": 278,
+      "startTime": 1740.88,
+      "endTime": 1746.72,
+      "speaker": null,
+      "text": "actioning it's not acting it's it's completely different than it should be i think it should"
+    },
+    {
+      "id": 279,
+      "startTime": 1746.72,
+      "endTime": 1751.68,
+      "speaker": null,
+      "text": "even be judged or looked at with completely different eyes it's not comparable to sitting"
+    },
+    {
+      "id": 280,
+      "startTime": 1751.68,
+      "endTime": 1760.88,
+      "speaker": null,
+      "text": "in a room who cares Robert De Niro with Matt Damon it's not but you shut up you work from"
+    },
+    {
+      "id": 281,
+      "startTime": 1760.88,
+      "endTime": 1765.2,
+      "speaker": null,
+      "text": "the outside in the action describes the character rather than you sitting there explaining who you"
+    },
+    {
+      "id": 282,
+      "startTime": 1765.2,
+      "endTime": 1770.64,
+      "speaker": null,
+      "text": "are it's revealed to this person is by the actions that they take that's really why it's an action"
+    },
+    {
+      "id": 283,
+      "startTime": 1770.64,
+      "endTime": 1779.28,
+      "speaker": null,
+      "text": "film i think f you shut up i hate hearing actors talking about it they're craft there's a new movie"
+    },
+    {
+      "id": 284,
+      "startTime": 1779.28,
+      "endTime": 1785.36,
+      "speaker": null,
+      "text": "out called half baked yeah what is it apparently is about marijuana yeah i gotta see that they"
+    },
+    {
+      "id": 285,
+      "startTime": 1785.36,
+      "endTime": 1790.96,
+      "speaker": null,
+      "text": "haven't done that a long time in hollywood made a marijuana film dave chappelle uh appears in the"
+    },
+    {
+      "id": 286,
+      "startTime": 1790.96,
+      "endTime": 1797.84,
+      "speaker": null,
+      "text": "film who's that he's a black comedian black guys can do marijuana movies well there are white guys"
+    },
+    {
+      "id": 287,
+      "startTime": 1797.84,
+      "endTime": 1799.84,
+      "speaker": null,
+      "text": "in this too oh there are some saturday night"
+    },
+    {
+      "id": 288,
+      "startTime": 1800.0,
+      "endTime": 1802.28,
+      "speaker": null,
+      "text": "I've minor roles, just minor roles."
+    },
+    {
+      "id": 289,
+      "startTime": 1802.48,
+      "endTime": 1805.16,
+      "speaker": null,
+      "text": "I don't know. I haven't seen it, Mr. T."
+    },
+    {
+      "id": 290,
+      "startTime": 1805.36,
+      "endTime": 1807.76,
+      "speaker": null,
+      "text": "But Dave Chappelle says"
+    },
+    {
+      "id": 291,
+      "startTime": 1807.96,
+      "endTime": 1814.16,
+      "speaker": null,
+      "text": "or he was asked if his characterization in the film was in honor of Tommy Chong."
+    },
+    {
+      "id": 292,
+      "startTime": 1814.36,
+      "endTime": 1815.16,
+      "speaker": null,
+      "text": "Yeah, it was."
+    },
+    {
+      "id": 293,
+      "startTime": 1815.36,
+      "endTime": 1819.72,
+      "speaker": null,
+      "text": "It was like an endorsement of source because he's the pioneer of that genre."
+    },
+    {
+      "id": 294,
+      "startTime": 1819.92,
+      "endTime": 1822.32,
+      "speaker": null,
+      "text": "And congratulations to show up and all."
+    },
+    {
+      "id": 295,
+      "startTime": 1822.52,
+      "endTime": 1826.4,
+      "speaker": null,
+      "text": "It was just like a nice, like a stamp of approval, if you would."
+    },
+    {
+      "id": 296,
+      "startTime": 1826.6,
+      "endTime": 1827.56,
+      "speaker": null,
+      "text": "Uh huh."
+    },
+    {
+      "id": 297,
+      "startTime": 1827.76,
+      "endTime": 1831.52,
+      "speaker": null,
+      "text": "It just sounds like it's not really good, really good that he did that."
+    },
+    {
+      "id": 298,
+      "startTime": 1831.72,
+      "endTime": 1834.4,
+      "speaker": null,
+      "text": "It's all right, you know, so I'm down with that."
+    },
+    {
+      "id": 299,
+      "startTime": 1834.6,
+      "endTime": 1837.32,
+      "speaker": null,
+      "text": "Tommy Chong apparently took a role in the film."
+    },
+    {
+      "id": 300,
+      "startTime": 1837.52,
+      "endTime": 1840.28,
+      "speaker": null,
+      "text": "So they feel like they're vindicated."
+    },
+    {
+      "id": 301,
+      "startTime": 1840.48,
+      "endTime": 1843.16,
+      "speaker": null,
+      "text": "I don't know what to say about that name, but I don't know about it."
+    },
+    {
+      "id": 302,
+      "startTime": 1843.36,
+      "endTime": 1845.48,
+      "speaker": null,
+      "text": "The creator of the genre."
+    },
+    {
+      "id": 303,
+      "startTime": 1845.68,
+      "endTime": 1850.6,
+      "speaker": null,
+      "text": "But kind of a homage, you know what I'm saying?"
+    },
+    {
+      "id": 304,
+      "startTime": 1850.8,
+      "endTime": 1854.24,
+      "speaker": null,
+      "text": "Here's your bell on doing a comedy about marijuana."
+    },
+    {
+      "id": 305,
+      "startTime": 1854.44,
+      "endTime": 1856.6,
+      "speaker": null,
+      "text": "I think we just kept comedy in the foreground."
+    },
+    {
+      "id": 306,
+      "startTime": 1856.8,
+      "endTime": 1861.04,
+      "speaker": null,
+      "text": "Weed is the kind of thing where weed is so ripe for humor."
+    },
+    {
+      "id": 307,
+      "startTime": 1861.24,
+      "endTime": 1866.32,
+      "speaker": null,
+      "text": "That whole subculture weed and people and people were waiting for this kind"
+    },
+    {
+      "id": 308,
+      "startTime": 1866.52,
+      "endTime": 1870.76,
+      "speaker": null,
+      "text": "of thing to happen, like if we didn't do it, somebody else would have done it."
+    },
+    {
+      "id": 309,
+      "startTime": 1870.96,
+      "endTime": 1872.28,
+      "speaker": null,
+      "text": "It was just a matter of time."
+    },
+    {
+      "id": 310,
+      "startTime": 1872.48,
+      "endTime": 1874.28,
+      "speaker": null,
+      "text": "I had a script in development."
+    },
+    {
+      "id": 311,
+      "startTime": 1874.48,
+      "endTime": 1875.32,
+      "speaker": null,
+      "text": "They beat you to it."
+    },
+    {
+      "id": 312,
+      "startTime": 1875.52,
+      "endTime": 1878.12,
+      "speaker": null,
+      "text": "I had a big old marijuana movie coming out."
+    },
+    {
+      "id": 313,
+      "startTime": 1878.32,
+      "endTime": 1882.28,
+      "speaker": null,
+      "text": "What do you mean? We white man."
+    },
+    {
+      "id": 314,
+      "startTime": 1882.48,
+      "endTime": 1883.68,
+      "speaker": null,
+      "text": "Uh huh."
+    },
+    {
+      "id": 315,
+      "startTime": 1883.88,
+      "endTime": 1885.52,
+      "speaker": null,
+      "text": "Well, that's interesting, Robin. Thank you."
+    },
+    {
+      "id": 316,
+      "startTime": 1885.72,
+      "endTime": 1887.0,
+      "speaker": null,
+      "text": "Yeah, I told you about the poor woman"
+    },
+    {
+      "id": 317,
+      "startTime": 1887.2,
+      "endTime": 1891.0,
+      "speaker": null,
+      "text": "who lost her leg yesterday on the street after being hit by a cab."
+    },
+    {
+      "id": 318,
+      "startTime": 1891.2,
+      "endTime": 1893.68,
+      "speaker": null,
+      "text": "They were unable to reattach that."
+    },
+    {
+      "id": 319,
+      "startTime": 1893.88,
+      "endTime": 1894.96,
+      "speaker": null,
+      "text": "Terrible story."
+    },
+    {
+      "id": 320,
+      "startTime": 1895.16,
+      "endTime": 1896.32,
+      "speaker": null,
+      "text": "Two cabs collide."
+    },
+    {
+      "id": 321,
+      "startTime": 1896.52,
+      "endTime": 1900.56,
+      "speaker": null,
+      "text": "One goes on to the sidewalk, a 51 year old woman is hit."
+    },
+    {
+      "id": 322,
+      "startTime": 1900.76,
+      "endTime": 1902.04,
+      "speaker": null,
+      "text": "The cabs lying on top of her."
+    },
+    {
+      "id": 323,
+      "startTime": 1902.24,
+      "endTime": 1903.4,
+      "speaker": null,
+      "text": "People rush to her aid."
+    },
+    {
+      "id": 324,
+      "startTime": 1903.4,
+      "endTime": 1905.28,
+      "speaker": null,
+      "text": "They lift off the car and then they find"
+    },
+    {
+      "id": 325,
+      "startTime": 1905.48,
+      "endTime": 1910.2,
+      "speaker": null,
+      "text": "that she's lying in one section and her leg is lying in another."
+    },
+    {
+      "id": 326,
+      "startTime": 1910.4,
+      "endTime": 1913.8,
+      "speaker": null,
+      "text": "A doctor was there and applied a tourniquet to save her life."
+    },
+    {
+      "id": 327,
+      "startTime": 1914.0,
+      "endTime": 1916.36,
+      "speaker": null,
+      "text": "But the leg could not be reattached even"
+    },
+    {
+      "id": 328,
+      "startTime": 1916.56,
+      "endTime": 1919.84,
+      "speaker": null,
+      "text": "though it was packed up and taken off to the hospital with her."
+    },
+    {
+      "id": 329,
+      "startTime": 1920.04,
+      "endTime": 1922.4,
+      "speaker": null,
+      "text": "In a separate cab or the same different cab or what?"
+    },
+    {
+      "id": 330,
+      "startTime": 1922.6,
+      "endTime": 1923.84,
+      "speaker": null,
+      "text": "Well, I'm just curious."
+    },
+    {
+      "id": 331,
+      "startTime": 1924.04,
+      "endTime": 1925.12,
+      "speaker": null,
+      "text": "Did they take her leg in a separate..."
+    },
+    {
+      "id": 332,
+      "startTime": 1925.32,
+      "endTime": 1926.6,
+      "speaker": null,
+      "text": "It was in an ambulance that they took her to the hospital."
+    },
+    {
+      "id": 333,
+      "startTime": 1926.8,
+      "endTime": 1928.2,
+      "speaker": null,
+      "text": "Oh, OK. I'm just curious."
+    },
+    {
+      "id": 334,
+      "startTime": 1928.4,
+      "endTime": 1928.88,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 335,
+      "startTime": 1929.08,
+      "endTime": 1932.68,
+      "speaker": null,
+      "text": "And finally, a 12 year old girl has been assaulted by her mother."
+    },
+    {
+      "id": 336,
+      "startTime": 1932.88,
+      "endTime": 1936.84,
+      "speaker": null,
+      "text": "A mother punched her daughter and chased her with a hammer after learning"
+    },
+    {
+      "id": 337,
+      "startTime": 1937.04,
+      "endTime": 1941.48,
+      "speaker": null,
+      "text": "that her 12 year old had lost her virginity, according to the police report."
+    },
+    {
+      "id": 338,
+      "startTime": 1941.68,
+      "endTime": 1942.96,
+      "speaker": null,
+      "text": "That sounds appropriate."
+    },
+    {
+      "id": 339,
+      "startTime": 1943.16,
+      "endTime": 1945.44,
+      "speaker": null,
+      "text": "What was you going to do with the hammer? Put it back in?"
+    },
+    {
+      "id": 340,
+      "startTime": 1945.64,
+      "endTime": 1947.68,
+      "speaker": null,
+      "text": "That's um..."
+    },
+    {
+      "id": 341,
+      "startTime": 1947.88,
+      "endTime": 1948.68,
+      "speaker": null,
+      "text": "She was cursed."
+    },
+    {
+      "id": 342,
+      "startTime": 1948.88,
+      "endTime": 1952.32,
+      "speaker": null,
+      "text": "The girl was hysterical when officers found her outside her home."
+    },
+    {
+      "id": 343,
+      "startTime": 1952.52,
+      "endTime": 1955.72,
+      "speaker": null,
+      "text": "There were several red welts on her face and arms."
+    },
+    {
+      "id": 344,
+      "startTime": 1955.92,
+      "endTime": 1957.68,
+      "speaker": null,
+      "text": "She told police her mother had beat her,"
+    },
+    {
+      "id": 345,
+      "startTime": 1957.68,
+      "endTime": 1959.56,
+      "speaker": null,
+      "text": "chased her with a hammer and threatened to kill her."
+    },
+    {
+      "id": 346,
+      "startTime": 1959.76,
+      "endTime": 1961.8,
+      "speaker": null,
+      "text": "You can't beat your kids if they lose their virginity."
+    },
+    {
+      "id": 347,
+      "startTime": 1962.0,
+      "endTime": 1963.48,
+      "speaker": null,
+      "text": "The police then questioned the mother,"
+    },
+    {
+      "id": 348,
+      "startTime": 1963.68,
+      "endTime": 1967.8,
+      "speaker": null,
+      "text": "who according to the report said, \"I just found out that my 12 year old"
+    },
+    {
+      "id": 349,
+      "startTime": 1968.0,
+      "endTime": 1971.0,
+      "speaker": null,
+      "text": "daughter isn't a virgin anymore, so I punched her in the face.\""
+    },
+    {
+      "id": 350,
+      "startTime": 1971.2,
+      "endTime": 1973.56,
+      "speaker": null,
+      "text": "Yep, I bet she won't have sex anymore."
+    },
+    {
+      "id": 351,
+      "startTime": 1973.76,
+      "endTime": 1976.88,
+      "speaker": null,
+      "text": "After being advised of her rights, the mother went on to say she would have"
+    },
+    {
+      "id": 352,
+      "startTime": 1976.88,
+      "endTime": 1979.84,
+      "speaker": null,
+      "text": "killed her daughter with a hammer if she had gotten close enough."
+    },
+    {
+      "id": 353,
+      "startTime": 1980.04,
+      "endTime": 1985.64,
+      "speaker": null,
+      "text": "Right. Why can't we all just get along?"
+    },
+    {
+      "id": 354,
+      "startTime": 1985.84,
+      "endTime": 1987.08,
+      "speaker": null,
+      "text": "So there you have it."
+    },
+    {
+      "id": 355,
+      "startTime": 1987.28,
+      "endTime": 1987.68,
+      "speaker": null,
+      "text": "Thanks, Robin."
+    },
+    {
+      "id": 356,
+      "startTime": 1987.88,
+      "endTime": 1990.8,
+      "speaker": null,
+      "text": "The woman is being held in the county jail"
+    },
+    {
+      "id": 357,
+      "startTime": 1991.0,
+      "endTime": 1993.88,
+      "speaker": null,
+      "text": "and a preliminary hearing is scheduled for January 29th."
+    },
+    {
+      "id": 358,
+      "startTime": 1994.08,
+      "endTime": 1995.76,
+      "speaker": null,
+      "text": "Great. We'll all be there."
+    },
+    {
+      "id": 359,
+      "startTime": 1995.96,
+      "endTime": 1998.6,
+      "speaker": null,
+      "text": "Tonight on the E-Show, watch the pregnant Pamela Lee."
+    },
+    {
+      "id": 360,
+      "startTime": 1998.8,
+      "endTime": 2000.04,
+      "speaker": null,
+      "text": "Yes, what's she doing?"
+    },
+    {
+      "id": 361,
+      "startTime": 2000.24,
+      "endTime": 2002.12,
+      "speaker": null,
+      "text": "She's looking good, super sexy."
+    },
+    {
+      "id": 362,
+      "startTime": 2002.12,
+      "endTime": 2004.6,
+      "speaker": null,
+      "text": "I don't say that about many women in a sundress eight months pregnant."
+    },
+    {
+      "id": 363,
+      "startTime": 2004.6,
+      "endTime": 2005.64,
+      "speaker": null,
+      "text": "You would make love to her."
+    },
+    {
+      "id": 364,
+      "startTime": 2005.64,
+      "endTime": 2008.92,
+      "speaker": null,
+      "text": "I would make love to her pregnant and exclusive television premiere of the"
+    },
+    {
+      "id": 365,
+      "startTime": 2008.92,
+      "endTime": 2011.68,
+      "speaker": null,
+      "text": "never before seen Howard and Alison Stern secret video tapes."
+    },
+    {
+      "id": 366,
+      "startTime": 2011.88,
+      "endTime": 2014.76,
+      "speaker": null,
+      "text": "My own bedroom and bathroom revealed for the first time ever tonight on E."
+    },
+    {
+      "id": 367,
+      "startTime": 2014.96,
+      "endTime": 2015.92,
+      "speaker": null,
+      "text": "I think you'll enjoy it."
+    },
+    {
+      "id": 368,
+      "startTime": 2016.12,
+      "endTime": 2018.64,
+      "speaker": null,
+      "text": "Also, thanks to Veronica Webb for coming in here."
+    },
+    {
+      "id": 369,
+      "startTime": 2018.84,
+      "endTime": 2022.92,
+      "speaker": null,
+      "text": "And if anybody can help out this AIDS charity, see you on Monday."
+    }
+  ]
+}

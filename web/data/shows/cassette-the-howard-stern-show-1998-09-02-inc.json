@@ -1,0 +1,5089 @@
+{
+  "showID": "cassette-the-howard-stern-show-1998-09-02-inc",
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Clinton Discusses Russia & Fantasies",
+      "summary": "During this broadcast, President Clinton discusses difficulties in resolving economic issues within Russia while recounting a personal incident involving reporters and inappropriate comments about his desires. The conversation shifts to an unsolicited discussion of fantasies regarding Richard Gere before addressing concerns about Robin's departure from the program.",
+      "startTime": 0.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "Breast Surgery Discussion",
+      "summary": "During an informal conversation, several individuals discuss speculation about cosmetic surgery involving a woman’s breasts, referencing potential augmentations around '87 and questioning whether it was performed before a Playboy layout. The discussion then shifts to broader opinions on beauty standards and racial identity.",
+      "startTime": 291.36,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Cancellation Concerns and Market Volatility",
+      "summary": "A television show faces widespread cancellation due to perceived inappropriate content, with concerns raised about its impact on children. Simultaneously, the Dow Jones Industrial Average experiences fluctuations amid investor anxieties regarding market stability and trading activity.",
+      "startTime": 581.36,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Political Discussions and Personal Reflections",
+      "summary": "Amidst investor anxieties and the Monica Lewinsky controversy, discussions center on President Clinton's credibility and apologies. Senator Trent Lott expresses doubts about his leadership while others advocate for continued support; personal anecdotes regarding marriage troubles are interspersed with political commentary.",
+      "startTime": 870.36,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "President Discusses Lewinsky Apology & Legal Case",
+      "summary": "During an interview, the President dismisses further apologies regarding Monica Lewinsky and discusses a potential role for her on ‘Days of Our Lives.’ Separately, a doctor is charged with attempting to terminate his girlfriend’s pregnancy via injection, leading to hospital treatment.",
+      "startTime": 1164.36,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Storm Warning & Name Changes",
+      "summary": "During a discussion about an approaching tropical storm in Northwestern Florida, a man named Fred abruptly changes his name to Eric following an argument. Later, the conversation shifts to listener concerns regarding their child watching 'Titanic' and offers of edited versions available for purchase from a video store.",
+      "startTime": 1452.36,
+      "imageURL": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 0,
+      "startTime": 0.0,
+      "endTime": 10.62,
+      "speaker": null,
+      "text": "the summit meeting and the president yesterday talked to the people of Russia and he said"
+    },
+    {
+      "id": 1,
+      "startTime": 10.62,
+      "endTime": 16.98,
+      "speaker": null,
+      "text": "that there are no easy solutions to their problems and that they're going to have to"
+    },
+    {
+      "id": 2,
+      "startTime": 16.98,
+      "endTime": 22.68,
+      "speaker": null,
+      "text": "take some tough medicines in order to solve the problems, there are economic problems"
+    },
+    {
+      "id": 3,
+      "startTime": 22.68,
+      "endTime": 26.22,
+      "speaker": null,
+      "text": "in that country, but there's no easy solutions."
+    },
+    {
+      "id": 4,
+      "startTime": 26.22,
+      "endTime": 29.48,
+      "speaker": null,
+      "text": "President Clinton just called me and he said he heard you and Fred in Russia."
+    },
+    {
+      "id": 5,
+      "startTime": 29.48,
+      "endTime": 34.84,
+      "speaker": null,
+      "text": "He could hear you all the way over there, he had opened his window at the right time."
+    },
+    {
+      "id": 6,
+      "startTime": 34.84,
+      "endTime": 42.46,
+      "speaker": null,
+      "text": "That's that woman again who keeps reporting all my troubles and I believe somebody had"
+    },
+    {
+      "id": 7,
+      "startTime": 42.46,
+      "endTime": 53.08,
+      "speaker": null,
+      "text": "worked to pound the nails in my head, I'm eyeing your news today, of course you are."
+    },
+    {
+      "id": 8,
+      "startTime": 53.08,
+      "endTime": 59.4,
+      "speaker": null,
+      "text": "You know, I wish he'd get to the stock market but go ahead, he leaves Russia, he will be"
+    },
+    {
+      "id": 9,
+      "startTime": 59.4,
+      "endTime": 67.28,
+      "speaker": null,
+      "text": "going on to Ireland, the first lady to see him to Ireland where she will speak to a women's"
+    },
+    {
+      "id": 10,
+      "startTime": 67.28,
+      "endTime": 68.28,
+      "speaker": null,
+      "text": "group."
+    },
+    {
+      "id": 11,
+      "startTime": 68.28,
+      "endTime": 69.28,
+      "speaker": null,
+      "text": "That's a good one."
+    },
+    {
+      "id": 12,
+      "startTime": 69.28,
+      "endTime": 76.52,
+      "speaker": null,
+      "text": "I was reading in the papers over there that they said they were going to give Hillary"
+    },
+    {
+      "id": 13,
+      "startTime": 76.52,
+      "endTime": 82.2,
+      "speaker": null,
+      "text": "a warm reception and she still does have credibility when speaking about the progress that women"
+    },
+    {
+      "id": 14,
+      "startTime": 82.2,
+      "endTime": 88.84,
+      "speaker": null,
+      "text": "have made and they admire her for holding firm and sticking to her plan to work for"
+    },
+    {
+      "id": 15,
+      "startTime": 88.84,
+      "endTime": 93.52,
+      "speaker": null,
+      "text": "whatever she's supposed to be working for in this administration."
+    },
+    {
+      "id": 16,
+      "startTime": 93.52,
+      "endTime": 95.56,
+      "speaker": null,
+      "text": "You would like to have sex with Richard Gere?"
+    },
+    {
+      "id": 17,
+      "startTime": 95.56,
+      "endTime": 98.6,
+      "speaker": null,
+      "text": "Yeah, I'd definitely, I'd say boy, he had the guy I want."
+    },
+    {
+      "id": 18,
+      "startTime": 98.6,
+      "endTime": 101.52,
+      "speaker": null,
+      "text": "I know, but you could tell that he wasn't that good."
+    },
+    {
+      "id": 19,
+      "startTime": 101.52,
+      "endTime": 102.52,
+      "speaker": null,
+      "text": "Yeah, probably not."
+    },
+    {
+      "id": 20,
+      "startTime": 102.52,
+      "endTime": 106.0,
+      "speaker": null,
+      "text": "It's just like, you know, there are probably many beautiful, beautiful women who probably"
+    },
+    {
+      "id": 21,
+      "startTime": 106.0,
+      "endTime": 108.0,
+      "speaker": null,
+      "text": "aren't that great in bed, but you want them anyway."
+    },
+    {
+      "id": 22,
+      "startTime": 108.0,
+      "endTime": 109.8,
+      "speaker": null,
+      "text": "Yeah, not me, I'm married, but."
+    },
+    {
+      "id": 23,
+      "startTime": 109.8,
+      "endTime": 112.88,
+      "speaker": null,
+      "text": "I mean, in a fantasy kind of way."
+    },
+    {
+      "id": 24,
+      "startTime": 112.88,
+      "endTime": 113.88,
+      "speaker": null,
+      "text": "In a fantasy way, yeah."
+    },
+    {
+      "id": 25,
+      "startTime": 113.88,
+      "endTime": 115.36,
+      "speaker": null,
+      "text": "You would, you'd think it might be great."
+    },
+    {
+      "id": 26,
+      "startTime": 115.36,
+      "endTime": 116.36,
+      "speaker": null,
+      "text": "That's true."
+    },
+    {
+      "id": 27,
+      "startTime": 116.36,
+      "endTime": 118.36,
+      "speaker": null,
+      "text": "But let's not be catty about it."
+    },
+    {
+      "id": 28,
+      "startTime": 118.36,
+      "endTime": 119.36,
+      "speaker": null,
+      "text": "Oh, that works."
+    },
+    {
+      "id": 29,
+      "startTime": 119.36,
+      "endTime": 120.36,
+      "speaker": null,
+      "text": "Oh, yeah."
+    },
+    {
+      "id": 30,
+      "startTime": 120.36,
+      "endTime": 121.36,
+      "speaker": null,
+      "text": "The president is awesome."
+    },
+    {
+      "id": 31,
+      "startTime": 121.36,
+      "endTime": 124.36,
+      "speaker": null,
+      "text": "I want Fred to think badly of me."
+    },
+    {
+      "id": 32,
+      "startTime": 124.36,
+      "endTime": 127.36,
+      "speaker": null,
+      "text": "Oh, he won't think badly of you because I'm a woman."
+    },
+    {
+      "id": 33,
+      "startTime": 127.36,
+      "endTime": 128.36,
+      "speaker": null,
+      "text": "Oh, well."
+    },
+    {
+      "id": 34,
+      "startTime": 128.36,
+      "endTime": 129.36,
+      "speaker": null,
+      "text": "Interesting."
+    },
+    {
+      "id": 35,
+      "startTime": 129.36,
+      "endTime": 131.36,
+      "speaker": null,
+      "text": "That's the second time that crap has come up today."
+    },
+    {
+      "id": 36,
+      "startTime": 131.36,
+      "endTime": 132.36,
+      "speaker": null,
+      "text": "That crap!"
+    },
+    {
+      "id": 37,
+      "startTime": 132.36,
+      "endTime": 133.36,
+      "speaker": null,
+      "text": "Well, you're making assumptions about me."
+    },
+    {
+      "id": 38,
+      "startTime": 133.36,
+      "endTime": 135.36,
+      "speaker": null,
+      "text": "Why can't I make them about you?"
+    },
+    {
+      "id": 39,
+      "startTime": 135.36,
+      "endTime": 137.36,
+      "speaker": null,
+      "text": "No, that's the second time you've done that today."
+    },
+    {
+      "id": 40,
+      "startTime": 137.36,
+      "endTime": 138.36,
+      "speaker": null,
+      "text": "So?"
+    },
+    {
+      "id": 41,
+      "startTime": 138.36,
+      "endTime": 139.36,
+      "speaker": null,
+      "text": "Oh, so?"
+    },
+    {
+      "id": 42,
+      "startTime": 139.36,
+      "endTime": 141.36,
+      "speaker": null,
+      "text": "That's what you do to me all the time."
+    },
+    {
+      "id": 43,
+      "startTime": 141.36,
+      "endTime": 142.36,
+      "speaker": null,
+      "text": "Oh, please."
+    },
+    {
+      "id": 44,
+      "startTime": 142.36,
+      "endTime": 143.36,
+      "speaker": null,
+      "text": "All the time."
+    },
+    {
+      "id": 45,
+      "startTime": 143.36,
+      "endTime": 144.36,
+      "speaker": null,
+      "text": "I'm going to do it to you."
+    },
+    {
+      "id": 46,
+      "startTime": 144.36,
+      "endTime": 145.36,
+      "speaker": null,
+      "text": "All the time I do it to you."
+    },
+    {
+      "id": 47,
+      "startTime": 145.36,
+      "endTime": 146.36,
+      "speaker": null,
+      "text": "That's what feels that way to me, Fred, all the time."
+    },
+    {
+      "id": 48,
+      "startTime": 146.36,
+      "endTime": 149.36,
+      "speaker": null,
+      "text": "Well, I'm sorry the way you feel, but it does not happen all the time."
+    },
+    {
+      "id": 49,
+      "startTime": 149.36,
+      "endTime": 150.36,
+      "speaker": null,
+      "text": "Well, hey, guess what?"
+    },
+    {
+      "id": 50,
+      "startTime": 150.36,
+      "endTime": 153.36,
+      "speaker": null,
+      "text": "It doesn't happen all the time that I make those comments about you either."
+    },
+    {
+      "id": 51,
+      "startTime": 153.36,
+      "endTime": 155.36,
+      "speaker": null,
+      "text": "I turned left second time today, Robin."
+    },
+    {
+      "id": 52,
+      "startTime": 155.36,
+      "endTime": 157.36,
+      "speaker": null,
+      "text": "I turned left at Clinton and got to Fred."
+    },
+    {
+      "id": 53,
+      "startTime": 157.36,
+      "endTime": 158.36,
+      "speaker": null,
+      "text": "Oh, it's the second time today."
+    },
+    {
+      "id": 54,
+      "startTime": 158.36,
+      "endTime": 159.36,
+      "speaker": null,
+      "text": "We've been together so long."
+    },
+    {
+      "id": 55,
+      "startTime": 159.36,
+      "endTime": 160.36,
+      "speaker": null,
+      "text": "I'm sorry."
+    },
+    {
+      "id": 56,
+      "startTime": 160.36,
+      "endTime": 162.36,
+      "speaker": null,
+      "text": "I think I might have to leave because I don't think Robin can go on if I'm sitting."
+    },
+    {
+      "id": 57,
+      "startTime": 162.36,
+      "endTime": 164.36,
+      "speaker": null,
+      "text": "She seems to be going on fine."
+    },
+    {
+      "id": 58,
+      "startTime": 164.36,
+      "endTime": 165.36,
+      "speaker": null,
+      "text": "She's not being able to go on."
+    },
+    {
+      "id": 59,
+      "startTime": 165.36,
+      "endTime": 167.36,
+      "speaker": null,
+      "text": "Why are you always leaving?"
+    },
+    {
+      "id": 60,
+      "startTime": 167.36,
+      "endTime": 168.36,
+      "speaker": null,
+      "text": "No, no."
+    },
+    {
+      "id": 61,
+      "startTime": 168.36,
+      "endTime": 169.36,
+      "speaker": null,
+      "text": "I want the show to proceed."
+    },
+    {
+      "id": 62,
+      "startTime": 169.36,
+      "endTime": 170.36,
+      "speaker": null,
+      "text": "Run out again."
+    },
+    {
+      "id": 63,
+      "startTime": 170.36,
+      "endTime": 171.36,
+      "speaker": null,
+      "text": "Run out again."
+    },
+    {
+      "id": 64,
+      "startTime": 171.36,
+      "endTime": 172.36,
+      "speaker": null,
+      "text": "I want the show to proceed."
+    },
+    {
+      "id": 65,
+      "startTime": 172.36,
+      "endTime": 173.36,
+      "speaker": null,
+      "text": "Are you running out on the show?"
+    },
+    {
+      "id": 66,
+      "startTime": 173.36,
+      "endTime": 174.36,
+      "speaker": null,
+      "text": "No, not at all."
+    },
+    {
+      "id": 67,
+      "startTime": 174.36,
+      "endTime": 175.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 68,
+      "startTime": 175.36,
+      "endTime": 176.36,
+      "speaker": null,
+      "text": "I'm here for you."
+    },
+    {
+      "id": 69,
+      "startTime": 176.36,
+      "endTime": 177.36,
+      "speaker": null,
+      "text": "Everybody here has walked out on the show except me."
+    },
+    {
+      "id": 70,
+      "startTime": 177.36,
+      "endTime": 178.36,
+      "speaker": null,
+      "text": "I'm the only one who can."
+    },
+    {
+      "id": 71,
+      "startTime": 178.36,
+      "endTime": 179.36,
+      "speaker": null,
+      "text": "And you."
+    },
+    {
+      "id": 72,
+      "startTime": 179.36,
+      "endTime": 180.36,
+      "speaker": null,
+      "text": "No, you weren't walked out."
+    },
+    {
+      "id": 73,
+      "startTime": 180.36,
+      "endTime": 181.36,
+      "speaker": null,
+      "text": "You walked out, Gary."
+    },
+    {
+      "id": 74,
+      "startTime": 181.36,
+      "endTime": 182.36,
+      "speaker": null,
+      "text": "I walked out of the room."
+    },
+    {
+      "id": 75,
+      "startTime": 182.36,
+      "endTime": 183.36,
+      "speaker": null,
+      "text": "I don't want to have a building."
+    },
+    {
+      "id": 76,
+      "startTime": 183.36,
+      "endTime": 184.36,
+      "speaker": null,
+      "text": "I didn't walk out of the building either."
+    },
+    {
+      "id": 77,
+      "startTime": 184.36,
+      "endTime": 185.36,
+      "speaker": null,
+      "text": "So you just barricaded yourself in your new room."
+    },
+    {
+      "id": 78,
+      "startTime": 185.36,
+      "endTime": 186.36,
+      "speaker": null,
+      "text": "And you barricaded yourself in your office."
+    },
+    {
+      "id": 79,
+      "startTime": 186.36,
+      "endTime": 187.36,
+      "speaker": null,
+      "text": "I'm always accessible."
+    },
+    {
+      "id": 80,
+      "startTime": 187.36,
+      "endTime": 188.36,
+      "speaker": null,
+      "text": "I never shut the door."
+    },
+    {
+      "id": 81,
+      "startTime": 188.36,
+      "endTime": 189.36,
+      "speaker": null,
+      "text": "Oh, sure you are."
+    },
+    {
+      "id": 82,
+      "startTime": 189.36,
+      "endTime": 190.36,
+      "speaker": null,
+      "text": "Run your own, Gary."
+    },
+    {
+      "id": 83,
+      "startTime": 190.36,
+      "endTime": 191.36,
+      "speaker": null,
+      "text": "I left the building."
+    },
+    {
+      "id": 84,
+      "startTime": 191.36,
+      "endTime": 192.36,
+      "speaker": null,
+      "text": "Just stay in your little room now."
+    },
+    {
+      "id": 85,
+      "startTime": 192.36,
+      "endTime": 193.36,
+      "speaker": null,
+      "text": "All right, Robin."
+    },
+    {
+      "id": 86,
+      "startTime": 193.36,
+      "endTime": 194.36,
+      "speaker": null,
+      "text": "Let me take a break."
+    },
+    {
+      "id": 87,
+      "startTime": 194.36,
+      "endTime": 195.36,
+      "speaker": null,
+      "text": "I'm sorry."
+    },
+    {
+      "id": 88,
+      "startTime": 195.36,
+      "endTime": 196.36,
+      "speaker": null,
+      "text": "I'm sorry."
+    },
+    {
+      "id": 89,
+      "startTime": 196.36,
+      "endTime": 197.36,
+      "speaker": null,
+      "text": "No, no, no, no."
+    },
+    {
+      "id": 90,
+      "startTime": 197.36,
+      "endTime": 207.36,
+      "speaker": null,
+      "text": "Why don't we cool down?"
+    },
+    {
+      "id": 91,
+      "startTime": 207.36,
+      "endTime": 215.36,
+      "speaker": null,
+      "text": "I want to know how 600,000 people got along at Woodstock, and that's five million dollars."
+    },
+    {
+      "id": 92,
+      "startTime": 215.36,
+      "endTime": 216.36,
+      "speaker": null,
+      "text": "Yeah, like me so easily."
+    },
+    {
+      "id": 93,
+      "startTime": 216.36,
+      "endTime": 217.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 94,
+      "startTime": 217.36,
+      "endTime": 218.36,
+      "speaker": null,
+      "text": "That's why your wife's busy with books about alcoholics."
+    },
+    {
+      "id": 95,
+      "startTime": 218.36,
+      "endTime": 219.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 96,
+      "startTime": 219.36,
+      "endTime": 220.36,
+      "speaker": null,
+      "text": "Let's take a break."
+    },
+    {
+      "id": 97,
+      "startTime": 220.36,
+      "endTime": 221.36,
+      "speaker": null,
+      "text": "And we'll come back right after these words."
+    },
+    {
+      "id": 98,
+      "startTime": 221.36,
+      "endTime": 238.36,
+      "speaker": null,
+      "text": "I hate when I have a cold, because I go to blow my nose, and I have long hair."
+    },
+    {
+      "id": 99,
+      "startTime": 238.36,
+      "endTime": 244.36,
+      "speaker": null,
+      "text": "My hair gets caught in my tissue, and I'm snotting into my hair."
+    },
+    {
+      "id": 100,
+      "startTime": 244.36,
+      "endTime": 251.36,
+      "speaker": null,
+      "text": "My hair is out of control here."
+    },
+    {
+      "id": 101,
+      "startTime": 251.36,
+      "endTime": 256.36,
+      "speaker": null,
+      "text": "I tried to do it myself when I was in Los Angeles, and I looked horrible."
+    },
+    {
+      "id": 102,
+      "startTime": 256.36,
+      "endTime": 257.36,
+      "speaker": null,
+      "text": "Life sucks."
+    },
+    {
+      "id": 103,
+      "startTime": 257.36,
+      "endTime": 262.36,
+      "speaker": null,
+      "text": "I have to travel everywhere with Tony, my hair person."
+    },
+    {
+      "id": 104,
+      "startTime": 262.36,
+      "endTime": 266.36,
+      "speaker": null,
+      "text": "Even if I go to a deposition, I need a hair person."
+    },
+    {
+      "id": 105,
+      "startTime": 266.36,
+      "endTime": 267.36,
+      "speaker": null,
+      "text": "I truly do."
+    },
+    {
+      "id": 106,
+      "startTime": 267.36,
+      "endTime": 274.36,
+      "speaker": null,
+      "text": "There's a doctor on the phone, swear Cindy had plastic surgery, do you want to hear this"
+    },
+    {
+      "id": 107,
+      "startTime": 274.36,
+      "endTime": 275.36,
+      "speaker": null,
+      "text": "or not?"
+    },
+    {
+      "id": 108,
+      "startTime": 275.36,
+      "endTime": 276.36,
+      "speaker": null,
+      "text": "Is it that important?"
+    },
+    {
+      "id": 109,
+      "startTime": 276.36,
+      "endTime": 277.36,
+      "speaker": null,
+      "text": "Doc?"
+    },
+    {
+      "id": 110,
+      "startTime": 277.36,
+      "endTime": 278.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 111,
+      "startTime": 278.36,
+      "endTime": 279.36,
+      "speaker": null,
+      "text": "What do you know?"
+    },
+    {
+      "id": 112,
+      "startTime": 279.36,
+      "endTime": 280.36,
+      "speaker": null,
+      "text": "Okay."
+    },
+    {
+      "id": 113,
+      "startTime": 280.36,
+      "endTime": 287.36,
+      "speaker": null,
+      "text": "In about 1987, probably around the year the first playboy lay out, my best friend was a"
+    },
+    {
+      "id": 114,
+      "startTime": 287.36,
+      "endTime": 291.36,
+      "speaker": null,
+      "text": "resident at St. Luke's, and she had worked on her breasts then."
+    },
+    {
+      "id": 115,
+      "startTime": 291.36,
+      "endTime": 295.36,
+      "speaker": null,
+      "text": "Probably a small augment put in and a little bit of a lift."
+    },
+    {
+      "id": 116,
+      "startTime": 295.36,
+      "endTime": 299.36,
+      "speaker": null,
+      "text": "I think it was probably right before that playboy lay out."
+    },
+    {
+      "id": 117,
+      "startTime": 299.36,
+      "endTime": 302.36,
+      "speaker": null,
+      "text": "Maybe she was anxious to show them off."
+    },
+    {
+      "id": 118,
+      "startTime": 302.36,
+      "endTime": 307.36,
+      "speaker": null,
+      "text": "I haven't seen this one yet, but she may have had something done since then, but definitely"
+    },
+    {
+      "id": 119,
+      "startTime": 307.36,
+      "endTime": 309.36,
+      "speaker": null,
+      "text": "had something done around '87."
+    },
+    {
+      "id": 120,
+      "startTime": 309.36,
+      "endTime": 312.36,
+      "speaker": null,
+      "text": "I can't believe that her breasts were done, because they're not big, Robert."
+    },
+    {
+      "id": 121,
+      "startTime": 312.36,
+      "endTime": 315.36,
+      "speaker": null,
+      "text": "But she certainly didn't make it obvious if she had it done."
+    },
+    {
+      "id": 122,
+      "startTime": 315.36,
+      "endTime": 316.36,
+      "speaker": null,
+      "text": "Well, that's the point."
+    },
+    {
+      "id": 123,
+      "startTime": 316.36,
+      "endTime": 317.36,
+      "speaker": null,
+      "text": "She's not a stripper."
+    },
+    {
+      "id": 124,
+      "startTime": 317.36,
+      "endTime": 319.36,
+      "speaker": null,
+      "text": "She's got to be something subtle."
+    },
+    {
+      "id": 125,
+      "startTime": 319.36,
+      "endTime": 322.36,
+      "speaker": null,
+      "text": "They want to make them look good and close."
+    },
+    {
+      "id": 126,
+      "startTime": 322.36,
+      "endTime": 323.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 127,
+      "startTime": 323.36,
+      "endTime": 324.36,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 128,
+      "startTime": 324.36,
+      "endTime": 325.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 129,
+      "startTime": 325.36,
+      "endTime": 326.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 130,
+      "startTime": 326.36,
+      "endTime": 327.36,
+      "speaker": null,
+      "text": "Listen, this could be anybody."
+    },
+    {
+      "id": 131,
+      "startTime": 327.36,
+      "endTime": 328.36,
+      "speaker": null,
+      "text": "I don't know that this guy's a doctor."
+    },
+    {
+      "id": 132,
+      "startTime": 328.36,
+      "endTime": 331.36,
+      "speaker": null,
+      "text": "There's a big argument going on."
+    },
+    {
+      "id": 133,
+      "startTime": 331.36,
+      "endTime": 333.36,
+      "speaker": null,
+      "text": "Well, it clearly wouldn't have been the plastic surgery."
+    },
+    {
+      "id": 134,
+      "startTime": 333.36,
+      "endTime": 334.36,
+      "speaker": null,
+      "text": "I guessed that."
+    },
+    {
+      "id": 135,
+      "startTime": 334.36,
+      "endTime": 335.36,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 136,
+      "startTime": 335.36,
+      "endTime": 337.36,
+      "speaker": null,
+      "text": "You were talking about the face."
+    },
+    {
+      "id": 137,
+      "startTime": 337.36,
+      "endTime": 339.36,
+      "speaker": null,
+      "text": "What is it, Debbie?"
+    },
+    {
+      "id": 138,
+      "startTime": 339.36,
+      "endTime": 341.36,
+      "speaker": null,
+      "text": "Quickly, because Robin's in the middle of the nose."
+    },
+    {
+      "id": 139,
+      "startTime": 341.36,
+      "endTime": 342.36,
+      "speaker": null,
+      "text": "Yes, Debbie?"
+    },
+    {
+      "id": 140,
+      "startTime": 342.36,
+      "endTime": 343.36,
+      "speaker": null,
+      "text": "Yes, hi."
+    },
+    {
+      "id": 141,
+      "startTime": 343.36,
+      "endTime": 344.36,
+      "speaker": null,
+      "text": "Yes, what is it?"
+    },
+    {
+      "id": 142,
+      "startTime": 344.36,
+      "endTime": 347.36,
+      "speaker": null,
+      "text": "I just wanted to take my opinion."
+    },
+    {
+      "id": 143,
+      "startTime": 347.36,
+      "endTime": 351.36,
+      "speaker": null,
+      "text": "I think Robin's totally in love with Fred and has been for years."
+    },
+    {
+      "id": 144,
+      "startTime": 351.36,
+      "endTime": 353.36,
+      "speaker": null,
+      "text": "Do you think Robin is in love with Fred and has been for years?"
+    },
+    {
+      "id": 145,
+      "startTime": 353.36,
+      "endTime": 354.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 146,
+      "startTime": 354.36,
+      "endTime": 357.36,
+      "speaker": null,
+      "text": "Well, but I don't -- I'm still my friend."
+    },
+    {
+      "id": 147,
+      "startTime": 357.36,
+      "endTime": 358.36,
+      "speaker": null,
+      "text": "No, no, no, I mean --"
+    },
+    {
+      "id": 148,
+      "startTime": 358.36,
+      "endTime": 360.36,
+      "speaker": null,
+      "text": "There's agreement at that point."
+    },
+    {
+      "id": 149,
+      "startTime": 360.36,
+      "endTime": 361.36,
+      "speaker": null,
+      "text": "Excuse me."
+    },
+    {
+      "id": 150,
+      "startTime": 361.36,
+      "endTime": 364.36,
+      "speaker": null,
+      "text": "No, I mean, in love."
+    },
+    {
+      "id": 151,
+      "startTime": 364.36,
+      "endTime": 365.36,
+      "speaker": null,
+      "text": "Okay."
+    },
+    {
+      "id": 152,
+      "startTime": 365.36,
+      "endTime": 366.36,
+      "speaker": null,
+      "text": "At least --"
+    },
+    {
+      "id": 153,
+      "startTime": 366.36,
+      "endTime": 368.36,
+      "speaker": null,
+      "text": "Robin, are you in love with Fred?"
+    },
+    {
+      "id": 154,
+      "startTime": 368.36,
+      "endTime": 369.36,
+      "speaker": null,
+      "text": "No."
+    },
+    {
+      "id": 155,
+      "startTime": 369.36,
+      "endTime": 370.36,
+      "speaker": null,
+      "text": "At least --"
+    },
+    {
+      "id": 156,
+      "startTime": 370.36,
+      "endTime": 371.36,
+      "speaker": null,
+      "text": "Jackie says yes."
+    },
+    {
+      "id": 157,
+      "startTime": 371.36,
+      "endTime": 373.36,
+      "speaker": null,
+      "text": "She got so heated during spots."
+    },
+    {
+      "id": 158,
+      "startTime": 373.36,
+      "endTime": 378.36,
+      "speaker": null,
+      "text": "I mean, you just can't get that mad at somebody that you don't have fire for."
+    },
+    {
+      "id": 159,
+      "startTime": 378.36,
+      "endTime": 379.36,
+      "speaker": null,
+      "text": "Exactly."
+    },
+    {
+      "id": 160,
+      "startTime": 379.36,
+      "endTime": 381.36,
+      "speaker": null,
+      "text": "Passion when she was screaming at him was great."
+    },
+    {
+      "id": 161,
+      "startTime": 381.36,
+      "endTime": 382.36,
+      "speaker": null,
+      "text": "Exactly."
+    },
+    {
+      "id": 162,
+      "startTime": 382.36,
+      "endTime": 383.36,
+      "speaker": null,
+      "text": "That's true."
+    },
+    {
+      "id": 163,
+      "startTime": 383.36,
+      "endTime": 386.36,
+      "speaker": null,
+      "text": "Did you ever yell at you passionately, Jackie?"
+    },
+    {
+      "id": 164,
+      "startTime": 386.36,
+      "endTime": 387.36,
+      "speaker": null,
+      "text": "Not that way."
+    },
+    {
+      "id": 165,
+      "startTime": 387.36,
+      "endTime": 388.36,
+      "speaker": null,
+      "text": "Seriously?"
+    },
+    {
+      "id": 166,
+      "startTime": 388.36,
+      "endTime": 390.36,
+      "speaker": null,
+      "text": "No, I think she loves you, too, because she was yelling at you pretty good, Jackie."
+    },
+    {
+      "id": 167,
+      "startTime": 390.36,
+      "endTime": 392.36,
+      "speaker": null,
+      "text": "But it's more anger with you."
+    },
+    {
+      "id": 168,
+      "startTime": 392.36,
+      "endTime": 394.36,
+      "speaker": null,
+      "text": "It's like frustration because you --"
+    },
+    {
+      "id": 169,
+      "startTime": 394.36,
+      "endTime": 396.36,
+      "speaker": null,
+      "text": "You're saying it's like boyfriend anger."
+    },
+    {
+      "id": 170,
+      "startTime": 396.36,
+      "endTime": 397.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 171,
+      "startTime": 397.36,
+      "endTime": 398.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 172,
+      "startTime": 398.36,
+      "endTime": 399.36,
+      "speaker": null,
+      "text": "Well, there's a theory, Robin."
+    },
+    {
+      "id": 173,
+      "startTime": 399.36,
+      "endTime": 400.36,
+      "speaker": null,
+      "text": "I understand what you should think about."
+    },
+    {
+      "id": 174,
+      "startTime": 400.36,
+      "endTime": 403.36,
+      "speaker": null,
+      "text": "Well, I don't think he's being catty by saying it."
+    },
+    {
+      "id": 175,
+      "startTime": 403.36,
+      "endTime": 404.36,
+      "speaker": null,
+      "text": "Okay."
+    },
+    {
+      "id": 176,
+      "startTime": 404.36,
+      "endTime": 406.36,
+      "speaker": null,
+      "text": "It is when you dig the guy."
+    },
+    {
+      "id": 177,
+      "startTime": 406.36,
+      "endTime": 407.36,
+      "speaker": null,
+      "text": "Oh, no, I agree with you."
+    },
+    {
+      "id": 178,
+      "startTime": 407.36,
+      "endTime": 409.36,
+      "speaker": null,
+      "text": "You could very well be right."
+    },
+    {
+      "id": 179,
+      "startTime": 409.36,
+      "endTime": 411.36,
+      "speaker": null,
+      "text": "I don't think you're right in this case."
+    },
+    {
+      "id": 180,
+      "startTime": 411.36,
+      "endTime": 412.36,
+      "speaker": null,
+      "text": "Thank you very well."
+    },
+    {
+      "id": 181,
+      "startTime": 412.36,
+      "endTime": 413.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 182,
+      "startTime": 413.36,
+      "endTime": 414.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 183,
+      "startTime": 414.36,
+      "endTime": 415.36,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 184,
+      "startTime": 415.36,
+      "endTime": 416.36,
+      "speaker": null,
+      "text": "Bye-bye."
+    },
+    {
+      "id": 185,
+      "startTime": 416.36,
+      "endTime": 417.36,
+      "speaker": null,
+      "text": "Well, Robin, there it is."
+    },
+    {
+      "id": 186,
+      "startTime": 417.36,
+      "endTime": 419.36,
+      "speaker": null,
+      "text": "I will admit that I loved that, and it hurt me that he was criticizing."
+    },
+    {
+      "id": 187,
+      "startTime": 419.36,
+      "endTime": 420.36,
+      "speaker": null,
+      "text": "Well, Robin, I apologize."
+    },
+    {
+      "id": 188,
+      "startTime": 420.36,
+      "endTime": 421.36,
+      "speaker": null,
+      "text": "Well, I do --"
+    },
+    {
+      "id": 189,
+      "startTime": 421.36,
+      "endTime": 423.36,
+      "speaker": null,
+      "text": "I don't accept your apology, because I think it's --"
+    },
+    {
+      "id": 190,
+      "startTime": 423.36,
+      "endTime": 428.36,
+      "speaker": null,
+      "text": "Well, I think it's very immature, but you're entitled to your immaturity."
+    },
+    {
+      "id": 191,
+      "startTime": 428.36,
+      "endTime": 430.36,
+      "speaker": null,
+      "text": "You don't get on that easy."
+    },
+    {
+      "id": 192,
+      "startTime": 430.36,
+      "endTime": 431.36,
+      "speaker": null,
+      "text": "You hurt me."
+    },
+    {
+      "id": 193,
+      "startTime": 431.36,
+      "endTime": 433.36,
+      "speaker": null,
+      "text": "She makes that tough and grinded ass."
+    },
+    {
+      "id": 194,
+      "startTime": 433.36,
+      "endTime": 435.36,
+      "speaker": null,
+      "text": "Shaquilla thinks Robin should walk off the show."
+    },
+    {
+      "id": 195,
+      "startTime": 435.36,
+      "endTime": 437.36,
+      "speaker": null,
+      "text": "What are you talking about?"
+    },
+    {
+      "id": 196,
+      "startTime": 437.36,
+      "endTime": 438.36,
+      "speaker": null,
+      "text": "Shaquilla wants to do it."
+    },
+    {
+      "id": 197,
+      "startTime": 438.36,
+      "endTime": 439.36,
+      "speaker": null,
+      "text": "Shaquilla?"
+    },
+    {
+      "id": 198,
+      "startTime": 439.36,
+      "endTime": 440.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 199,
+      "startTime": 440.36,
+      "endTime": 442.36,
+      "speaker": null,
+      "text": "This is your statement."
+    },
+    {
+      "id": 200,
+      "startTime": 442.36,
+      "endTime": 444.36,
+      "speaker": null,
+      "text": "I would like to talk to Robin."
+    },
+    {
+      "id": 201,
+      "startTime": 444.36,
+      "endTime": 445.36,
+      "speaker": null,
+      "text": "I'm here."
+    },
+    {
+      "id": 202,
+      "startTime": 445.36,
+      "endTime": 446.36,
+      "speaker": null,
+      "text": "I'm here."
+    },
+    {
+      "id": 203,
+      "startTime": 446.36,
+      "endTime": 448.36,
+      "speaker": null,
+      "text": "Robin, girl, I don't know what's wrong with you."
+    },
+    {
+      "id": 204,
+      "startTime": 448.36,
+      "endTime": 450.36,
+      "speaker": null,
+      "text": "You need to leave that radio station."
+    },
+    {
+      "id": 205,
+      "startTime": 450.36,
+      "endTime": 451.36,
+      "speaker": null,
+      "text": "You need to what?"
+    },
+    {
+      "id": 206,
+      "startTime": 451.36,
+      "endTime": 453.36,
+      "speaker": null,
+      "text": "You need to leave that radio station."
+    },
+    {
+      "id": 207,
+      "startTime": 453.36,
+      "endTime": 455.36,
+      "speaker": null,
+      "text": "Are you a man or a woman?"
+    },
+    {
+      "id": 208,
+      "startTime": 455.36,
+      "endTime": 456.36,
+      "speaker": null,
+      "text": "I'm light-skinned."
+    },
+    {
+      "id": 209,
+      "startTime": 456.36,
+      "endTime": 460.36,
+      "speaker": null,
+      "text": "I have green eyes and long brown hair."
+    },
+    {
+      "id": 210,
+      "startTime": 460.36,
+      "endTime": 461.36,
+      "speaker": null,
+      "text": "No, they're saying you're a man."
+    },
+    {
+      "id": 211,
+      "startTime": 461.36,
+      "endTime": 463.36,
+      "speaker": null,
+      "text": "I believe you're a woman."
+    },
+    {
+      "id": 212,
+      "startTime": 463.36,
+      "endTime": 465.36,
+      "speaker": null,
+      "text": "She had surgery."
+    },
+    {
+      "id": 213,
+      "startTime": 465.36,
+      "endTime": 467.36,
+      "speaker": null,
+      "text": "Yes, I do believe that."
+    },
+    {
+      "id": 214,
+      "startTime": 467.36,
+      "endTime": 471.36,
+      "speaker": null,
+      "text": "No way, Robin, you need to leave that radio station"
+    },
+    {
+      "id": 215,
+      "startTime": 471.36,
+      "endTime": 474.36,
+      "speaker": null,
+      "text": "and you need to go to Hot 97, girl."
+    },
+    {
+      "id": 216,
+      "startTime": 474.36,
+      "endTime": 477.36,
+      "speaker": null,
+      "text": "They already kicked that white girl Lisa off."
+    },
+    {
+      "id": 217,
+      "startTime": 477.36,
+      "endTime": 478.36,
+      "speaker": null,
+      "text": "You need to go take her place."
+    },
+    {
+      "id": 218,
+      "startTime": 478.36,
+      "endTime": 479.36,
+      "speaker": null,
+      "text": "Is she gone?"
+    },
+    {
+      "id": 219,
+      "startTime": 479.36,
+      "endTime": 480.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 220,
+      "startTime": 480.36,
+      "endTime": 482.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 221,
+      "startTime": 482.36,
+      "endTime": 484.36,
+      "speaker": null,
+      "text": "You need a better black impression."
+    },
+    {
+      "id": 222,
+      "startTime": 484.36,
+      "endTime": 485.36,
+      "speaker": null,
+      "text": "Excuse me, sir."
+    },
+    {
+      "id": 223,
+      "startTime": 485.36,
+      "endTime": 487.36,
+      "speaker": null,
+      "text": "Well, thank you."
+    },
+    {
+      "id": 224,
+      "startTime": 487.36,
+      "endTime": 489.36,
+      "speaker": null,
+      "text": "Shaquilla."
+    },
+    {
+      "id": 225,
+      "startTime": 489.36,
+      "endTime": 492.36,
+      "speaker": null,
+      "text": "Shaquilla."
+    },
+    {
+      "id": 226,
+      "startTime": 492.36,
+      "endTime": 493.36,
+      "speaker": null,
+      "text": "Majica."
+    },
+    {
+      "id": 227,
+      "startTime": 493.36,
+      "endTime": 496.36,
+      "speaker": null,
+      "text": "Janie the Cleaning Lady wants to wish you luck on the CBS show, Robin."
+    },
+    {
+      "id": 228,
+      "startTime": 496.36,
+      "endTime": 497.36,
+      "speaker": null,
+      "text": "Oh, really?"
+    },
+    {
+      "id": 229,
+      "startTime": 497.36,
+      "endTime": 498.36,
+      "speaker": null,
+      "text": "Just me?"
+    },
+    {
+      "id": 230,
+      "startTime": 498.36,
+      "endTime": 499.36,
+      "speaker": null,
+      "text": "Janie?"
+    },
+    {
+      "id": 231,
+      "startTime": 499.36,
+      "endTime": 500.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 232,
+      "startTime": 500.36,
+      "endTime": 501.36,
+      "speaker": null,
+      "text": "Hey, baby."
+    },
+    {
+      "id": 233,
+      "startTime": 501.36,
+      "endTime": 504.36,
+      "speaker": null,
+      "text": "I love -- I follow with you all the luck in the world"
+    },
+    {
+      "id": 234,
+      "startTime": 504.36,
+      "endTime": 506.36,
+      "speaker": null,
+      "text": "and just knock a bird, you know."
+    },
+    {
+      "id": 235,
+      "startTime": 506.36,
+      "endTime": 507.36,
+      "speaker": null,
+      "text": "Isn't that nice?"
+    },
+    {
+      "id": 236,
+      "startTime": 507.36,
+      "endTime": 508.36,
+      "speaker": null,
+      "text": "She's wishing you luck."
+    },
+    {
+      "id": 237,
+      "startTime": 508.36,
+      "endTime": 509.36,
+      "speaker": null,
+      "text": "Aye."
+    },
+    {
+      "id": 238,
+      "startTime": 509.36,
+      "endTime": 510.36,
+      "speaker": null,
+      "text": "Oh."
+    },
+    {
+      "id": 239,
+      "startTime": 510.36,
+      "endTime": 512.36,
+      "speaker": null,
+      "text": "Just for people what they want."
+    },
+    {
+      "id": 240,
+      "startTime": 512.36,
+      "endTime": 517.36,
+      "speaker": null,
+      "text": "Hey, you guys are great on -- what is named magic, though?"
+    },
+    {
+      "id": 241,
+      "startTime": 517.36,
+      "endTime": 520.36,
+      "speaker": null,
+      "text": "Because magic couldn't stay because Lisa does."
+    },
+    {
+      "id": 242,
+      "startTime": 520.36,
+      "endTime": 521.36,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 243,
+      "startTime": 521.36,
+      "endTime": 525.36,
+      "speaker": null,
+      "text": "But they give him a bet that he's too big for us."
+    },
+    {
+      "id": 244,
+      "startTime": 525.36,
+      "endTime": 526.36,
+      "speaker": null,
+      "text": "Oh."
+    },
+    {
+      "id": 245,
+      "startTime": 526.36,
+      "endTime": 527.36,
+      "speaker": null,
+      "text": "Oh, God."
+    },
+    {
+      "id": 246,
+      "startTime": 527.36,
+      "endTime": 528.36,
+      "speaker": null,
+      "text": "Janie's a cleaning woman."
+    },
+    {
+      "id": 247,
+      "startTime": 528.36,
+      "endTime": 529.36,
+      "speaker": null,
+      "text": "She doesn't talk to Janie about that."
+    },
+    {
+      "id": 248,
+      "startTime": 529.36,
+      "endTime": 530.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 249,
+      "startTime": 530.36,
+      "endTime": 531.36,
+      "speaker": null,
+      "text": "Janie's a cleaning woman, and she even knows this."
+    },
+    {
+      "id": 250,
+      "startTime": 531.36,
+      "endTime": 532.36,
+      "speaker": null,
+      "text": "That was too ridiculous."
+    },
+    {
+      "id": 251,
+      "startTime": 532.36,
+      "endTime": 533.36,
+      "speaker": null,
+      "text": "That was big enough for magic."
+    },
+    {
+      "id": 252,
+      "startTime": 533.36,
+      "endTime": 534.36,
+      "speaker": null,
+      "text": "Oh, boy."
+    },
+    {
+      "id": 253,
+      "startTime": 534.36,
+      "endTime": 535.36,
+      "speaker": null,
+      "text": "I'll write some bills then."
+    },
+    {
+      "id": 254,
+      "startTime": 535.36,
+      "endTime": 536.36,
+      "speaker": null,
+      "text": "My God."
+    },
+    {
+      "id": 255,
+      "startTime": 536.36,
+      "endTime": 537.36,
+      "speaker": null,
+      "text": "You see, he's a big dank."
+    },
+    {
+      "id": 256,
+      "startTime": 537.36,
+      "endTime": 538.36,
+      "speaker": null,
+      "text": "Isn't that something?"
+    },
+    {
+      "id": 257,
+      "startTime": 538.36,
+      "endTime": 539.36,
+      "speaker": null,
+      "text": "It made him look bigger."
+    },
+    {
+      "id": 258,
+      "startTime": 539.36,
+      "endTime": 540.36,
+      "speaker": null,
+      "text": "And then he's gold."
+    },
+    {
+      "id": 259,
+      "startTime": 540.36,
+      "endTime": 541.36,
+      "speaker": null,
+      "text": "Janie sounds like Whoopi Goldberg."
+    },
+    {
+      "id": 260,
+      "startTime": 541.36,
+      "endTime": 542.36,
+      "speaker": null,
+      "text": "I began to look like it."
+    },
+    {
+      "id": 261,
+      "startTime": 542.36,
+      "endTime": 543.36,
+      "speaker": null,
+      "text": "You just see my photo idea."
+    },
+    {
+      "id": 262,
+      "startTime": 543.36,
+      "endTime": 544.36,
+      "speaker": null,
+      "text": "Looks just like Whoopi."
+    },
+    {
+      "id": 263,
+      "startTime": 544.36,
+      "endTime": 545.36,
+      "speaker": null,
+      "text": "I suppose I'm my twin sister."
+    },
+    {
+      "id": 264,
+      "startTime": 545.36,
+      "endTime": 546.36,
+      "speaker": null,
+      "text": "Oh."
+    },
+    {
+      "id": 265,
+      "startTime": 546.36,
+      "endTime": 547.36,
+      "speaker": null,
+      "text": "So what you guys -- when you start?"
+    },
+    {
+      "id": 266,
+      "startTime": 547.36,
+      "endTime": 557.36,
+      "speaker": null,
+      "text": "We started already, honey."
+    },
+    {
+      "id": 267,
+      "startTime": 557.36,
+      "endTime": 558.36,
+      "speaker": null,
+      "text": "You did?"
+    },
+    {
+      "id": 268,
+      "startTime": 558.36,
+      "endTime": 559.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 269,
+      "startTime": 559.36,
+      "endTime": 560.36,
+      "speaker": null,
+      "text": "We've been on for two weeks."
+    },
+    {
+      "id": 270,
+      "startTime": 560.36,
+      "endTime": 561.36,
+      "speaker": null,
+      "text": "Oh."
+    },
+    {
+      "id": 271,
+      "startTime": 561.36,
+      "endTime": 562.36,
+      "speaker": null,
+      "text": "Well, I've been on the road."
+    },
+    {
+      "id": 272,
+      "startTime": 562.36,
+      "endTime": 563.36,
+      "speaker": null,
+      "text": "She's on the road?"
+    },
+    {
+      "id": 273,
+      "startTime": 563.36,
+      "endTime": 564.36,
+      "speaker": null,
+      "text": "Cleaning."
+    },
+    {
+      "id": 274,
+      "startTime": 564.36,
+      "endTime": 565.36,
+      "speaker": null,
+      "text": "She's been cleaning a lot of --"
+    },
+    {
+      "id": 275,
+      "startTime": 565.36,
+      "endTime": 566.36,
+      "speaker": null,
+      "text": "She's cleaning already?"
+    },
+    {
+      "id": 276,
+      "startTime": 566.36,
+      "endTime": 567.36,
+      "speaker": null,
+      "text": "I'm not."
+    },
+    {
+      "id": 277,
+      "startTime": 567.36,
+      "endTime": 568.36,
+      "speaker": null,
+      "text": "I'm on vacation."
+    },
+    {
+      "id": 278,
+      "startTime": 568.36,
+      "endTime": 569.36,
+      "speaker": null,
+      "text": "I'm going to Las Vegas."
+    },
+    {
+      "id": 279,
+      "startTime": 569.36,
+      "endTime": 570.36,
+      "speaker": null,
+      "text": "All right, baby."
+    },
+    {
+      "id": 280,
+      "startTime": 570.36,
+      "endTime": 571.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 281,
+      "startTime": 571.36,
+      "endTime": 572.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 282,
+      "startTime": 572.36,
+      "endTime": 573.36,
+      "speaker": null,
+      "text": "Only in America cleaning women get to go to Vegas."
+    },
+    {
+      "id": 283,
+      "startTime": 573.36,
+      "endTime": 574.36,
+      "speaker": null,
+      "text": "All right, Janie."
+    },
+    {
+      "id": 284,
+      "startTime": 574.36,
+      "endTime": 575.36,
+      "speaker": null,
+      "text": "Thanks."
+    },
+    {
+      "id": 285,
+      "startTime": 575.36,
+      "endTime": 578.36,
+      "speaker": null,
+      "text": "She's got a motor travel that can't need anyone to go."
+    },
+    {
+      "id": 286,
+      "startTime": 578.36,
+      "endTime": 581.36,
+      "speaker": null,
+      "text": "I take the dog, okay?"
+    },
+    {
+      "id": 287,
+      "startTime": 581.36,
+      "endTime": 582.36,
+      "speaker": null,
+      "text": "All right, Janie."
+    },
+    {
+      "id": 288,
+      "startTime": 582.36,
+      "endTime": 583.36,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 289,
+      "startTime": 583.36,
+      "endTime": 584.36,
+      "speaker": null,
+      "text": "Okay, love, love, love."
+    },
+    {
+      "id": 290,
+      "startTime": 584.36,
+      "endTime": 585.36,
+      "speaker": null,
+      "text": "All right, baby."
+    },
+    {
+      "id": 291,
+      "startTime": 585.36,
+      "endTime": 586.36,
+      "speaker": null,
+      "text": "Good to hear from you."
+    },
+    {
+      "id": 292,
+      "startTime": 586.36,
+      "endTime": 587.36,
+      "speaker": null,
+      "text": "Good to hear from you guys, too."
+    },
+    {
+      "id": 293,
+      "startTime": 587.36,
+      "endTime": 588.36,
+      "speaker": null,
+      "text": "Janie, the cleaning lady."
+    },
+    {
+      "id": 294,
+      "startTime": 588.36,
+      "endTime": 591.36,
+      "speaker": null,
+      "text": "Just to be on our show all the time when we were at MVC."
+    },
+    {
+      "id": 295,
+      "startTime": 591.36,
+      "endTime": 593.36,
+      "speaker": null,
+      "text": "That's where we discovered her."
+    },
+    {
+      "id": 296,
+      "startTime": 593.36,
+      "endTime": 594.36,
+      "speaker": null,
+      "text": "We sure did."
+    },
+    {
+      "id": 297,
+      "startTime": 594.36,
+      "endTime": 595.36,
+      "speaker": null,
+      "text": "We left her there."
+    },
+    {
+      "id": 298,
+      "startTime": 595.36,
+      "endTime": 600.36,
+      "speaker": null,
+      "text": "When did the show start?"
+    },
+    {
+      "id": 299,
+      "startTime": 600.36,
+      "endTime": 603.36,
+      "speaker": null,
+      "text": "Good luck on your new show."
+    },
+    {
+      "id": 300,
+      "startTime": 603.36,
+      "endTime": 605.36,
+      "speaker": null,
+      "text": "Thank you so much."
+    },
+    {
+      "id": 301,
+      "startTime": 605.36,
+      "endTime": 607.36,
+      "speaker": null,
+      "text": "She better watch the show before it's canceled everywhere."
+    },
+    {
+      "id": 302,
+      "startTime": 607.36,
+      "endTime": 611.36,
+      "speaker": null,
+      "text": "Lubbock, Texas, they throw us off the air already because it's just indecent."
+    },
+    {
+      "id": 303,
+      "startTime": 611.36,
+      "endTime": 614.36,
+      "speaker": null,
+      "text": "Lubbock, Texas, they never report on anything that happens in Lubbock."
+    },
+    {
+      "id": 304,
+      "startTime": 614.36,
+      "endTime": 615.36,
+      "speaker": null,
+      "text": "No."
+    },
+    {
+      "id": 305,
+      "startTime": 615.36,
+      "endTime": 617.36,
+      "speaker": null,
+      "text": "But it's made -- every paper is made of wire services."
+    },
+    {
+      "id": 306,
+      "startTime": 617.36,
+      "endTime": 618.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 307,
+      "startTime": 618.36,
+      "endTime": 619.36,
+      "speaker": null,
+      "text": "That's big news."
+    },
+    {
+      "id": 308,
+      "startTime": 619.36,
+      "endTime": 623.36,
+      "speaker": null,
+      "text": "By the way, don't expect this to be the last cancellation."
+    },
+    {
+      "id": 309,
+      "startTime": 623.36,
+      "endTime": 625.36,
+      "speaker": null,
+      "text": "We will be canceled in many places."
+    },
+    {
+      "id": 310,
+      "startTime": 625.36,
+      "endTime": 628.36,
+      "speaker": null,
+      "text": "This show is completely inappropriate for television."
+    },
+    {
+      "id": 311,
+      "startTime": 628.36,
+      "endTime": 630.36,
+      "speaker": null,
+      "text": "It really is."
+    },
+    {
+      "id": 312,
+      "startTime": 630.36,
+      "endTime": 633.36,
+      "speaker": null,
+      "text": "I can't imagine that everyone's going to keep it on the air."
+    },
+    {
+      "id": 313,
+      "startTime": 633.36,
+      "endTime": 634.36,
+      "speaker": null,
+      "text": "I mean, don't be so shocked."
+    },
+    {
+      "id": 314,
+      "startTime": 634.36,
+      "endTime": 636.36,
+      "speaker": null,
+      "text": "You know, people say, \"How do you feel?"
+    },
+    {
+      "id": 315,
+      "startTime": 636.36,
+      "endTime": 637.36,
+      "speaker": null,
+      "text": "Lubbock, Texas, canceled the show.\""
+    },
+    {
+      "id": 316,
+      "startTime": 637.36,
+      "endTime": 639.36,
+      "speaker": null,
+      "text": "Who cares?"
+    },
+    {
+      "id": 317,
+      "startTime": 639.36,
+      "endTime": 642.36,
+      "speaker": null,
+      "text": "I can't imagine they'd air that thing in Lubbock, Texas."
+    },
+    {
+      "id": 318,
+      "startTime": 642.36,
+      "endTime": 643.36,
+      "speaker": null,
+      "text": "Never seen a show like that."
+    },
+    {
+      "id": 319,
+      "startTime": 643.36,
+      "endTime": 644.36,
+      "speaker": null,
+      "text": "What were they thinking?"
+    },
+    {
+      "id": 320,
+      "startTime": 644.36,
+      "endTime": 645.36,
+      "speaker": null,
+      "text": "I watched the show."
+    },
+    {
+      "id": 321,
+      "startTime": 645.36,
+      "endTime": 647.36,
+      "speaker": null,
+      "text": "I get -- I can't believe it's on."
+    },
+    {
+      "id": 322,
+      "startTime": 647.36,
+      "endTime": 653.36,
+      "speaker": null,
+      "text": "Can I honestly say that the first episode I watched, I said to myself,"
+    },
+    {
+      "id": 323,
+      "startTime": 653.36,
+      "endTime": 654.36,
+      "speaker": null,
+      "text": "\"His children are going to see this."
+    },
+    {
+      "id": 324,
+      "startTime": 654.36,
+      "endTime": 656.36,
+      "speaker": null,
+      "text": "Does he really want to see this?\""
+    },
+    {
+      "id": 325,
+      "startTime": 656.36,
+      "endTime": 658.36,
+      "speaker": null,
+      "text": "Of course."
+    },
+    {
+      "id": 326,
+      "startTime": 658.36,
+      "endTime": 663.36,
+      "speaker": null,
+      "text": "That's why I moved the kids to Lubbock."
+    },
+    {
+      "id": 327,
+      "startTime": 663.36,
+      "endTime": 664.36,
+      "speaker": null,
+      "text": "Please."
+    },
+    {
+      "id": 328,
+      "startTime": 664.36,
+      "endTime": 667.36,
+      "speaker": null,
+      "text": "You know, my wife goes, \"Everyone wants to stay up and watch the show.\""
+    },
+    {
+      "id": 329,
+      "startTime": 667.36,
+      "endTime": 670.36,
+      "speaker": null,
+      "text": "I said, \"What planet are you on?\""
+    },
+    {
+      "id": 330,
+      "startTime": 670.36,
+      "endTime": 671.36,
+      "speaker": null,
+      "text": "He's leaving now."
+    },
+    {
+      "id": 331,
+      "startTime": 671.36,
+      "endTime": 672.36,
+      "speaker": null,
+      "text": "Didn't she?"
+    },
+    {
+      "id": 332,
+      "startTime": 672.36,
+      "endTime": 675.36,
+      "speaker": null,
+      "text": "And my daughter, Debra, walked in the room, wanted to watch with us."
+    },
+    {
+      "id": 333,
+      "startTime": 675.36,
+      "endTime": 678.36,
+      "speaker": null,
+      "text": "I said, \"What are you, kidding me?"
+    },
+    {
+      "id": 334,
+      "startTime": 678.36,
+      "endTime": 681.36,
+      "speaker": null,
+      "text": "You see what I'm doing on this show?"
+    },
+    {
+      "id": 335,
+      "startTime": 681.36,
+      "endTime": 684.36,
+      "speaker": null,
+      "text": "Same for kids.\""
+    },
+    {
+      "id": 336,
+      "startTime": 684.36,
+      "endTime": 689.36,
+      "speaker": null,
+      "text": "I cut the TV power cord in their room with a hacksaw."
+    },
+    {
+      "id": 337,
+      "startTime": 689.36,
+      "endTime": 690.36,
+      "speaker": null,
+      "text": "Robin, what else is in the news?"
+    },
+    {
+      "id": 338,
+      "startTime": 690.36,
+      "endTime": 692.36,
+      "speaker": null,
+      "text": "Seriously."
+    },
+    {
+      "id": 339,
+      "startTime": 692.36,
+      "endTime": 695.36,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 340,
+      "startTime": 695.36,
+      "endTime": 700.36,
+      "speaker": null,
+      "text": "Fred, I didn't say anything."
+    },
+    {
+      "id": 341,
+      "startTime": 700.36,
+      "endTime": 701.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 342,
+      "startTime": 701.36,
+      "endTime": 703.36,
+      "speaker": null,
+      "text": "Anyway, I was talking about the president over in Russia,"
+    },
+    {
+      "id": 343,
+      "startTime": 703.36,
+      "endTime": 709.36,
+      "speaker": null,
+      "text": "and he is also trying to calm down investors around the world."
+    },
+    {
+      "id": 344,
+      "startTime": 709.36,
+      "endTime": 714.36,
+      "speaker": null,
+      "text": "He says that the economy of the United States is strong,"
+    },
+    {
+      "id": 345,
+      "startTime": 714.36,
+      "endTime": 720.36,
+      "speaker": null,
+      "text": "and there's no reason to panic about fluctuations in world markets."
+    },
+    {
+      "id": 346,
+      "startTime": 720.36,
+      "endTime": 724.36,
+      "speaker": null,
+      "text": "So the president wants us all to calm down,"
+    },
+    {
+      "id": 347,
+      "startTime": 724.36,
+      "endTime": 727.36,
+      "speaker": null,
+      "text": "not take our money out of the stock market."
+    },
+    {
+      "id": 348,
+      "startTime": 727.36,
+      "endTime": 730.36,
+      "speaker": null,
+      "text": "Well, listen, you know, I got a little dough in the stock market."
+    },
+    {
+      "id": 349,
+      "startTime": 730.36,
+      "endTime": 732.36,
+      "speaker": null,
+      "text": "I'm not a big stock market guy."
+    },
+    {
+      "id": 350,
+      "startTime": 732.36,
+      "endTime": 734.36,
+      "speaker": null,
+      "text": "But, you know, you can't panic."
+    },
+    {
+      "id": 351,
+      "startTime": 734.36,
+      "endTime": 736.36,
+      "speaker": null,
+      "text": "If you're in the stock market, you just stay in."
+    },
+    {
+      "id": 352,
+      "startTime": 736.36,
+      "endTime": 738.36,
+      "speaker": null,
+      "text": "But even if you're in mutual funds and all that stuff,"
+    },
+    {
+      "id": 353,
+      "startTime": 738.36,
+      "endTime": 739.36,
+      "speaker": null,
+      "text": "you're in the stock market."
+    },
+    {
+      "id": 354,
+      "startTime": 739.36,
+      "endTime": 742.36,
+      "speaker": null,
+      "text": "You're in, and you stay."
+    },
+    {
+      "id": 355,
+      "startTime": 742.36,
+      "endTime": 745.36,
+      "speaker": null,
+      "text": "You know, there's a stuttering John out there panicking."
+    },
+    {
+      "id": 356,
+      "startTime": 745.36,
+      "endTime": 746.36,
+      "speaker": null,
+      "text": "Really?"
+    },
+    {
+      "id": 357,
+      "startTime": 746.36,
+      "endTime": 750.36,
+      "speaker": null,
+      "text": "Sold his house, rented his wife to his neighbor."
+    },
+    {
+      "id": 358,
+      "startTime": 750.36,
+      "endTime": 752.36,
+      "speaker": null,
+      "text": "He's dumping everything!"
+    },
+    {
+      "id": 359,
+      "startTime": 752.36,
+      "endTime": 754.36,
+      "speaker": null,
+      "text": "No, but, you know, the thing is, like, I mean,"
+    },
+    {
+      "id": 360,
+      "startTime": 754.36,
+      "endTime": 758.36,
+      "speaker": null,
+      "text": "I'm in the middle of trying to buy an apartment and stuff like that."
+    },
+    {
+      "id": 361,
+      "startTime": 758.36,
+      "endTime": 760.36,
+      "speaker": null,
+      "text": "You know, right where you call up your accountant,"
+    },
+    {
+      "id": 362,
+      "startTime": 760.36,
+      "endTime": 765.36,
+      "speaker": null,
+      "text": "well, do I still have anything left?"
+    },
+    {
+      "id": 363,
+      "startTime": 765.36,
+      "endTime": 766.36,
+      "speaker": null,
+      "text": "Of course."
+    },
+    {
+      "id": 364,
+      "startTime": 766.36,
+      "endTime": 768.36,
+      "speaker": null,
+      "text": "Where can I now afford to spend?"
+    },
+    {
+      "id": 365,
+      "startTime": 768.36,
+      "endTime": 770.36,
+      "speaker": null,
+      "text": "Within a blink of an eye, it's up 300 points."
+    },
+    {
+      "id": 366,
+      "startTime": 770.36,
+      "endTime": 771.36,
+      "speaker": null,
+      "text": "That's right."
+    },
+    {
+      "id": 367,
+      "startTime": 771.36,
+      "endTime": 773.36,
+      "speaker": null,
+      "text": "The stock prices are higher in heavy trading today."
+    },
+    {
+      "id": 368,
+      "startTime": 773.36,
+      "endTime": 776.36,
+      "speaker": null,
+      "text": "The Dow Jones Industrial Average is up 57 points"
+    },
+    {
+      "id": 369,
+      "startTime": 776.36,
+      "endTime": 778.36,
+      "speaker": null,
+      "text": "in today's early-going."
+    },
+    {
+      "id": 370,
+      "startTime": 778.36,
+      "endTime": 780.36,
+      "speaker": null,
+      "text": "Gainers on the New York Stock Exchange"
+    },
+    {
+      "id": 371,
+      "startTime": 780.36,
+      "endTime": 784.36,
+      "speaker": null,
+      "text": "hold a two-to-one lead over the losers."
+    },
+    {
+      "id": 372,
+      "startTime": 784.36,
+      "endTime": 789.36,
+      "speaker": null,
+      "text": "So the overseas markets have performed uniformly higher today,"
+    },
+    {
+      "id": 373,
+      "startTime": 789.36,
+      "endTime": 792.36,
+      "speaker": null,
+      "text": "and bond prices are edging lower."
+    },
+    {
+      "id": 374,
+      "startTime": 792.36,
+      "endTime": 795.36,
+      "speaker": null,
+      "text": "So there you go."
+    },
+    {
+      "id": 375,
+      "startTime": 795.36,
+      "endTime": 796.36,
+      "speaker": null,
+      "text": "Wow."
+    },
+    {
+      "id": 376,
+      "startTime": 796.36,
+      "endTime": 799.36,
+      "speaker": null,
+      "text": "Hey, John, ask that guy who impregnated his daughter"
+    },
+    {
+      "id": 377,
+      "startTime": 799.36,
+      "endTime": 802.36,
+      "speaker": null,
+      "text": "to call in tomorrow or we'll call him back."
+    },
+    {
+      "id": 378,
+      "startTime": 802.36,
+      "endTime": 803.36,
+      "speaker": null,
+      "text": "Oh, he's on the phone?"
+    },
+    {
+      "id": 379,
+      "startTime": 803.36,
+      "endTime": 805.36,
+      "speaker": null,
+      "text": "Yeah, that guy, he impregnated his daughter."
+    },
+    {
+      "id": 380,
+      "startTime": 805.36,
+      "endTime": 806.36,
+      "speaker": null,
+      "text": "He's pregnant now."
+    },
+    {
+      "id": 381,
+      "startTime": 806.36,
+      "endTime": 807.36,
+      "speaker": null,
+      "text": "No, he's pregnant."
+    },
+    {
+      "id": 382,
+      "startTime": 807.36,
+      "endTime": 809.36,
+      "speaker": null,
+      "text": "Well, let's talk to him first thing tomorrow."
+    },
+    {
+      "id": 383,
+      "startTime": 809.36,
+      "endTime": 810.36,
+      "speaker": null,
+      "text": "Well, you know..."
+    },
+    {
+      "id": 384,
+      "startTime": 810.36,
+      "endTime": 813.36,
+      "speaker": null,
+      "text": "Yeah, don't ruin... don't lose that at the time of the day."
+    },
+    {
+      "id": 385,
+      "startTime": 813.36,
+      "endTime": 816.36,
+      "speaker": null,
+      "text": "Right. Exactly."
+    },
+    {
+      "id": 386,
+      "startTime": 816.36,
+      "endTime": 818.36,
+      "speaker": null,
+      "text": "We did that on earlier."
+    },
+    {
+      "id": 387,
+      "startTime": 818.36,
+      "endTime": 819.36,
+      "speaker": null,
+      "text": "That's right. We need time to explore."
+    },
+    {
+      "id": 388,
+      "startTime": 819.36,
+      "endTime": 821.36,
+      "speaker": null,
+      "text": "Anyway, talking about all this stock stuff,"
+    },
+    {
+      "id": 389,
+      "startTime": 821.36,
+      "endTime": 824.36,
+      "speaker": null,
+      "text": "here's Marshall A. Cup of Smith Barney."
+    },
+    {
+      "id": 390,
+      "startTime": 824.36,
+      "endTime": 827.36,
+      "speaker": null,
+      "text": "He says there's plenty of uncertainty ahead,"
+    },
+    {
+      "id": 391,
+      "startTime": 827.36,
+      "endTime": 829.36,
+      "speaker": null,
+      "text": "but just because the market is going up now,"
+    },
+    {
+      "id": 392,
+      "startTime": 829.36,
+      "endTime": 830.36,
+      "speaker": null,
+      "text": "don't heave a sigh of relief."
+    },
+    {
+      "id": 393,
+      "startTime": 830.36,
+      "endTime": 833.36,
+      "speaker": null,
+      "text": "The issues confronting the market"
+    },
+    {
+      "id": 394,
+      "startTime": 833.36,
+      "endTime": 837.36,
+      "speaker": null,
+      "text": "are ones that are going to take some time to resolve."
+    },
+    {
+      "id": 395,
+      "startTime": 837.36,
+      "endTime": 840.36,
+      "speaker": null,
+      "text": "So I don't anticipate the market's going to get back"
+    },
+    {
+      "id": 396,
+      "startTime": 840.36,
+      "endTime": 843.36,
+      "speaker": null,
+      "text": "on the track of performance that we've been"
+    },
+    {
+      "id": 397,
+      "startTime": 843.36,
+      "endTime": 847.36,
+      "speaker": null,
+      "text": "become accustomed to in recent years anytime soon."
+    },
+    {
+      "id": 398,
+      "startTime": 847.36,
+      "endTime": 849.36,
+      "speaker": null,
+      "text": "Meanwhile, Denise Voigt-Krafford"
+    },
+    {
+      "id": 399,
+      "startTime": 849.36,
+      "endTime": 851.36,
+      "speaker": null,
+      "text": "had both the North American Securities"
+    },
+    {
+      "id": 400,
+      "startTime": 851.36,
+      "endTime": 854.36,
+      "speaker": null,
+      "text": "Administrator's Association and the Texas Securities Commission"
+    },
+    {
+      "id": 401,
+      "startTime": 854.36,
+      "endTime": 857.36,
+      "speaker": null,
+      "text": "and had this warning for investors."
+    },
+    {
+      "id": 402,
+      "startTime": 857.36,
+      "endTime": 860.36,
+      "speaker": null,
+      "text": "Turning and excessive trading"
+    },
+    {
+      "id": 403,
+      "startTime": 860.36,
+      "endTime": 862.36,
+      "speaker": null,
+      "text": "generate more commissions for brokers"
+    },
+    {
+      "id": 404,
+      "startTime": 862.36,
+      "endTime": 865.36,
+      "speaker": null,
+      "text": "that obviously can hurt investors."
+    },
+    {
+      "id": 405,
+      "startTime": 865.36,
+      "endTime": 866.36,
+      "speaker": null,
+      "text": "That's right."
+    },
+    {
+      "id": 406,
+      "startTime": 866.36,
+      "endTime": 870.36,
+      "speaker": null,
+      "text": "So all you'll do is put money in your trader's pocket."
+    },
+    {
+      "id": 407,
+      "startTime": 870.36,
+      "endTime": 873.36,
+      "speaker": null,
+      "text": "I understand none of this."
+    },
+    {
+      "id": 408,
+      "startTime": 873.36,
+      "endTime": 877.36,
+      "speaker": null,
+      "text": "And I also say that at this time when the investors get skittish,"
+    },
+    {
+      "id": 409,
+      "startTime": 877.36,
+      "endTime": 881.36,
+      "speaker": null,
+      "text": "hucksters appear on the theme, they'll buy my album."
+    },
+    {
+      "id": 410,
+      "startTime": 881.36,
+      "endTime": 884.36,
+      "speaker": null,
+      "text": "I went to a risky trade."
+    },
+    {
+      "id": 411,
+      "startTime": 884.36,
+      "endTime": 892.36,
+      "speaker": null,
+      "text": "I know a guy who knows a guy who says if we buy this stock"
+    },
+    {
+      "id": 412,
+      "startTime": 892.36,
+      "endTime": 896.36,
+      "speaker": null,
+      "text": "for $10, it's going to be $15 tomorrow."
+    },
+    {
+      "id": 413,
+      "startTime": 896.36,
+      "endTime": 899.36,
+      "speaker": null,
+      "text": "So if you get caught from some high-pressure huckster,"
+    },
+    {
+      "id": 414,
+      "startTime": 899.36,
+      "endTime": 902.36,
+      "speaker": null,
+      "text": "they're all advising you to hang up."
+    },
+    {
+      "id": 415,
+      "startTime": 902.36,
+      "endTime": 906.36,
+      "speaker": null,
+      "text": "If anybody knew anything, they'd be rich, right?"
+    },
+    {
+      "id": 416,
+      "startTime": 906.36,
+      "endTime": 908.36,
+      "speaker": null,
+      "text": "Or maybe they are rich."
+    },
+    {
+      "id": 417,
+      "startTime": 908.36,
+      "endTime": 910.36,
+      "speaker": null,
+      "text": "Meanwhile, the President is still getting fallout"
+    },
+    {
+      "id": 418,
+      "startTime": 910.36,
+      "endTime": 913.36,
+      "speaker": null,
+      "text": "from the Monica Lewinsky affair."
+    },
+    {
+      "id": 419,
+      "startTime": 913.36,
+      "endTime": 917.36,
+      "speaker": null,
+      "text": "The debate as to whether he still has the credibility to lead"
+    },
+    {
+      "id": 420,
+      "startTime": 917.36,
+      "endTime": 921.36,
+      "speaker": null,
+      "text": "or whether he gave enough of an apology on TV continues."
+    },
+    {
+      "id": 421,
+      "startTime": 921.36,
+      "endTime": 924.36,
+      "speaker": null,
+      "text": "I wish people would leave this issue alone."
+    },
+    {
+      "id": 422,
+      "startTime": 924.36,
+      "endTime": 928.36,
+      "speaker": null,
+      "text": "This is an issue between me and my wife and Chelsea."
+    },
+    {
+      "id": 423,
+      "startTime": 928.36,
+      "endTime": 930.36,
+      "speaker": null,
+      "text": "The President says it's time to move on."
+    },
+    {
+      "id": 424,
+      "startTime": 930.36,
+      "endTime": 935.36,
+      "speaker": null,
+      "text": "He says his TV speech concerning Monica Lewinsky said it all."
+    },
+    {
+      "id": 425,
+      "startTime": 935.36,
+      "endTime": 937.36,
+      "speaker": null,
+      "text": "He says he has admitted his mistake."
+    },
+    {
+      "id": 426,
+      "startTime": 937.36,
+      "endTime": 942.36,
+      "speaker": null,
+      "text": "He regrets his actions and wants to be forgiven."
+    },
+    {
+      "id": 427,
+      "startTime": 942.36,
+      "endTime": 946.36,
+      "speaker": null,
+      "text": "This, of course, was brought up at a news conference in Russia."
+    },
+    {
+      "id": 428,
+      "startTime": 946.36,
+      "endTime": 949.36,
+      "speaker": null,
+      "text": "Very embarrassing."
+    },
+    {
+      "id": 429,
+      "startTime": 949.36,
+      "endTime": 951.36,
+      "speaker": null,
+      "text": "He says he recently reread the speech"
+    },
+    {
+      "id": 430,
+      "startTime": 951.36,
+      "endTime": 954.36,
+      "speaker": null,
+      "text": "and doesn't think he needs to say any more about it."
+    },
+    {
+      "id": 431,
+      "startTime": 954.36,
+      "endTime": 958.36,
+      "speaker": null,
+      "text": "Some people are saying they didn't think the President apologized"
+    },
+    {
+      "id": 432,
+      "startTime": 958.36,
+      "endTime": 961.36,
+      "speaker": null,
+      "text": "and they would like him to speak more."
+    },
+    {
+      "id": 433,
+      "startTime": 961.36,
+      "endTime": 967.36,
+      "speaker": null,
+      "text": "Boner, boner, boner, me, my moner, boner, boner."
+    },
+    {
+      "id": 434,
+      "startTime": 967.36,
+      "endTime": 970.36,
+      "speaker": null,
+      "text": "Senator Trent Lott, who is the Majority Leader in Washington,"
+    },
+    {
+      "id": 435,
+      "startTime": 970.36,
+      "endTime": 972.36,
+      "speaker": null,
+      "text": "he doesn't know if the President has the credibility"
+    },
+    {
+      "id": 436,
+      "startTime": 972.36,
+      "endTime": 976.36,
+      "speaker": null,
+      "text": "or the respect needed to lead, but there's no quick fit."
+    },
+    {
+      "id": 437,
+      "startTime": 976.36,
+      "endTime": 978.36,
+      "speaker": null,
+      "text": "Where's Cindy Crawford?"
+    },
+    {
+      "id": 438,
+      "startTime": 978.36,
+      "endTime": 979.36,
+      "speaker": null,
+      "text": "Number nine, please."
+    },
+    {
+      "id": 439,
+      "startTime": 979.36,
+      "endTime": 982.36,
+      "speaker": null,
+      "text": "Did she get her stitches out yet, Robert?"
+    },
+    {
+      "id": 440,
+      "startTime": 982.36,
+      "endTime": 986.36,
+      "speaker": null,
+      "text": "What do you mean she had work?"
+    },
+    {
+      "id": 441,
+      "startTime": 986.36,
+      "endTime": 990.36,
+      "speaker": null,
+      "text": "I think a failed presidency at any time, for whatever reason,"
+    },
+    {
+      "id": 442,
+      "startTime": 990.36,
+      "endTime": 991.36,
+      "speaker": null,
+      "text": "is not good for the country."
+    },
+    {
+      "id": 443,
+      "startTime": 991.36,
+      "endTime": 993.36,
+      "speaker": null,
+      "text": "I don't want that to happen."
+    },
+    {
+      "id": 444,
+      "startTime": 993.36,
+      "endTime": 998.36,
+      "speaker": null,
+      "text": "And I really am distraught, quite frankly, at where we are."
+    },
+    {
+      "id": 445,
+      "startTime": 998.36,
+      "endTime": 999.36,
+      "speaker": null,
+      "text": "Sure is."
+    },
+    {
+      "id": 446,
+      "startTime": 999.36,
+      "endTime": 1000.36,
+      "speaker": null,
+      "text": "Sure is."
+    },
+    {
+      "id": 447,
+      "startTime": 1000.36,
+      "endTime": 1003.36,
+      "speaker": null,
+      "text": "But we're hearing him sobbing his tone a little bit"
+    },
+    {
+      "id": 448,
+      "startTime": 1003.36,
+      "endTime": 1006.36,
+      "speaker": null,
+      "text": "from statements he'd made earlier this week."
+    },
+    {
+      "id": 449,
+      "startTime": 1006.36,
+      "endTime": 1008.36,
+      "speaker": null,
+      "text": "Here he is again."
+    },
+    {
+      "id": 450,
+      "startTime": 1008.36,
+      "endTime": 1010.36,
+      "speaker": null,
+      "text": "Yeah, because he was calling for impeachment."
+    },
+    {
+      "id": 451,
+      "startTime": 1010.36,
+      "endTime": 1012.36,
+      "speaker": null,
+      "text": "Actually, he was calling for the President to resign."
+    },
+    {
+      "id": 452,
+      "startTime": 1012.36,
+      "endTime": 1014.36,
+      "speaker": null,
+      "text": "I don't feel like he owes me an apology."
+    },
+    {
+      "id": 453,
+      "startTime": 1014.36,
+      "endTime": 1017.36,
+      "speaker": null,
+      "text": "He needs to apologize to those he's directly wronged"
+    },
+    {
+      "id": 454,
+      "startTime": 1017.36,
+      "endTime": 1020.36,
+      "speaker": null,
+      "text": "and those he's loved, that he's hurt,"
+    },
+    {
+      "id": 455,
+      "startTime": 1020.36,
+      "endTime": 1023.36,
+      "speaker": null,
+      "text": "and he needs to ask forgiveness of his God, not of me."
+    },
+    {
+      "id": 456,
+      "startTime": 1023.36,
+      "endTime": 1025.36,
+      "speaker": null,
+      "text": "That was from CNN's late edition."
+    },
+    {
+      "id": 457,
+      "startTime": 1025.36,
+      "endTime": 1027.36,
+      "speaker": null,
+      "text": "I haven't heard what you just said, Robin."
+    },
+    {
+      "id": 458,
+      "startTime": 1027.36,
+      "endTime": 1029.36,
+      "speaker": null,
+      "text": "I would like to make a statement."
+    },
+    {
+      "id": 459,
+      "startTime": 1029.36,
+      "endTime": 1030.36,
+      "speaker": null,
+      "text": "Okay."
+    },
+    {
+      "id": 460,
+      "startTime": 1030.36,
+      "endTime": 1038.36,
+      "speaker": null,
+      "text": "Senator Lott, to you, Robin, and to the American people."
+    },
+    {
+      "id": 461,
+      "startTime": 1038.36,
+      "endTime": 1042.36,
+      "speaker": null,
+      "text": "I would like to say that I heard before surgery,"
+    },
+    {
+      "id": 462,
+      "startTime": 1042.36,
+      "endTime": 1045.36,
+      "speaker": null,
+      "text": "Cindy Crawford looked like Hillary."
+    },
+    {
+      "id": 463,
+      "startTime": 1045.36,
+      "endTime": 1047.36,
+      "speaker": null,
+      "text": "And I want to know if they could take Hillary."
+    },
+    {
+      "id": 464,
+      "startTime": 1047.36,
+      "endTime": 1049.36,
+      "speaker": null,
+      "text": "Baker looked like Cindy Crawford."
+    },
+    {
+      "id": 465,
+      "startTime": 1049.36,
+      "endTime": 1052.36,
+      "speaker": null,
+      "text": "Then my marriage would be fine."
+    },
+    {
+      "id": 466,
+      "startTime": 1052.36,
+      "endTime": 1054.36,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 467,
+      "startTime": 1059.36,
+      "endTime": 1061.36,
+      "speaker": null,
+      "text": "How's that?"
+    },
+    {
+      "id": 468,
+      "startTime": 1061.36,
+      "endTime": 1064.36,
+      "speaker": null,
+      "text": "I'll put that in your pipe and smoke it."
+    },
+    {
+      "id": 469,
+      "startTime": 1064.36,
+      "endTime": 1069.36,
+      "speaker": null,
+      "text": "Representative Robert Wexler, who's a Democrat, says"
+    },
+    {
+      "id": 470,
+      "startTime": 1069.36,
+      "endTime": 1073.36,
+      "speaker": null,
+      "text": "he still feels that Clinton can lead this country."
+    },
+    {
+      "id": 471,
+      "startTime": 1073.36,
+      "endTime": 1075.36,
+      "speaker": null,
+      "text": "You feel that he can?"
+    },
+    {
+      "id": 472,
+      "startTime": 1075.36,
+      "endTime": 1076.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 473,
+      "startTime": 1076.36,
+      "endTime": 1077.36,
+      "speaker": null,
+      "text": "Never said."
+    },
+    {
+      "id": 474,
+      "startTime": 1077.36,
+      "endTime": 1079.36,
+      "speaker": null,
+      "text": "Oh, thank you."
+    },
+    {
+      "id": 475,
+      "startTime": 1079.36,
+      "endTime": 1081.36,
+      "speaker": null,
+      "text": "There's a lot of states that I didn't know."
+    },
+    {
+      "id": 476,
+      "startTime": 1081.36,
+      "endTime": 1084.36,
+      "speaker": null,
+      "text": "Two weeks ago, this President took the most decisive action"
+    },
+    {
+      "id": 477,
+      "startTime": 1084.36,
+      "endTime": 1087.36,
+      "speaker": null,
+      "text": "this decade against international terrorism."
+    },
+    {
+      "id": 478,
+      "startTime": 1087.36,
+      "endTime": 1091.36,
+      "speaker": null,
+      "text": "Even his opponents in Congress recognized that Clinton led on terrorism"
+    },
+    {
+      "id": 479,
+      "startTime": 1091.36,
+      "endTime": 1094.36,
+      "speaker": null,
+      "text": "and he needed to do more of that."
+    },
+    {
+      "id": 480,
+      "startTime": 1094.36,
+      "endTime": 1097.36,
+      "speaker": null,
+      "text": "So you see, he is leading the country."
+    },
+    {
+      "id": 481,
+      "startTime": 1097.36,
+      "endTime": 1100.36,
+      "speaker": null,
+      "text": "And Wexler says that he feels that Clinton should speak"
+    },
+    {
+      "id": 482,
+      "startTime": 1100.36,
+      "endTime": 1102.36,
+      "speaker": null,
+      "text": "to the youth of America."
+    },
+    {
+      "id": 483,
+      "startTime": 1102.36,
+      "endTime": 1104.36,
+      "speaker": null,
+      "text": "The youth?"
+    },
+    {
+      "id": 484,
+      "startTime": 1105.36,
+      "endTime": 1106.36,
+      "speaker": null,
+      "text": "Where's that number?"
+    },
+    {
+      "id": 485,
+      "startTime": 1106.36,
+      "endTime": 1108.36,
+      "speaker": null,
+      "text": "Number eight."
+    },
+    {
+      "id": 486,
+      "startTime": 1111.36,
+      "endTime": 1113.36,
+      "speaker": null,
+      "text": "A hard time will be here."
+    },
+    {
+      "id": 487,
+      "startTime": 1113.36,
+      "endTime": 1116.36,
+      "speaker": null,
+      "text": "I don't think there's a need for people to hear this again."
+    },
+    {
+      "id": 488,
+      "startTime": 1116.36,
+      "endTime": 1117.36,
+      "speaker": null,
+      "text": "People are sick of it."
+    },
+    {
+      "id": 489,
+      "startTime": 1117.36,
+      "endTime": 1120.36,
+      "speaker": null,
+      "text": "I think the one thing in truth he needs to incorporate"
+    },
+    {
+      "id": 490,
+      "startTime": 1120.36,
+      "endTime": 1123.36,
+      "speaker": null,
+      "text": "is talk to the young people of this country."
+    },
+    {
+      "id": 491,
+      "startTime": 1123.36,
+      "endTime": 1126.36,
+      "speaker": null,
+      "text": "And he's got to make lemon, or make lemonade out of lemon."
+    },
+    {
+      "id": 492,
+      "startTime": 1126.36,
+      "endTime": 1128.36,
+      "speaker": null,
+      "text": "How am I going to do that?"
+    },
+    {
+      "id": 493,
+      "startTime": 1128.36,
+      "endTime": 1130.36,
+      "speaker": null,
+      "text": "That was from CNN's Larry King Live."
+    },
+    {
+      "id": 494,
+      "startTime": 1130.36,
+      "endTime": 1133.36,
+      "speaker": null,
+      "text": "I would like to make a statement based on what you just played."
+    },
+    {
+      "id": 495,
+      "startTime": 1134.36,
+      "endTime": 1137.36,
+      "speaker": null,
+      "text": "Robin, I do not believe you are a cat."
+    },
+    {
+      "id": 496,
+      "startTime": 1138.36,
+      "endTime": 1140.36,
+      "speaker": null,
+      "text": "Now, would you go in the woods with me?"
+    },
+    {
+      "id": 497,
+      "startTime": 1142.36,
+      "endTime": 1144.36,
+      "speaker": null,
+      "text": "You are such a charmer, Mr. President."
+    },
+    {
+      "id": 498,
+      "startTime": 1144.36,
+      "endTime": 1147.36,
+      "speaker": null,
+      "text": "There are many times when I sit in the Oval Office"
+    },
+    {
+      "id": 499,
+      "startTime": 1147.36,
+      "endTime": 1150.36,
+      "speaker": null,
+      "text": "and I think about things that have occurred in the last few months."
+    },
+    {
+      "id": 500,
+      "startTime": 1152.36,
+      "endTime": 1155.36,
+      "speaker": null,
+      "text": "I wish I wasn't circumcised."
+    },
+    {
+      "id": 501,
+      "startTime": 1155.36,
+      "endTime": 1156.36,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 502,
+      "startTime": 1159.36,
+      "endTime": 1164.36,
+      "speaker": null,
+      "text": "Rob Emmanuel, Sr., is a Clinton policy advisor in Washington."
+    },
+    {
+      "id": 503,
+      "startTime": 1164.36,
+      "endTime": 1168.36,
+      "speaker": null,
+      "text": "And he says another apology from the President should not be necessary."
+    },
+    {
+      "id": 504,
+      "startTime": 1168.36,
+      "endTime": 1170.36,
+      "speaker": null,
+      "text": "I already made my apology."
+    },
+    {
+      "id": 505,
+      "startTime": 1172.36,
+      "endTime": 1176.36,
+      "speaker": null,
+      "text": "I've said all I'm going to say on this topic of Ms. Lewinsky."
+    },
+    {
+      "id": 506,
+      "startTime": 1178.36,
+      "endTime": 1182.36,
+      "speaker": null,
+      "text": "I also want to say that it is particularly difficult on my family."
+    },
+    {
+      "id": 507,
+      "startTime": 1183.36,
+      "endTime": 1188.36,
+      "speaker": null,
+      "text": "You know, Robin, when I think of my wife, I want to puke."
+    },
+    {
+      "id": 508,
+      "startTime": 1189.36,
+      "endTime": 1191.36,
+      "speaker": null,
+      "text": "I mean, oh, is this on?"
+    },
+    {
+      "id": 509,
+      "startTime": 1192.36,
+      "endTime": 1193.36,
+      "speaker": null,
+      "text": "We are on the air."
+    },
+    {
+      "id": 510,
+      "startTime": 1193.36,
+      "endTime": 1198.36,
+      "speaker": null,
+      "text": "When I think of my wife and all the suffering I've caused, I want to puke."
+    },
+    {
+      "id": 511,
+      "startTime": 1201.36,
+      "endTime": 1205.36,
+      "speaker": null,
+      "text": "Anyway, let's hear from Rob Emmanuel, Sr., number 11."
+    },
+    {
+      "id": 512,
+      "startTime": 1206.36,
+      "endTime": 1208.36,
+      "speaker": null,
+      "text": "Who are we hearing from?"
+    },
+    {
+      "id": 513,
+      "startTime": 1208.36,
+      "endTime": 1210.36,
+      "speaker": null,
+      "text": "Rob Emmanuel, Sr."
+    },
+    {
+      "id": 514,
+      "startTime": 1210.36,
+      "endTime": 1212.36,
+      "speaker": null,
+      "text": "The American has the name of Rob."
+    },
+    {
+      "id": 515,
+      "startTime": 1213.36,
+      "endTime": 1215.36,
+      "speaker": null,
+      "text": "I'd like to rob you, Robin."
+    },
+    {
+      "id": 516,
+      "startTime": 1217.36,
+      "endTime": 1219.36,
+      "speaker": null,
+      "text": "This is something that's personal."
+    },
+    {
+      "id": 517,
+      "startTime": 1219.36,
+      "endTime": 1221.36,
+      "speaker": null,
+      "text": "He has done it already twice, publicly."
+    },
+    {
+      "id": 518,
+      "startTime": 1221.36,
+      "endTime": 1226.36,
+      "speaker": null,
+      "text": "I think what is important is that there's not a block for us to do what we have to do for this country"
+    },
+    {
+      "id": 519,
+      "startTime": 1226.36,
+      "endTime": 1229.36,
+      "speaker": null,
+      "text": "and what the President and the Congress have to do together."
+    },
+    {
+      "id": 520,
+      "startTime": 1229.36,
+      "endTime": 1230.36,
+      "speaker": null,
+      "text": "What's he talking about?"
+    },
+    {
+      "id": 521,
+      "startTime": 1230.36,
+      "endTime": 1233.36,
+      "speaker": null,
+      "text": "Whether the President should go on air and apologize again."
+    },
+    {
+      "id": 522,
+      "startTime": 1233.36,
+      "endTime": 1235.36,
+      "speaker": null,
+      "text": "I will not apologize again."
+    },
+    {
+      "id": 523,
+      "startTime": 1235.36,
+      "endTime": 1241.36,
+      "speaker": null,
+      "text": "I'll talk about matters of state, the economy, for example, the stock market."
+    },
+    {
+      "id": 524,
+      "startTime": 1242.36,
+      "endTime": 1247.36,
+      "speaker": null,
+      "text": "As you know, the stock market went down like my genitals when I see Hillary."
+    },
+    {
+      "id": 525,
+      "startTime": 1248.36,
+      "endTime": 1250.36,
+      "speaker": null,
+      "text": "But never mind that."
+    },
+    {
+      "id": 526,
+      "startTime": 1251.36,
+      "endTime": 1253.36,
+      "speaker": null,
+      "text": "What else do you want to know?"
+    },
+    {
+      "id": 527,
+      "startTime": 1254.36,
+      "endTime": 1255.36,
+      "speaker": null,
+      "text": "My God."
+    },
+    {
+      "id": 528,
+      "startTime": 1256.36,
+      "endTime": 1260.36,
+      "speaker": null,
+      "text": "It is 10.20 in the morning, New York time, and I haven't had an orgasm."
+    },
+    {
+      "id": 529,
+      "startTime": 1261.36,
+      "endTime": 1265.36,
+      "speaker": null,
+      "text": "Meanwhile, in the papers today, they're saying that a soap opera, Days of Our Lives,"
+    },
+    {
+      "id": 530,
+      "startTime": 1265.36,
+      "endTime": 1268.36,
+      "speaker": null,
+      "text": "is thinking of offering Monica Lewinsky a role."
+    },
+    {
+      "id": 531,
+      "startTime": 1269.36,
+      "endTime": 1270.36,
+      "speaker": null,
+      "text": "That's ridiculous."
+    },
+    {
+      "id": 532,
+      "startTime": 1271.36,
+      "endTime": 1272.36,
+      "speaker": null,
+      "text": "That girl can't act."
+    },
+    {
+      "id": 533,
+      "startTime": 1273.36,
+      "endTime": 1275.36,
+      "speaker": null,
+      "text": "She's the only thing she can get up with in her cigar."
+    },
+    {
+      "id": 534,
+      "startTime": 1275.36,
+      "endTime": 1280.36,
+      "speaker": null,
+      "text": "Apparently, some of the girls, or people that Monica went to school with, work for the soap opera,"
+    },
+    {
+      "id": 535,
+      "startTime": 1280.36,
+      "endTime": 1285.36,
+      "speaker": null,
+      "text": "and they say an approach has been made, at least an inside source is saying that,"
+    },
+    {
+      "id": 536,
+      "startTime": 1285.36,
+      "endTime": 1290.36,
+      "speaker": null,
+      "text": "and they're saying that there's been no script or anything, but feelers have been put out."
+    },
+    {
+      "id": 537,
+      "startTime": 1291.36,
+      "endTime": 1295.36,
+      "speaker": null,
+      "text": "Now, Monica has already supposedly turned down a $2 million deal for a book."
+    },
+    {
+      "id": 538,
+      "startTime": 1295.36,
+      "endTime": 1298.36,
+      "speaker": null,
+      "text": "You know, soap actors are ready like the scum of the earth."
+    },
+    {
+      "id": 539,
+      "startTime": 1298.36,
+      "endTime": 1301.36,
+      "speaker": null,
+      "text": "I mean, you know, it takes no talent to be a soap actor and all that."
+    },
+    {
+      "id": 540,
+      "startTime": 1302.36,
+      "endTime": 1303.36,
+      "speaker": null,
+      "text": "Now imagine how they feel."
+    },
+    {
+      "id": 541,
+      "startTime": 1303.36,
+      "endTime": 1304.36,
+      "speaker": null,
+      "text": "Monica Lewinsky."
+    },
+    {
+      "id": 542,
+      "startTime": 1305.36,
+      "endTime": 1306.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 543,
+      "startTime": 1306.36,
+      "endTime": 1307.36,
+      "speaker": null,
+      "text": "Anyone can do it."
+    },
+    {
+      "id": 544,
+      "startTime": 1309.36,
+      "endTime": 1312.36,
+      "speaker": null,
+      "text": "Monica has expressed interest."
+    },
+    {
+      "id": 545,
+      "startTime": 1312.36,
+      "endTime": 1313.36,
+      "speaker": null,
+      "text": "Yeah, why not?"
+    },
+    {
+      "id": 546,
+      "startTime": 1315.36,
+      "endTime": 1317.36,
+      "speaker": null,
+      "text": "In being on a soap in some capacity."
+    },
+    {
+      "id": 547,
+      "startTime": 1319.36,
+      "endTime": 1322.36,
+      "speaker": null,
+      "text": "Give her a tipperula with one of those fag actors, I guarantee she can act."
+    },
+    {
+      "id": 548,
+      "startTime": 1325.36,
+      "endTime": 1335.36,
+      "speaker": null,
+      "text": "A queen doctor who apparently didn't want a baby has been charged with injecting his girlfriend"
+    },
+    {
+      "id": 549,
+      "startTime": 1335.36,
+      "endTime": 1337.36,
+      "speaker": null,
+      "text": "with a chemical to terminate her pregnancy."
+    },
+    {
+      "id": 550,
+      "startTime": 1339.36,
+      "endTime": 1346.36,
+      "speaker": null,
+      "text": "Reports say 32-year-old Mark Reddiker is charged with a soap for allegedly blindfolding the woman"
+    },
+    {
+      "id": 551,
+      "startTime": 1346.36,
+      "endTime": 1349.36,
+      "speaker": null,
+      "text": "and giving her an injection that caused her to lose consciousness."
+    },
+    {
+      "id": 552,
+      "startTime": 1351.36,
+      "endTime": 1352.36,
+      "speaker": null,
+      "text": "I never did that."
+    },
+    {
+      "id": 553,
+      "startTime": 1352.36,
+      "endTime": 1357.36,
+      "speaker": null,
+      "text": "The alleged incident occurred inside Reddiker's apartment in Kew Gardens."
+    },
+    {
+      "id": 554,
+      "startTime": 1357.36,
+      "endTime": 1362.36,
+      "speaker": null,
+      "text": "News reports say he told his girlfriend that tying her up, bandaging her mouth and covering"
+    },
+    {
+      "id": 555,
+      "startTime": 1362.36,
+      "endTime": 1364.36,
+      "speaker": null,
+      "text": "her eyes was part of a sex game."
+    },
+    {
+      "id": 556,
+      "startTime": 1365.36,
+      "endTime": 1370.36,
+      "speaker": null,
+      "text": "And the criminal complaint, they say that he told his girlfriend he didn't want a baby"
+    },
+    {
+      "id": 557,
+      "startTime": 1370.36,
+      "endTime": 1375.36,
+      "speaker": null,
+      "text": "after she told him she was pregnant and planned to have a prenatal checkup on Monday."
+    },
+    {
+      "id": 558,
+      "startTime": 1375.36,
+      "endTime": 1380.36,
+      "speaker": null,
+      "text": "It also said that the woman saw Reddiker or Reddiker give her an injection after she managed"
+    },
+    {
+      "id": 559,
+      "startTime": 1380.36,
+      "endTime": 1382.36,
+      "speaker": null,
+      "text": "to remove the blindfold from her face."
+    },
+    {
+      "id": 560,
+      "startTime": 1383.36,
+      "endTime": 1388.36,
+      "speaker": null,
+      "text": "It is unclear how many months she was pregnant, but a toxicology report found that the pregnancy"
+    },
+    {
+      "id": 561,
+      "startTime": 1388.36,
+      "endTime": 1393.36,
+      "speaker": null,
+      "text": "was not viable, which means the guy didn't have to do anything."
+    },
+    {
+      "id": 562,
+      "startTime": 1393.36,
+      "endTime": 1395.36,
+      "speaker": null,
+      "text": "She was going to lose the baby anyway."
+    },
+    {
+      "id": 563,
+      "startTime": 1396.36,
+      "endTime": 1401.36,
+      "speaker": null,
+      "text": "The complaint says he gave the woman 70 milligrams of a central nervous system depressant."
+    },
+    {
+      "id": 564,
+      "startTime": 1401.36,
+      "endTime": 1404.36,
+      "speaker": null,
+      "text": "The woman was treated at Jamaica Hospital and released."
+    },
+    {
+      "id": 565,
+      "startTime": 1404.36,
+      "endTime": 1408.36,
+      "speaker": null,
+      "text": "He was a second year resident at the hospital and he's now been suspended."
+    },
+    {
+      "id": 566,
+      "startTime": 1411.36,
+      "endTime": 1413.36,
+      "speaker": null,
+      "text": "He was a gynecologist."
+    },
+    {
+      "id": 567,
+      "startTime": 1415.36,
+      "endTime": 1418.36,
+      "speaker": null,
+      "text": "He'll be surprised if they reinstate you."
+    },
+    {
+      "id": 568,
+      "startTime": 1419.36,
+      "endTime": 1421.36,
+      "speaker": null,
+      "text": "You think he can get out of it?"
+    },
+    {
+      "id": 569,
+      "startTime": 1421.36,
+      "endTime": 1422.36,
+      "speaker": null,
+      "text": "No."
+    },
+    {
+      "id": 570,
+      "startTime": 1423.36,
+      "endTime": 1427.36,
+      "speaker": null,
+      "text": "There's another, uh, storm warning."
+    },
+    {
+      "id": 571,
+      "startTime": 1428.36,
+      "endTime": 1430.36,
+      "speaker": null,
+      "text": "I go to change his name to Eric."
+    },
+    {
+      "id": 572,
+      "startTime": 1430.36,
+      "endTime": 1435.36,
+      "speaker": null,
+      "text": "There's something called, uh, yeah, really, tropical storm Earl."
+    },
+    {
+      "id": 573,
+      "startTime": 1435.36,
+      "endTime": 1436.36,
+      "speaker": null,
+      "text": "Earl."
+    },
+    {
+      "id": 574,
+      "startTime": 1438.36,
+      "endTime": 1444.36,
+      "speaker": null,
+      "text": "And, uh, forecasters are saying this is a hard to predict storm as well."
+    },
+    {
+      "id": 575,
+      "startTime": 1444.36,
+      "endTime": 1448.36,
+      "speaker": null,
+      "text": "Watches and warnings for Louisiana's coast have been dropped."
+    },
+    {
+      "id": 576,
+      "startTime": 1448.36,
+      "endTime": 1452.36,
+      "speaker": null,
+      "text": "Instead, a hurricane warning now extends from past the Google of Mississippi"
+    },
+    {
+      "id": 577,
+      "startTime": 1452.36,
+      "endTime": 1456.36,
+      "speaker": null,
+      "text": "all the way up to the mouth of the Swanee River in Northwestern Florida."
+    },
+    {
+      "id": 578,
+      "startTime": 1459.36,
+      "endTime": 1463.36,
+      "speaker": null,
+      "text": "Forecasters say Earl is disorganized and hard to pin down."
+    },
+    {
+      "id": 579,
+      "startTime": 1463.36,
+      "endTime": 1468.36,
+      "speaker": null,
+      "text": "So they don't know exactly where it's going to go, but the warnings are now changing."
+    },
+    {
+      "id": 580,
+      "startTime": 1470.36,
+      "endTime": 1472.36,
+      "speaker": null,
+      "text": "Simply Fred changed his name to Eric."
+    },
+    {
+      "id": 581,
+      "startTime": 1473.36,
+      "endTime": 1475.36,
+      "speaker": null,
+      "text": "After that argument today, I believe anything."
+    },
+    {
+      "id": 582,
+      "startTime": 1475.36,
+      "endTime": 1476.36,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 583,
+      "startTime": 1477.36,
+      "endTime": 1479.36,
+      "speaker": null,
+      "text": "I feel he was wrong."
+    },
+    {
+      "id": 584,
+      "startTime": 1480.36,
+      "endTime": 1483.36,
+      "speaker": null,
+      "text": "I didn't change my name, idiot."
+    },
+    {
+      "id": 585,
+      "startTime": 1484.36,
+      "endTime": 1486.36,
+      "speaker": null,
+      "text": "I wish you could keep up with an argument."
+    },
+    {
+      "id": 586,
+      "startTime": 1486.36,
+      "endTime": 1490.36,
+      "speaker": null,
+      "text": "I wish it would be called Robin Ophelia."
+    },
+    {
+      "id": 587,
+      "startTime": 1491.36,
+      "endTime": 1493.36,
+      "speaker": null,
+      "text": "That was great."
+    },
+    {
+      "id": 588,
+      "startTime": 1494.36,
+      "endTime": 1496.36,
+      "speaker": null,
+      "text": "That lasted about a minute."
+    },
+    {
+      "id": 589,
+      "startTime": 1496.36,
+      "endTime": 1497.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 590,
+      "startTime": 1499.36,
+      "endTime": 1501.36,
+      "speaker": null,
+      "text": "You actually came up to me in private and said,"
+    },
+    {
+      "id": 591,
+      "startTime": 1501.36,
+      "endTime": 1503.36,
+      "speaker": null,
+      "text": "\"I would like you now to call me Robin Ophelia.\""
+    },
+    {
+      "id": 592,
+      "startTime": 1503.36,
+      "endTime": 1505.36,
+      "speaker": null,
+      "text": "That had to take incredible nerve."
+    },
+    {
+      "id": 593,
+      "startTime": 1508.36,
+      "endTime": 1509.36,
+      "speaker": null,
+      "text": "That was amazing."
+    },
+    {
+      "id": 594,
+      "startTime": 1510.36,
+      "endTime": 1512.36,
+      "speaker": null,
+      "text": "I said, \"I'll do my best.\""
+    },
+    {
+      "id": 595,
+      "startTime": 1513.36,
+      "endTime": 1516.36,
+      "speaker": null,
+      "text": "I got on the air and I said, \"Look, I can't call you Robin Ophelia.\""
+    },
+    {
+      "id": 596,
+      "startTime": 1518.36,
+      "endTime": 1520.36,
+      "speaker": null,
+      "text": "Was it Robin Ophelia or were you going to become Ophelia?"
+    },
+    {
+      "id": 597,
+      "startTime": 1520.36,
+      "endTime": 1521.36,
+      "speaker": null,
+      "text": "Robin Ophelia."
+    },
+    {
+      "id": 598,
+      "startTime": 1521.36,
+      "endTime": 1522.36,
+      "speaker": null,
+      "text": "Robin Ophelia."
+    },
+    {
+      "id": 599,
+      "startTime": 1522.36,
+      "endTime": 1523.36,
+      "speaker": null,
+      "text": "You wanted up two names."
+    },
+    {
+      "id": 600,
+      "startTime": 1523.36,
+      "endTime": 1526.36,
+      "speaker": null,
+      "text": "I said, you know, in the era of Kathy Lee."
+    },
+    {
+      "id": 601,
+      "startTime": 1526.36,
+      "endTime": 1527.36,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 602,
+      "startTime": 1527.36,
+      "endTime": 1528.36,
+      "speaker": null,
+      "text": "There were a couple of other two-name people."
+    },
+    {
+      "id": 603,
+      "startTime": 1528.36,
+      "endTime": 1530.36,
+      "speaker": null,
+      "text": "I wanted to be one, too."
+    },
+    {
+      "id": 604,
+      "startTime": 1530.36,
+      "endTime": 1531.36,
+      "speaker": null,
+      "text": "You wanted a name change."
+    },
+    {
+      "id": 605,
+      "startTime": 1531.36,
+      "endTime": 1533.36,
+      "speaker": null,
+      "text": "And we tried it and it didn't work."
+    },
+    {
+      "id": 606,
+      "startTime": 1533.36,
+      "endTime": 1534.36,
+      "speaker": null,
+      "text": "Yeah, you tried it for how long?"
+    },
+    {
+      "id": 607,
+      "startTime": 1534.36,
+      "endTime": 1535.36,
+      "speaker": null,
+      "text": "Do you still want to be that?"
+    },
+    {
+      "id": 608,
+      "startTime": 1535.36,
+      "endTime": 1536.36,
+      "speaker": null,
+      "text": "Do you still want to be Robin Ophelia?"
+    },
+    {
+      "id": 609,
+      "startTime": 1536.36,
+      "endTime": 1537.36,
+      "speaker": null,
+      "text": "No, I don't."
+    },
+    {
+      "id": 610,
+      "startTime": 1537.36,
+      "endTime": 1538.36,
+      "speaker": null,
+      "text": "You're out of that now."
+    },
+    {
+      "id": 611,
+      "startTime": 1538.36,
+      "endTime": 1539.36,
+      "speaker": null,
+      "text": "I'm out of that now."
+    },
+    {
+      "id": 612,
+      "startTime": 1539.36,
+      "endTime": 1540.36,
+      "speaker": null,
+      "text": "Because I'll start calling it."
+    },
+    {
+      "id": 613,
+      "startTime": 1540.36,
+      "endTime": 1541.36,
+      "speaker": null,
+      "text": "No, no."
+    },
+    {
+      "id": 614,
+      "startTime": 1541.36,
+      "endTime": 1542.36,
+      "speaker": null,
+      "text": "Now that you don't want it, I'll do it."
+    },
+    {
+      "id": 615,
+      "startTime": 1542.36,
+      "endTime": 1544.36,
+      "speaker": null,
+      "text": "Give it an effort when I ask."
+    },
+    {
+      "id": 616,
+      "startTime": 1545.36,
+      "endTime": 1547.36,
+      "speaker": null,
+      "text": "I'm going to call Fred Robin Ophelia."
+    },
+    {
+      "id": 617,
+      "startTime": 1548.36,
+      "endTime": 1549.36,
+      "speaker": null,
+      "text": "He will answer."
+    },
+    {
+      "id": 618,
+      "startTime": 1549.36,
+      "endTime": 1550.36,
+      "speaker": null,
+      "text": "Robin Ophelia."
+    },
+    {
+      "id": 619,
+      "startTime": 1550.36,
+      "endTime": 1551.36,
+      "speaker": null,
+      "text": "You know what?"
+    },
+    {
+      "id": 620,
+      "startTime": 1551.36,
+      "endTime": 1552.36,
+      "speaker": null,
+      "text": "I would have done it."
+    },
+    {
+      "id": 621,
+      "startTime": 1552.36,
+      "endTime": 1553.36,
+      "speaker": null,
+      "text": "I just kept forgetting."
+    },
+    {
+      "id": 622,
+      "startTime": 1553.36,
+      "endTime": 1556.36,
+      "speaker": null,
+      "text": "Well, that's the kind of friend you are."
+    },
+    {
+      "id": 623,
+      "startTime": 1556.36,
+      "endTime": 1557.36,
+      "speaker": null,
+      "text": "And you forgot, too."
+    },
+    {
+      "id": 624,
+      "startTime": 1557.36,
+      "endTime": 1558.36,
+      "speaker": null,
+      "text": "No, I didn't."
+    },
+    {
+      "id": 625,
+      "startTime": 1558.36,
+      "endTime": 1560.36,
+      "speaker": null,
+      "text": "You've got to be right now."
+    },
+    {
+      "id": 626,
+      "startTime": 1560.36,
+      "endTime": 1561.36,
+      "speaker": null,
+      "text": "What?"
+    },
+    {
+      "id": 627,
+      "startTime": 1561.36,
+      "endTime": 1562.36,
+      "speaker": null,
+      "text": "Here's another guy who says you dig Fred."
+    },
+    {
+      "id": 628,
+      "startTime": 1562.36,
+      "endTime": 1563.36,
+      "speaker": null,
+      "text": "That's your problem."
+    },
+    {
+      "id": 629,
+      "startTime": 1563.36,
+      "endTime": 1564.36,
+      "speaker": null,
+      "text": "That's what he says."
+    },
+    {
+      "id": 630,
+      "startTime": 1564.36,
+      "endTime": 1565.36,
+      "speaker": null,
+      "text": "Yes?"
+    },
+    {
+      "id": 631,
+      "startTime": 1565.36,
+      "endTime": 1567.36,
+      "speaker": null,
+      "text": "Well, I'm not aware of all these feelings."
+    },
+    {
+      "id": 632,
+      "startTime": 1567.36,
+      "endTime": 1568.36,
+      "speaker": null,
+      "text": "Yes?"
+    },
+    {
+      "id": 633,
+      "startTime": 1568.36,
+      "endTime": 1569.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 634,
+      "startTime": 1569.36,
+      "endTime": 1570.36,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 635,
+      "startTime": 1570.36,
+      "endTime": 1571.36,
+      "speaker": null,
+      "text": "Go ahead and state your cause."
+    },
+    {
+      "id": 636,
+      "startTime": 1571.36,
+      "endTime": 1572.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 637,
+      "startTime": 1572.36,
+      "endTime": 1575.36,
+      "speaker": null,
+      "text": "I believe there was any closure between --"
+    },
+    {
+      "id": 638,
+      "startTime": 1575.36,
+      "endTime": 1584.36,
+      "speaker": null,
+      "text": "You know, I've noticed, you know, listening to your programs, that whenever a model comes"
+    },
+    {
+      "id": 639,
+      "startTime": 1584.36,
+      "endTime": 1592.36,
+      "speaker": null,
+      "text": "on, you know, I can notice the tone in Robin's voice, like she seems to be jealous."
+    },
+    {
+      "id": 640,
+      "startTime": 1592.36,
+      "endTime": 1594.36,
+      "speaker": null,
+      "text": "And Fred's very particular."
+    },
+    {
+      "id": 641,
+      "startTime": 1594.36,
+      "endTime": 1601.36,
+      "speaker": null,
+      "text": "You know, like a model could be a 10, but the Fred, you know, you know --"
+    },
+    {
+      "id": 642,
+      "startTime": 1601.36,
+      "endTime": 1603.36,
+      "speaker": null,
+      "text": "You think it's hard for Robin to have models in the room?"
+    },
+    {
+      "id": 643,
+      "startTime": 1603.36,
+      "endTime": 1605.36,
+      "speaker": null,
+      "text": "Fred spawning over these girls."
+    },
+    {
+      "id": 644,
+      "startTime": 1605.36,
+      "endTime": 1606.36,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 645,
+      "startTime": 1606.36,
+      "endTime": 1609.36,
+      "speaker": null,
+      "text": "You know, it's just laughter on her part."
+    },
+    {
+      "id": 646,
+      "startTime": 1609.36,
+      "endTime": 1610.36,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 647,
+      "startTime": 1610.36,
+      "endTime": 1611.36,
+      "speaker": null,
+      "text": "You know, does she --"
+    },
+    {
+      "id": 648,
+      "startTime": 1611.36,
+      "endTime": 1612.36,
+      "speaker": null,
+      "text": "Schema's right."
+    },
+    {
+      "id": 649,
+      "startTime": 1612.36,
+      "endTime": 1614.36,
+      "speaker": null,
+      "text": "-- criticize about Fred or not?"
+    },
+    {
+      "id": 650,
+      "startTime": 1614.36,
+      "endTime": 1615.36,
+      "speaker": null,
+      "text": "You know?"
+    },
+    {
+      "id": 651,
+      "startTime": 1615.36,
+      "endTime": 1616.36,
+      "speaker": null,
+      "text": "This is Carol Walt on the phone."
+    },
+    {
+      "id": 652,
+      "startTime": 1616.36,
+      "endTime": 1619.36,
+      "speaker": null,
+      "text": "It's like a lot of good stuff."
+    },
+    {
+      "id": 653,
+      "startTime": 1619.36,
+      "endTime": 1621.36,
+      "speaker": null,
+      "text": "And laughter don't get it."
+    },
+    {
+      "id": 654,
+      "startTime": 1621.36,
+      "endTime": 1622.36,
+      "speaker": null,
+      "text": "That's true."
+    },
+    {
+      "id": 655,
+      "startTime": 1622.36,
+      "endTime": 1623.36,
+      "speaker": null,
+      "text": "You need an answer."
+    },
+    {
+      "id": 656,
+      "startTime": 1623.36,
+      "endTime": 1624.36,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 657,
+      "startTime": 1624.36,
+      "endTime": 1625.36,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 658,
+      "startTime": 1625.36,
+      "endTime": 1626.36,
+      "speaker": null,
+      "text": "Well, please."
+    },
+    {
+      "id": 659,
+      "startTime": 1626.36,
+      "endTime": 1627.36,
+      "speaker": null,
+      "text": "Well, there was no closure."
+    },
+    {
+      "id": 660,
+      "startTime": 1627.36,
+      "endTime": 1628.36,
+      "speaker": null,
+      "text": "No?"
+    },
+    {
+      "id": 661,
+      "startTime": 1628.36,
+      "endTime": 1629.36,
+      "speaker": null,
+      "text": "She's right about that."
+    },
+    {
+      "id": 662,
+      "startTime": 1629.36,
+      "endTime": 1631.36,
+      "speaker": null,
+      "text": "There was no closure."
+    },
+    {
+      "id": 663,
+      "startTime": 1631.36,
+      "endTime": 1635.36,
+      "speaker": null,
+      "text": "Anyway, what else is in the news?"
+    },
+    {
+      "id": 664,
+      "startTime": 1635.36,
+      "endTime": 1639.36,
+      "speaker": null,
+      "text": "Now that Titanic is out on video, parents may worry about their kids watching"
+    },
+    {
+      "id": 665,
+      "startTime": 1639.36,
+      "endTime": 1641.36,
+      "speaker": null,
+      "text": "some of the sexy scenes."
+    },
+    {
+      "id": 666,
+      "startTime": 1641.36,
+      "endTime": 1642.36,
+      "speaker": null,
+      "text": "You know, I have Titanic."
+    },
+    {
+      "id": 667,
+      "startTime": 1642.36,
+      "endTime": 1644.36,
+      "speaker": null,
+      "text": "I'm one of the families that got it yesterday."
+    },
+    {
+      "id": 668,
+      "startTime": 1644.36,
+      "endTime": 1645.36,
+      "speaker": null,
+      "text": "Isn't that right?"
+    },
+    {
+      "id": 669,
+      "startTime": 1645.36,
+      "endTime": 1646.36,
+      "speaker": null,
+      "text": "How did you get it?"
+    },
+    {
+      "id": 670,
+      "startTime": 1646.36,
+      "endTime": 1650.36,
+      "speaker": null,
+      "text": "Well, my kids had friends over, and these other kids brought over a copy of Titanic."
+    },
+    {
+      "id": 671,
+      "startTime": 1650.36,
+      "endTime": 1652.36,
+      "speaker": null,
+      "text": "It's two video cassettes."
+    },
+    {
+      "id": 672,
+      "startTime": 1652.36,
+      "endTime": 1653.36,
+      "speaker": null,
+      "text": "And you know who's watching it?"
+    },
+    {
+      "id": 673,
+      "startTime": 1653.36,
+      "endTime": 1655.36,
+      "speaker": null,
+      "text": "My five-year-old over and over again."
+    },
+    {
+      "id": 674,
+      "startTime": 1655.36,
+      "endTime": 1656.36,
+      "speaker": null,
+      "text": "Is that right?"
+    },
+    {
+      "id": 675,
+      "startTime": 1656.36,
+      "endTime": 1657.36,
+      "speaker": null,
+      "text": "My five-year-old."
+    },
+    {
+      "id": 676,
+      "startTime": 1657.36,
+      "endTime": 1658.36,
+      "speaker": null,
+      "text": "Is that bad?"
+    },
+    {
+      "id": 677,
+      "startTime": 1658.36,
+      "endTime": 1659.36,
+      "speaker": null,
+      "text": "Are you worried about her watching these sexy scenes?"
+    },
+    {
+      "id": 678,
+      "startTime": 1659.36,
+      "endTime": 1662.36,
+      "speaker": null,
+      "text": "I don't -- I didn't remember any sexy scenes."
+    },
+    {
+      "id": 679,
+      "startTime": 1662.36,
+      "endTime": 1663.36,
+      "speaker": null,
+      "text": "What was sexy?"
+    },
+    {
+      "id": 680,
+      "startTime": 1663.36,
+      "endTime": 1667.36,
+      "speaker": null,
+      "text": "I have no idea, but a Utah video store is offering to edit customers' videotapes"
+    },
+    {
+      "id": 681,
+      "startTime": 1667.36,
+      "endTime": 1668.36,
+      "speaker": null,
+      "text": "for a small fee."
+    },
+    {
+      "id": 682,
+      "startTime": 1668.36,
+      "endTime": 1669.36,
+      "speaker": null,
+      "text": "Oh, my God."
+    },
+    {
+      "id": 683,
+      "startTime": 1669.36,
+      "endTime": 1673.36,
+      "speaker": null,
+      "text": "For five bucks, they'll clip footage of the love scene between Kate Winslet"
+    },
+    {
+      "id": 684,
+      "startTime": 1673.36,
+      "endTime": 1676.36,
+      "speaker": null,
+      "text": "and Leonardo DiCaprio and the scene where she poses nude."
+    },
+    {
+      "id": 685,
+      "startTime": 1676.36,
+      "endTime": 1678.36,
+      "speaker": null,
+      "text": "Oh, for God's sake."
+    },
+    {
+      "id": 686,
+      "startTime": 1678.36,
+      "endTime": 1680.36,
+      "speaker": null,
+      "text": "I tell you, you can't watch that movie again."
+    },
+    {
+      "id": 687,
+      "startTime": 1680.36,
+      "endTime": 1682.36,
+      "speaker": null,
+      "text": "I sat down and tried to watch it with my five-year-old because she said,"
+    },
+    {
+      "id": 688,
+      "startTime": 1682.36,
+      "endTime": 1683.36,
+      "speaker": null,
+      "text": "\"Please watch it with me, Dad.\""
+    },
+    {
+      "id": 689,
+      "startTime": 1683.36,
+      "endTime": 1686.36,
+      "speaker": null,
+      "text": "But you're not the kind of person who watches any movie over again."
+    },
+    {
+      "id": 690,
+      "startTime": 1686.36,
+      "endTime": 1687.36,
+      "speaker": null,
+      "text": "Oh, that's not true."
+    },
+    {
+      "id": 691,
+      "startTime": 1687.36,
+      "endTime": 1689.36,
+      "speaker": null,
+      "text": "I watched \"Terminator.\""
+    },
+    {
+      "id": 692,
+      "startTime": 1689.36,
+      "endTime": 1690.36,
+      "speaker": null,
+      "text": "I've seen \"Seven Times.\""
+    },
+    {
+      "id": 693,
+      "startTime": 1690.36,
+      "endTime": 1693.36,
+      "speaker": null,
+      "text": "I've seen \"The Apostle\" with Robert Duvall three times."
+    },
+    {
+      "id": 694,
+      "startTime": 1693.36,
+      "endTime": 1695.36,
+      "speaker": null,
+      "text": "Really, because you once said that you didn't watch it."
+    },
+    {
+      "id": 695,
+      "startTime": 1695.36,
+      "endTime": 1696.36,
+      "speaker": null,
+      "text": "I don't."
+    },
+    {
+      "id": 696,
+      "startTime": 1696.36,
+      "endTime": 1699.36,
+      "speaker": null,
+      "text": "I don't normally do that, but in \"Titanic,\" you can't."
+    },
+    {
+      "id": 697,
+      "startTime": 1699.36,
+      "endTime": 1701.36,
+      "speaker": null,
+      "text": "I've seen \"Private Parts\" 458 times."
+    },
+    {
+      "id": 698,
+      "startTime": 1701.36,
+      "endTime": 1703.36,
+      "speaker": null,
+      "text": "The best movie I ever saw."
+    },
+    {
+      "id": 699,
+      "startTime": 1703.36,
+      "endTime": 1705.36,
+      "speaker": null,
+      "text": "So good, that guy in it is so good."
+    },
+    {
+      "id": 700,
+      "startTime": 1705.36,
+      "endTime": 1707.36,
+      "speaker": null,
+      "text": "You like that actor. Who is he?"
+    },
+    {
+      "id": 701,
+      "startTime": 1707.36,
+      "endTime": 1708.36,
+      "speaker": null,
+      "text": "He's my favorite actor, I sure."
+    },
+    {
+      "id": 702,
+      "startTime": 1708.36,
+      "endTime": 1710.36,
+      "speaker": null,
+      "text": "Has he done anything else?"
+    },
+    {
+      "id": 703,
+      "startTime": 1710.36,
+      "endTime": 1712.36,
+      "speaker": null,
+      "text": "I feel I am such a good actor that I keep studying my performance."
+    },
+    {
+      "id": 704,
+      "startTime": 1712.36,
+      "endTime": 1714.36,
+      "speaker": null,
+      "text": "I can't even believe it's me up there."
+    },
+    {
+      "id": 705,
+      "startTime": 1714.36,
+      "endTime": 1716.36,
+      "speaker": null,
+      "text": "Don't get stuck in that role."
+    },
+    {
+      "id": 706,
+      "startTime": 1716.36,
+      "endTime": 1717.36,
+      "speaker": null,
+      "text": "It's a great performance."
+    },
+    {
+      "id": 707,
+      "startTime": 1717.36,
+      "endTime": 1718.36,
+      "speaker": null,
+      "text": "There's layers."
+    },
+    {
+      "id": 708,
+      "startTime": 1718.36,
+      "endTime": 1719.36,
+      "speaker": null,
+      "text": "There is."
+    },
+    {
+      "id": 709,
+      "startTime": 1719.36,
+      "endTime": 1720.36,
+      "speaker": null,
+      "text": "Thank you, Eric."
+    },
+    {
+      "id": 710,
+      "startTime": 1720.36,
+      "endTime": 1721.36,
+      "speaker": null,
+      "text": "I'm not sucking up, Eric."
+    },
+    {
+      "id": 711,
+      "startTime": 1721.36,
+      "endTime": 1722.36,
+      "speaker": null,
+      "text": "Thank you, Eric."
+    },
+    {
+      "id": 712,
+      "startTime": 1722.36,
+      "endTime": 1723.36,
+      "speaker": null,
+      "text": "I have to."
+    },
+    {
+      "id": 713,
+      "startTime": 1723.36,
+      "endTime": 1724.36,
+      "speaker": null,
+      "text": "That side of the room is very cold."
+    },
+    {
+      "id": 714,
+      "startTime": 1724.36,
+      "endTime": 1727.36,
+      "speaker": null,
+      "text": "We move on Ophelia."
+    },
+    {
+      "id": 715,
+      "startTime": 1727.36,
+      "endTime": 1729.36,
+      "speaker": null,
+      "text": "That's Robin Ophelia to you."
+    },
+    {
+      "id": 716,
+      "startTime": 1729.36,
+      "endTime": 1730.36,
+      "speaker": null,
+      "text": "Yeah, Robin Ophelia."
+    },
+    {
+      "id": 717,
+      "startTime": 1730.36,
+      "endTime": 1732.36,
+      "speaker": null,
+      "text": "Anyway, other edits cost $3."
+    },
+    {
+      "id": 718,
+      "startTime": 1732.36,
+      "endTime": 1737.36,
+      "speaker": null,
+      "text": "And the owners of Sunrise Family Video say the service is very popular."
+    },
+    {
+      "id": 719,
+      "startTime": 1737.36,
+      "endTime": 1740.36,
+      "speaker": null,
+      "text": "The video went on sale yesterday, and so far eight."
+    }
+  ]
+}

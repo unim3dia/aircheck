@@ -1,0 +1,616 @@
+{
+  "showID": "cassette-the-howard-stern-show-1990-tape-148-part-4-of-4",
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Photographer Requests Article After Five Hours",
+      "summary": "A subject requests Rolling Stone writer to produce an article after spending five hours photographing them, expressing frustration with extended sessions and desiring a piece without photographic content within one-to-two hours.",
+      "startTime": 0.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "Scheduling Photo Session Negotiation",
+      "summary": "A subject proposes a two-hour photo session with a photographer, expressing the need for an early start due to prior commitments. The photographer then suggests beginning at noon, leading to further discussion about timing and duration.",
+      "startTime": 73.76,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Stern Discusses Photography Session Concerns",
+      "summary": "Howard Stern and an unidentified man discuss a photography session, with the photographer expressing concern about image quality. The conversation then shifts to reporting on WYSK's winter 1990 Arbitron ratings.",
+      "startTime": 144.4,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Wysp Offers Travel Mugs, Cash Incentive",
+      "summary": "Wysp is providing free commemorative travel mugs to the first thousand listeners who send a letter stating they listen to Howard Stern on 94.5 WYSK and offers $100 cash for new Toyota or Chrysler purchases from Conicelli dealerships.",
+      "startTime": 219.2,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "Conicelli Toyota Career Fair Event",
+      "summary": "A car salesman promotes a $100 discount on new Toyotas and Chryslers while simultaneously hosting a career fair. Attendees can interview with firms including Federal Express, AT&T, General Electric Aerospace, and Conrail across multiple locations during April 23rd-25th.",
+      "startTime": 285.36,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Dunkin Donuts Bagel Promotion Details",
+      "summary": "Dunkin' Donuts is promoting an oven-fresh bagel with cream cheese, butter or jelly and coffee at $0.99 until April 30th. The offer includes plain, onion, and cinnamon raisin bagels.",
+      "startTime": 355.84,
+      "imageURL": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 0,
+      "startTime": 0.0,
+      "endTime": 3.92,
+      "speaker": null,
+      "text": "polite yeah and he's like i'm not kidding i want you to write this you know what i want you to get"
+    },
+    {
+      "id": 1,
+      "startTime": 3.92,
+      "endTime": 9.6,
+      "speaker": null,
+      "text": "out of my apartment you maniac so then he sits me down has me write this uh whatever it was"
+    },
+    {
+      "id": 2,
+      "startTime": 10.24,
+      "endTime": 19.84,
+      "speaker": null,
+      "text": "and uh then he says to me so uh you like what you do yes i do it sounds like you're having fun you"
+    },
+    {
+      "id": 3,
+      "startTime": 19.84,
+      "endTime": 25.6,
+      "speaker": null,
+      "text": "having fun yes i'm having fun i like what i do uh that how is he a straight arrow"
+    },
+    {
+      "id": 4,
+      "startTime": 27.84,
+      "endTime": 32.08,
+      "speaker": null,
+      "text": "yeah he's a nice guy he's he only stays with his wife huh"
+    },
+    {
+      "id": 5,
+      "startTime": 33.2,
+      "endTime": 38.8,
+      "speaker": null,
+      "text": "like give me a break do you mind uh hooking up to a lie detector test when i ask these questions ma'am"
+    },
+    {
+      "id": 6,
+      "startTime": 39.84,
+      "endTime": 44.88,
+      "speaker": null,
+      "text": "i mean the third degree okay so listen to this okay i gotta go do let me get back to the topic"
+    },
+    {
+      "id": 7,
+      "startTime": 44.88,
+      "endTime": 51.84,
+      "speaker": null,
+      "text": "listen to this so the rolling stone guy's taking my picture now five hours of i'd say shoot okay"
+    },
+    {
+      "id": 8,
+      "startTime": 51.84,
+      "endTime": 56.4,
+      "speaker": null,
+      "text": "this is the first this is the first all right so he says he needs more time okay and listen i'm"
+    },
+    {
+      "id": 9,
+      "startTime": 56.4,
+      "endTime": 59.68,
+      "speaker": null,
+      "text": "excited to be in rolling stone but now i'm at the point i don't even care what the pictures"
+    },
+    {
+      "id": 10,
+      "startTime": 59.68,
+      "endTime": 64.08,
+      "speaker": null,
+      "text": "look like yeah i don't even care what the pictures look like or what what it is you know what i mean"
+    },
+    {
+      "id": 11,
+      "startTime": 64.08,
+      "endTime": 68.8,
+      "speaker": null,
+      "text": "i just want a good article if there's no picture it's okay so i mean i just can't if you're a"
+    },
+    {
+      "id": 12,
+      "startTime": 68.8,
+      "endTime": 73.76,
+      "speaker": null,
+      "text": "photographer it shouldn't take more than an hour or two i went to a session the us open source cover"
+    },
+    {
+      "id": 13,
+      "startTime": 73.76,
+      "endTime": 79.68,
+      "speaker": null,
+      "text": "do you think that's a good picture of me oh yeah okay it took about a half hour okay and i like the"
+    },
+    {
+      "id": 14,
+      "startTime": 79.68,
+      "endTime": 85.12,
+      "speaker": null,
+      "text": "photographer very much very nice guy so he i said to him listen i'll do another session with you"
+    },
+    {
+      "id": 15,
+      "startTime": 85.12,
+      "endTime": 90.0,
+      "speaker": null,
+      "text": "i'll give you two hours okay and let's wrap it up i said but i gotta do it early i want to get off"
+    },
+    {
+      "id": 16,
+      "startTime": 90.0,
+      "endTime": 93.36,
+      "speaker": null,
+      "text": "the air i gotta get off the air here and go over to his studio and we're gonna do the pictures right"
+    },
+    {
+      "id": 17,
+      "startTime": 93.36,
+      "endTime": 97.04,
+      "speaker": null,
+      "text": "okay now what did he say did he call me last night he said fine then he called me last night he says"
+    },
+    {
+      "id": 18,
+      "startTime": 97.04,
+      "endTime": 101.44,
+      "speaker": null,
+      "text": "listen i can't get into my studio tonight let's start the session at noon i said look that's why"
+    },
+    {
+      "id": 19,
+      "startTime": 101.44,
+      "endTime": 106.24,
+      "speaker": null,
+      "text": "i gotta get pr guy because i shouldn't be yelling at guys i said listen i said by noon i'm already"
+    },
+    {
+      "id": 20,
+      "startTime": 106.24,
+      "endTime": 112.32,
+      "speaker": null,
+      "text": "tired so let's start at 11 i'll give you a one o'clock or 1 30 i'll even give you two and a half"
+    },
+    {
+      "id": 21,
+      "startTime": 112.32,
+      "endTime": 119.04,
+      "speaker": null,
+      "text": "hours all right well that's not very much time i said look i'm leaving at 1 30 i'm leaving at 1 30"
+    },
+    {
+      "id": 22,
+      "startTime": 119.04,
+      "endTime": 122.96,
+      "speaker": null,
+      "text": "you want to start at noon fine i don't care at what point you start you start snapping as"
+    },
+    {
+      "id": 23,
+      "startTime": 122.96,
+      "endTime": 127.92,
+      "speaker": null,
+      "text": "soon as i get there because i am leaving i have all your cameras loaded i said i can't take it"
+    },
+    {
+      "id": 24,
+      "startTime": 127.92,
+      "endTime": 132.24,
+      "speaker": null,
+      "text": "anymore you know and you say to someone wait how are they rolling stone magazine is a big deal to"
+    },
+    {
+      "id": 25,
+      "startTime": 132.24,
+      "endTime": 135.68,
+      "speaker": null,
+      "text": "you you always talking how you like rolling so i do like rolling but at some point you stop caring"
+    },
+    {
+      "id": 26,
+      "startTime": 135.68,
+      "endTime": 139.76,
+      "speaker": null,
+      "text": "you don't care anymore well i don't understand these photographers if they're good why shouldn't"
+    },
+    {
+      "id": 27,
+      "startTime": 139.76,
+      "endTime": 144.4,
+      "speaker": null,
+      "text": "they be able to just take a picture they should be better than us we should they do this every day"
+    },
+    {
+      "id": 28,
+      "startTime": 144.4,
+      "endTime": 149.76,
+      "speaker": null,
+      "text": "all the time this is what they do for a living let's call mark and he better have girls there"
+    },
+    {
+      "id": 29,
+      "startTime": 152.16,
+      "endTime": 156.72,
+      "speaker": null,
+      "text": "otherwise you definitely will walk out oh i'll stay 15 minutes all right i'll get to pretty giving"
+    },
+    {
+      "id": 30,
+      "startTime": 156.72,
+      "endTime": 160.16,
+      "speaker": null,
+      "text": "me the spot sign all right we'll call them after but i really do need to know the process that"
+    },
+    {
+      "id": 31,
+      "startTime": 160.16,
+      "endTime": 163.36,
+      "speaker": null,
+      "text": "they're going through in their head these days and he's taking the same picture i say how many"
+    },
+    {
+      "id": 32,
+      "startTime": 163.36,
+      "endTime": 166.88,
+      "speaker": null,
+      "text": "different new shots we take no no no we're gonna do the same thing again i go the same thing"
+    },
+    {
+      "id": 33,
+      "startTime": 168.48,
+      "endTime": 171.6,
+      "speaker": null,
+      "text": "you mean none of those other pictures came out okay evidently not"
+    },
+    {
+      "id": 34,
+      "startTime": 172.72,
+      "endTime": 175.92,
+      "speaker": null,
+      "text": "but i can't imagine i mean i admit the camera is not that kind to me"
+    },
+    {
+      "id": 35,
+      "startTime": 177.04,
+      "endTime": 180.8,
+      "speaker": null,
+      "text": "and then you know he wants to make me look good and i i accept that that's good but"
+    },
+    {
+      "id": 36,
+      "startTime": 180.8,
+      "endTime": 185.84,
+      "speaker": null,
+      "text": "shouldn't be that i'm not that ugly well let's find out what happened okay right after these words"
+    },
+    {
+      "id": 37,
+      "startTime": 189.6,
+      "endTime": 195.04,
+      "speaker": null,
+      "text": "hi i'm andy bloom program director of 94 wysp and by now you've probably heard or read about"
+    },
+    {
+      "id": 38,
+      "startTime": 195.04,
+      "endTime": 200.72,
+      "speaker": null,
+      "text": "the winter 1990 arbitron ratings it's true howard stern beat the morning zoo and by a"
+    },
+    {
+      "id": 39,
+      "startTime": 200.72,
+      "endTime": 206.56,
+      "speaker": null,
+      "text": "tremendous margin but equally impressive are wysp's ratings throughout the rest of the day"
+    },
+    {
+      "id": 40,
+      "startTime": 206.56,
+      "endTime": 211.92,
+      "speaker": null,
+      "text": "you've given us the highest ratings in wysp's 20-year history and we'd like to thank you for"
+    },
+    {
+      "id": 41,
+      "startTime": 211.92,
+      "endTime": 219.2,
+      "speaker": null,
+      "text": "your support while we can't thank each of our 725 000 listeners individually we have had 1000"
+    },
+    {
+      "id": 42,
+      "startTime": 219.2,
+      "endTime": 225.2,
+      "speaker": null,
+      "text": "wysp commemorative travel mugs made up and we'd like to give you one free the first thousand"
+    },
+    {
+      "id": 43,
+      "startTime": 225.2,
+      "endTime": 230.0,
+      "speaker": null,
+      "text": "people who send me a carter letter that says i listen to howard stern all morning in classic rock"
+    },
+    {
+      "id": 44,
+      "startTime": 230.0,
+      "endTime": 235.92,
+      "speaker": null,
+      "text": "and roll all day on 94 wysp will receive a certificate for one of the travel mugs it's"
+    },
+    {
+      "id": 45,
+      "startTime": 235.92,
+      "endTime": 241.04,
+      "speaker": null,
+      "text": "our way of saying thanks for making howard stern philadelphia's number one radio personality"
+    },
+    {
+      "id": 46,
+      "startTime": 241.04,
+      "endTime": 248.72,
+      "speaker": null,
+      "text": "and making wysp a philadelphia radio classic good morning wysp's 90 forecast 64 degrees sunny"
+    },
+    {
+      "id": 47,
+      "startTime": 248.72,
+      "endTime": 255.84,
+      "speaker": null,
+      "text": "beautiful day today as high as 80 once again 64 wysp stop are you thinking of purchasing a new"
+    },
+    {
+      "id": 48,
+      "startTime": 255.84,
+      "endTime": 260.96,
+      "speaker": null,
+      "text": "toyota chrysler clementher podiac you can earn a hundred dollars if you will take one minute of"
+    },
+    {
+      "id": 49,
+      "startTime": 260.96,
+      "endTime": 265.76,
+      "speaker": null,
+      "text": "your time to listen to this message shop for your best bottom line price in a new toyota chrysler"
+    },
+    {
+      "id": 50,
+      "startTime": 265.76,
+      "endTime": 270.32,
+      "speaker": null,
+      "text": "clementher podiac and john conicelli will beat your deal by a minimum of a hundred dollars"
+    },
+    {
+      "id": 51,
+      "startTime": 270.32,
+      "endTime": 276.16,
+      "speaker": null,
+      "text": "or pay you a hundred dollars cash hurry offer expires monday April 23rd conicelli choyota"
+    },
+    {
+      "id": 52,
+      "startTime": 276.16,
+      "endTime": 280.72,
+      "speaker": null,
+      "text": "conicelli chrysler clementher conicelli podiac are located in Plymouth meeting 20 minutes from"
+    },
+    {
+      "id": 53,
+      "startTime": 280.72,
+      "endTime": 285.36,
+      "speaker": null,
+      "text": "anywhere in greater philadelphia can you afford not to take a 20 minute drive for a guaranteed"
+    },
+    {
+      "id": 54,
+      "startTime": 285.36,
+      "endTime": 290.08,
+      "speaker": null,
+      "text": "minimum of a hundred dollars john conicelli is so positive that he can beat your best bottom line"
+    },
+    {
+      "id": 55,
+      "startTime": 290.08,
+      "endTime": 294.24,
+      "speaker": null,
+      "text": "deal on a new toyota chrysler clementher podiac by a minimum of a hundred dollars"
+    },
+    {
+      "id": 56,
+      "startTime": 294.24,
+      "endTime": 298.8,
+      "speaker": null,
+      "text": "but he'll personally pay you a hundred dollars cash for your inconvenience either way you win"
+    },
+    {
+      "id": 57,
+      "startTime": 298.8,
+      "endTime": 305.04,
+      "speaker": null,
+      "text": "at conicelli toyota conicelli chrysler clementher conicelli podiac offer expires monday April 23rd"
+    },
+    {
+      "id": 58,
+      "startTime": 306.8,
+      "endTime": 311.04,
+      "speaker": null,
+      "text": "oh what a day you look like you've been through the rear where you've been all day"
+    },
+    {
+      "id": 59,
+      "startTime": 311.04,
+      "endTime": 314.32,
+      "speaker": null,
+      "text": "well i had an 8 30 on wall street at 10 15 all the way back at grand central took the subway"
+    },
+    {
+      "id": 60,
+      "startTime": 314.32,
+      "endTime": 319.12,
+      "speaker": null,
+      "text": "to the village for a 12 finding a new job doesn't have to take a lot of your time and energy anymore"
+    },
+    {
+      "id": 61,
+      "startTime": 319.12,
+      "endTime": 322.96,
+      "speaker": null,
+      "text": "i can't for a 230 on madison avenue and finally over to rockefeller center at the lindman group"
+    },
+    {
+      "id": 62,
+      "startTime": 322.96,
+      "endTime": 327.76,
+      "speaker": null,
+      "text": "sales and technical career invitational you can meet with the region's top sales engineering data"
+    },
+    {
+      "id": 63,
+      "startTime": 327.76,
+      "endTime": 332.8,
+      "speaker": null,
+      "text": "processing and financial firms in one place you'll be able to interview directly with hiring managers"
+    },
+    {
+      "id": 64,
+      "startTime": 332.8,
+      "endTime": 337.6,
+      "speaker": null,
+      "text": "at a time that suits your schedule stop by the agency to drop off a resume got hassled on the"
+    },
+    {
+      "id": 65,
+      "startTime": 337.6,
+      "endTime": 341.6,
+      "speaker": null,
+      "text": "way to my four o'clock interview with the plaza the sales and technical career invitational April"
+    },
+    {
+      "id": 66,
+      "startTime": 341.6,
+      "endTime": 346.0,
+      "speaker": null,
+      "text": "23rd and 24th at guest quarters suite hotel Plymouth meeting monday four to eight tuesday"
+    },
+    {
+      "id": 67,
+      "startTime": 346.0,
+      "endTime": 350.88,
+      "speaker": null,
+      "text": "nine to two and April 25th at the cherry hill in and cherry hill from 10 to two and three to seven"
+    },
+    {
+      "id": 68,
+      "startTime": 350.88,
+      "endTime": 355.12,
+      "speaker": null,
+      "text": "interview with firms like Federal Express, AT&T, General Electric Aerospace and Conrail"
+    },
+    {
+      "id": 69,
+      "startTime": 355.84,
+      "endTime": 361.2,
+      "speaker": null,
+      "text": "there's got to be a better way the Lindman group sales and technical career invitational think of"
+    },
+    {
+      "id": 70,
+      "startTime": 361.2,
+      "endTime": 364.88,
+      "speaker": null,
+      "text": "it as one stop shopping"
+    },
+    {
+      "id": 71,
+      "startTime": 364.88,
+      "endTime": 370.16,
+      "speaker": null,
+      "text": "no we surely on the sweet show lowest i now know what my problem has been all these years"
+    },
+    {
+      "id": 72,
+      "startTime": 370.16,
+      "endTime": 375.68,
+      "speaker": null,
+      "text": "really that is a real breakthrough bagel envy right a life without bagels what are you talking"
+    },
+    {
+      "id": 73,
+      "startTime": 375.68,
+      "endTime": 381.44,
+      "speaker": null,
+      "text": "now ducking donuts is introducing an oven fresh bagel so you can get a bagel smothered with cream"
+    },
+    {
+      "id": 74,
+      "startTime": 381.44,
+      "endTime": 388.0,
+      "speaker": null,
+      "text": "cheese and coffee too for just 99 cents i remember on the farm daddy would come back from town and he"
+    },
+    {
+      "id": 75,
+      "startTime": 388.0,
+      "endTime": 394.56,
+      "speaker": null,
+      "text": "picked up and i'd say any bagels daddy and he'd say no no bagels honey those are for the children"
+    },
+    {
+      "id": 76,
+      "startTime": 394.56,
+      "endTime": 400.32,
+      "speaker": null,
+      "text": "back easy right now i can get a plain bagel an onion bagel or a cinnamon raisin bagel with"
+    },
+    {
+      "id": 77,
+      "startTime": 400.32,
+      "endTime": 406.08,
+      "speaker": null,
+      "text": "cream cheese and dunkin donuts fresh fruit coffee for just 99 cents it's healing a lot of wounds"
+    },
+    {
+      "id": 78,
+      "startTime": 406.08,
+      "endTime": 412.16,
+      "speaker": null,
+      "text": "lowest they strong the perks of nails nearly so thin skin well then you won't mind this"
+    },
+    {
+      "id": 79,
+      "startTime": 413.28,
+      "endTime": 417.92,
+      "speaker": null,
+      "text": "now it's participating dunkin donuts get an oven fresh bagel with cream cheese butter or jelly"
+    },
+    {
+      "id": 80,
+      "startTime": 418.56,
+      "endTime": 425.2,
+      "speaker": null,
+      "text": "coffee for just 99 cents through April 30th you can count on that boy"
+    }
+  ]
+}

@@ -1,0 +1,6601 @@
+{
+  "showID": "cassette-the-howard-stern-show-1993-05-06-inc",
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Jack’s Sister & The Police Officer",
+      "summary": "During an interview, Jack mistakenly believes his deceased sister is his mother and engages in bizarre conversations with the interviewer about dead cops and Liza Marrier. A police officer becomes involved in the chaotic exchange as he attempts to intervene.",
+      "startTime": 0.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "Townshend & Waco - Teeth Obsession",
+      "summary": "During a news segment about the Waco siege aftermath, hosts engage in an extended discussion centered on one participant’s prominent teeth – specifically his large lips and overbite. They repeatedly reference this detail while interviewing medical examiners and another individual involved with the investigation, leading to humorous comparisons and personal observations regarding his mouth.",
+      "startTime": 398.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Unusual Teeth and Extinction Theories",
+      "summary": "The segment discusses a man’s abnormally shaped teeth, initially described as ‘fake,’ prompting speculation about his origins and potential connection to extinct reptiles. The conversation explores theories including tetracycline poisoning, braces, and claims of the man being 45 feet tall with alien influence.",
+      "startTime": 796.2,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Koresh Compound Investigation & Priest Scandal Update",
+      "summary": "Last week’s broadcast detailed the ongoing investigation into David Koresh and his followers at the Branch Davidian compound, including a former member recounting details of an unidentified man entering the site. The program then shifted to reporting accusations against a Catholic priest involving allegations of sexual abuse and a secret initiation club with teenage boys.",
+      "startTime": 1193.2,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "Church Rehabilitation Investigation & Latoya Jackson Case",
+      "summary": "A man is under investigation for child abuse allegations, with discussions focusing on the church’s approach to rehabilitation and potential misconduct among clergy. Simultaneously, updates are given regarding the ongoing case involving Latoya Jackson's alleged assault, including her mother’s involvement and speculation about the circumstances.",
+      "startTime": 1590.2,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Arrow Injury During Mountain Men Anonymous Ritual",
+      "summary": "During a ritual initiation for ‘Mountain Men Anonymous’ in Portland, Oregon, a man was shot in the eye with an arrow after a member's bow malfunctioned during the apple-shooting exercise. Paramedics treated him until surgeons could remove damaged portions of his eyes following the incident.",
+      "startTime": 1994.4,
+      "imageURL": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 0,
+      "startTime": 0.0,
+      "endTime": 2.0,
+      "speaker": null,
+      "text": "-Hey, Jack, can I ask you a question? -Oh, here's Jack Nicholson."
+    },
+    {
+      "id": 1,
+      "startTime": 2.0,
+      "endTime": 4.0,
+      "speaker": null,
+      "text": "-The XRK radio? -What's that?"
+    },
+    {
+      "id": 2,
+      "startTime": 4.0,
+      "endTime": 6.0,
+      "speaker": null,
+      "text": "-Hey, is your question for the XRK? -Uh, sure, wait."
+    },
+    {
+      "id": 3,
+      "startTime": 6.0,
+      "endTime": 10.0,
+      "speaker": null,
+      "text": "-Your sister isn't a mother. Does that mean that you send your sister a Mother's Day card?"
+    },
+    {
+      "id": 4,
+      "startTime": 10.0,
+      "endTime": 13.0,
+      "speaker": null,
+      "text": "-Uh, they're both dead."
+    },
+    {
+      "id": 5,
+      "startTime": 13.0,
+      "endTime": 16.0,
+      "speaker": null,
+      "text": "-Are you a Howard Stern fan, Jack? -What?"
+    },
+    {
+      "id": 6,
+      "startTime": 16.0,
+      "endTime": 18.0,
+      "speaker": null,
+      "text": "-Are you a Howard Stern fan?"
+    },
+    {
+      "id": 7,
+      "startTime": 21.0,
+      "endTime": 23.0,
+      "speaker": null,
+      "text": "-Howard Stern? You never heard of him?"
+    },
+    {
+      "id": 8,
+      "startTime": 23.0,
+      "endTime": 26.0,
+      "speaker": null,
+      "text": "Did you ever do coke with John Belushi, Jack?"
+    },
+    {
+      "id": 9,
+      "startTime": 26.0,
+      "endTime": 29.0,
+      "speaker": null,
+      "text": "-Oh! -Let me close the door on my face."
+    },
+    {
+      "id": 10,
+      "startTime": 29.0,
+      "endTime": 33.0,
+      "speaker": null,
+      "text": "-Oh, man. So the question was, if your sister is your mother..."
+    },
+    {
+      "id": 11,
+      "startTime": 33.0,
+      "endTime": 35.0,
+      "speaker": null,
+      "text": "-If you send your sister a Mother's Day card."
+    },
+    {
+      "id": 12,
+      "startTime": 35.0,
+      "endTime": 37.0,
+      "speaker": null,
+      "text": "-'Cause his sister..."
+    },
+    {
+      "id": 13,
+      "startTime": 37.0,
+      "endTime": 41.0,
+      "speaker": null,
+      "text": "-He was raised as, uh, you know, with a woman in the house"
+    },
+    {
+      "id": 14,
+      "startTime": 41.0,
+      "endTime": 44.0,
+      "speaker": null,
+      "text": "that he thought was his sister, but that was actually his mother."
+    },
+    {
+      "id": 15,
+      "startTime": 44.0,
+      "endTime": 47.0,
+      "speaker": null,
+      "text": "-So they're both dead? -That's what he said. They're both dead."
+    },
+    {
+      "id": 16,
+      "startTime": 47.0,
+      "endTime": 49.0,
+      "speaker": null,
+      "text": "-Happy ending. -Doesn't have to send any cards."
+    },
+    {
+      "id": 17,
+      "startTime": 49.0,
+      "endTime": 53.0,
+      "speaker": null,
+      "text": "-So then, like... -They're both dead, you jank ass."
+    },
+    {
+      "id": 18,
+      "startTime": 53.0,
+      "endTime": 55.0,
+      "speaker": null,
+      "text": "-Oh. -I thought that was horrible."
+    },
+    {
+      "id": 19,
+      "startTime": 55.0,
+      "endTime": 57.0,
+      "speaker": null,
+      "text": "-So one of the cops were pulling the wire. That's why I asked him about you."
+    },
+    {
+      "id": 20,
+      "startTime": 57.0,
+      "endTime": 59.0,
+      "speaker": null,
+      "text": "I couldn't even have the mic, so then..."
+    },
+    {
+      "id": 21,
+      "startTime": 59.0,
+      "endTime": 61.0,
+      "speaker": null,
+      "text": "-What are the cops worried about? You're not gonna hurt the guy."
+    },
+    {
+      "id": 22,
+      "startTime": 61.0,
+      "endTime": 64.0,
+      "speaker": null,
+      "text": "-So then I got him up to the door and asked him if he ever did coke with Belushi,"
+    },
+    {
+      "id": 23,
+      "startTime": 64.0,
+      "endTime": 66.0,
+      "speaker": null,
+      "text": "and that's when he slams the door on my face."
+    },
+    {
+      "id": 24,
+      "startTime": 66.0,
+      "endTime": 68.0,
+      "speaker": null,
+      "text": "-Geez. What a good interview."
+    },
+    {
+      "id": 25,
+      "startTime": 68.0,
+      "endTime": 70.0,
+      "speaker": null,
+      "text": "-It was worth waiting for."
+    },
+    {
+      "id": 26,
+      "startTime": 70.0,
+      "endTime": 73.0,
+      "speaker": null,
+      "text": "-But, you know, there's Jack. Who's Howard Stern?"
+    },
+    {
+      "id": 27,
+      "startTime": 73.0,
+      "endTime": 75.0,
+      "speaker": null,
+      "text": "-Who's that? I'm not aware of anything."
+    },
+    {
+      "id": 28,
+      "startTime": 75.0,
+      "endTime": 78.0,
+      "speaker": null,
+      "text": "-Can you just play the next one just for a second?"
+    },
+    {
+      "id": 29,
+      "startTime": 78.0,
+      "endTime": 80.0,
+      "speaker": null,
+      "text": "Just to see what my night was like."
+    },
+    {
+      "id": 30,
+      "startTime": 80.0,
+      "endTime": 83.0,
+      "speaker": null,
+      "text": "This is me and Liza again. I got it when she came out."
+    },
+    {
+      "id": 31,
+      "startTime": 83.0,
+      "endTime": 86.0,
+      "speaker": null,
+      "text": "-Liza, the only star he can get."
+    },
+    {
+      "id": 32,
+      "startTime": 86.0,
+      "endTime": 88.0,
+      "speaker": null,
+      "text": "-[ Clears throat ]"
+    },
+    {
+      "id": 33,
+      "startTime": 88.0,
+      "endTime": 89.0,
+      "speaker": null,
+      "text": "-Hi, Liza. How are you?"
+    },
+    {
+      "id": 34,
+      "startTime": 89.0,
+      "endTime": 91.0,
+      "speaker": null,
+      "text": "Can't you question the next okay to get the talk?"
+    },
+    {
+      "id": 35,
+      "startTime": 91.0,
+      "endTime": 94.0,
+      "speaker": null,
+      "text": "-It was wonderful. It was --"
+    },
+    {
+      "id": 36,
+      "startTime": 94.0,
+      "endTime": 96.0,
+      "speaker": null,
+      "text": "-What's the problem, sir? -It's still a problem."
+    },
+    {
+      "id": 37,
+      "startTime": 96.0,
+      "endTime": 97.0,
+      "speaker": null,
+      "text": "-I told you before. -What do you mean?"
+    },
+    {
+      "id": 38,
+      "startTime": 97.0,
+      "endTime": 99.0,
+      "speaker": null,
+      "text": "-I'm gonna lock you up. -Get your fucking hand off me."
+    },
+    {
+      "id": 39,
+      "startTime": 99.0,
+      "endTime": 100.0,
+      "speaker": null,
+      "text": "-I'm gonna lock you up. -You fat bastard."
+    },
+    {
+      "id": 40,
+      "startTime": 100.0,
+      "endTime": 103.0,
+      "speaker": null,
+      "text": "-Now move. -Fuck you. I ain't -- I'm not from the front."
+    },
+    {
+      "id": 41,
+      "startTime": 103.0,
+      "endTime": 105.0,
+      "speaker": null,
+      "text": "-What do you mean? Where is your frickin' picture?"
+    },
+    {
+      "id": 42,
+      "startTime": 105.0,
+      "endTime": 108.0,
+      "speaker": null,
+      "text": "-I got pictures of my pocket and handcuffs in my pocket."
+    },
+    {
+      "id": 43,
+      "startTime": 108.0,
+      "endTime": 110.0,
+      "speaker": null,
+      "text": "Now move, relax. -Have a microphone."
+    },
+    {
+      "id": 44,
+      "startTime": 110.0,
+      "endTime": 112.0,
+      "speaker": null,
+      "text": "-How'd it go? -Walk on the sidewalk, please."
+    },
+    {
+      "id": 45,
+      "startTime": 112.0,
+      "endTime": 114.0,
+      "speaker": null,
+      "text": "-Bake. -That's a cop?"
+    },
+    {
+      "id": 46,
+      "startTime": 114.0,
+      "endTime": 117.0,
+      "speaker": null,
+      "text": "-Yep. -Thanks, guys."
+    },
+    {
+      "id": 47,
+      "startTime": 117.0,
+      "endTime": 120.0,
+      "speaker": null,
+      "text": "-Look at that. -Are you cursing at cops?"
+    },
+    {
+      "id": 48,
+      "startTime": 120.0,
+      "endTime": 122.0,
+      "speaker": null,
+      "text": "-You're lucky. You're in one piece today."
+    },
+    {
+      "id": 49,
+      "startTime": 122.0,
+      "endTime": 124.0,
+      "speaker": null,
+      "text": "-This is the second time, though, you know?"
+    },
+    {
+      "id": 50,
+      "startTime": 124.0,
+      "endTime": 125.0,
+      "speaker": null,
+      "text": "-You didn't know he was a cop."
+    },
+    {
+      "id": 51,
+      "startTime": 125.0,
+      "endTime": 127.0,
+      "speaker": null,
+      "text": "-No, I didn't know he was a cop, but it turns out he is."
+    },
+    {
+      "id": 52,
+      "startTime": 127.0,
+      "endTime": 129.0,
+      "speaker": null,
+      "text": "He's a detective."
+    },
+    {
+      "id": 53,
+      "startTime": 129.0,
+      "endTime": 131.0,
+      "speaker": null,
+      "text": "-He's a what? -Detective."
+    },
+    {
+      "id": 54,
+      "startTime": 131.0,
+      "endTime": 134.0,
+      "speaker": null,
+      "text": "He's -- he's -- he's -- he's -- he's -- he's -- he's -- he's --"
+    },
+    {
+      "id": 55,
+      "startTime": 134.0,
+      "endTime": 136.0,
+      "speaker": null,
+      "text": "he's -- he's -- he's -- he's -- he's -- he's --"
+    },
+    {
+      "id": 56,
+      "startTime": 136.0,
+      "endTime": 140.0,
+      "speaker": null,
+      "text": "he's -- he's -- he's -- he's -- he's -- he's a detective."
+    },
+    {
+      "id": 57,
+      "startTime": 140.0,
+      "endTime": 142.0,
+      "speaker": null,
+      "text": "-Man, what a night. -Yeah, it just --"
+    },
+    {
+      "id": 58,
+      "startTime": 142.0,
+      "endTime": 143.0,
+      "speaker": null,
+      "text": "-What was it? You weren't doing anything wrong."
+    },
+    {
+      "id": 59,
+      "startTime": 143.0,
+      "endTime": 145.0,
+      "speaker": null,
+      "text": "-No, no, and there was people getting autographs."
+    },
+    {
+      "id": 60,
+      "startTime": 145.0,
+      "endTime": 146.0,
+      "speaker": null,
+      "text": "Everyone was there. He had to --"
+    },
+    {
+      "id": 61,
+      "startTime": 146.0,
+      "endTime": 147.0,
+      "speaker": null,
+      "text": "-What's he gonna do? He's gonna lock you up."
+    },
+    {
+      "id": 62,
+      "startTime": 147.0,
+      "endTime": 149.0,
+      "speaker": null,
+      "text": "-Yeah, he's gonna lock me up. -The prisoners aren't busy enough."
+    },
+    {
+      "id": 63,
+      "startTime": 149.0,
+      "endTime": 151.0,
+      "speaker": null,
+      "text": "-Yeah, you know, some of those other wackos will probably hurt Jack."
+    },
+    {
+      "id": 64,
+      "startTime": 151.0,
+      "endTime": 154.0,
+      "speaker": null,
+      "text": "He's handling John, though. -Yeah."
+    },
+    {
+      "id": 65,
+      "startTime": 154.0,
+      "endTime": 156.0,
+      "speaker": null,
+      "text": "I guess you can't -- you can't lock up half the people"
+    },
+    {
+      "id": 66,
+      "startTime": 156.0,
+      "endTime": 157.0,
+      "speaker": null,
+      "text": "who murdered people in this country,"
+    },
+    {
+      "id": 67,
+      "startTime": 157.0,
+      "endTime": 159.0,
+      "speaker": null,
+      "text": "but he's gonna lock up John. That's good."
+    },
+    {
+      "id": 68,
+      "startTime": 159.0,
+      "endTime": 161.0,
+      "speaker": null,
+      "text": "-Him we can take care of. -Yeah, John, you can handle."
+    },
+    {
+      "id": 69,
+      "startTime": 161.0,
+      "endTime": 164.0,
+      "speaker": null,
+      "text": "That's good."
+    },
+    {
+      "id": 70,
+      "startTime": 164.0,
+      "endTime": 166.0,
+      "speaker": null,
+      "text": "-You fat bastard. -You fat bastard?"
+    },
+    {
+      "id": 71,
+      "startTime": 166.0,
+      "endTime": 168.0,
+      "speaker": null,
+      "text": "-Yeah, that was, uh -- -That was pretty wild."
+    },
+    {
+      "id": 72,
+      "startTime": 168.0,
+      "endTime": 170.0,
+      "speaker": null,
+      "text": "-That was -- that was -- -That was uncalled for."
+    },
+    {
+      "id": 73,
+      "startTime": 170.0,
+      "endTime": 173.0,
+      "speaker": null,
+      "text": "-It wasn't. This is the second or third time, man. -Was the guy fat?"
+    },
+    {
+      "id": 74,
+      "startTime": 173.0,
+      "endTime": 174.0,
+      "speaker": null,
+      "text": "-Yeah, he's a fat bastard. -All right."
+    },
+    {
+      "id": 75,
+      "startTime": 174.0,
+      "endTime": 176.0,
+      "speaker": null,
+      "text": "-His name is Fat Bastard. He's not called Fat Bastard."
+    },
+    {
+      "id": 76,
+      "startTime": 176.0,
+      "endTime": 178.0,
+      "speaker": null,
+      "text": "-That's just Brian Denny, the looking guy."
+    },
+    {
+      "id": 77,
+      "startTime": 178.0,
+      "endTime": 179.0,
+      "speaker": null,
+      "text": "-What's his problem, man? -He's an idiot."
+    },
+    {
+      "id": 78,
+      "startTime": 179.0,
+      "endTime": 181.0,
+      "speaker": null,
+      "text": "-You know, you're allowed to be out in the street."
+    },
+    {
+      "id": 79,
+      "startTime": 181.0,
+      "endTime": 183.0,
+      "speaker": null,
+      "text": "-How are you? Can't you question the next arcade to get to talk to you?"
+    },
+    {
+      "id": 80,
+      "startTime": 183.0,
+      "endTime": 186.0,
+      "speaker": null,
+      "text": "-It was wonderful. It was --"
+    },
+    {
+      "id": 81,
+      "startTime": 186.0,
+      "endTime": 188.0,
+      "speaker": null,
+      "text": "-What's the problem, sir? -You're the problem."
+    },
+    {
+      "id": 82,
+      "startTime": 188.0,
+      "endTime": 189.0,
+      "speaker": null,
+      "text": "-I told you before. -What do you mean?"
+    },
+    {
+      "id": 83,
+      "startTime": 189.0,
+      "endTime": 191.0,
+      "speaker": null,
+      "text": "-I'm gonna lock your fucking hand off of me."
+    },
+    {
+      "id": 84,
+      "startTime": 191.0,
+      "endTime": 192.0,
+      "speaker": null,
+      "text": "-I'm gonna lock you up. -Fat Bastard."
+    },
+    {
+      "id": 85,
+      "startTime": 192.0,
+      "endTime": 193.0,
+      "speaker": null,
+      "text": "-That move."
+    },
+    {
+      "id": 86,
+      "startTime": 193.0,
+      "endTime": 195.0,
+      "speaker": null,
+      "text": "-What the fuck are you doing? -This is like the Rodney King tape."
+    },
+    {
+      "id": 87,
+      "startTime": 195.0,
+      "endTime": 200.0,
+      "speaker": null,
+      "text": "-Yeah, he grabbed my mic, grabbed my -- -You weren't doing anything."
+    },
+    {
+      "id": 88,
+      "startTime": 200.0,
+      "endTime": 202.0,
+      "speaker": null,
+      "text": "-You got a $10 million case there. -I know."
+    },
+    {
+      "id": 89,
+      "startTime": 202.0,
+      "endTime": 204.0,
+      "speaker": null,
+      "text": "-So, Rodney King tape."
+    },
+    {
+      "id": 90,
+      "startTime": 207.0,
+      "endTime": 210.0,
+      "speaker": null,
+      "text": "-Can we all just get along?"
+    },
+    {
+      "id": 91,
+      "startTime": 210.0,
+      "endTime": 212.0,
+      "speaker": null,
+      "text": "-So, then I pleaded with another cop. That's a guy."
+    },
+    {
+      "id": 92,
+      "startTime": 212.0,
+      "endTime": 214.0,
+      "speaker": null,
+      "text": "You know, he goes, \"Get the hell off the street, dude.\""
+    },
+    {
+      "id": 93,
+      "startTime": 214.0,
+      "endTime": 217.0,
+      "speaker": null,
+      "text": "-Oh, yeah, tough guy, huh? Yeah, tough guys."
+    },
+    {
+      "id": 94,
+      "startTime": 217.0,
+      "endTime": 219.0,
+      "speaker": null,
+      "text": "-So, I was afraid I'd be thrown in jail."
+    },
+    {
+      "id": 95,
+      "startTime": 219.0,
+      "endTime": 221.0,
+      "speaker": null,
+      "text": "-Great. Get the hell off the street."
+    },
+    {
+      "id": 96,
+      "startTime": 221.0,
+      "endTime": 223.0,
+      "speaker": null,
+      "text": "There's mutant rapists running around on the street,"
+    },
+    {
+      "id": 97,
+      "startTime": 223.0,
+      "endTime": 224.0,
+      "speaker": null,
+      "text": "but John should get off the street."
+    },
+    {
+      "id": 98,
+      "startTime": 224.0,
+      "endTime": 225.0,
+      "speaker": null,
+      "text": "-Well, you know what happens?"
+    },
+    {
+      "id": 99,
+      "startTime": 225.0,
+      "endTime": 228.0,
+      "speaker": null,
+      "text": "These guys get overexcited when they're working security for stars."
+    },
+    {
+      "id": 100,
+      "startTime": 228.0,
+      "endTime": 229.0,
+      "speaker": null,
+      "text": "-Yeah, yeah. They do."
+    },
+    {
+      "id": 101,
+      "startTime": 229.0,
+      "endTime": 233.0,
+      "speaker": null,
+      "text": "I got to admit, I've had cops do security for shows that we've done,"
+    },
+    {
+      "id": 102,
+      "startTime": 233.0,
+      "endTime": 236.0,
+      "speaker": null,
+      "text": "and they get completely wild. They get nuts."
+    },
+    {
+      "id": 103,
+      "startTime": 236.0,
+      "endTime": 237.0,
+      "speaker": null,
+      "text": "They're like, \"Okay.\""
+    },
+    {
+      "id": 104,
+      "startTime": 237.0,
+      "endTime": 238.0,
+      "speaker": null,
+      "text": "-Nobody's getting near me."
+    },
+    {
+      "id": 105,
+      "startTime": 238.0,
+      "endTime": 239.0,
+      "speaker": null,
+      "text": "-No one gets near me."
+    },
+    {
+      "id": 106,
+      "startTime": 239.0,
+      "endTime": 241.0,
+      "speaker": null,
+      "text": "My sister was thrown down a couple of times."
+    },
+    {
+      "id": 107,
+      "startTime": 241.0,
+      "endTime": 243.0,
+      "speaker": null,
+      "text": "-It's bouncer mentality."
+    },
+    {
+      "id": 108,
+      "startTime": 243.0,
+      "endTime": 244.0,
+      "speaker": null,
+      "text": "-Yeah, they get nuts."
+    },
+    {
+      "id": 109,
+      "startTime": 244.0,
+      "endTime": 246.0,
+      "speaker": null,
+      "text": "They forget that they're cops, and they start to think they're like --"
+    },
+    {
+      "id": 110,
+      "startTime": 246.0,
+      "endTime": 247.0,
+      "speaker": null,
+      "text": "-Or that, you know, people are people."
+    },
+    {
+      "id": 111,
+      "startTime": 247.0,
+      "endTime": 250.0,
+      "speaker": null,
+      "text": "-I think they think they're like the bodyguard in --"
+    },
+    {
+      "id": 112,
+      "startTime": 250.0,
+      "endTime": 251.0,
+      "speaker": null,
+      "text": "-Whitney Houston's --"
+    },
+    {
+      "id": 113,
+      "startTime": 251.0,
+      "endTime": 252.0,
+      "speaker": null,
+      "text": "-Yeah, Whitney --"
+    },
+    {
+      "id": 114,
+      "startTime": 252.0,
+      "endTime": 254.0,
+      "speaker": null,
+      "text": "-Like they're going to run off with Liza Marrier."
+    },
+    {
+      "id": 115,
+      "startTime": 254.0,
+      "endTime": 259.0,
+      "speaker": null,
+      "text": "Meanwhile, you know, Liza don't look too good."
+    },
+    {
+      "id": 116,
+      "startTime": 259.0,
+      "endTime": 261.0,
+      "speaker": null,
+      "text": "-I told you, that face looks like a manhole cover."
+    },
+    {
+      "id": 117,
+      "startTime": 261.0,
+      "endTime": 262.0,
+      "speaker": null,
+      "text": "-Oh, geez."
+    },
+    {
+      "id": 118,
+      "startTime": 262.0,
+      "endTime": 263.0,
+      "speaker": null,
+      "text": "-Really?"
+    },
+    {
+      "id": 119,
+      "startTime": 263.0,
+      "endTime": 264.0,
+      "speaker": null,
+      "text": "-It's all like old cracks and stuff."
+    },
+    {
+      "id": 120,
+      "startTime": 264.0,
+      "endTime": 265.0,
+      "speaker": null,
+      "text": "-Oh."
+    },
+    {
+      "id": 121,
+      "startTime": 265.0,
+      "endTime": 266.0,
+      "speaker": null,
+      "text": "-I like that myself."
+    },
+    {
+      "id": 122,
+      "startTime": 266.0,
+      "endTime": 268.0,
+      "speaker": null,
+      "text": "-Wow, John."
+    },
+    {
+      "id": 123,
+      "startTime": 268.0,
+      "endTime": 270.0,
+      "speaker": null,
+      "text": "-I'm looking to the front."
+    },
+    {
+      "id": 124,
+      "startTime": 270.0,
+      "endTime": 271.0,
+      "speaker": null,
+      "text": "-What do you mean?"
+    },
+    {
+      "id": 125,
+      "startTime": 271.0,
+      "endTime": 273.0,
+      "speaker": null,
+      "text": "Where is your frickin' presidential?"
+    },
+    {
+      "id": 126,
+      "startTime": 273.0,
+      "endTime": 274.0,
+      "speaker": null,
+      "text": "-Yeah, let me see it."
+    },
+    {
+      "id": 127,
+      "startTime": 274.0,
+      "endTime": 275.0,
+      "speaker": null,
+      "text": "-Let me see the handcuffs in my pocket."
+    },
+    {
+      "id": 128,
+      "startTime": 275.0,
+      "endTime": 276.0,
+      "speaker": null,
+      "text": "Now move."
+    },
+    {
+      "id": 129,
+      "startTime": 276.0,
+      "endTime": 277.0,
+      "speaker": null,
+      "text": "-You have a microphone."
+    },
+    {
+      "id": 130,
+      "startTime": 277.0,
+      "endTime": 279.0,
+      "speaker": null,
+      "text": "-I'm going to walk on the sidewalk, please."
+    },
+    {
+      "id": 131,
+      "startTime": 279.0,
+      "endTime": 282.0,
+      "speaker": null,
+      "text": "-That's a sidewalk."
+    },
+    {
+      "id": 132,
+      "startTime": 282.0,
+      "endTime": 284.0,
+      "speaker": null,
+      "text": "That's a fat bastard."
+    },
+    {
+      "id": 133,
+      "startTime": 284.0,
+      "endTime": 286.0,
+      "speaker": null,
+      "text": "-What's your dick?"
+    },
+    {
+      "id": 134,
+      "startTime": 286.0,
+      "endTime": 287.0,
+      "speaker": null,
+      "text": "-That's a sidewalk."
+    },
+    {
+      "id": 135,
+      "startTime": 287.0,
+      "endTime": 289.0,
+      "speaker": null,
+      "text": "-You pulled my fat bastard to his face?"
+    },
+    {
+      "id": 136,
+      "startTime": 289.0,
+      "endTime": 290.0,
+      "speaker": null,
+      "text": "-Yeah."
+    },
+    {
+      "id": 137,
+      "startTime": 290.0,
+      "endTime": 291.0,
+      "speaker": null,
+      "text": "-Oh, tough guy."
+    },
+    {
+      "id": 138,
+      "startTime": 291.0,
+      "endTime": 293.0,
+      "speaker": null,
+      "text": "-Oh, after he grabbed it, what was it, you know?"
+    },
+    {
+      "id": 139,
+      "startTime": 293.0,
+      "endTime": 295.0,
+      "speaker": null,
+      "text": "I had to say what he was."
+    },
+    {
+      "id": 140,
+      "startTime": 295.0,
+      "endTime": 298.0,
+      "speaker": null,
+      "text": "-You were trying to describe for your radio audience what he was."
+    },
+    {
+      "id": 141,
+      "startTime": 298.0,
+      "endTime": 299.0,
+      "speaker": null,
+      "text": "-Yeah, he was."
+    },
+    {
+      "id": 142,
+      "startTime": 299.0,
+      "endTime": 300.0,
+      "speaker": null,
+      "text": "-You know, it is radio."
+    },
+    {
+      "id": 143,
+      "startTime": 300.0,
+      "endTime": 303.0,
+      "speaker": null,
+      "text": "-Well, that's good, continuing to report even under stress."
+    },
+    {
+      "id": 144,
+      "startTime": 303.0,
+      "endTime": 305.0,
+      "speaker": null,
+      "text": "-You know, the Hindenburg disaster was just the same thing."
+    },
+    {
+      "id": 145,
+      "startTime": 305.0,
+      "endTime": 308.0,
+      "speaker": null,
+      "text": "As shook up as the guy was, he kept talking into his microphone."
+    },
+    {
+      "id": 146,
+      "startTime": 308.0,
+      "endTime": 309.0,
+      "speaker": null,
+      "text": "Get out of the way, please."
+    },
+    {
+      "id": 147,
+      "startTime": 309.0,
+      "endTime": 310.0,
+      "speaker": null,
+      "text": "No, the folks between us."
+    },
+    {
+      "id": 148,
+      "startTime": 310.0,
+      "endTime": 311.0,
+      "speaker": null,
+      "text": "That is terrible."
+    },
+    {
+      "id": 149,
+      "startTime": 311.0,
+      "endTime": 313.0,
+      "speaker": null,
+      "text": "This is the one and the worst good dad for me."
+    },
+    {
+      "id": 150,
+      "startTime": 313.0,
+      "endTime": 314.0,
+      "speaker": null,
+      "text": "That the world is ill."
+    },
+    {
+      "id": 151,
+      "startTime": 314.0,
+      "endTime": 317.0,
+      "speaker": null,
+      "text": "This is the space money."
+    },
+    {
+      "id": 152,
+      "startTime": 317.0,
+      "endTime": 320.0,
+      "speaker": null,
+      "text": "All the humanity and all the spirits."
+    },
+    {
+      "id": 153,
+      "startTime": 320.0,
+      "endTime": 323.0,
+      "speaker": null,
+      "text": "I told you."
+    },
+    {
+      "id": 154,
+      "startTime": 323.0,
+      "endTime": 329.0,
+      "speaker": null,
+      "text": "I told you, all these people have spent a lot there."
+    },
+    {
+      "id": 155,
+      "startTime": 329.0,
+      "endTime": 332.0,
+      "speaker": null,
+      "text": "I can't talk, ladies and gentlemen."
+    },
+    {
+      "id": 156,
+      "startTime": 332.0,
+      "endTime": 334.0,
+      "speaker": null,
+      "text": "I need to sit back down now."
+    },
+    {
+      "id": 157,
+      "startTime": 334.0,
+      "endTime": 336.0,
+      "speaker": null,
+      "text": "This is fucking lucky."
+    },
+    {
+      "id": 158,
+      "startTime": 336.0,
+      "endTime": 338.0,
+      "speaker": null,
+      "text": "And everybody can hardly breathe."
+    },
+    {
+      "id": 159,
+      "startTime": 338.0,
+      "endTime": 342.0,
+      "speaker": null,
+      "text": "-Oh, look at all the dead fat bastards."
+    },
+    {
+      "id": 160,
+      "startTime": 342.0,
+      "endTime": 345.0,
+      "speaker": null,
+      "text": "-Honestly, I can hardly breathe."
+    },
+    {
+      "id": 161,
+      "startTime": 345.0,
+      "endTime": 347.0,
+      "speaker": null,
+      "text": "I'm going to step inside, boy."
+    },
+    {
+      "id": 162,
+      "startTime": 347.0,
+      "endTime": 349.0,
+      "speaker": null,
+      "text": "I cannot see it."
+    },
+    {
+      "id": 163,
+      "startTime": 349.0,
+      "endTime": 350.0,
+      "speaker": null,
+      "text": "I'm sorry."
+    },
+    {
+      "id": 164,
+      "startTime": 350.0,
+      "endTime": 353.0,
+      "speaker": null,
+      "text": "That's terrible."
+    },
+    {
+      "id": 165,
+      "startTime": 353.0,
+      "endTime": 356.0,
+      "speaker": null,
+      "text": "Listen, folks, I'm going to have to stop for a minute"
+    },
+    {
+      "id": 166,
+      "startTime": 356.0,
+      "endTime": 358.0,
+      "speaker": null,
+      "text": "because I lost the voice."
+    },
+    {
+      "id": 167,
+      "startTime": 358.0,
+      "endTime": 360.0,
+      "speaker": null,
+      "text": "This is the worst thing I've ever witnessed."
+    },
+    {
+      "id": 168,
+      "startTime": 360.0,
+      "endTime": 361.0,
+      "speaker": null,
+      "text": "-See, he stopped."
+    },
+    {
+      "id": 169,
+      "startTime": 361.0,
+      "endTime": 362.0,
+      "speaker": null,
+      "text": "You kept going."
+    },
+    {
+      "id": 170,
+      "startTime": 362.0,
+      "endTime": 363.0,
+      "speaker": null,
+      "text": "-I kept going."
+    },
+    {
+      "id": 171,
+      "startTime": 363.0,
+      "endTime": 364.0,
+      "speaker": null,
+      "text": "-I got to do the news."
+    },
+    {
+      "id": 172,
+      "startTime": 364.0,
+      "endTime": 365.0,
+      "speaker": null,
+      "text": "We got to get going with the show, all right?"
+    },
+    {
+      "id": 173,
+      "startTime": 365.0,
+      "endTime": 366.0,
+      "speaker": null,
+      "text": "Listen to the last one."
+    },
+    {
+      "id": 174,
+      "startTime": 366.0,
+      "endTime": 368.0,
+      "speaker": null,
+      "text": "-Yeah, I don't think it was Daltrey and Entwhistle."
+    },
+    {
+      "id": 175,
+      "startTime": 368.0,
+      "endTime": 371.0,
+      "speaker": null,
+      "text": "Daltrey's upset that he doesn't have a part in your movie."
+    },
+    {
+      "id": 176,
+      "startTime": 371.0,
+      "endTime": 372.0,
+      "speaker": null,
+      "text": "-Daltrey?"
+    },
+    {
+      "id": 177,
+      "startTime": 372.0,
+      "endTime": 373.0,
+      "speaker": null,
+      "text": "-Yeah, he wants a part in \"Fartman.\""
+    },
+    {
+      "id": 178,
+      "startTime": 373.0,
+      "endTime": 375.0,
+      "speaker": null,
+      "text": "-And Entwhistle?"
+    },
+    {
+      "id": 179,
+      "startTime": 375.0,
+      "endTime": 376.0,
+      "speaker": null,
+      "text": "-Entwhistle, yeah."
+    },
+    {
+      "id": 180,
+      "startTime": 376.0,
+      "endTime": 377.0,
+      "speaker": null,
+      "text": "-Who's the guy who wrote --"
+    },
+    {
+      "id": 181,
+      "startTime": 377.0,
+      "endTime": 379.0,
+      "speaker": null,
+      "text": "Who's the lead singer in \"The Hill\"?"
+    },
+    {
+      "id": 182,
+      "startTime": 379.0,
+      "endTime": 381.0,
+      "speaker": null,
+      "text": "I mean, who's the lead guitar player now?"
+    },
+    {
+      "id": 183,
+      "startTime": 381.0,
+      "endTime": 382.0,
+      "speaker": null,
+      "text": "-Pete Townshend."
+    },
+    {
+      "id": 184,
+      "startTime": 382.0,
+      "endTime": 383.0,
+      "speaker": null,
+      "text": "-Who?"
+    },
+    {
+      "id": 185,
+      "startTime": 383.0,
+      "endTime": 385.0,
+      "speaker": null,
+      "text": "-Pete Townshend."
+    },
+    {
+      "id": 186,
+      "startTime": 385.0,
+      "endTime": 386.0,
+      "speaker": null,
+      "text": "-He was running around all day yesterday going,"
+    },
+    {
+      "id": 187,
+      "startTime": 386.0,
+      "endTime": 387.0,
+      "speaker": null,
+      "text": "\"Pete Townshend.\""
+    },
+    {
+      "id": 188,
+      "startTime": 387.0,
+      "endTime": 388.0,
+      "speaker": null,
+      "text": "-Yeah, I know."
+    },
+    {
+      "id": 189,
+      "startTime": 388.0,
+      "endTime": 389.0,
+      "speaker": null,
+      "text": "-Pete Townshend, right?"
+    },
+    {
+      "id": 190,
+      "startTime": 389.0,
+      "endTime": 390.0,
+      "speaker": null,
+      "text": "-I didn't correct him when I heard him in the office."
+    },
+    {
+      "id": 191,
+      "startTime": 390.0,
+      "endTime": 391.0,
+      "speaker": null,
+      "text": "-That's how you spell it, no?"
+    },
+    {
+      "id": 192,
+      "startTime": 391.0,
+      "endTime": 395.0,
+      "speaker": null,
+      "text": "-Yeah, we almost correct him and we realize let's get him to say it on the air."
+    },
+    {
+      "id": 193,
+      "startTime": 395.0,
+      "endTime": 396.0,
+      "speaker": null,
+      "text": "Pete Townshend."
+    },
+    {
+      "id": 194,
+      "startTime": 396.0,
+      "endTime": 397.0,
+      "speaker": null,
+      "text": "-He's not saying that as a joke."
+    },
+    {
+      "id": 195,
+      "startTime": 397.0,
+      "endTime": 398.0,
+      "speaker": null,
+      "text": "-No, no, it's not a joke."
+    },
+    {
+      "id": 196,
+      "startTime": 398.0,
+      "endTime": 399.0,
+      "speaker": null,
+      "text": "I swear to God."
+    },
+    {
+      "id": 197,
+      "startTime": 399.0,
+      "endTime": 400.0,
+      "speaker": null,
+      "text": "Isn't there an H in it?"
+    },
+    {
+      "id": 198,
+      "startTime": 400.0,
+      "endTime": 401.0,
+      "speaker": null,
+      "text": "-Yeah, it is."
+    },
+    {
+      "id": 199,
+      "startTime": 401.0,
+      "endTime": 402.0,
+      "speaker": null,
+      "text": "You're right."
+    },
+    {
+      "id": 200,
+      "startTime": 402.0,
+      "endTime": 403.0,
+      "speaker": null,
+      "text": "You know, you're right."
+    },
+    {
+      "id": 201,
+      "startTime": 403.0,
+      "endTime": 404.0,
+      "speaker": null,
+      "text": "That's the way you say it."
+    },
+    {
+      "id": 202,
+      "startTime": 404.0,
+      "endTime": 405.0,
+      "speaker": null,
+      "text": "How do you say it?"
+    },
+    {
+      "id": 203,
+      "startTime": 405.0,
+      "endTime": 406.0,
+      "speaker": null,
+      "text": "-Pete Townshend."
+    },
+    {
+      "id": 204,
+      "startTime": 406.0,
+      "endTime": 407.0,
+      "speaker": null,
+      "text": "-Right, right."
+    },
+    {
+      "id": 205,
+      "startTime": 407.0,
+      "endTime": 408.0,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 206,
+      "startTime": 408.0,
+      "endTime": 409.0,
+      "speaker": null,
+      "text": "Hey, you were right."
+    },
+    {
+      "id": 207,
+      "startTime": 409.0,
+      "endTime": 410.0,
+      "speaker": null,
+      "text": "-This is an H in here."
+    },
+    {
+      "id": 208,
+      "startTime": 410.0,
+      "endTime": 411.0,
+      "speaker": null,
+      "text": "Who knows?"
+    },
+    {
+      "id": 209,
+      "startTime": 411.0,
+      "endTime": 412.0,
+      "speaker": null,
+      "text": "-Yeah."
+    },
+    {
+      "id": 210,
+      "startTime": 412.0,
+      "endTime": 413.0,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 211,
+      "startTime": 413.0,
+      "endTime": 414.0,
+      "speaker": null,
+      "text": "Pete Townshend."
+    },
+    {
+      "id": 212,
+      "startTime": 414.0,
+      "endTime": 415.0,
+      "speaker": null,
+      "text": "-Pete Townshend."
+    },
+    {
+      "id": 213,
+      "startTime": 415.0,
+      "endTime": 416.0,
+      "speaker": null,
+      "text": "Fat bastard."
+    },
+    {
+      "id": 214,
+      "startTime": 416.0,
+      "endTime": 417.0,
+      "speaker": null,
+      "text": "-All right, Pete Townshend."
+    },
+    {
+      "id": 215,
+      "startTime": 417.0,
+      "endTime": 418.0,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 216,
+      "startTime": 418.0,
+      "endTime": 419.0,
+      "speaker": null,
+      "text": "-All right, man."
+    },
+    {
+      "id": 217,
+      "startTime": 419.0,
+      "endTime": 420.0,
+      "speaker": null,
+      "text": "Thanks for having me on."
+    },
+    {
+      "id": 218,
+      "startTime": 420.0,
+      "endTime": 421.0,
+      "speaker": null,
+      "text": "Thanks for having me on."
+    },
+    {
+      "id": 219,
+      "startTime": 421.0,
+      "endTime": 422.0,
+      "speaker": null,
+      "text": "John Townshend."
+    },
+    {
+      "id": 220,
+      "startTime": 422.0,
+      "endTime": 424.0,
+      "speaker": null,
+      "text": "Stuttering John Townshend."
+    },
+    {
+      "id": 221,
+      "startTime": 424.0,
+      "endTime": 425.0,
+      "speaker": null,
+      "text": "Alright, man."
+    },
+    {
+      "id": 222,
+      "startTime": 425.0,
+      "endTime": 426.0,
+      "speaker": null,
+      "text": "Alright, thanks, bro."
+    },
+    {
+      "id": 223,
+      "startTime": 426.0,
+      "endTime": 427.0,
+      "speaker": null,
+      "text": "Yeah, you want me to leave?"
+    },
+    {
+      "id": 224,
+      "startTime": 427.0,
+      "endTime": 428.0,
+      "speaker": null,
+      "text": "Yeah, we were doing news."
+    },
+    {
+      "id": 225,
+      "startTime": 428.0,
+      "endTime": 431.0,
+      "speaker": null,
+      "text": "How could he possibly get through his life thinking that's right?"
+    },
+    {
+      "id": 226,
+      "startTime": 431.0,
+      "endTime": 432.0,
+      "speaker": null,
+      "text": "I don't know."
+    },
+    {
+      "id": 227,
+      "startTime": 432.0,
+      "endTime": 434.0,
+      "speaker": null,
+      "text": "Well, then why would they put the H there?"
+    },
+    {
+      "id": 228,
+      "startTime": 434.0,
+      "endTime": 435.0,
+      "speaker": null,
+      "text": "Never heard of the who?"
+    },
+    {
+      "id": 229,
+      "startTime": 435.0,
+      "endTime": 436.0,
+      "speaker": null,
+      "text": "Yeah, the who."
+    },
+    {
+      "id": 230,
+      "startTime": 436.0,
+      "endTime": 437.0,
+      "speaker": null,
+      "text": "P-Town, alright."
+    },
+    {
+      "id": 231,
+      "startTime": 437.0,
+      "endTime": 438.0,
+      "speaker": null,
+      "text": "What do you mean?"
+    },
+    {
+      "id": 232,
+      "startTime": 438.0,
+      "endTime": 441.0,
+      "speaker": null,
+      "text": "I mean, alright, Townshend, right?"
+    },
+    {
+      "id": 233,
+      "startTime": 441.0,
+      "endTime": 442.0,
+      "speaker": null,
+      "text": "Townshend, is that what you're saying?"
+    },
+    {
+      "id": 234,
+      "startTime": 442.0,
+      "endTime": 443.0,
+      "speaker": null,
+      "text": "No, Townshend."
+    },
+    {
+      "id": 235,
+      "startTime": 443.0,
+      "endTime": 444.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 236,
+      "startTime": 444.0,
+      "endTime": 445.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 237,
+      "startTime": 445.0,
+      "endTime": 446.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 238,
+      "startTime": 446.0,
+      "endTime": 447.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 239,
+      "startTime": 447.0,
+      "endTime": 448.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 240,
+      "startTime": 448.0,
+      "endTime": 449.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 241,
+      "startTime": 449.0,
+      "endTime": 450.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 242,
+      "startTime": 450.0,
+      "endTime": 451.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 243,
+      "startTime": 451.0,
+      "endTime": 452.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 244,
+      "startTime": 452.0,
+      "endTime": 453.0,
+      "speaker": null,
+      "text": "The who?"
+    },
+    {
+      "id": 245,
+      "startTime": 453.0,
+      "endTime": 454.0,
+      "speaker": null,
+      "text": "Do you want to stay for the news?"
+    },
+    {
+      "id": 246,
+      "startTime": 454.0,
+      "endTime": 455.0,
+      "speaker": null,
+      "text": "Fine, stay."
+    },
+    {
+      "id": 247,
+      "startTime": 455.0,
+      "endTime": 456.0,
+      "speaker": null,
+      "text": "It's okay."
+    },
+    {
+      "id": 248,
+      "startTime": 456.0,
+      "endTime": 457.0,
+      "speaker": null,
+      "text": "You're invited."
+    },
+    {
+      "id": 249,
+      "startTime": 457.0,
+      "endTime": 458.0,
+      "speaker": null,
+      "text": "You can sit here."
+    },
+    {
+      "id": 250,
+      "startTime": 458.0,
+      "endTime": 459.0,
+      "speaker": null,
+      "text": "You did a good job."
+    },
+    {
+      "id": 251,
+      "startTime": 459.0,
+      "endTime": 460.0,
+      "speaker": null,
+      "text": "You can help me with the names."
+    },
+    {
+      "id": 252,
+      "startTime": 460.0,
+      "endTime": 461.0,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 253,
+      "startTime": 461.0,
+      "endTime": 462.0,
+      "speaker": null,
+      "text": "Robin has trouble."
+    },
+    {
+      "id": 254,
+      "startTime": 462.0,
+      "endTime": 463.0,
+      "speaker": null,
+      "text": "You can help me with the names."
+    },
+    {
+      "id": 255,
+      "startTime": 463.0,
+      "endTime": 464.0,
+      "speaker": null,
+      "text": "Hey, Robin."
+    },
+    {
+      "id": 256,
+      "startTime": 464.0,
+      "endTime": 465.0,
+      "speaker": null,
+      "text": "You shouldn't talk, man."
+    },
+    {
+      "id": 257,
+      "startTime": 465.0,
+      "endTime": 467.0,
+      "speaker": null,
+      "text": "How many people call and go, \"Robin?\""
+    },
+    {
+      "id": 258,
+      "startTime": 467.0,
+      "endTime": 470.0,
+      "speaker": null,
+      "text": "Are you going to criticize Robin?"
+    },
+    {
+      "id": 259,
+      "startTime": 470.0,
+      "endTime": 476.2,
+      "speaker": null,
+      "text": "Pete Townshend has been around for a long enough time where everyone should know how to say"
+    },
+    {
+      "id": 260,
+      "startTime": 476.2,
+      "endTime": 477.2,
+      "speaker": null,
+      "text": "his name."
+    },
+    {
+      "id": 261,
+      "startTime": 477.2,
+      "endTime": 479.2,
+      "speaker": null,
+      "text": "I know these names are new in the news."
+    },
+    {
+      "id": 262,
+      "startTime": 479.2,
+      "endTime": 480.2,
+      "speaker": null,
+      "text": "Yeah, please, John."
+    },
+    {
+      "id": 263,
+      "startTime": 480.2,
+      "endTime": 482.2,
+      "speaker": null,
+      "text": "Yeah, but Robin says like Bo Jackson's a basketball player."
+    },
+    {
+      "id": 264,
+      "startTime": 482.2,
+      "endTime": 483.2,
+      "speaker": null,
+      "text": "You know what I mean?"
+    },
+    {
+      "id": 265,
+      "startTime": 483.2,
+      "endTime": 484.2,
+      "speaker": null,
+      "text": "Yeah, come on."
+    },
+    {
+      "id": 266,
+      "startTime": 484.2,
+      "endTime": 485.2,
+      "speaker": null,
+      "text": "I'm not reading, John."
+    },
+    {
+      "id": 267,
+      "startTime": 485.2,
+      "endTime": 487.5,
+      "speaker": null,
+      "text": "I'm talking off the top of my head and Bo Jackson plays baseball and football."
+    },
+    {
+      "id": 268,
+      "startTime": 487.5,
+      "endTime": 489.7,
+      "speaker": null,
+      "text": "Yeah, but a lot of times you screw that stuff."
+    },
+    {
+      "id": 269,
+      "startTime": 489.7,
+      "endTime": 491.2,
+      "speaker": null,
+      "text": "I never heard of screw that up."
+    },
+    {
+      "id": 270,
+      "startTime": 491.2,
+      "endTime": 492.2,
+      "speaker": null,
+      "text": "He's making that up."
+    },
+    {
+      "id": 271,
+      "startTime": 492.2,
+      "endTime": 493.2,
+      "speaker": null,
+      "text": "That's off the top of his head."
+    },
+    {
+      "id": 272,
+      "startTime": 493.2,
+      "endTime": 495.2,
+      "speaker": null,
+      "text": "Now they can call you."
+    },
+    {
+      "id": 273,
+      "startTime": 495.2,
+      "endTime": 497.2,
+      "speaker": null,
+      "text": "Did you have a gig tonight?"
+    },
+    {
+      "id": 274,
+      "startTime": 497.2,
+      "endTime": 500.2,
+      "speaker": null,
+      "text": "In Pahelia Delia."
+    },
+    {
+      "id": 275,
+      "startTime": 500.2,
+      "endTime": 503.2,
+      "speaker": null,
+      "text": "In Pa-Pa-Hill-Del-Pa-Hia."
+    },
+    {
+      "id": 276,
+      "startTime": 503.2,
+      "endTime": 508.2,
+      "speaker": null,
+      "text": "I never heard of a silent H, man, so you know, come on."
+    },
+    {
+      "id": 277,
+      "startTime": 508.2,
+      "endTime": 511.2,
+      "speaker": null,
+      "text": "When are we going to Pa-Hill-Del-Pia?"
+    },
+    {
+      "id": 278,
+      "startTime": 511.2,
+      "endTime": 517.2,
+      "speaker": null,
+      "text": "Because we beat the Zoho Keepier."
+    },
+    {
+      "id": 279,
+      "startTime": 517.2,
+      "endTime": 524.2,
+      "speaker": null,
+      "text": "All right, Robin, what's in the news?"
+    },
+    {
+      "id": 280,
+      "startTime": 524.2,
+      "endTime": 526.2,
+      "speaker": null,
+      "text": "Well, of course, Waco is still in the news."
+    },
+    {
+      "id": 281,
+      "startTime": 526.2,
+      "endTime": 527.2,
+      "speaker": null,
+      "text": "They're going through the rubble."
+    },
+    {
+      "id": 282,
+      "startTime": 527.2,
+      "endTime": 529.2,
+      "speaker": null,
+      "text": "They found 40 buddies."
+    },
+    {
+      "id": 283,
+      "startTime": 529.2,
+      "endTime": 534.2,
+      "speaker": null,
+      "text": "Waco."
+    },
+    {
+      "id": 284,
+      "startTime": 534.2,
+      "endTime": 537.2,
+      "speaker": null,
+      "text": "Waco."
+    },
+    {
+      "id": 285,
+      "startTime": 537.2,
+      "endTime": 543.2,
+      "speaker": null,
+      "text": "And there seems to be a dispute raging now as to whether anybody had bullet holes in them."
+    },
+    {
+      "id": 286,
+      "startTime": 543.2,
+      "endTime": 548.2,
+      "speaker": null,
+      "text": "You know, I told you yesterday that there was a report from some of the federal authorities"
+    },
+    {
+      "id": 287,
+      "startTime": 548.2,
+      "endTime": 552.2,
+      "speaker": null,
+      "text": "that they saw some people with gunshot wounds."
+    },
+    {
+      "id": 288,
+      "startTime": 552.2,
+      "endTime": 557.2,
+      "speaker": null,
+      "text": "There are some of the, you know, burned up bodies with gunshot wounds and heads blown off and stuff like that."
+    },
+    {
+      "id": 289,
+      "startTime": 557.2,
+      "endTime": 560.2,
+      "speaker": null,
+      "text": "Well, they are now saying that that is not true."
+    },
+    {
+      "id": 290,
+      "startTime": 560.2,
+      "endTime": 564.2,
+      "speaker": null,
+      "text": "Here's the medical examiner of Waco."
+    },
+    {
+      "id": 291,
+      "startTime": 564.2,
+      "endTime": 566.2,
+      "speaker": null,
+      "text": "Waco."
+    },
+    {
+      "id": 292,
+      "startTime": 566.2,
+      "endTime": 568.2,
+      "speaker": null,
+      "text": "Waco."
+    },
+    {
+      "id": 293,
+      "startTime": 568.2,
+      "endTime": 572.2,
+      "speaker": null,
+      "text": "Dr. Nizan Pirani."
+    },
+    {
+      "id": 294,
+      "startTime": 572.2,
+      "endTime": 573.2,
+      "speaker": null,
+      "text": "I'm sure that's not Robin."
+    },
+    {
+      "id": 295,
+      "startTime": 573.2,
+      "endTime": 578.2,
+      "speaker": null,
+      "text": "That's pronounced Niles Pert."
+    },
+    {
+      "id": 296,
+      "startTime": 578.2,
+      "endTime": 579.2,
+      "speaker": null,
+      "text": "All right, this is Dr. Who?"
+    },
+    {
+      "id": 297,
+      "startTime": 579.2,
+      "endTime": 581.2,
+      "speaker": null,
+      "text": "Nizan Pirani."
+    },
+    {
+      "id": 298,
+      "startTime": 581.2,
+      "endTime": 582.2,
+      "speaker": null,
+      "text": "Pirani?"
+    },
+    {
+      "id": 299,
+      "startTime": 582.2,
+      "endTime": 583.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 300,
+      "startTime": 583.2,
+      "endTime": 586.2,
+      "speaker": null,
+      "text": "All right, and this is whether or not they had guns, hot wounds."
+    },
+    {
+      "id": 301,
+      "startTime": 586.2,
+      "endTime": 589.2,
+      "speaker": null,
+      "text": "And if he's found David Koresh's body."
+    },
+    {
+      "id": 302,
+      "startTime": 589.2,
+      "endTime": 593.2,
+      "speaker": null,
+      "text": "We have at this stage no idea where David Koresh is."
+    },
+    {
+      "id": 303,
+      "startTime": 593.2,
+      "endTime": 597.2,
+      "speaker": null,
+      "text": "We certainly will look very diligently and then try and identify."
+    },
+    {
+      "id": 304,
+      "startTime": 597.2,
+      "endTime": 600.2,
+      "speaker": null,
+      "text": "We are now at this current stage trying to collect all the bodies."
+    },
+    {
+      "id": 305,
+      "startTime": 600.2,
+      "endTime": 603.2,
+      "speaker": null,
+      "text": "And once we go back to the morgue and start charting and doing that,"
+    },
+    {
+      "id": 306,
+      "startTime": 603.2,
+      "endTime": 606.2,
+      "speaker": null,
+      "text": "next phase we'll have a better idea who David Koresh is."
+    },
+    {
+      "id": 307,
+      "startTime": 606.2,
+      "endTime": 611.2,
+      "speaker": null,
+      "text": "We will actually by pressing this red dot in my head."
+    },
+    {
+      "id": 308,
+      "startTime": 611.2,
+      "endTime": 617.2,
+      "speaker": null,
+      "text": "And he says until they do complete examinations and x-rays, they won't know how anybody died."
+    },
+    {
+      "id": 309,
+      "startTime": 617.2,
+      "endTime": 622.2,
+      "speaker": null,
+      "text": "And here's Rodney Crow to tell us about the condition of the bodies they're finding."
+    },
+    {
+      "id": 310,
+      "startTime": 622.2,
+      "endTime": 624.2,
+      "speaker": null,
+      "text": "Who's Rodney Crow?"
+    },
+    {
+      "id": 311,
+      "startTime": 624.2,
+      "endTime": 626.2,
+      "speaker": null,
+      "text": "One of the guys down there going through the rubble."
+    },
+    {
+      "id": 312,
+      "startTime": 626.2,
+      "endTime": 631.2,
+      "speaker": null,
+      "text": "There are no faces on some of them, and the faces have just completely powdered."
+    },
+    {
+      "id": 313,
+      "startTime": 631.2,
+      "endTime": 635.2,
+      "speaker": null,
+      "text": "And they have fallen into the area underneath the bodies."
+    },
+    {
+      "id": 314,
+      "startTime": 635.2,
+      "endTime": 639.2,
+      "speaker": null,
+      "text": "Hopefully the teeth taking a much higher temperature to destruct will be in this debris."
+    },
+    {
+      "id": 315,
+      "startTime": 639.2,
+      "endTime": 644.2,
+      "speaker": null,
+      "text": "But as it stands now, I've seen several that the facial features are completely gone."
+    },
+    {
+      "id": 316,
+      "startTime": 644.2,
+      "endTime": 648.2,
+      "speaker": null,
+      "text": "Anybody thinking that maybe there was a secret underground passage and a lot of people got out?"
+    },
+    {
+      "id": 317,
+      "startTime": 648.2,
+      "endTime": 655.2,
+      "speaker": null,
+      "text": "Yeah, there's still that speculation that maybe David Koresh just got down in those underground tunnels and got out."
+    },
+    {
+      "id": 318,
+      "startTime": 655.2,
+      "endTime": 658.2,
+      "speaker": null,
+      "text": "But they said most of the tunnels collapsed."
+    },
+    {
+      "id": 319,
+      "startTime": 658.2,
+      "endTime": 663.2,
+      "speaker": null,
+      "text": "And the only thing that was habitable was that underground bus."
+    },
+    {
+      "id": 320,
+      "startTime": 663.2,
+      "endTime": 665.2,
+      "speaker": null,
+      "text": "They had dug a hole and buried a bus."
+    },
+    {
+      "id": 321,
+      "startTime": 665.2,
+      "endTime": 667.2,
+      "speaker": null,
+      "text": "Because all they're finding is just a couple of teeth."
+    },
+    {
+      "id": 322,
+      "startTime": 667.2,
+      "endTime": 671.2,
+      "speaker": null,
+      "text": "Yeah, well, you know, the bones and stuff, but they're mostly ash."
+    },
+    {
+      "id": 323,
+      "startTime": 671.2,
+      "endTime": 674.2,
+      "speaker": null,
+      "text": "Gary should go down there and get some new teeth for free."
+    },
+    {
+      "id": 324,
+      "startTime": 674.2,
+      "endTime": 676.2,
+      "speaker": null,
+      "text": "Stick them in his head."
+    },
+    {
+      "id": 325,
+      "startTime": 676.2,
+      "endTime": 678.2,
+      "speaker": null,
+      "text": "Get rid of those big choppers he is."
+    },
+    {
+      "id": 326,
+      "startTime": 678.2,
+      "endTime": 679.2,
+      "speaker": null,
+      "text": "None to compare with his."
+    },
+    {
+      "id": 327,
+      "startTime": 679.2,
+      "endTime": 681.2,
+      "speaker": null,
+      "text": "I'm struggling with my teeth and glums."
+    },
+    {
+      "id": 328,
+      "startTime": 681.2,
+      "endTime": 683.2,
+      "speaker": null,
+      "text": "I could definitely identify him if he was in there."
+    },
+    {
+      "id": 329,
+      "startTime": 683.2,
+      "endTime": 684.2,
+      "speaker": null,
+      "text": "Oh, yeah."
+    },
+    {
+      "id": 330,
+      "startTime": 684.2,
+      "endTime": 685.2,
+      "speaker": null,
+      "text": "Oh, Gary was definitely in there."
+    },
+    {
+      "id": 331,
+      "startTime": 685.2,
+      "endTime": 686.2,
+      "speaker": null,
+      "text": "No problem."
+    },
+    {
+      "id": 332,
+      "startTime": 686.2,
+      "endTime": 687.2,
+      "speaker": null,
+      "text": "How do you know?"
+    },
+    {
+      "id": 333,
+      "startTime": 687.2,
+      "endTime": 691.2,
+      "speaker": null,
+      "text": "Everything is completely reduced to ash and rubble."
+    },
+    {
+      "id": 334,
+      "startTime": 691.2,
+      "endTime": 694.2,
+      "speaker": null,
+      "text": "Yeah, but look at these huge elephant-like tusks."
+    },
+    {
+      "id": 335,
+      "startTime": 694.2,
+      "endTime": 697.2,
+      "speaker": null,
+      "text": "And look at this big tongue licking them."
+    },
+    {
+      "id": 336,
+      "startTime": 697.2,
+      "endTime": 698.2,
+      "speaker": null,
+      "text": "They're licking them."
+    },
+    {
+      "id": 337,
+      "startTime": 698.2,
+      "endTime": 700.2,
+      "speaker": null,
+      "text": "People could have hid under his teeth and been well."
+    },
+    {
+      "id": 338,
+      "startTime": 700.2,
+      "endTime": 702.2,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 339,
+      "startTime": 702.2,
+      "endTime": 703.2,
+      "speaker": null,
+      "text": "You got big teeth."
+    },
+    {
+      "id": 340,
+      "startTime": 703.2,
+      "endTime": 704.2,
+      "speaker": null,
+      "text": "All right, granted."
+    },
+    {
+      "id": 341,
+      "startTime": 704.2,
+      "endTime": 706.2,
+      "speaker": null,
+      "text": "Even the kids in school made fun of your teeth."
+    },
+    {
+      "id": 342,
+      "startTime": 706.2,
+      "endTime": 707.2,
+      "speaker": null,
+      "text": "Admittedly, I have big teeth."
+    },
+    {
+      "id": 343,
+      "startTime": 707.2,
+      "endTime": 708.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 344,
+      "startTime": 708.2,
+      "endTime": 710.2,
+      "speaker": null,
+      "text": "But are my teeth so large that from a distance you can tell this?"
+    },
+    {
+      "id": 345,
+      "startTime": 710.2,
+      "endTime": 711.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 346,
+      "startTime": 711.2,
+      "endTime": 712.2,
+      "speaker": null,
+      "text": "Come on."
+    },
+    {
+      "id": 347,
+      "startTime": 712.2,
+      "endTime": 713.2,
+      "speaker": null,
+      "text": "Because your mouth hangs open."
+    },
+    {
+      "id": 348,
+      "startTime": 713.2,
+      "endTime": 714.2,
+      "speaker": null,
+      "text": "Your hang mouth."
+    },
+    {
+      "id": 349,
+      "startTime": 714.2,
+      "endTime": 716.2,
+      "speaker": null,
+      "text": "You're like a hang dog with the big lips."
+    },
+    {
+      "id": 350,
+      "startTime": 716.2,
+      "endTime": 718.2,
+      "speaker": null,
+      "text": "I've seen people in the studio that have bigger teeth than me."
+    },
+    {
+      "id": 351,
+      "startTime": 718.2,
+      "endTime": 722.2,
+      "speaker": null,
+      "text": "No, you got big, rubbery lips and a thick tongue."
+    },
+    {
+      "id": 352,
+      "startTime": 722.2,
+      "endTime": 724.2,
+      "speaker": null,
+      "text": "Well, hold on there."
+    },
+    {
+      "id": 353,
+      "startTime": 724.2,
+      "endTime": 725.2,
+      "speaker": null,
+      "text": "No, no, really."
+    },
+    {
+      "id": 354,
+      "startTime": 725.2,
+      "endTime": 726.2,
+      "speaker": null,
+      "text": "You do."
+    },
+    {
+      "id": 355,
+      "startTime": 726.2,
+      "endTime": 729.2,
+      "speaker": null,
+      "text": "Doesn't it seem like big, thick, rubbery lips and the teeth even stick out over the big lips?"
+    },
+    {
+      "id": 356,
+      "startTime": 729.2,
+      "endTime": 732.2,
+      "speaker": null,
+      "text": "Yeah, even though he's got big lips, he can't cover the teeth."
+    },
+    {
+      "id": 357,
+      "startTime": 732.2,
+      "endTime": 733.2,
+      "speaker": null,
+      "text": "I told you that."
+    },
+    {
+      "id": 358,
+      "startTime": 733.2,
+      "endTime": 736.2,
+      "speaker": null,
+      "text": "I told you that I played the trumpet for, like, seven years from, like, first grade to, like,"
+    },
+    {
+      "id": 359,
+      "startTime": 736.2,
+      "endTime": 737.2,
+      "speaker": null,
+      "text": "eighth grade."
+    },
+    {
+      "id": 360,
+      "startTime": 737.2,
+      "endTime": 742.2,
+      "speaker": null,
+      "text": "And then my music teacher told me that my lips were too big for the trumpet mouth because"
+    },
+    {
+      "id": 361,
+      "startTime": 742.2,
+      "endTime": 745.2,
+      "speaker": null,
+      "text": "he wanted me to play the tube, so I quit."
+    },
+    {
+      "id": 362,
+      "startTime": 745.2,
+      "endTime": 748.2,
+      "speaker": null,
+      "text": "I'm insulted."
+    },
+    {
+      "id": 363,
+      "startTime": 748.2,
+      "endTime": 749.2,
+      "speaker": null,
+      "text": "Oh."
+    },
+    {
+      "id": 364,
+      "startTime": 749.2,
+      "endTime": 751.2,
+      "speaker": null,
+      "text": "Your mouth really looks like a racist cartoon."
+    },
+    {
+      "id": 365,
+      "startTime": 751.2,
+      "endTime": 756.2,
+      "speaker": null,
+      "text": "Like, you ever see those old Southern cartoons with the giant lips and the teeth?"
+    },
+    {
+      "id": 366,
+      "startTime": 756.2,
+      "endTime": 759.2,
+      "speaker": null,
+      "text": "Right, and the guy in the overall hat with this straw coming out of his lips?"
+    },
+    {
+      "id": 367,
+      "startTime": 759.2,
+      "endTime": 760.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 368,
+      "startTime": 760.2,
+      "endTime": 761.2,
+      "speaker": null,
+      "text": "That's me."
+    },
+    {
+      "id": 369,
+      "startTime": 761.2,
+      "endTime": 762.2,
+      "speaker": null,
+      "text": "That's you."
+    },
+    {
+      "id": 370,
+      "startTime": 762.2,
+      "endTime": 765.2,
+      "speaker": null,
+      "text": "No, but, you know, seriously, your mouth is very distinctive."
+    },
+    {
+      "id": 371,
+      "startTime": 765.2,
+      "endTime": 766.2,
+      "speaker": null,
+      "text": "I know."
+    },
+    {
+      "id": 372,
+      "startTime": 766.2,
+      "endTime": 769.2,
+      "speaker": null,
+      "text": "And not only are they big, with the overbite, they all -- you can't even close your mouth"
+    },
+    {
+      "id": 373,
+      "startTime": 769.2,
+      "endTime": 771.2,
+      "speaker": null,
+      "text": "without, like, your lips scratching over the teeth."
+    },
+    {
+      "id": 374,
+      "startTime": 771.2,
+      "endTime": 773.2,
+      "speaker": null,
+      "text": "I've got 32 teeth like everyone else."
+    },
+    {
+      "id": 375,
+      "startTime": 773.2,
+      "endTime": 774.2,
+      "speaker": null,
+      "text": "Yeah, but Robin."
+    },
+    {
+      "id": 376,
+      "startTime": 774.2,
+      "endTime": 775.2,
+      "speaker": null,
+      "text": "32 big teeth."
+    },
+    {
+      "id": 377,
+      "startTime": 775.2,
+      "endTime": 777.2,
+      "speaker": null,
+      "text": "You can never see his bottom teeth."
+    },
+    {
+      "id": 378,
+      "startTime": 777.2,
+      "endTime": 778.2,
+      "speaker": null,
+      "text": "Ever notice that?"
+    },
+    {
+      "id": 379,
+      "startTime": 778.2,
+      "endTime": 779.2,
+      "speaker": null,
+      "text": "Yeah, I know."
+    },
+    {
+      "id": 380,
+      "startTime": 779.2,
+      "endTime": 780.2,
+      "speaker": null,
+      "text": "Because the top ones completely cover the bottom."
+    },
+    {
+      "id": 381,
+      "startTime": 780.2,
+      "endTime": 781.2,
+      "speaker": null,
+      "text": "I wasted all that money getting them fixed."
+    },
+    {
+      "id": 382,
+      "startTime": 781.2,
+      "endTime": 784.2,
+      "speaker": null,
+      "text": "But the best part is when Gary's around me and he eats, and he wants to close his mouth"
+    },
+    {
+      "id": 383,
+      "startTime": 784.2,
+      "endTime": 787.2,
+      "speaker": null,
+      "text": "while he eats, because he knows we make fun of people who keep their mouth open when they"
+    },
+    {
+      "id": 384,
+      "startTime": 787.2,
+      "endTime": 788.2,
+      "speaker": null,
+      "text": "eat."
+    },
+    {
+      "id": 385,
+      "startTime": 788.2,
+      "endTime": 789.2,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 386,
+      "startTime": 789.2,
+      "endTime": 792.2,
+      "speaker": null,
+      "text": "And then he puts the lips over the teeth finally, stretches his lips over his teeth, and then"
+    },
+    {
+      "id": 387,
+      "startTime": 792.2,
+      "endTime": 796.2,
+      "speaker": null,
+      "text": "he starts to chew, and the lips are, like, stretched to the max."
+    },
+    {
+      "id": 388,
+      "startTime": 796.2,
+      "endTime": 798.2,
+      "speaker": null,
+      "text": "And I was like, \"Ooh, that move.\""
+    },
+    {
+      "id": 389,
+      "startTime": 798.2,
+      "endTime": 799.2,
+      "speaker": null,
+      "text": "See, now, that's wrong."
+    },
+    {
+      "id": 390,
+      "startTime": 799.2,
+      "endTime": 801.2,
+      "speaker": null,
+      "text": "And then his ears start to move."
+    },
+    {
+      "id": 391,
+      "startTime": 801.2,
+      "endTime": 803.2,
+      "speaker": null,
+      "text": "That is it."
+    },
+    {
+      "id": 392,
+      "startTime": 803.2,
+      "endTime": 804.2,
+      "speaker": null,
+      "text": "That's not true."
+    },
+    {
+      "id": 393,
+      "startTime": 804.2,
+      "endTime": 807.2,
+      "speaker": null,
+      "text": "The reason I do that is because I try to eat too much food at once."
+    },
+    {
+      "id": 394,
+      "startTime": 807.2,
+      "endTime": 811.2,
+      "speaker": null,
+      "text": "I eat very fast, and if I put less food in my mouth, my lips wouldn't look so big."
+    },
+    {
+      "id": 395,
+      "startTime": 811.2,
+      "endTime": 812.2,
+      "speaker": null,
+      "text": "Hey, come on."
+    },
+    {
+      "id": 396,
+      "startTime": 812.2,
+      "endTime": 813.2,
+      "speaker": null,
+      "text": "It's funny with the teeth."
+    },
+    {
+      "id": 397,
+      "startTime": 813.2,
+      "endTime": 814.2,
+      "speaker": null,
+      "text": "All right, all right."
+    },
+    {
+      "id": 398,
+      "startTime": 814.2,
+      "endTime": 815.2,
+      "speaker": null,
+      "text": "Anyway, go ahead, Robin."
+    },
+    {
+      "id": 399,
+      "startTime": 815.2,
+      "endTime": 816.2,
+      "speaker": null,
+      "text": "It's like watching somebody give birth."
+    },
+    {
+      "id": 400,
+      "startTime": 816.2,
+      "endTime": 817.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 401,
+      "startTime": 817.2,
+      "endTime": 818.2,
+      "speaker": null,
+      "text": "It's a whole process."
+    },
+    {
+      "id": 402,
+      "startTime": 818.2,
+      "endTime": 819.2,
+      "speaker": null,
+      "text": "Oh, cool."
+    },
+    {
+      "id": 403,
+      "startTime": 819.2,
+      "endTime": 821.2,
+      "speaker": null,
+      "text": "Your teeth are the fakest-looking teeth I ever saw."
+    },
+    {
+      "id": 404,
+      "startTime": 821.2,
+      "endTime": 822.2,
+      "speaker": null,
+      "text": "That's not true either."
+    },
+    {
+      "id": 405,
+      "startTime": 822.2,
+      "endTime": 823.2,
+      "speaker": null,
+      "text": "They are."
+    },
+    {
+      "id": 406,
+      "startTime": 823.2,
+      "endTime": 824.2,
+      "speaker": null,
+      "text": "What do you mean that's not true?"
+    },
+    {
+      "id": 407,
+      "startTime": 824.2,
+      "endTime": 825.2,
+      "speaker": null,
+      "text": "Why would I say it if it's not true?"
+    },
+    {
+      "id": 408,
+      "startTime": 825.2,
+      "endTime": 826.2,
+      "speaker": null,
+      "text": "Because you'd just like to get me riled up."
+    },
+    {
+      "id": 409,
+      "startTime": 826.2,
+      "endTime": 827.2,
+      "speaker": null,
+      "text": "I'm not riling up."
+    },
+    {
+      "id": 410,
+      "startTime": 827.2,
+      "endTime": 829.2,
+      "speaker": null,
+      "text": "Yours are the fakest choppers I've ever seen."
+    },
+    {
+      "id": 411,
+      "startTime": 829.2,
+      "endTime": 830.2,
+      "speaker": null,
+      "text": "Of anyone who's ever been here."
+    },
+    {
+      "id": 412,
+      "startTime": 830.2,
+      "endTime": 831.2,
+      "speaker": null,
+      "text": "Of anyone ever on this show."
+    },
+    {
+      "id": 413,
+      "startTime": 831.2,
+      "endTime": 832.2,
+      "speaker": null,
+      "text": "I disagree."
+    },
+    {
+      "id": 414,
+      "startTime": 832.2,
+      "endTime": 833.2,
+      "speaker": null,
+      "text": "Who has fakery..."
+    },
+    {
+      "id": 415,
+      "startTime": 833.2,
+      "endTime": 834.2,
+      "speaker": null,
+      "text": "I don't want to embarrass anybody."
+    },
+    {
+      "id": 416,
+      "startTime": 837.2,
+      "endTime": 838.2,
+      "speaker": null,
+      "text": "Cher."
+    },
+    {
+      "id": 417,
+      "startTime": 841.2,
+      "endTime": 842.2,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 418,
+      "startTime": 842.2,
+      "endTime": 843.2,
+      "speaker": null,
+      "text": "Ty."
+    },
+    {
+      "id": 419,
+      "startTime": 843.2,
+      "endTime": 844.2,
+      "speaker": null,
+      "text": "Ty."
+    },
+    {
+      "id": 420,
+      "startTime": 844.2,
+      "endTime": 845.2,
+      "speaker": null,
+      "text": "You got me."
+    },
+    {
+      "id": 421,
+      "startTime": 845.2,
+      "endTime": 846.2,
+      "speaker": null,
+      "text": "Ty."
+    },
+    {
+      "id": 422,
+      "startTime": 846.2,
+      "endTime": 849.2,
+      "speaker": null,
+      "text": "Cher's mouth is unbelievably funny."
+    },
+    {
+      "id": 423,
+      "startTime": 849.2,
+      "endTime": 853.2,
+      "speaker": null,
+      "text": "I mean, I have never seen more ceramic-like choppers."
+    },
+    {
+      "id": 424,
+      "startTime": 853.2,
+      "endTime": 854.2,
+      "speaker": null,
+      "text": "Yeah, that's a mess."
+    },
+    {
+      "id": 425,
+      "startTime": 854.2,
+      "endTime": 856.2,
+      "speaker": null,
+      "text": "And she didn't have to look like that."
+    },
+    {
+      "id": 426,
+      "startTime": 856.2,
+      "endTime": 857.2,
+      "speaker": null,
+      "text": "No."
+    },
+    {
+      "id": 427,
+      "startTime": 857.2,
+      "endTime": 858.2,
+      "speaker": null,
+      "text": "Why, I do."
+    },
+    {
+      "id": 428,
+      "startTime": 858.2,
+      "endTime": 859.2,
+      "speaker": null,
+      "text": "Well, apparently."
+    },
+    {
+      "id": 429,
+      "startTime": 859.2,
+      "endTime": 860.2,
+      "speaker": null,
+      "text": "You've had them fixed."
+    },
+    {
+      "id": 430,
+      "startTime": 860.2,
+      "endTime": 863.2,
+      "speaker": null,
+      "text": "Well, didn't you tell me like your teeth were all screwed up from birth and stuff?"
+    },
+    {
+      "id": 431,
+      "startTime": 863.2,
+      "endTime": 866.2,
+      "speaker": null,
+      "text": "Well, they were discolored because I had tetracycline poisoning."
+    },
+    {
+      "id": 432,
+      "startTime": 866.2,
+      "endTime": 867.2,
+      "speaker": null,
+      "text": "And did you have braces as well?"
+    },
+    {
+      "id": 433,
+      "startTime": 867.2,
+      "endTime": 868.2,
+      "speaker": null,
+      "text": "No, I never got braces."
+    },
+    {
+      "id": 434,
+      "startTime": 868.2,
+      "endTime": 869.2,
+      "speaker": null,
+      "text": "I told you that story."
+    },
+    {
+      "id": 435,
+      "startTime": 869.2,
+      "endTime": 870.2,
+      "speaker": null,
+      "text": "What was that?"
+    },
+    {
+      "id": 436,
+      "startTime": 870.2,
+      "endTime": 871.2,
+      "speaker": null,
+      "text": "I told you."
+    },
+    {
+      "id": 437,
+      "startTime": 871.2,
+      "endTime": 872.2,
+      "speaker": null,
+      "text": "My dentist went to jail."
+    },
+    {
+      "id": 438,
+      "startTime": 872.2,
+      "endTime": 873.2,
+      "speaker": null,
+      "text": "Your dentist went to jail."
+    },
+    {
+      "id": 439,
+      "startTime": 873.2,
+      "endTime": 874.2,
+      "speaker": null,
+      "text": "That's right."
+    },
+    {
+      "id": 440,
+      "startTime": 874.2,
+      "endTime": 876.2,
+      "speaker": null,
+      "text": "And your parents, of course, are going to find another dentist."
+    },
+    {
+      "id": 441,
+      "startTime": 876.2,
+      "endTime": 877.2,
+      "speaker": null,
+      "text": "I mean, if your son..."
+    },
+    {
+      "id": 442,
+      "startTime": 877.2,
+      "endTime": 878.2,
+      "speaker": null,
+      "text": "With Gary's braces in his pocket."
+    },
+    {
+      "id": 443,
+      "startTime": 878.2,
+      "endTime": 880.2,
+      "speaker": null,
+      "text": "If your son had a mouth like that..."
+    },
+    {
+      "id": 444,
+      "startTime": 880.2,
+      "endTime": 881.2,
+      "speaker": null,
+      "text": "I get help."
+    },
+    {
+      "id": 445,
+      "startTime": 881.2,
+      "endTime": 882.2,
+      "speaker": null,
+      "text": "What did you get help?"
+    },
+    {
+      "id": 446,
+      "startTime": 882.2,
+      "endTime": 884.2,
+      "speaker": null,
+      "text": "I mean, why didn't you find another dentist?"
+    },
+    {
+      "id": 447,
+      "startTime": 884.2,
+      "endTime": 886.2,
+      "speaker": null,
+      "text": "Well, I was really against it."
+    },
+    {
+      "id": 448,
+      "startTime": 886.2,
+      "endTime": 887.2,
+      "speaker": null,
+      "text": "I didn't..."
+    },
+    {
+      "id": 449,
+      "startTime": 887.2,
+      "endTime": 888.2,
+      "speaker": null,
+      "text": "I was afraid of the dentist."
+    },
+    {
+      "id": 450,
+      "startTime": 888.2,
+      "endTime": 889.2,
+      "speaker": null,
+      "text": "Yeah, well..."
+    },
+    {
+      "id": 451,
+      "startTime": 889.2,
+      "endTime": 890.2,
+      "speaker": null,
+      "text": "So like, you know, one of my parents was afraid of you."
+    },
+    {
+      "id": 452,
+      "startTime": 890.2,
+      "endTime": 893.2,
+      "speaker": null,
+      "text": "You know, people like him running around in the Amazon."
+    },
+    {
+      "id": 453,
+      "startTime": 893.2,
+      "endTime": 895.2,
+      "speaker": null,
+      "text": "Somebody would fly them here to get them fixed."
+    },
+    {
+      "id": 454,
+      "startTime": 895.2,
+      "endTime": 896.2,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 455,
+      "startTime": 896.2,
+      "endTime": 898.2,
+      "speaker": null,
+      "text": "Yeah, like, when you ever see those kids with bad cranial..."
+    },
+    {
+      "id": 456,
+      "startTime": 898.2,
+      "endTime": 900.2,
+      "speaker": null,
+      "text": "You know, the cranial facial problems."
+    },
+    {
+      "id": 457,
+      "startTime": 900.2,
+      "endTime": 901.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 458,
+      "startTime": 901.2,
+      "endTime": 905.2,
+      "speaker": null,
+      "text": "And they fly them in from Africa because some white guy found them in the jungle and said,"
+    },
+    {
+      "id": 459,
+      "startTime": 905.2,
+      "endTime": 906.2,
+      "speaker": null,
+      "text": "\"We can help you.\""
+    },
+    {
+      "id": 460,
+      "startTime": 906.2,
+      "endTime": 908.2,
+      "speaker": null,
+      "text": "They were the ones that take them to the hospital and then cut their jaw."
+    },
+    {
+      "id": 461,
+      "startTime": 908.2,
+      "endTime": 909.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 462,
+      "startTime": 909.2,
+      "endTime": 910.2,
+      "speaker": null,
+      "text": "They would do that to you."
+    },
+    {
+      "id": 463,
+      "startTime": 910.2,
+      "endTime": 912.2,
+      "speaker": null,
+      "text": "Gary goes, \"I was afraid of the dentist.\""
+    },
+    {
+      "id": 464,
+      "startTime": 912.2,
+      "endTime": 914.2,
+      "speaker": null,
+      "text": "Your Johnson said, \"The dentist was afraid of you.\""
+    },
+    {
+      "id": 465,
+      "startTime": 914.2,
+      "endTime": 917.2,
+      "speaker": null,
+      "text": "That would be a challenge."
+    },
+    {
+      "id": 466,
+      "startTime": 917.2,
+      "endTime": 920.2,
+      "speaker": null,
+      "text": "I'd rather go to jail than work on this kid's seat."
+    },
+    {
+      "id": 467,
+      "startTime": 920.2,
+      "endTime": 922.2,
+      "speaker": null,
+      "text": "He turned himself in."
+    },
+    {
+      "id": 468,
+      "startTime": 922.2,
+      "endTime": 924.2,
+      "speaker": null,
+      "text": "There's no way I could straighten this mess out."
+    },
+    {
+      "id": 469,
+      "startTime": 924.2,
+      "endTime": 926.2,
+      "speaker": null,
+      "text": "It took me a long time to find a good dentist."
+    },
+    {
+      "id": 470,
+      "startTime": 926.2,
+      "endTime": 928.2,
+      "speaker": null,
+      "text": "Why did your dentist go to jail?"
+    },
+    {
+      "id": 471,
+      "startTime": 928.2,
+      "endTime": 929.2,
+      "speaker": null,
+      "text": "For doing my teeth."
+    },
+    {
+      "id": 472,
+      "startTime": 929.2,
+      "endTime": 930.2,
+      "speaker": null,
+      "text": "No, really."
+    },
+    {
+      "id": 473,
+      "startTime": 930.2,
+      "endTime": 931.2,
+      "speaker": null,
+      "text": "I think it was for tax evasion."
+    },
+    {
+      "id": 474,
+      "startTime": 931.2,
+      "endTime": 932.2,
+      "speaker": null,
+      "text": "Oh, really?"
+    },
+    {
+      "id": 475,
+      "startTime": 932.2,
+      "endTime": 933.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 476,
+      "startTime": 933.2,
+      "endTime": 935.2,
+      "speaker": null,
+      "text": "Well, you put him in a different bracket."
+    },
+    {
+      "id": 477,
+      "startTime": 939.2,
+      "endTime": 941.2,
+      "speaker": null,
+      "text": "Is that true? You put him in a different bracket?"
+    },
+    {
+      "id": 478,
+      "startTime": 941.2,
+      "endTime": 942.2,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 479,
+      "startTime": 945.2,
+      "endTime": 947.2,
+      "speaker": null,
+      "text": "Get me out of this room. Look at the kid in there."
+    },
+    {
+      "id": 480,
+      "startTime": 949.2,
+      "endTime": 951.2,
+      "speaker": null,
+      "text": "I was wondering why the waiting room was always empty."
+    },
+    {
+      "id": 481,
+      "startTime": 951.2,
+      "endTime": 952.2,
+      "speaker": null,
+      "text": "I was his only patient."
+    },
+    {
+      "id": 482,
+      "startTime": 952.2,
+      "endTime": 954.2,
+      "speaker": null,
+      "text": "I've seen pictures of Gary before he got his caps."
+    },
+    {
+      "id": 483,
+      "startTime": 954.2,
+      "endTime": 955.2,
+      "speaker": null,
+      "text": "Really?"
+    },
+    {
+      "id": 484,
+      "startTime": 955.2,
+      "endTime": 956.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 485,
+      "startTime": 956.2,
+      "endTime": 957.2,
+      "speaker": null,
+      "text": "I've never seen that."
+    },
+    {
+      "id": 486,
+      "startTime": 957.2,
+      "endTime": 961.2,
+      "speaker": null,
+      "text": "I should bring you in my communion pictures with a big smile and my giant discolored teeth."
+    },
+    {
+      "id": 487,
+      "startTime": 961.2,
+      "endTime": 964.2,
+      "speaker": null,
+      "text": "I guess his mom took tetracycline or something while she was pregnant."
+    },
+    {
+      "id": 488,
+      "startTime": 964.2,
+      "endTime": 965.2,
+      "speaker": null,
+      "text": "Plus he was pregnant?"
+    },
+    {
+      "id": 489,
+      "startTime": 965.2,
+      "endTime": 969.2,
+      "speaker": null,
+      "text": "And so Gary's mouth not only came out contorted, but it's green as well."
+    },
+    {
+      "id": 490,
+      "startTime": 969.2,
+      "endTime": 971.2,
+      "speaker": null,
+      "text": "It affected the color. It didn't affect the shape."
+    },
+    {
+      "id": 491,
+      "startTime": 971.2,
+      "endTime": 974.2,
+      "speaker": null,
+      "text": "Yeah, but the shape is unbelievable."
+    },
+    {
+      "id": 492,
+      "startTime": 974.2,
+      "endTime": 977.2,
+      "speaker": null,
+      "text": "Are you trying to say those are pills in his mouth?"
+    },
+    {
+      "id": 493,
+      "startTime": 977.2,
+      "endTime": 979.2,
+      "speaker": null,
+      "text": "Those are tetracycline tablets."
+    },
+    {
+      "id": 494,
+      "startTime": 979.2,
+      "endTime": 981.2,
+      "speaker": null,
+      "text": "You can see the writing if you look close."
+    },
+    {
+      "id": 495,
+      "startTime": 981.2,
+      "endTime": 986.2,
+      "speaker": null,
+      "text": "I mean, imagine Gary's teeth all going in different directions with that weird overbite and green."
+    },
+    {
+      "id": 496,
+      "startTime": 987.2,
+      "endTime": 988.2,
+      "speaker": null,
+      "text": "This is unbelievable."
+    },
+    {
+      "id": 497,
+      "startTime": 988.2,
+      "endTime": 989.2,
+      "speaker": null,
+      "text": "They weren't green."
+    },
+    {
+      "id": 498,
+      "startTime": 989.2,
+      "endTime": 990.2,
+      "speaker": null,
+      "text": "They were green."
+    },
+    {
+      "id": 499,
+      "startTime": 990.2,
+      "endTime": 992.2,
+      "speaker": null,
+      "text": "No, they weren't. They were stained with brown spots."
+    },
+    {
+      "id": 500,
+      "startTime": 992.2,
+      "endTime": 993.2,
+      "speaker": null,
+      "text": "Oh, no."
+    },
+    {
+      "id": 501,
+      "startTime": 993.2,
+      "endTime": 994.2,
+      "speaker": null,
+      "text": "They look green to me."
+    },
+    {
+      "id": 502,
+      "startTime": 994.2,
+      "endTime": 995.2,
+      "speaker": null,
+      "text": "Yellow. They look yellow."
+    },
+    {
+      "id": 503,
+      "startTime": 995.2,
+      "endTime": 996.2,
+      "speaker": null,
+      "text": "Yellowed. They were tarnished."
+    },
+    {
+      "id": 504,
+      "startTime": 996.2,
+      "endTime": 997.2,
+      "speaker": null,
+      "text": "Wow."
+    },
+    {
+      "id": 505,
+      "startTime": 997.2,
+      "endTime": 998.2,
+      "speaker": null,
+      "text": "Wow."
+    },
+    {
+      "id": 506,
+      "startTime": 998.2,
+      "endTime": 999.2,
+      "speaker": null,
+      "text": "I want to see those pictures."
+    },
+    {
+      "id": 507,
+      "startTime": 999.2,
+      "endTime": 1000.2,
+      "speaker": null,
+      "text": "No, you don't."
+    },
+    {
+      "id": 508,
+      "startTime": 1000.2,
+      "endTime": 1001.2,
+      "speaker": null,
+      "text": "No, you don't."
+    },
+    {
+      "id": 509,
+      "startTime": 1001.2,
+      "endTime": 1002.2,
+      "speaker": null,
+      "text": "I need you alive."
+    },
+    {
+      "id": 510,
+      "startTime": 1005.2,
+      "endTime": 1010.2,
+      "speaker": null,
+      "text": "But in Waco, if they found your teeth, your teeth would survive any nuclear blast, anything."
+    },
+    {
+      "id": 511,
+      "startTime": 1010.2,
+      "endTime": 1011.2,
+      "speaker": null,
+      "text": "Your teeth and roaches."
+    },
+    {
+      "id": 512,
+      "startTime": 1011.2,
+      "endTime": 1012.2,
+      "speaker": null,
+      "text": "You know what will happen one day?"
+    },
+    {
+      "id": 513,
+      "startTime": 1012.2,
+      "endTime": 1013.2,
+      "speaker": null,
+      "text": "And monkeys."
+    },
+    {
+      "id": 514,
+      "startTime": 1013.2,
+      "endTime": 1017.2,
+      "speaker": null,
+      "text": "The entire world will blow up because some country will light off nuclear weapons."
+    },
+    {
+      "id": 515,
+      "startTime": 1017.2,
+      "endTime": 1020.2,
+      "speaker": null,
+      "text": "And then settlers from another planet will come here."
+    },
+    {
+      "id": 516,
+      "startTime": 1020.2,
+      "endTime": 1024.2,
+      "speaker": null,
+      "text": "And the only thing they'll find of our past civilization are roaches and Gary's teeth."
+    },
+    {
+      "id": 517,
+      "startTime": 1024.2,
+      "endTime": 1026.2,
+      "speaker": null,
+      "text": "And they'll base their whole culture on it."
+    },
+    {
+      "id": 518,
+      "startTime": 1026.2,
+      "endTime": 1030.2,
+      "speaker": null,
+      "text": "They'll find his teeth and determine that we were 45 feet tall."
+    },
+    {
+      "id": 519,
+      "startTime": 1031.2,
+      "endTime": 1033.2,
+      "speaker": null,
+      "text": "Oh, a racing giant."
+    },
+    {
+      "id": 520,
+      "startTime": 1033.2,
+      "endTime": 1038.2,
+      "speaker": null,
+      "text": "We've determined that these people were huge as big as dinosaurs."
+    },
+    {
+      "id": 521,
+      "startTime": 1038.2,
+      "endTime": 1040.2,
+      "speaker": null,
+      "text": "Thank goodness they were huge."
+    },
+    {
+      "id": 522,
+      "startTime": 1040.2,
+      "endTime": 1042.2,
+      "speaker": null,
+      "text": "They were extinct because they couldn't find enough to eat."
+    },
+    {
+      "id": 523,
+      "startTime": 1042.2,
+      "endTime": 1043.2,
+      "speaker": null,
+      "text": "They were like dinosaurs."
+    },
+    {
+      "id": 524,
+      "startTime": 1043.2,
+      "endTime": 1044.2,
+      "speaker": null,
+      "text": "Listen, listen."
+    },
+    {
+      "id": 525,
+      "startTime": 1044.2,
+      "endTime": 1045.2,
+      "speaker": null,
+      "text": "We have to--"
+    },
+    {
+      "id": 526,
+      "startTime": 1045.2,
+      "endTime": 1047.2,
+      "speaker": null,
+      "text": "We have reconstructed one person from these teeth."
+    },
+    {
+      "id": 527,
+      "startTime": 1047.2,
+      "endTime": 1050.2,
+      "speaker": null,
+      "text": "Imagine if they construct man from Gary's teeth."
+    },
+    {
+      "id": 528,
+      "startTime": 1050.2,
+      "endTime": 1051.2,
+      "speaker": null,
+      "text": "We have to finish the news."
+    },
+    {
+      "id": 529,
+      "startTime": 1051.2,
+      "endTime": 1054.2,
+      "speaker": null,
+      "text": "Man did not progress more than when he crawled out of the sea."
+    },
+    {
+      "id": 530,
+      "startTime": 1054.2,
+      "endTime": 1056.2,
+      "speaker": null,
+      "text": "We have to finish the news."
+    },
+    {
+      "id": 531,
+      "startTime": 1056.2,
+      "endTime": 1058.2,
+      "speaker": null,
+      "text": "We think this is a human mouth, but it could be brontosaurus."
+    },
+    {
+      "id": 532,
+      "startTime": 1058.2,
+      "endTime": 1059.2,
+      "speaker": null,
+      "text": "We're not sure."
+    },
+    {
+      "id": 533,
+      "startTime": 1059.2,
+      "endTime": 1061.2,
+      "speaker": null,
+      "text": "They'll resurrect Gary and they'll put him in that museum."
+    },
+    {
+      "id": 534,
+      "startTime": 1061.2,
+      "endTime": 1063.2,
+      "speaker": null,
+      "text": "He'll be that main display."
+    },
+    {
+      "id": 535,
+      "startTime": 1063.2,
+      "endTime": 1064.2,
+      "speaker": null,
+      "text": "Right, right."
+    },
+    {
+      "id": 536,
+      "startTime": 1064.2,
+      "endTime": 1068.2,
+      "speaker": null,
+      "text": "Nine foot tall like Gary, but like with a little tiny pinhead with a giant teeth"
+    },
+    {
+      "id": 537,
+      "startTime": 1068.2,
+      "endTime": 1070.2,
+      "speaker": null,
+      "text": "and that long sloping neck."
+    },
+    {
+      "id": 538,
+      "startTime": 1072.2,
+      "endTime": 1074.2,
+      "speaker": null,
+      "text": "Oh, man."
+    },
+    {
+      "id": 539,
+      "startTime": 1074.2,
+      "endTime": 1077.2,
+      "speaker": null,
+      "text": "You know, they'll probably get the makeup of the head all wrong."
+    },
+    {
+      "id": 540,
+      "startTime": 1077.2,
+      "endTime": 1078.2,
+      "speaker": null,
+      "text": "And they'll be aliens and everything."
+    },
+    {
+      "id": 541,
+      "startTime": 1078.2,
+      "endTime": 1080.2,
+      "speaker": null,
+      "text": "And they'll have a whole different culture and a whole different way to speak."
+    },
+    {
+      "id": 542,
+      "startTime": 1080.2,
+      "endTime": 1081.2,
+      "speaker": null,
+      "text": "And they'll be like--"
+    },
+    {
+      "id": 543,
+      "startTime": 1081.2,
+      "endTime": 1083.2,
+      "speaker": null,
+      "text": "And then you'll go on a museum tour and they'll say--"
+    },
+    {
+      "id": 544,
+      "startTime": 1083.2,
+      "endTime": 1089.2,
+      "speaker": null,
+      "text": "We were not the first inhabitants of this planet."
+    },
+    {
+      "id": 545,
+      "startTime": 1089.2,
+      "endTime": 1096.2,
+      "speaker": null,
+      "text": "Man was 45 feet tall with bad hygiene."
+    },
+    {
+      "id": 546,
+      "startTime": 1096.2,
+      "endTime": 1098.2,
+      "speaker": null,
+      "text": "And a very small brain."
+    },
+    {
+      "id": 547,
+      "startTime": 1098.2,
+      "endTime": 1101.2,
+      "speaker": null,
+      "text": "Maybe it looks now like this."
+    },
+    {
+      "id": 548,
+      "startTime": 1101.2,
+      "endTime": 1106.2,
+      "speaker": null,
+      "text": "Man had a small brain, 35 feet tall,"
+    },
+    {
+      "id": 549,
+      "startTime": 1106.2,
+      "endTime": 1112.2,
+      "speaker": null,
+      "text": "and obviously never invented the toothbrush."
+    },
+    {
+      "id": 550,
+      "startTime": 1112.2,
+      "endTime": 1114.2,
+      "speaker": null,
+      "text": "Very backward."
+    },
+    {
+      "id": 551,
+      "startTime": 1114.2,
+      "endTime": 1120.2,
+      "speaker": null,
+      "text": "The most backward people know hygiene whatsoever."
+    },
+    {
+      "id": 552,
+      "startTime": 1120.2,
+      "endTime": 1121.2,
+      "speaker": null,
+      "text": "Okay, all right."
+    },
+    {
+      "id": 553,
+      "startTime": 1121.2,
+      "endTime": 1122.2,
+      "speaker": null,
+      "text": "They could still find food."
+    },
+    {
+      "id": 554,
+      "startTime": 1122.2,
+      "endTime": 1127.2,
+      "speaker": null,
+      "text": "These porcelain objects were known as teeth."
+    },
+    {
+      "id": 555,
+      "startTime": 1127.2,
+      "endTime": 1134.2,
+      "speaker": null,
+      "text": "The only way to clean them was to rub your tongue across them"
+    },
+    {
+      "id": 556,
+      "startTime": 1134.2,
+      "endTime": 1139.2,
+      "speaker": null,
+      "text": "while stretching your big rubbery lips."
+    },
+    {
+      "id": 557,
+      "startTime": 1139.2,
+      "endTime": 1147.2,
+      "speaker": null,
+      "text": "It appears that man had cavities bigger than our homes."
+    },
+    {
+      "id": 558,
+      "startTime": 1147.2,
+      "endTime": 1148.2,
+      "speaker": null,
+      "text": "Can you understand me when I'm doing that?"
+    },
+    {
+      "id": 559,
+      "startTime": 1148.2,
+      "endTime": 1149.2,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 560,
+      "startTime": 1149.2,
+      "endTime": 1150.2,
+      "speaker": null,
+      "text": "Okay."
+    },
+    {
+      "id": 561,
+      "startTime": 1150.2,
+      "endTime": 1154.2,
+      "speaker": null,
+      "text": "Man could only close his mouth with health."
+    },
+    {
+      "id": 562,
+      "startTime": 1160.2,
+      "endTime": 1161.2,
+      "speaker": null,
+      "text": "The way we close our mouth is--"
+    },
+    {
+      "id": 563,
+      "startTime": 1161.2,
+      "endTime": 1164.2,
+      "speaker": null,
+      "text": "Never was able to talk because of his job."
+    },
+    {
+      "id": 564,
+      "startTime": 1164.2,
+      "endTime": 1170.2,
+      "speaker": null,
+      "text": "Closing a mouth is an involuntary response on our home planet."
+    },
+    {
+      "id": 565,
+      "startTime": 1170.2,
+      "endTime": 1177.2,
+      "speaker": null,
+      "text": "But man needed the buddy system to close his mouth."
+    },
+    {
+      "id": 566,
+      "startTime": 1177.2,
+      "endTime": 1180.2,
+      "speaker": null,
+      "text": "Man never achieved speech."
+    },
+    {
+      "id": 567,
+      "startTime": 1180.2,
+      "endTime": 1185.2,
+      "speaker": null,
+      "text": "Man never could achieve normal speech."
+    },
+    {
+      "id": 568,
+      "startTime": 1185.2,
+      "endTime": 1186.2,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 569,
+      "startTime": 1186.2,
+      "endTime": 1190.2,
+      "speaker": null,
+      "text": "We have to talk to Harry Shearer."
+    },
+    {
+      "id": 570,
+      "startTime": 1190.2,
+      "endTime": 1191.2,
+      "speaker": null,
+      "text": "We have to do the news."
+    },
+    {
+      "id": 571,
+      "startTime": 1191.2,
+      "endTime": 1193.2,
+      "speaker": null,
+      "text": "We'll do Harry Shearer."
+    },
+    {
+      "id": 572,
+      "startTime": 1193.2,
+      "endTime": 1196.2,
+      "speaker": null,
+      "text": "Last day we got to get out of here because we're going on vacation."
+    },
+    {
+      "id": 573,
+      "startTime": 1196.2,
+      "endTime": 1197.2,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 574,
+      "startTime": 1197.2,
+      "endTime": 1200.2,
+      "speaker": null,
+      "text": "Got to go swimming with Jackie."
+    },
+    {
+      "id": 575,
+      "startTime": 1200.2,
+      "endTime": 1203.2,
+      "speaker": null,
+      "text": "I don't know, man."
+    },
+    {
+      "id": 576,
+      "startTime": 1203.2,
+      "endTime": 1204.2,
+      "speaker": null,
+      "text": "Pretty wild."
+    },
+    {
+      "id": 577,
+      "startTime": 1204.2,
+      "endTime": 1205.2,
+      "speaker": null,
+      "text": "Wild, funny stuff."
+    },
+    {
+      "id": 578,
+      "startTime": 1205.2,
+      "endTime": 1207.2,
+      "speaker": null,
+      "text": "Hey, Brother Wees, I'm not done yet."
+    },
+    {
+      "id": 579,
+      "startTime": 1207.2,
+      "endTime": 1208.2,
+      "speaker": null,
+      "text": "You got to stay on."
+    },
+    {
+      "id": 580,
+      "startTime": 1208.2,
+      "endTime": 1209.2,
+      "speaker": null,
+      "text": "Yeah, keep going."
+    },
+    {
+      "id": 581,
+      "startTime": 1209.2,
+      "endTime": 1210.2,
+      "speaker": null,
+      "text": "Keep going, pal."
+    },
+    {
+      "id": 582,
+      "startTime": 1210.2,
+      "endTime": 1212.2,
+      "speaker": null,
+      "text": "I'm going to go another half hour at least."
+    },
+    {
+      "id": 583,
+      "startTime": 1212.2,
+      "endTime": 1217.2,
+      "speaker": null,
+      "text": "But anyway, down there, they have been reconstructing the last days"
+    },
+    {
+      "id": 584,
+      "startTime": 1217.2,
+      "endTime": 1220.2,
+      "speaker": null,
+      "text": "of David Koresh and occurred to fair."
+    },
+    {
+      "id": 585,
+      "startTime": 1220.2,
+      "endTime": 1221.2,
+      "speaker": null,
+      "text": "I have to commend them."
+    },
+    {
+      "id": 586,
+      "startTime": 1221.2,
+      "endTime": 1222.2,
+      "speaker": null,
+      "text": "They are finding--"
+    },
+    {
+      "id": 587,
+      "startTime": 1222.2,
+      "endTime": 1223.2,
+      "speaker": null,
+      "text": "What?"
+    },
+    {
+      "id": 588,
+      "startTime": 1223.2,
+      "endTime": 1225.2,
+      "speaker": null,
+      "text": "Everyone associated with this."
+    },
+    {
+      "id": 589,
+      "startTime": 1225.2,
+      "endTime": 1229.2,
+      "speaker": null,
+      "text": "Remember the guy who walked past the federal authorities"
+    },
+    {
+      "id": 590,
+      "startTime": 1229.2,
+      "endTime": 1231.2,
+      "speaker": null,
+      "text": "and walked into the compound?"
+    },
+    {
+      "id": 591,
+      "startTime": 1231.2,
+      "endTime": 1232.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 592,
+      "startTime": 1232.2,
+      "endTime": 1234.2,
+      "speaker": null,
+      "text": "They had him on TV last night."
+    },
+    {
+      "id": 593,
+      "startTime": 1234.2,
+      "endTime": 1235.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 594,
+      "startTime": 1235.2,
+      "endTime": 1236.2,
+      "speaker": null,
+      "text": "How did he do that?"
+    },
+    {
+      "id": 595,
+      "startTime": 1236.2,
+      "endTime": 1239.2,
+      "speaker": null,
+      "text": "Well, he says, you know, he was a nursing student of all things."
+    },
+    {
+      "id": 596,
+      "startTime": 1239.2,
+      "endTime": 1241.2,
+      "speaker": null,
+      "text": "And he's sitting at his home wherever it was,"
+    },
+    {
+      "id": 597,
+      "startTime": 1241.2,
+      "endTime": 1244.2,
+      "speaker": null,
+      "text": "and he sees that David Koresh thinks he's God's son."
+    },
+    {
+      "id": 598,
+      "startTime": 1244.2,
+      "endTime": 1246.2,
+      "speaker": null,
+      "text": "This guy says, well, maybe this guy is."
+    },
+    {
+      "id": 599,
+      "startTime": 1246.2,
+      "endTime": 1247.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 600,
+      "startTime": 1247.2,
+      "endTime": 1248.2,
+      "speaker": null,
+      "text": "I got to go down there and talk to him."
+    },
+    {
+      "id": 601,
+      "startTime": 1248.2,
+      "endTime": 1250.2,
+      "speaker": null,
+      "text": "You know, he's supposed to be this deeply religious guy."
+    },
+    {
+      "id": 602,
+      "startTime": 1250.2,
+      "endTime": 1251.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 603,
+      "startTime": 1251.2,
+      "endTime": 1255.2,
+      "speaker": null,
+      "text": "He goes to Texas and decides he's going to make it past the federal authorities"
+    },
+    {
+      "id": 604,
+      "startTime": 1255.2,
+      "endTime": 1258.2,
+      "speaker": null,
+      "text": "and he's going to sneak into this compound, and somehow he does it."
+    },
+    {
+      "id": 605,
+      "startTime": 1258.2,
+      "endTime": 1262.2,
+      "speaker": null,
+      "text": "Not only do the federal authorities not see him coming toward them,"
+    },
+    {
+      "id": 606,
+      "startTime": 1262.2,
+      "endTime": 1264.2,
+      "speaker": null,
+      "text": "neither does anybody in the compound."
+    },
+    {
+      "id": 607,
+      "startTime": 1264.2,
+      "endTime": 1266.2,
+      "speaker": null,
+      "text": "So he went down there to say, hey, maybe this guy could be God."
+    },
+    {
+      "id": 608,
+      "startTime": 1266.2,
+      "endTime": 1267.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 609,
+      "startTime": 1267.2,
+      "endTime": 1269.2,
+      "speaker": null,
+      "text": "Wait, we have exclusive interview with him as well."
+    },
+    {
+      "id": 610,
+      "startTime": 1269.2,
+      "endTime": 1270.2,
+      "speaker": null,
+      "text": "Here it is."
+    },
+    {
+      "id": 611,
+      "startTime": 1270.2,
+      "endTime": 1272.2,
+      "speaker": null,
+      "text": "I don't know anybody."
+    },
+    {
+      "id": 612,
+      "startTime": 1274.2,
+      "endTime": 1276.2,
+      "speaker": null,
+      "text": "Did you see what he said when he came out of the compound?"
+    },
+    {
+      "id": 613,
+      "startTime": 1276.2,
+      "endTime": 1277.2,
+      "speaker": null,
+      "text": "What?"
+    },
+    {
+      "id": 614,
+      "startTime": 1277.2,
+      "endTime": 1279.2,
+      "speaker": null,
+      "text": "He says, I realize David Koresh is not God."
+    },
+    {
+      "id": 615,
+      "startTime": 1279.2,
+      "endTime": 1280.2,
+      "speaker": null,
+      "text": "Yes."
+    },
+    {
+      "id": 616,
+      "startTime": 1280.2,
+      "endTime": 1281.2,
+      "speaker": null,
+      "text": "Larry Sloman."
+    },
+    {
+      "id": 617,
+      "startTime": 1281.2,
+      "endTime": 1282.2,
+      "speaker": null,
+      "text": "Is that right?"
+    },
+    {
+      "id": 618,
+      "startTime": 1282.2,
+      "endTime": 1283.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 619,
+      "startTime": 1284.2,
+      "endTime": 1286.2,
+      "speaker": null,
+      "text": "God is also known as Ratso."
+    },
+    {
+      "id": 620,
+      "startTime": 1286.2,
+      "endTime": 1288.2,
+      "speaker": null,
+      "text": "Larry Sloman."
+    },
+    {
+      "id": 621,
+      "startTime": 1289.2,
+      "endTime": 1290.2,
+      "speaker": null,
+      "text": "So anyway."
+    },
+    {
+      "id": 622,
+      "startTime": 1290.2,
+      "endTime": 1291.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 623,
+      "startTime": 1291.2,
+      "endTime": 1298.2,
+      "speaker": null,
+      "text": "He says that he went up to the compound with all these armed people watching,"
+    },
+    {
+      "id": 624,
+      "startTime": 1298.2,
+      "endTime": 1302.2,
+      "speaker": null,
+      "text": "knocked on the door, and nobody knew he was there."
+    },
+    {
+      "id": 625,
+      "startTime": 1302.2,
+      "endTime": 1305.2,
+      "speaker": null,
+      "text": "So when he walked into the divinian compound after he told them who he was,"
+    },
+    {
+      "id": 626,
+      "startTime": 1305.2,
+      "endTime": 1307.2,
+      "speaker": null,
+      "text": "they thought he was a federal agent."
+    },
+    {
+      "id": 627,
+      "startTime": 1307.2,
+      "endTime": 1309.2,
+      "speaker": null,
+      "text": "He convinced them that he wasn't there as an agent."
+    },
+    {
+      "id": 628,
+      "startTime": 1309.2,
+      "endTime": 1312.2,
+      "speaker": null,
+      "text": "He was there to meet God and learn his teachings."
+    },
+    {
+      "id": 629,
+      "startTime": 1312.2,
+      "endTime": 1313.2,
+      "speaker": null,
+      "text": "Larry God Sloman."
+    },
+    {
+      "id": 630,
+      "startTime": 1314.2,
+      "endTime": 1316.2,
+      "speaker": null,
+      "text": "And so they accepted him in."
+    },
+    {
+      "id": 631,
+      "startTime": 1316.2,
+      "endTime": 1317.2,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 632,
+      "startTime": 1317.2,
+      "endTime": 1321.2,
+      "speaker": null,
+      "text": "And he went in and he spent a good couple of weeks with the Davidians."
+    },
+    {
+      "id": 633,
+      "startTime": 1321.2,
+      "endTime": 1326.2,
+      "speaker": null,
+      "text": "He said he came to love these people, got to know the kids in the compound."
+    },
+    {
+      "id": 634,
+      "startTime": 1326.2,
+      "endTime": 1327.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 635,
+      "startTime": 1327.2,
+      "endTime": 1330.2,
+      "speaker": null,
+      "text": "And he says that people walked around doing their regular chores"
+    },
+    {
+      "id": 636,
+      "startTime": 1330.2,
+      "endTime": 1333.2,
+      "speaker": null,
+      "text": "while the federal authorities were out there holding guns on them"
+    },
+    {
+      "id": 637,
+      "startTime": 1333.2,
+      "endTime": 1334.2,
+      "speaker": null,
+      "text": "and blasting in music and all that."
+    },
+    {
+      "id": 638,
+      "startTime": 1334.2,
+      "endTime": 1336.2,
+      "speaker": null,
+      "text": "They were still doing laundry detail."
+    },
+    {
+      "id": 639,
+      "startTime": 1336.2,
+      "endTime": 1337.2,
+      "speaker": null,
+      "text": "How come he didn't stay?"
+    },
+    {
+      "id": 640,
+      "startTime": 1338.2,
+      "endTime": 1341.2,
+      "speaker": null,
+      "text": "Because he discovered that Koresh was not God."
+    },
+    {
+      "id": 641,
+      "startTime": 1341.2,
+      "endTime": 1342.2,
+      "speaker": null,
+      "text": "Oh, how do you figure that out?"
+    },
+    {
+      "id": 642,
+      "startTime": 1342.2,
+      "endTime": 1343.2,
+      "speaker": null,
+      "text": "He lost faith."
+    },
+    {
+      "id": 643,
+      "startTime": 1345.2,
+      "endTime": 1350.2,
+      "speaker": null,
+      "text": "He says that Koresh had a vastly different lifestyle from any of the other people."
+    },
+    {
+      "id": 644,
+      "startTime": 1350.2,
+      "endTime": 1354.2,
+      "speaker": null,
+      "text": "He was the only one allowed to smoke, drink, and curse."
+    },
+    {
+      "id": 645,
+      "startTime": 1354.2,
+      "endTime": 1359.2,
+      "speaker": null,
+      "text": "And even though he was wounded in the original gunfire exchange"
+    },
+    {
+      "id": 646,
+      "startTime": 1359.2,
+      "endTime": 1363.2,
+      "speaker": null,
+      "text": "with the federal authorities, he continued to have an active sex life."
+    },
+    {
+      "id": 647,
+      "startTime": 1363.2,
+      "endTime": 1364.2,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 648,
+      "startTime": 1364.2,
+      "endTime": 1367.2,
+      "speaker": null,
+      "text": "So he was still singing and sleeping with women."
+    },
+    {
+      "id": 649,
+      "startTime": 1367.2,
+      "endTime": 1368.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 650,
+      "startTime": 1368.2,
+      "endTime": 1369.2,
+      "speaker": null,
+      "text": "Right up until the very last day."
+    },
+    {
+      "id": 651,
+      "startTime": 1369.2,
+      "endTime": 1372.2,
+      "speaker": null,
+      "text": "Man, what a way to go."
+    },
+    {
+      "id": 652,
+      "startTime": 1372.2,
+      "endTime": 1373.2,
+      "speaker": null,
+      "text": "What a scene this guy had."
+    },
+    {
+      "id": 653,
+      "startTime": 1373.2,
+      "endTime": 1376.2,
+      "speaker": null,
+      "text": "And really, when you think about it, what the hell were they thinking"
+    },
+    {
+      "id": 654,
+      "startTime": 1376.2,
+      "endTime": 1378.2,
+      "speaker": null,
+      "text": "when they fired on these federal officials?"
+    },
+    {
+      "id": 655,
+      "startTime": 1378.2,
+      "endTime": 1379.2,
+      "speaker": null,
+      "text": "They should have let them in."
+    },
+    {
+      "id": 656,
+      "startTime": 1379.2,
+      "endTime": 1381.2,
+      "speaker": null,
+      "text": "They could have seen this stockpile of guns."
+    },
+    {
+      "id": 657,
+      "startTime": 1381.2,
+      "endTime": 1382.2,
+      "speaker": null,
+      "text": "Yeah, they had taken a few guns away."
+    },
+    {
+      "id": 658,
+      "startTime": 1382.2,
+      "endTime": 1383.2,
+      "speaker": null,
+      "text": "That's all."
+    },
+    {
+      "id": 659,
+      "startTime": 1383.2,
+      "endTime": 1387.2,
+      "speaker": null,
+      "text": "I mean, seriously, you're allowed to stockpile guns in this country."
+    },
+    {
+      "id": 660,
+      "startTime": 1387.2,
+      "endTime": 1388.2,
+      "speaker": null,
+      "text": "You are."
+    },
+    {
+      "id": 661,
+      "startTime": 1388.2,
+      "endTime": 1391.2,
+      "speaker": null,
+      "text": "There were a few that they had altered and made illegal."
+    },
+    {
+      "id": 662,
+      "startTime": 1391.2,
+      "endTime": 1393.2,
+      "speaker": null,
+      "text": "So they would have taken them."
+    },
+    {
+      "id": 663,
+      "startTime": 1393.2,
+      "endTime": 1395.2,
+      "speaker": null,
+      "text": "What do you think, a lackey in jail for that?"
+    },
+    {
+      "id": 664,
+      "startTime": 1396.2,
+      "endTime": 1399.2,
+      "speaker": null,
+      "text": "And then it would have taken 19 years to investigate them for child abuse"
+    },
+    {
+      "id": 665,
+      "startTime": 1399.2,
+      "endTime": 1402.2,
+      "speaker": null,
+      "text": "because it would just drag on and on and on."
+    },
+    {
+      "id": 666,
+      "startTime": 1402.2,
+      "endTime": 1403.2,
+      "speaker": null,
+      "text": "You know, lawyers do that."
+    },
+    {
+      "id": 667,
+      "startTime": 1403.2,
+      "endTime": 1405.2,
+      "speaker": null,
+      "text": "They said most of the kids in the compound were his too."
+    },
+    {
+      "id": 668,
+      "startTime": 1405.2,
+      "endTime": 1406.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 669,
+      "startTime": 1406.2,
+      "endTime": 1407.2,
+      "speaker": null,
+      "text": "He had fathered so many children."
+    },
+    {
+      "id": 670,
+      "startTime": 1407.2,
+      "endTime": 1408.2,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 671,
+      "startTime": 1408.2,
+      "endTime": 1409.2,
+      "speaker": null,
+      "text": "Amazing."
+    },
+    {
+      "id": 672,
+      "startTime": 1410.2,
+      "endTime": 1413.2,
+      "speaker": null,
+      "text": "And then they had this other guy on who was a member of the Davidians"
+    },
+    {
+      "id": 673,
+      "startTime": 1413.2,
+      "endTime": 1415.2,
+      "speaker": null,
+      "text": "who had gotten out for some reason or other."
+    },
+    {
+      "id": 674,
+      "startTime": 1415.2,
+      "endTime": 1418.2,
+      "speaker": null,
+      "text": "And he said there was no suicide pact."
+    },
+    {
+      "id": 675,
+      "startTime": 1418.2,
+      "endTime": 1420.2,
+      "speaker": null,
+      "text": "None whatsoever."
+    },
+    {
+      "id": 676,
+      "startTime": 1420.2,
+      "endTime": 1421.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 677,
+      "startTime": 1422.2,
+      "endTime": 1423.2,
+      "speaker": null,
+      "text": "Yeah, we're going to believe him."
+    },
+    {
+      "id": 678,
+      "startTime": 1424.2,
+      "endTime": 1427.2,
+      "speaker": null,
+      "text": "So anyway, that's what went on there yesterday."
+    },
+    {
+      "id": 679,
+      "startTime": 1427.2,
+      "endTime": 1429.2,
+      "speaker": null,
+      "text": "They're starting the autopsies today."
+    },
+    {
+      "id": 680,
+      "startTime": 1429.2,
+      "endTime": 1433.2,
+      "speaker": null,
+      "text": "So we should hear something about how these people died very soon."
+    },
+    {
+      "id": 681,
+      "startTime": 1433.2,
+      "endTime": 1435.2,
+      "speaker": null,
+      "text": "Don't buy into that peaceful, loving hippie crap."
+    },
+    {
+      "id": 682,
+      "startTime": 1435.2,
+      "endTime": 1439.2,
+      "speaker": null,
+      "text": "I mean, why are you peaceful, loving hippies who stockpile weapons?"
+    },
+    {
+      "id": 683,
+      "startTime": 1439.2,
+      "endTime": 1440.2,
+      "speaker": null,
+      "text": "You know, what?"
+    },
+    {
+      "id": 684,
+      "startTime": 1440.2,
+      "endTime": 1441.2,
+      "speaker": null,
+      "text": "Yeah, what are the weapons?"
+    },
+    {
+      "id": 685,
+      "startTime": 1441.2,
+      "endTime": 1442.2,
+      "speaker": null,
+      "text": "They got on your team."
+    },
+    {
+      "id": 686,
+      "startTime": 1442.2,
+      "endTime": 1446.2,
+      "speaker": null,
+      "text": "But they truly had this vision that the world was going to go to war"
+    },
+    {
+      "id": 687,
+      "startTime": 1446.2,
+      "endTime": 1450.2,
+      "speaker": null,
+      "text": "and it would be kind of a doggy dog situation after that."
+    },
+    {
+      "id": 688,
+      "startTime": 1450.2,
+      "endTime": 1451.2,
+      "speaker": null,
+      "text": "Sort of happened, didn't it?"
+    },
+    {
+      "id": 689,
+      "startTime": 1451.2,
+      "endTime": 1452.2,
+      "speaker": null,
+      "text": "Well, he was right."
+    },
+    {
+      "id": 690,
+      "startTime": 1452.2,
+      "endTime": 1453.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 691,
+      "startTime": 1453.2,
+      "endTime": 1457.2,
+      "speaker": null,
+      "text": "But the guy who broke into the compound, too, said, you know,"
+    },
+    {
+      "id": 692,
+      "startTime": 1457.2,
+      "endTime": 1461.2,
+      "speaker": null,
+      "text": "one of the things that clued him in to the fact that David was a false god"
+    },
+    {
+      "id": 693,
+      "startTime": 1461.2,
+      "endTime": 1464.2,
+      "speaker": null,
+      "text": "was that he was spouting prophecy."
+    },
+    {
+      "id": 694,
+      "startTime": 1464.2,
+      "endTime": 1466.2,
+      "speaker": null,
+      "text": "You know, he said there was going to be earthquakes and this and that,"
+    },
+    {
+      "id": 695,
+      "startTime": 1466.2,
+      "endTime": 1468.2,
+      "speaker": null,
+      "text": "and they never happened."
+    },
+    {
+      "id": 696,
+      "startTime": 1468.2,
+      "endTime": 1472.2,
+      "speaker": null,
+      "text": "And in the Bible, it says if a guy prophesies something that doesn't occur,"
+    },
+    {
+      "id": 697,
+      "startTime": 1472.2,
+      "endTime": 1474.2,
+      "speaker": null,
+      "text": "he is not in contact with God."
+    },
+    {
+      "id": 698,
+      "startTime": 1474.2,
+      "endTime": 1475.2,
+      "speaker": null,
+      "text": "Right."
+    },
+    {
+      "id": 699,
+      "startTime": 1475.2,
+      "endTime": 1476.2,
+      "speaker": null,
+      "text": "That was the tip-off for him."
+    },
+    {
+      "id": 700,
+      "startTime": 1476.2,
+      "endTime": 1479.2,
+      "speaker": null,
+      "text": "That's why I follow Larry Sloman because he is..."
+    },
+    {
+      "id": 701,
+      "startTime": 1479.2,
+      "endTime": 1480.2,
+      "speaker": null,
+      "text": "He's always right?"
+    },
+    {
+      "id": 702,
+      "startTime": 1480.2,
+      "endTime": 1481.2,
+      "speaker": null,
+      "text": "He's always right."
+    },
+    {
+      "id": 703,
+      "startTime": 1481.2,
+      "endTime": 1483.2,
+      "speaker": null,
+      "text": "He's smart, he doesn't prophesize anything."
+    },
+    {
+      "id": 704,
+      "startTime": 1483.2,
+      "endTime": 1484.2,
+      "speaker": null,
+      "text": "He doesn't see anything."
+    },
+    {
+      "id": 705,
+      "startTime": 1484.2,
+      "endTime": 1487.2,
+      "speaker": null,
+      "text": "He really doesn't know what's happening."
+    },
+    {
+      "id": 706,
+      "startTime": 1487.2,
+      "endTime": 1488.2,
+      "speaker": null,
+      "text": "A Catholic priest..."
+    },
+    {
+      "id": 707,
+      "startTime": 1488.2,
+      "endTime": 1489.2,
+      "speaker": null,
+      "text": "He knew Lampoon would go under."
+    },
+    {
+      "id": 708,
+      "startTime": 1489.2,
+      "endTime": 1490.2,
+      "speaker": null,
+      "text": "Yeah?"
+    },
+    {
+      "id": 709,
+      "startTime": 1490.2,
+      "endTime": 1491.2,
+      "speaker": null,
+      "text": "That's it."
+    },
+    {
+      "id": 710,
+      "startTime": 1491.2,
+      "endTime": 1492.2,
+      "speaker": null,
+      "text": "He was right."
+    },
+    {
+      "id": 711,
+      "startTime": 1492.2,
+      "endTime": 1493.2,
+      "speaker": null,
+      "text": "He was right."
+    },
+    {
+      "id": 712,
+      "startTime": 1493.2,
+      "endTime": 1494.2,
+      "speaker": null,
+      "text": "That's when I started following him."
+    },
+    {
+      "id": 713,
+      "startTime": 1494.2,
+      "endTime": 1498.2,
+      "speaker": null,
+      "text": "A Catholic priest in upstate Orange County has now been accused"
+    },
+    {
+      "id": 714,
+      "startTime": 1498.2,
+      "endTime": 1500.2,
+      "speaker": null,
+      "text": "of running a secret sex club, Howard,"
+    },
+    {
+      "id": 715,
+      "startTime": 1500.2,
+      "endTime": 1503.2,
+      "speaker": null,
+      "text": "in which he gave beer to dozens of teenage boys"
+    },
+    {
+      "id": 716,
+      "startTime": 1503.2,
+      "endTime": 1507.2,
+      "speaker": null,
+      "text": "and sexually molested them as part of initiation into the club."
+    },
+    {
+      "id": 717,
+      "startTime": 1507.2,
+      "endTime": 1509.2,
+      "speaker": null,
+      "text": "Look, my kind of club."
+    },
+    {
+      "id": 718,
+      "startTime": 1509.2,
+      "endTime": 1515.2,
+      "speaker": null,
+      "text": "His name was Edward Papala, and he was in his 50s."
+    },
+    {
+      "id": 719,
+      "startTime": 1515.2,
+      "endTime": 1518.2,
+      "speaker": null,
+      "text": "He's been reassigned now to a medical facility"
+    },
+    {
+      "id": 720,
+      "startTime": 1518.2,
+      "endTime": 1520.2,
+      "speaker": null,
+      "text": "and is undergoing clinical evaluation,"
+    },
+    {
+      "id": 721,
+      "startTime": 1520.2,
+      "endTime": 1522.2,
+      "speaker": null,
+      "text": "according to the New York Catholic Archdiocese."
+    },
+    {
+      "id": 722,
+      "startTime": 1522.2,
+      "endTime": 1525.2,
+      "speaker": null,
+      "text": "There might be something wrong with him."
+    },
+    {
+      "id": 723,
+      "startTime": 1525.2,
+      "endTime": 1529.2,
+      "speaker": null,
+      "text": "He served at a church in Monroe until 1989"
+    },
+    {
+      "id": 724,
+      "startTime": 1529.2,
+      "endTime": 1533.2,
+      "speaker": null,
+      "text": "when he became pastor of the St. John's Roman Catholic Church in Goshen,"
+    },
+    {
+      "id": 725,
+      "startTime": 1533.2,
+      "endTime": 1535.2,
+      "speaker": null,
+      "text": "both of these in Orange County."
+    },
+    {
+      "id": 726,
+      "startTime": 1535.2,
+      "endTime": 1540.2,
+      "speaker": null,
+      "text": "Currently, according to the boys, the priest served them beer"
+    },
+    {
+      "id": 727,
+      "startTime": 1540.2,
+      "endTime": 1542.2,
+      "speaker": null,
+      "text": "and told them that to retain his friendship,"
+    },
+    {
+      "id": 728,
+      "startTime": 1542.2,
+      "endTime": 1545.2,
+      "speaker": null,
+      "text": "they would have to join a club called The Hole."
+    },
+    {
+      "id": 729,
+      "startTime": 1545.2,
+      "endTime": 1546.2,
+      "speaker": null,
+      "text": "The Hole Club?"
+    },
+    {
+      "id": 730,
+      "startTime": 1546.2,
+      "endTime": 1547.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 731,
+      "startTime": 1547.2,
+      "endTime": 1548.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 732,
+      "startTime": 1548.2,
+      "endTime": 1552.2,
+      "speaker": null,
+      "text": "As an initiation rite, the boys would masturbate in front of him."
+    },
+    {
+      "id": 733,
+      "startTime": 1552.2,
+      "endTime": 1555.2,
+      "speaker": null,
+      "text": "One boy was 13 when his mother asked the guy to act"
+    },
+    {
+      "id": 734,
+      "startTime": 1555.2,
+      "endTime": 1557.2,
+      "speaker": null,
+      "text": "as a role model for him 10 years ago."
+    },
+    {
+      "id": 735,
+      "startTime": 1557.2,
+      "endTime": 1559.2,
+      "speaker": null,
+      "text": "I thought he was."
+    },
+    {
+      "id": 736,
+      "startTime": 1559.2,
+      "endTime": 1562.2,
+      "speaker": null,
+      "text": "Now she's accusing him of abusing her son for seven years."
+    },
+    {
+      "id": 737,
+      "startTime": 1562.2,
+      "endTime": 1563.2,
+      "speaker": null,
+      "text": "Wow."
+    },
+    {
+      "id": 738,
+      "startTime": 1563.2,
+      "endTime": 1566.2,
+      "speaker": null,
+      "text": "He's now grown, says that the priest took him for drives"
+    },
+    {
+      "id": 739,
+      "startTime": 1566.2,
+      "endTime": 1569.2,
+      "speaker": null,
+      "text": "and let him drink beer and watch movies in the basement of the church."
+    },
+    {
+      "id": 740,
+      "startTime": 1569.2,
+      "endTime": 1572.2,
+      "speaker": null,
+      "text": "When the boy turned 15, the priest threatened to end the friendship"
+    },
+    {
+      "id": 741,
+      "startTime": 1572.2,
+      "endTime": 1574.2,
+      "speaker": null,
+      "text": "if he didn't join the club."
+    },
+    {
+      "id": 742,
+      "startTime": 1574.2,
+      "endTime": 1576.2,
+      "speaker": null,
+      "text": "And masturbate in front of him."
+    },
+    {
+      "id": 743,
+      "startTime": 1576.2,
+      "endTime": 1578.2,
+      "speaker": null,
+      "text": "Right. That was part of the initiation rite."
+    },
+    {
+      "id": 744,
+      "startTime": 1578.2,
+      "endTime": 1579.2,
+      "speaker": null,
+      "text": "Sounds like our card games."
+    },
+    {
+      "id": 745,
+      "startTime": 1579.2,
+      "endTime": 1582.2,
+      "speaker": null,
+      "text": "Apparently, the members of the club were given numbered t-shirts."
+    },
+    {
+      "id": 746,
+      "startTime": 1582.2,
+      "endTime": 1584.2,
+      "speaker": null,
+      "text": "They think there were 47 members."
+    },
+    {
+      "id": 747,
+      "startTime": 1584.2,
+      "endTime": 1586.2,
+      "speaker": null,
+      "text": "Wow."
+    },
+    {
+      "id": 748,
+      "startTime": 1586.2,
+      "endTime": 1588.2,
+      "speaker": null,
+      "text": "They are now questioning other parents."
+    },
+    {
+      "id": 749,
+      "startTime": 1588.2,
+      "endTime": 1590.2,
+      "speaker": null,
+      "text": "They're looking for recent offenses"
+    },
+    {
+      "id": 750,
+      "startTime": 1590.2,
+      "endTime": 1592.2,
+      "speaker": null,
+      "text": "because there's a statute of limitations."
+    },
+    {
+      "id": 751,
+      "startTime": 1592.2,
+      "endTime": 1595.2,
+      "speaker": null,
+      "text": "Five years for a felony"
+    },
+    {
+      "id": 752,
+      "startTime": 1595.2,
+      "endTime": 1596.2,
+      "speaker": null,
+      "text": "and two years for a misdemeanor."
+    },
+    {
+      "id": 753,
+      "startTime": 1596.2,
+      "endTime": 1599.2,
+      "speaker": null,
+      "text": "So they're looking for kids who've had this happen to them recently"
+    },
+    {
+      "id": 754,
+      "startTime": 1599.2,
+      "endTime": 1600.2,
+      "speaker": null,
+      "text": "so they can prosecute this guy."
+    },
+    {
+      "id": 755,
+      "startTime": 1600.2,
+      "endTime": 1604.2,
+      "speaker": null,
+      "text": "Anybody with information is told to call a Westchester number."
+    },
+    {
+      "id": 756,
+      "startTime": 1604.2,
+      "endTime": 1607.2,
+      "speaker": null,
+      "text": "Fred, isn't that the guy who introduced you into the whole club?"
+    },
+    {
+      "id": 757,
+      "startTime": 1609.2,
+      "endTime": 1610.2,
+      "speaker": null,
+      "text": "Yeah. No comment."
+    },
+    {
+      "id": 758,
+      "startTime": 1610.2,
+      "endTime": 1611.2,
+      "speaker": null,
+      "text": "That's what I thought. He doesn't want to talk about it."
+    },
+    {
+      "id": 759,
+      "startTime": 1611.2,
+      "endTime": 1612.2,
+      "speaker": null,
+      "text": "He does. It's too painful."
+    },
+    {
+      "id": 760,
+      "startTime": 1612.2,
+      "endTime": 1613.2,
+      "speaker": null,
+      "text": "All right. I understand."
+    },
+    {
+      "id": 761,
+      "startTime": 1613.2,
+      "endTime": 1614.2,
+      "speaker": null,
+      "text": "It's too painful for you."
+    },
+    {
+      "id": 762,
+      "startTime": 1614.2,
+      "endTime": 1615.2,
+      "speaker": null,
+      "text": "Maybe someday."
+    },
+    {
+      "id": 763,
+      "startTime": 1615.2,
+      "endTime": 1617.2,
+      "speaker": null,
+      "text": "Maybe someday you'll be as brave as Tom Arnold"
+    },
+    {
+      "id": 764,
+      "startTime": 1617.2,
+      "endTime": 1619.2,
+      "speaker": null,
+      "text": "and come clean on that story."
+    },
+    {
+      "id": 765,
+      "startTime": 1620.2,
+      "endTime": 1621.2,
+      "speaker": null,
+      "text": "Hey, bastard."
+    },
+    {
+      "id": 766,
+      "startTime": 1622.2,
+      "endTime": 1624.2,
+      "speaker": null,
+      "text": "Maybe you'll confront him."
+    },
+    {
+      "id": 767,
+      "startTime": 1627.2,
+      "endTime": 1630.2,
+      "speaker": null,
+      "text": "So, of course, the church is going to rehabilitate him, right?"
+    },
+    {
+      "id": 768,
+      "startTime": 1630.2,
+      "endTime": 1632.2,
+      "speaker": null,
+      "text": "Oh, yeah. They're clinically evaluating him."
+    },
+    {
+      "id": 769,
+      "startTime": 1632.2,
+      "endTime": 1633.2,
+      "speaker": null,
+      "text": "Yeah, we evaluated."
+    },
+    {
+      "id": 770,
+      "startTime": 1633.2,
+      "endTime": 1635.2,
+      "speaker": null,
+      "text": "We have a horny priest on our hands, we're pretty sure."
+    },
+    {
+      "id": 771,
+      "startTime": 1636.2,
+      "endTime": 1638.2,
+      "speaker": null,
+      "text": "But, you know, this is just another one of those stories"
+    },
+    {
+      "id": 772,
+      "startTime": 1638.2,
+      "endTime": 1640.2,
+      "speaker": null,
+      "text": "that sounds like too many others."
+    },
+    {
+      "id": 773,
+      "startTime": 1640.2,
+      "endTime": 1641.2,
+      "speaker": null,
+      "text": "Yeah. I love that when the church goes,"
+    },
+    {
+      "id": 774,
+      "startTime": 1641.2,
+      "endTime": 1643.2,
+      "speaker": null,
+      "text": "\"Well, instead of turning the guy over to authorities,"
+    },
+    {
+      "id": 775,
+      "startTime": 1643.2,
+      "endTime": 1646.2,
+      "speaker": null,
+      "text": "they're like, 'Well, we'll evaluate him and put him--"
+    },
+    {
+      "id": 776,
+      "startTime": 1646.2,
+      "endTime": 1649.2,
+      "speaker": null,
+      "text": "we'll put him with some more priests and they'll straighten him out.'\""
+    },
+    {
+      "id": 777,
+      "startTime": 1649.2,
+      "endTime": 1650.2,
+      "speaker": null,
+      "text": "Yeah, okay."
+    },
+    {
+      "id": 778,
+      "startTime": 1650.2,
+      "endTime": 1651.2,
+      "speaker": null,
+      "text": "Yeah, they'll talk to him."
+    },
+    {
+      "id": 779,
+      "startTime": 1651.2,
+      "endTime": 1652.2,
+      "speaker": null,
+      "text": "Talk to him."
+    },
+    {
+      "id": 780,
+      "startTime": 1652.2,
+      "endTime": 1653.2,
+      "speaker": null,
+      "text": "I should get him a priest collar."
+    },
+    {
+      "id": 781,
+      "startTime": 1653.2,
+      "endTime": 1655.2,
+      "speaker": null,
+      "text": "Two inches too small and let it choke him to death."
+    },
+    {
+      "id": 782,
+      "startTime": 1655.2,
+      "endTime": 1656.2,
+      "speaker": null,
+      "text": "That'll help him out."
+    },
+    {
+      "id": 783,
+      "startTime": 1656.2,
+      "endTime": 1657.2,
+      "speaker": null,
+      "text": "They're saying, \"How'd you do that?"
+    },
+    {
+      "id": 784,
+      "startTime": 1657.2,
+      "endTime": 1659.2,
+      "speaker": null,
+      "text": "You got 47 boys before you got caught."
+    },
+    {
+      "id": 785,
+      "startTime": 1659.2,
+      "endTime": 1660.2,
+      "speaker": null,
+      "text": "You're like a hero.\""
+    },
+    {
+      "id": 786,
+      "startTime": 1660.2,
+      "endTime": 1661.2,
+      "speaker": null,
+      "text": "Yeah."
+    },
+    {
+      "id": 787,
+      "startTime": 1661.2,
+      "endTime": 1663.2,
+      "speaker": null,
+      "text": "Yeah, the other priests are going to help him."
+    },
+    {
+      "id": 788,
+      "startTime": 1663.2,
+      "endTime": 1665.2,
+      "speaker": null,
+      "text": "Hey, how'd you do that?"
+    },
+    {
+      "id": 789,
+      "startTime": 1665.2,
+      "endTime": 1666.2,
+      "speaker": null,
+      "text": "How'd you get that whole club thing started?"
+    },
+    {
+      "id": 790,
+      "startTime": 1666.2,
+      "endTime": 1667.2,
+      "speaker": null,
+      "text": "I'm starting a new parish."
+    },
+    {
+      "id": 791,
+      "startTime": 1667.2,
+      "endTime": 1668.2,
+      "speaker": null,
+      "text": "That's a great idea."
+    },
+    {
+      "id": 792,
+      "startTime": 1668.2,
+      "endTime": 1671.2,
+      "speaker": null,
+      "text": "Yeah, they got a whole parcel of young boys."
+    },
+    {
+      "id": 793,
+      "startTime": 1672.2,
+      "endTime": 1674.2,
+      "speaker": null,
+      "text": "You're fantastic."
+    },
+    {
+      "id": 794,
+      "startTime": 1674.2,
+      "endTime": 1675.2,
+      "speaker": null,
+      "text": "Thank you."
+    },
+    {
+      "id": 795,
+      "startTime": 1675.2,
+      "endTime": 1676.2,
+      "speaker": null,
+      "text": "What about that club thing?"
+    },
+    {
+      "id": 796,
+      "startTime": 1676.2,
+      "endTime": 1677.2,
+      "speaker": null,
+      "text": "Kids love clubs."
+    },
+    {
+      "id": 797,
+      "startTime": 1677.2,
+      "endTime": 1679.2,
+      "speaker": null,
+      "text": "Would you be willing to write a primer on this?"
+    },
+    {
+      "id": 798,
+      "startTime": 1680.2,
+      "endTime": 1681.2,
+      "speaker": null,
+      "text": "Certainly."
+    },
+    {
+      "id": 799,
+      "startTime": 1683.2,
+      "endTime": 1687.2,
+      "speaker": null,
+      "text": "Latoya Jackson, we're still trying to get to the bottom of what went on between"
+    },
+    {
+      "id": 800,
+      "startTime": 1687.2,
+      "endTime": 1689.2,
+      "speaker": null,
+      "text": "she and her husband the other night."
+    },
+    {
+      "id": 801,
+      "startTime": 1690.2,
+      "endTime": 1693.2,
+      "speaker": null,
+      "text": "He did everything but rape her with a broken bottle, I think,"
+    },
+    {
+      "id": 802,
+      "startTime": 1693.2,
+      "endTime": 1695.2,
+      "speaker": null,
+      "text": "according to allegedly."
+    },
+    {
+      "id": 803,
+      "startTime": 1695.2,
+      "endTime": 1696.2,
+      "speaker": null,
+      "text": "Now, I don't know."
+    },
+    {
+      "id": 804,
+      "startTime": 1696.2,
+      "endTime": 1700.2,
+      "speaker": null,
+      "text": "On Channel 4 News yesterday, they said her mother has flown into New York."
+    },
+    {
+      "id": 805,
+      "startTime": 1700.2,
+      "endTime": 1703.2,
+      "speaker": null,
+      "text": "You know, Latoya hasn't seen her mother in several years."
+    },
+    {
+      "id": 806,
+      "startTime": 1703.2,
+      "endTime": 1706.2,
+      "speaker": null,
+      "text": "Her mother has come here in hopes of having a meeting with her daughter,"
+    },
+    {
+      "id": 807,
+      "startTime": 1706.2,
+      "endTime": 1710.2,
+      "speaker": null,
+      "text": "and according to the news report yesterday, they said her husband"
+    },
+    {
+      "id": 808,
+      "startTime": 1710.2,
+      "endTime": 1712.2,
+      "speaker": null,
+      "text": "was leaving town today."
+    },
+    {
+      "id": 809,
+      "startTime": 1712.2,
+      "endTime": 1715.2,
+      "speaker": null,
+      "text": "He's scheduled to leave town for some business or something,"
+    },
+    {
+      "id": 810,
+      "startTime": 1715.2,
+      "endTime": 1721.2,
+      "speaker": null,
+      "text": "so maybe Mother Jackson and Latoya will get a chance to meet out of Jack's presence."
+    },
+    {
+      "id": 811,
+      "startTime": 1721.2,
+      "endTime": 1722.2,
+      "speaker": null,
+      "text": "Right on."
+    },
+    {
+      "id": 812,
+      "startTime": 1722.2,
+      "endTime": 1724.2,
+      "speaker": null,
+      "text": "But I thought Latoya was afraid her parents would kidnap her"
+    },
+    {
+      "id": 813,
+      "startTime": 1724.2,
+      "endTime": 1727.2,
+      "speaker": null,
+      "text": "and bring her back to California."
+    },
+    {
+      "id": 814,
+      "startTime": 1727.2,
+      "endTime": 1729.2,
+      "speaker": null,
+      "text": "So what'd he beat her with, a dining room chair?"
+    },
+    {
+      "id": 815,
+      "startTime": 1729.2,
+      "endTime": 1730.2,
+      "speaker": null,
+      "text": "That's what they say."
+    },
+    {
+      "id": 816,
+      "startTime": 1730.2,
+      "endTime": 1732.2,
+      "speaker": null,
+      "text": "They say that he kicked, beat."
+    },
+    {
+      "id": 817,
+      "startTime": 1732.2,
+      "endTime": 1735.2,
+      "speaker": null,
+      "text": "She said she was lying in a pool of blood when the police found her,"
+    },
+    {
+      "id": 818,
+      "startTime": 1735.2,
+      "endTime": 1738.2,
+      "speaker": null,
+      "text": "but as you said earlier, she's planning to drop the charges."
+    },
+    {
+      "id": 819,
+      "startTime": 1738.2,
+      "endTime": 1740.2,
+      "speaker": null,
+      "text": "She doesn't want to charge him with anything."
+    },
+    {
+      "id": 820,
+      "startTime": 1740.2,
+      "endTime": 1745.2,
+      "speaker": null,
+      "text": "The speculation is that because he's under chemotherapy or radiation therapy,"
+    },
+    {
+      "id": 821,
+      "startTime": 1745.2,
+      "endTime": 1748.2,
+      "speaker": null,
+      "text": "that he undergoes these mood swings."
+    },
+    {
+      "id": 822,
+      "startTime": 1748.2,
+      "endTime": 1749.2,
+      "speaker": null,
+      "text": "I don't know."
+    },
+    {
+      "id": 823,
+      "startTime": 1749.2,
+      "endTime": 1754.2,
+      "speaker": null,
+      "text": "And it's a fact, you know, in relation to his medical treatment that this occurred,"
+    },
+    {
+      "id": 824,
+      "startTime": 1754.2,
+      "endTime": 1756.2,
+      "speaker": null,
+      "text": "because he never did this before."
+    },
+    {
+      "id": 825,
+      "startTime": 1757.2,
+      "endTime": 1762.2,
+      "speaker": null,
+      "text": "Listen, both my grandparents died of cancer and had tremendous chemotherapy beforehand,"
+    },
+    {
+      "id": 826,
+      "startTime": 1762.2,
+      "endTime": 1764.2,
+      "speaker": null,
+      "text": "and they never beat me with a chair."
+    },
+    {
+      "id": 827,
+      "startTime": 1764.2,
+      "endTime": 1768.2,
+      "speaker": null,
+      "text": "Doesn't mean it couldn't happen."
+    },
+    {
+      "id": 828,
+      "startTime": 1768.2,
+      "endTime": 1771.2,
+      "speaker": null,
+      "text": "She'd be safer if she had cancer."
+    },
+    {
+      "id": 829,
+      "startTime": 1771.2,
+      "endTime": 1773.2,
+      "speaker": null,
+      "text": "It's unbelievable."
+    },
+    {
+      "id": 830,
+      "startTime": 1775.2,
+      "endTime": 1777.2,
+      "speaker": null,
+      "text": "Well, I just hope they get it all straightened out."
+    },
+    {
+      "id": 831,
+      "startTime": 1777.2,
+      "endTime": 1778.2,
+      "speaker": null,
+      "text": "Well, with her mom there, I'm sure."
+    },
+    {
+      "id": 832,
+      "startTime": 1778.2,
+      "endTime": 1780.2,
+      "speaker": null,
+      "text": "Her mom will teach her how to duck a punch."
+    },
+    {
+      "id": 833,
+      "startTime": 1780.2,
+      "endTime": 1781.2,
+      "speaker": null,
+      "text": "Won't she?"
+    },
+    {
+      "id": 834,
+      "startTime": 1781.2,
+      "endTime": 1782.2,
+      "speaker": null,
+      "text": "I don't know."
+    },
+    {
+      "id": 835,
+      "startTime": 1782.2,
+      "endTime": 1783.2,
+      "speaker": null,
+      "text": "How would I know?"
+    },
+    {
+      "id": 836,
+      "startTime": 1783.2,
+      "endTime": 1784.2,
+      "speaker": null,
+      "text": "I don't know."
+    },
+    {
+      "id": 837,
+      "startTime": 1784.2,
+      "endTime": 1786.2,
+      "speaker": null,
+      "text": "Maybe she'll teach her how to box."
+    },
+    {
+      "id": 838,
+      "startTime": 1786.2,
+      "endTime": 1787.2,
+      "speaker": null,
+      "text": "This is what you do."
+    },
+    {
+      "id": 839,
+      "startTime": 1787.2,
+      "endTime": 1788.2,
+      "speaker": null,
+      "text": "Is that how you defend yourself?"
+    },
+    {
+      "id": 840,
+      "startTime": 1788.2,
+      "endTime": 1789.2,
+      "speaker": null,
+      "text": "Latoya will be in touch with us."
+    },
+    {
+      "id": 841,
+      "startTime": 1789.2,
+      "endTime": 1792.2,
+      "speaker": null,
+      "text": "We're friendly with her, and she's going to let us in on the whole thing."
+    },
+    {
+      "id": 842,
+      "startTime": 1792.2,
+      "endTime": 1794.2,
+      "speaker": null,
+      "text": "All right."
+    },
+    {
+      "id": 843,
+      "startTime": 1794.2,
+      "endTime": 1795.2,
+      "speaker": null,
+      "text": "One of these days."
+    },
+    {
+      "id": 844,
+      "startTime": 1797.2,
+      "endTime": 1799.2,
+      "speaker": null,
+      "text": "There are a couple of interesting studies."
+    },
+    {
+      "id": 845,
+      "startTime": 1799.2,
+      "endTime": 1800.2,
+      "speaker": null,
+      "text": "I knew this."
+    },
+    {
+      "id": 846,
+      "startTime": 1800.0,
+      "endTime": 1807.04,
+      "speaker": null,
+      "text": "was ridiculous. I'm very upset with the medical community Howard because they constantly put out"
+    },
+    {
+      "id": 847,
+      "startTime": 1807.04,
+      "endTime": 1813.6,
+      "speaker": null,
+      "text": "these results of studies that totally contradict each other. Two days ago they were screaming"
+    },
+    {
+      "id": 848,
+      "startTime": 1813.6,
+      "endTime": 1820.64,
+      "speaker": null,
+      "text": "drink a bunch of booze because it'll help your heart. Yeah. And then two days later they say"
+    },
+    {
+      "id": 849,
+      "startTime": 1820.64,
+      "endTime": 1826.56,
+      "speaker": null,
+      "text": "but ladies don't you drink because it'll cause your breasts to fill up with cancer."
+    },
+    {
+      "id": 850,
+      "startTime": 1828.16,
+      "endTime": 1833.12,
+      "speaker": null,
+      "text": "So now a new study says two alcoholic drinks a day may be enough to encourage"
+    },
+    {
+      "id": 851,
+      "startTime": 1834.48,
+      "endTime": 1840.4,
+      "speaker": null,
+      "text": "or raise your hormone level which could lead to breast cancer. Use your brains alcohol is like"
+    },
+    {
+      "id": 852,
+      "startTime": 1840.4,
+      "endTime": 1846.64,
+      "speaker": null,
+      "text": "some guy made up. It's not even like from nature really. I mean it starts with something in nature"
+    },
+    {
+      "id": 853,
+      "startTime": 1846.64,
+      "endTime": 1854.16,
+      "speaker": null,
+      "text": "and then they add a whole bunch of stuff to it. You know it totally wrecks you you know. It's"
+    },
+    {
+      "id": 854,
+      "startTime": 1854.16,
+      "endTime": 1860.48,
+      "speaker": null,
+      "text": "poison. Yeah I mean it's got look at Jackie he's aged he's aging he looks 60 and he's like 45"
+    },
+    {
+      "id": 855,
+      "startTime": 1861.52,
+      "endTime": 1867.36,
+      "speaker": null,
+      "text": "so there's got to be something wrong with it. But they keep with this you know oh two drinks a day"
+    },
+    {
+      "id": 856,
+      "startTime": 1867.36,
+      "endTime": 1875.04,
+      "speaker": null,
+      "text": "you don't get a heart attack but you die of cancer okay no problem. Also they say that children whose"
+    },
+    {
+      "id": 857,
+      "startTime": 1875.04,
+      "endTime": 1884.24,
+      "speaker": null,
+      "text": "mothers have breast implants have unusual immune disorders. Oh really? Yeah. They have been found"
+    },
+    {
+      "id": 858,
+      "startTime": 1884.24,
+      "endTime": 1892.08,
+      "speaker": null,
+      "text": "in the children so they don't know if it's leakage you know some of the silicone seeping into the"
+    },
+    {
+      "id": 859,
+      "startTime": 1893.68,
+      "endTime": 1899.04,
+      "speaker": null,
+      "text": "womb or something. Yeah I can believe that. Or if it's from the breast milk if the kids breastfeed"
+    },
+    {
+      "id": 860,
+      "startTime": 1899.04,
+      "endTime": 1905.28,
+      "speaker": null,
+      "text": "and they're getting it that way they don't know what it's from. No kidding. Just something to keep"
+    },
+    {
+      "id": 861,
+      "startTime": 1905.28,
+      "endTime": 1912.64,
+      "speaker": null,
+      "text": "in mind. That makes sense. And also now this is very interesting Howard. Now you know people use"
+    },
+    {
+      "id": 862,
+      "startTime": 1912.64,
+      "endTime": 1918.16,
+      "speaker": null,
+      "text": "an electronic device called a pacemaker to keep people's hearts beating if they have a problem"
+    },
+    {
+      "id": 863,
+      "startTime": 1918.16,
+      "endTime": 1926.56,
+      "speaker": null,
+      "text": "with their heart rhythm. Well now Italian doctors have been putting you know the same kind of an"
+    },
+    {
+      "id": 864,
+      "startTime": 1926.56,
+      "endTime": 1932.08,
+      "speaker": null,
+      "text": "electrical device. I don't know where they put it though I can't figure that out. Where they put it?"
+    },
+    {
+      "id": 865,
+      "startTime": 1932.08,
+      "endTime": 1939.92,
+      "speaker": null,
+      "text": "Well when people have their rectums reconstructed. I've had that yeah go ahead. They take a little"
+    },
+    {
+      "id": 866,
+      "startTime": 1939.92,
+      "endTime": 1944.8,
+      "speaker": null,
+      "text": "piece of your thigh muscle. Yeah. And they resonate you know they recreate a rectum for you when you"
+    },
+    {
+      "id": 867,
+      "startTime": 1944.8,
+      "endTime": 1950.4,
+      "speaker": null,
+      "text": "know you or cancer or whatever reason you had to have that taken out. Great. And what the problem"
+    },
+    {
+      "id": 868,
+      "startTime": 1950.4,
+      "endTime": 1956.24,
+      "speaker": null,
+      "text": "that was caused was there was no way of controlling continents shall we say or knowing when you were"
+    },
+    {
+      "id": 869,
+      "startTime": 1956.24,
+      "endTime": 1960.48,
+      "speaker": null,
+      "text": "going to go to the bathroom. Some believe. Imagine you pour thigh muscles like you know Jesus I really"
+    },
+    {
+      "id": 870,
+      "startTime": 1960.48,
+      "endTime": 1966.72,
+      "speaker": null,
+      "text": "enjoyed being a thigh muscle and now I'm in a rectum. Look at where they put me. So anyway what"
+    },
+    {
+      "id": 871,
+      "startTime": 1966.72,
+      "endTime": 1973.36,
+      "speaker": null,
+      "text": "they have decided to do was take this electrical device called an implantable pulse generator."
+    },
+    {
+      "id": 872,
+      "startTime": 1973.36,
+      "endTime": 1981.52,
+      "speaker": null,
+      "text": "Yeah. And they put that inside you somewhere and that way yeah. When you have received a new anal"
+    },
+    {
+      "id": 873,
+      "startTime": 1981.52,
+      "endTime": 1994.4,
+      "speaker": null,
+      "text": "sphincter. Thank you. A what? Anal sphincter? Yeah. The implanted device will make sure that"
+    },
+    {
+      "id": 874,
+      "startTime": 1994.4,
+      "endTime": 2000.8,
+      "speaker": null,
+      "text": "you don't go to the bathroom when you don't want to. I don't want to go to the bathroom. I'll throw"
+    },
+    {
+      "id": 875,
+      "startTime": 2000.8,
+      "endTime": 2006.56,
+      "speaker": null,
+      "text": "the switch. Great way to live. It's like a light switch. Turn it on and turn it off. But they say this"
+    },
+    {
+      "id": 876,
+      "startTime": 2006.56,
+      "endTime": 2013.12,
+      "speaker": null,
+      "text": "is a much better way to solve the situation as opposed to the external switch they were using"
+    },
+    {
+      "id": 877,
+      "startTime": 2013.12,
+      "endTime": 2017.76,
+      "speaker": null,
+      "text": "before. Yeah. Isn't that nice? Yes. You know we take taking a dump for granted."
+    },
+    {
+      "id": 878,
+      "startTime": 2020.0,
+      "endTime": 2024.0,
+      "speaker": null,
+      "text": "And finally this morning. What if you poop out the device then you're in real trouble."
+    },
+    {
+      "id": 879,
+      "startTime": 2025.84,
+      "endTime": 2033.52,
+      "speaker": null,
+      "text": "What's finally Robin? In Portland, Oregon a man who was being in you know going through the"
+    },
+    {
+      "id": 880,
+      "startTime": 2033.52,
+      "endTime": 2041.28,
+      "speaker": null,
+      "text": "initiation rites to join Mountain Men Anonymous. Yeah. Had a terrible mishap. What was happening"
+    },
+    {
+      "id": 881,
+      "startTime": 2041.28,
+      "endTime": 2045.92,
+      "speaker": null,
+      "text": "was the guys were drinking partying you know getting ready to initiate this guy into their"
+    },
+    {
+      "id": 882,
+      "startTime": 2045.92,
+      "endTime": 2051.76,
+      "speaker": null,
+      "text": "organization. And then one of the members you know part of the initiation is that you have to"
+    },
+    {
+      "id": 883,
+      "startTime": 2051.76,
+      "endTime": 2057.12,
+      "speaker": null,
+      "text": "do that William Tell thing. Yeah. You got to shoot an apple off someone's head. He had a beer can"
+    },
+    {
+      "id": 884,
+      "startTime": 2057.68,
+      "endTime": 2062.96,
+      "speaker": null,
+      "text": "on his head. Yeah. Standing next to a tree. You're kidding me. And one of the members loaded up"
+    },
+    {
+      "id": 885,
+      "startTime": 2063.52,
+      "endTime": 2069.28,
+      "speaker": null,
+      "text": "his bow. And then his schwincter switch got stuck. With an arrow. And he exploded. And shot it at"
+    },
+    {
+      "id": 886,
+      "startTime": 2069.28,
+      "endTime": 2075.04,
+      "speaker": null,
+      "text": "the guy. Yeah. I suppose they had the beer can. But it didn't. It went to the guy's eye. Oh."
+    },
+    {
+      "id": 887,
+      "startTime": 2078.0,
+      "endTime": 2084.24,
+      "speaker": null,
+      "text": "And came out the back of his head. Did it. Thank goodness paramedics rushed to the scene and they"
+    },
+    {
+      "id": 888,
+      "startTime": 2084.24,
+      "endTime": 2091.6,
+      "speaker": null,
+      "text": "convinced the guy not to pull out the arrow. Because if he had he probably would have died."
+    },
+    {
+      "id": 889,
+      "startTime": 2092.64,
+      "endTime": 2098.08,
+      "speaker": null,
+      "text": "As it is he lost his right eye and partial visit in his left eye as a result of damage to the"
+    },
+    {
+      "id": 890,
+      "startTime": 2098.08,
+      "endTime": 2103.68,
+      "speaker": null,
+      "text": "occipital lobe of the brain which controls eyesight. Yeah I have trouble with that. But he never lost"
+    },
+    {
+      "id": 891,
+      "startTime": 2103.68,
+      "endTime": 2110.56,
+      "speaker": null,
+      "text": "consciousness. And neurosurgeons said that they succeeded in pulling out the arrow without causing"
+    },
+    {
+      "id": 892,
+      "startTime": 2110.56,
+      "endTime": 2116.8,
+      "speaker": null,
+      "text": "too much more damage than was already done. The guy who was actually shot said. Now I can't go"
+    },
+    {
+      "id": 893,
+      "startTime": 2116.8,
+      "endTime": 2124.08,
+      "speaker": null,
+      "text": "through a door. I feel really stupid. Yeah. I'm lucky I didn't have more brain damage."
+    },
+    {
+      "id": 894,
+      "startTime": 2127.28,
+      "endTime": 2133.68,
+      "speaker": null,
+      "text": "He also says that. I think Tom wants to be in the mountain man club. General manager. A gentler"
+    },
+    {
+      "id": 895,
+      "startTime": 2133.68,
+      "endTime": 2142.4,
+      "speaker": null,
+      "text": "indoctrination. So there you go. Mountain man anonymous. There you go. I'm gonna join that."
+    },
+    {
+      "id": 896,
+      "startTime": 2143.76,
+      "endTime": 2147.76,
+      "speaker": null,
+      "text": "All they have to do is shoot an arrow off your head after they've or a can off your head after"
+    },
+    {
+      "id": 897,
+      "startTime": 2147.76,
+      "endTime": 2150.56,
+      "speaker": null,
+      "text": "they've been drinking. I don't mean to be cute but I guess he's not so anonymous anymore."
+    },
+    {
+      "id": 898,
+      "startTime": 2152.56,
+      "endTime": 2154.72,
+      "speaker": null,
+      "text": "All right let's get out of here. Jackie joke man."
+    },
+    {
+      "id": 899,
+      "startTime": 2156.32,
+      "endTime": 2160.0,
+      "speaker": null,
+      "text": "By the way let me give him a plug for Richard Pryor tonight at Newark Symphony Hall."
+    },
+    {
+      "id": 900,
+      "startTime": 2161.6,
+      "endTime": 2166.0,
+      "speaker": null,
+      "text": "In Newark New Jersey tickets available at Ticketmaster in the Symphony Hall box office. Oh we didn't"
+    },
+    {
+      "id": 901,
+      "startTime": 2166.0,
+      "endTime": 2172.0,
+      "speaker": null,
+      "text": "announce your little award either. What award? Noted. I have? Yes I showed you that this morning."
+    },
+    {
+      "id": 902,
+      "startTime": 2172.0,
+      "endTime": 2177.68,
+      "speaker": null,
+      "text": "What award? There's a group that decided to you know pull people and ask who would who were good"
+    },
+    {
+      "id": 903,
+      "startTime": 2177.68,
+      "endTime": 2184.72,
+      "speaker": null,
+      "text": "mom role models on TV. Oh thank you. And who could most use mom's advice. Yeah. And the mom role"
+    },
+    {
+      "id": 904,
+      "startTime": 2184.72,
+      "endTime": 2189.76,
+      "speaker": null,
+      "text": "models were people like Kathy Lee. Kathy Lee of course who is such a great mom that she's she"
+    },
+    {
+      "id": 905,
+      "startTime": 2189.76,
+      "endTime": 2193.04,
+      "speaker": null,
+      "text": "takes her kid and just I understand she had a TV special last night. I didn't get a chance to talk"
+    },
+    {
+      "id": 906,
+      "startTime": 2193.04,
+      "endTime": 2197.76,
+      "speaker": null,
+      "text": "about it. I'll talk about it tomorrow. But she had a TV special last night and she had her kid in"
+    },
+    {
+      "id": 907,
+      "startTime": 2197.76,
+      "endTime": 2202.0,
+      "speaker": null,
+      "text": "the audience at Cody. Well no no no that was on the news. Was that what that was where he's throwing"
+    },
+    {
+      "id": 908,
+      "startTime": 2202.0,
+      "endTime": 2206.48,
+      "speaker": null,
+      "text": "her kisses and saying I love you. Yeah and she's gonna love you too. Yeah that kid isn't gonna grow"
+    },
+    {
+      "id": 909,
+      "startTime": 2206.48,
+      "endTime": 2213.2,
+      "speaker": null,
+      "text": "up to hate her too much. She doesn't even have a cloak. What a knucklehead. So she was voted"
+    },
+    {
+      "id": 910,
+      "startTime": 2213.2,
+      "endTime": 2217.92,
+      "speaker": null,
+      "text": "mother of the year. Well they said you know whoever they polled I think MCI did a poll and"
+    },
+    {
+      "id": 911,
+      "startTime": 2217.92,
+      "endTime": 2223.92,
+      "speaker": null,
+      "text": "and the people said they thought that Kathy Lee was a good mom role model. Yeah. They also said"
+    },
+    {
+      "id": 912,
+      "startTime": 2223.92,
+      "endTime": 2229.68,
+      "speaker": null,
+      "text": "the mother on Beverly Hills 90210 is a good role model. Yeah she's just like my mom. And I think"
+    },
+    {
+      "id": 913,
+      "startTime": 2229.68,
+      "endTime": 2235.76,
+      "speaker": null,
+      "text": "Marge Simpson made the list too. Yeah. And then they said who most needs mother's advice."
+    },
+    {
+      "id": 914,
+      "startTime": 2236.48,
+      "endTime": 2245.2,
+      "speaker": null,
+      "text": "Yeah. And they said Madonna and Howard Stern. And who else? Mike Tyson. And Joey Butterfuro."
+    },
+    {
+      "id": 915,
+      "startTime": 2248.8,
+      "endTime": 2254.64,
+      "speaker": null,
+      "text": "All right Jackie Platinum joke page Martling could use mother's advice. Tomorrow night one"
+    },
+    {
+      "id": 916,
+      "startTime": 2254.64,
+      "endTime": 2259.04,
+      "speaker": null,
+      "text": "big show at the New York comedy loft in the Middletown Holiday Inn in Middletown New York."
+    },
+    {
+      "id": 917,
+      "startTime": 2259.04,
+      "endTime": 2266.32,
+      "speaker": null,
+      "text": "For dirty jokes and info call the all digital 516-922-1. Remember 516-922-1 is just a regular call."
+    },
+    {
+      "id": 918,
+      "startTime": 2266.32,
+      "endTime": 2271.84,
+      "speaker": null,
+      "text": "That's Jackie the joke man. And Thursday night go see him May 13th at Bananas Comedy Club"
+    },
+    {
+      "id": 919,
+      "startTime": 2271.84,
+      "endTime": 2276.48,
+      "speaker": null,
+      "text": "in the Fort Lee Holiday Inn. Go try and stump the joke man. It'll be a lot of fun. Boy Gary this"
+    },
+    {
+      "id": 920,
+      "startTime": 2276.48,
+      "endTime": 2281.12,
+      "speaker": null,
+      "text": "Saturday at the Newark Airport Public Auto auction from 11 a.m. to 1 p.m. and Friday May 14th at"
+    },
+    {
+      "id": 921,
+      "startTime": 2281.12,
+      "endTime": 2286.32,
+      "speaker": null,
+      "text": "Collector's Palace Animation Gallery on 88th and 3rd in Bay Ridge Brooklyn with legendary animator"
+    },
+    {
+      "id": 922,
+      "startTime": 2286.32,
+      "endTime": 2291.92,
+      "speaker": null,
+      "text": "Joe Barbera. And if you're looking for a great DJ for your wedding or summer party call Scott the"
+    },
+    {
+      "id": 923,
+      "startTime": 2291.92,
+      "endTime": 2296.4,
+      "speaker": null,
+      "text": "Engineers Rocket Entertainment toll free from any city 1-800-PARTY-MC that's the number. And if you"
+    },
+    {
+      "id": 924,
+      "startTime": 2296.4,
+      "endTime": 2304.48,
+      "speaker": null,
+      "text": "want to hire Scott in the New York area call 718-BAG-5040. I got to go to my friend's wedding. I"
+    },
+    {
+      "id": 925,
+      "startTime": 2304.48,
+      "endTime": 2308.4,
+      "speaker": null,
+      "text": "think it's like either this weekend or next weekend. A friend of mine at least is getting"
+    },
+    {
+      "id": 926,
+      "startTime": 2308.4,
+      "endTime": 2313.36,
+      "speaker": null,
+      "text": "married and she hired Scott to do the DJ work and Scott goes hey I'm gonna be at the wedding"
+    },
+    {
+      "id": 927,
+      "startTime": 2313.36,
+      "endTime": 2322.48,
+      "speaker": null,
+      "text": "you're gonna be there. She having a big wedding? Uh I don't know I don't know anything about it."
+    },
+    {
+      "id": 928,
+      "startTime": 2323.28,
+      "endTime": 2325.28,
+      "speaker": null,
+      "text": "I'll tell you the truth Scott would probably know more about it."
+    },
+    {
+      "id": 929,
+      "startTime": 2328.72,
+      "endTime": 2333.28,
+      "speaker": null,
+      "text": "But uh my wife threw her shower. Did she? Yeah with a bunch of other girls"
+    },
+    {
+      "id": 930,
+      "startTime": 2333.28,
+      "endTime": 2340.48,
+      "speaker": null,
+      "text": "to have that going. And uh so I got to go to the wedding even though I was supposed to tape"
+    },
+    {
+      "id": 931,
+      "startTime": 2340.48,
+      "endTime": 2345.92,
+      "speaker": null,
+      "text": "some tv shows that they believe it or not. Really? Yeah. So I got a whole sticky situation but I'm"
+    },
+    {
+      "id": 932,
+      "startTime": 2345.92,
+      "endTime": 2350.72,
+      "speaker": null,
+      "text": "gonna have to my wife says I have to go. You have to go. Yeah so I'm going. You would never live that"
+    },
+    {
+      "id": 933,
+      "startTime": 2350.72,
+      "endTime": 2356.96,
+      "speaker": null,
+      "text": "one down. No. All right so let's uh say goodbye and we'll see you tomorrow. Okie doke. All right."
+    },
+    {
+      "id": 934,
+      "startTime": 2363.28,
+      "endTime": 2373.04,
+      "speaker": null,
+      "text": "G Gordon Lady Midday and the Green Smith at night. Washington Super Station is 106.7 WJFK FM"
+    },
+    {
+      "id": 935,
+      "startTime": 2373.04,
+      "endTime": 2384.24,
+      "speaker": null,
+      "text": "Manassas, Washington 1300 AM WJFK Baltimore with the G Gordon Lady show next."
+    }
+  ]
+}

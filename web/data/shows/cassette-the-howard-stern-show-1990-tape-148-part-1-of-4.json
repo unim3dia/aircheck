@@ -1,0 +1,665 @@
+{
+  "showID": "cassette-the-howard-stern-show-1990-tape-148-part-1-of-4",
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Howard Receives Congratulatory Messages",
+      "summary": "The host describes receiving numerous congratulatory messages from listeners, primarily older adults who were critical of a rival radio personality. He recounts encounters where individuals expressed their satisfaction with his actions and highlighted the widespread negative sentiment surrounding the defeated individual in Philadelphia.",
+      "startTime": 0.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "Stern Discusses Rate Reduction, Columnist",
+      "summary": "Two individuals discuss a desire for lower advertising rates with Stern, while one expresses concern about a mentally unstable columnist. The conversation references past events like the fall of the Berlin Wall and a recent defeat attributed to 'the stern gang'.",
+      "startTime": 74.88,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Radio Contest - Philadelphia Dinner Suggestions",
+      "summary": "Tom hosts a radio contest inviting listeners to suggest dinner locations in Philadelphia via letter or phone call; participants are encouraged to provide recommendations for the host's daily game play.",
+      "startTime": 144.64,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Radio Host Promotes Contest, Shares Personal Stories",
+      "summary": "The radio host announces a contest offering prizes up to $25,000 for home videos and then discusses an incident involving John DeBella at his bar. The conversation shifts to the listener’s dating life with suggestions about contacting potential partners.",
+      "startTime": 220.36,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "Andy Bloom Discusses Stu Bikovsky Contest Idea",
+      "summary": "Program director Andy Bloom discusses a column by Stu Bikovsky proposing a contest for zoo ideas, noting the potential difficulty of receiving submissions and making a lighthearted comment about Philadelphia.",
+      "startTime": 288.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Man Challenges Columnist’s Birthday Suggestion",
+      "summary": "A man disputes the columnist’s offer of a Philadelphia tour and expresses skepticism about meeting him, referencing previous comments and a contest for ideas on where to take ‘stu.’",
+      "startTime": 359.44,
+      "imageURL": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 0,
+      "startTime": 0.0,
+      "endTime": 5.16,
+      "speaker": null,
+      "text": "Great pleasure in announcing that we are the the champs of Philadelphia that we have beaten this guy in the rain"
+    },
+    {
+      "id": 1,
+      "startTime": 5.16,
+      "endTime": 9.32,
+      "speaker": null,
+      "text": "We've trounced him and I take great pleasure that people are pointing it out to him every five minutes"
+    },
+    {
+      "id": 2,
+      "startTime": 10.12,
+      "endTime": 10.92,
+      "speaker": null,
+      "text": "Well, you know what?"
+    },
+    {
+      "id": 3,
+      "startTime": 10.92,
+      "endTime": 16.16,
+      "speaker": null,
+      "text": "That's a really cool thing is people who like I barely know who I would not think would be listeners who are much"
+    },
+    {
+      "id": 4,
+      "startTime": 16.16,
+      "endTime": 20.88,
+      "speaker": null,
+      "text": "Oh, you know much older, right? There's messages all over the place on my machine"
+    },
+    {
+      "id": 5,
+      "startTime": 20.88,
+      "endTime": 25.54,
+      "speaker": null,
+      "text": "I come in and there's messages from people who I barely know who are much older and out of the demo calling to"
+    },
+    {
+      "id": 6,
+      "startTime": 25.76,
+      "endTime": 30.84,
+      "speaker": null,
+      "text": "Congratulate us and how wonderful things are and they saw the quotes and they heard what Howard did and yeah, you know"
+    },
+    {
+      "id": 7,
+      "startTime": 30.84,
+      "endTime": 35.36,
+      "speaker": null,
+      "text": "Yes, they hate that guy yesterday. I walk into a computer store to go look at a computer and a guy goes"
+    },
+    {
+      "id": 8,
+      "startTime": 35.36,
+      "endTime": 40.52,
+      "speaker": null,
+      "text": "Oh, I know you from YSP. Hey, congratulations Howard kick the bell is ass blah blah blah and that's"
+    },
+    {
+      "id": 9,
+      "startTime": 40.88,
+      "endTime": 47.14,
+      "speaker": null,
+      "text": "Everybody in Philadelphia is talking about it. Good. I've never heard a radio program get so much talk is what's going on"
+    },
+    {
+      "id": 10,
+      "startTime": 47.14,
+      "endTime": 49.14,
+      "speaker": null,
+      "text": "I've never seen a guy so widely hated"
+    },
+    {
+      "id": 11,
+      "startTime": 49.4,
+      "endTime": 51.04,
+      "speaker": null,
+      "text": "That's just it everyone hated him"
+    },
+    {
+      "id": 12,
+      "startTime": 51.04,
+      "endTime": 55.74,
+      "speaker": null,
+      "text": "Everyone's been waiting for this to happen people in the advertising community are thrilled because you know"
+    },
+    {
+      "id": 13,
+      "startTime": 55.74,
+      "endTime": 57.84,
+      "speaker": null,
+      "text": "They had to advertise with the guy even though they hated him"
+    },
+    {
+      "id": 14,
+      "startTime": 57.84,
+      "endTime": 62.12,
+      "speaker": null,
+      "text": "They had to advertise with him because he had a popular show now they feel good and he was gouging them on rates and stuff"
+    },
+    {
+      "id": 15,
+      "startTime": 62.12,
+      "endTime": 64.32,
+      "speaker": null,
+      "text": "Yeah, right Andy. Yeah, just being a jerk"
+    },
+    {
+      "id": 16,
+      "startTime": 64.88,
+      "endTime": 69.68,
+      "speaker": null,
+      "text": "I mean, well, he wasn't gouging the station was they they felt they were sort of being used, you know"
+    },
+    {
+      "id": 17,
+      "startTime": 70.32,
+      "endTime": 74.88,
+      "speaker": null,
+      "text": "So now hey when you negotiate with those guys for advertising rates, let's go in and say hey you guys are losers now"
+    },
+    {
+      "id": 18,
+      "startTime": 74.88,
+      "endTime": 76.88,
+      "speaker": null,
+      "text": "You know, we want a lower rate"
+    },
+    {
+      "id": 19,
+      "startTime": 77.12,
+      "endTime": 79.52,
+      "speaker": null,
+      "text": "Or else we're going over stern. We want money back"
+    },
+    {
+      "id": 20,
+      "startTime": 79.84,
+      "endTime": 83.64,
+      "speaker": null,
+      "text": "Even if you don't want to advertise them. I should just go over and say we're going on stern if you don't just lower the rate"
+    },
+    {
+      "id": 21,
+      "startTime": 83.64,
+      "endTime": 85.64,
+      "speaker": null,
+      "text": "We want money back"
+    },
+    {
+      "id": 22,
+      "startTime": 85.8,
+      "endTime": 89.02,
+      "speaker": null,
+      "text": "That's what you got to do. Give us a lot of freebies. Yeah"
+    },
+    {
+      "id": 23,
+      "startTime": 91.0,
+      "endTime": 94.74,
+      "speaker": null,
+      "text": "No, this is this has been pretty cool stu by cops key column"
+    },
+    {
+      "id": 24,
+      "startTime": 94.74,
+      "endTime": 98.64,
+      "speaker": null,
+      "text": "I mean this this guy's definitely a mental patient was funny, but it was he's definitely a mental patient"
+    },
+    {
+      "id": 25,
+      "startTime": 98.64,
+      "endTime": 103.68,
+      "speaker": null,
+      "text": "I I talked to him after I read it and I said stu. I don't know. I don't know man. Yeah, where are you coming from?"
+    },
+    {
+      "id": 26,
+      "startTime": 103.68,
+      "endTime": 107.96,
+      "speaker": null,
+      "text": "Yeah, it works. What is anyone in the newspaper getting nervous about you or what?"
+    },
+    {
+      "id": 27,
+      "startTime": 107.96,
+      "endTime": 113.84,
+      "speaker": null,
+      "text": "I think he has just this little column and as long as he can vent this way. Yeah, he's not going to become dangerous"
+    },
+    {
+      "id": 28,
+      "startTime": 113.84,
+      "endTime": 118.6,
+      "speaker": null,
+      "text": "I have made a big mistake when the Berlin wall came down. That should have warned that should have warned me"
+    },
+    {
+      "id": 29,
+      "startTime": 119.24,
+      "endTime": 125.74,
+      "speaker": null,
+      "text": "If if that could happen anything could happen the Sun could rise in the West penguins could fly in the tropics at Howard Stern"
+    },
+    {
+      "id": 30,
+      "startTime": 125.74,
+      "endTime": 127.96,
+      "speaker": null,
+      "text": "Could be number one in the Philadelphia morning radio"
+    },
+    {
+      "id": 31,
+      "startTime": 129.08,
+      "endTime": 132.4,
+      "speaker": null,
+      "text": "No, please dear got anything but that but that's what happened yesterday"
+    },
+    {
+      "id": 32,
+      "startTime": 134.32,
+      "endTime": 140.6,
+      "speaker": null,
+      "text": "John Debell was handed a crushing defeat. You know what that means it means the stern gang led by the old original freak beak himself"
+    },
+    {
+      "id": 33,
+      "startTime": 140.6,
+      "endTime": 143.48,
+      "speaker": null,
+      "text": "Will be coming to Philadelphia lock up your daughters and your sheep"
+    },
+    {
+      "id": 34,
+      "startTime": 144.64,
+      "endTime": 150.82,
+      "speaker": null,
+      "text": "I'm sure what that means Jackie. Mm-hmm. Yeah, maybe that's what it means reference to Jackie Marley"
+    },
+    {
+      "id": 35,
+      "startTime": 153.32,
+      "endTime": 155.56,
+      "speaker": null,
+      "text": "All I do was poke fun at how weird which was I"
+    },
+    {
+      "id": 36,
+      "startTime": 156.32,
+      "endTime": 162.2,
+      "speaker": null,
+      "text": "Don't know. It's a real long column and I'm not sure he's turning it into a contest because he wants to take you out to dinner"
+    },
+    {
+      "id": 37,
+      "startTime": 163.08,
+      "endTime": 165.24,
+      "speaker": null,
+      "text": "He doesn't like me, but he wants to take me out"
+    },
+    {
+      "id": 38,
+      "startTime": 165.24,
+      "endTime": 169.12,
+      "speaker": null,
+      "text": "It's really weird that he wants to take me out to dinner so he can take me around Philadelphia"
+    },
+    {
+      "id": 39,
+      "startTime": 169.12,
+      "endTime": 176.72,
+      "speaker": null,
+      "text": "Yeah, he wants to show you the sights and introduce you to the town and he's given he's doing a contest and people are supposed to suggest"
+    },
+    {
+      "id": 40,
+      "startTime": 177.8,
+      "endTime": 180.68,
+      "speaker": null,
+      "text": "Where to take you to dinner if you'll really get any letters"
+    },
+    {
+      "id": 41,
+      "startTime": 181.32,
+      "endTime": 185.76,
+      "speaker": null,
+      "text": "No, I can imagine that anyone would actually letters which people seriously send him a letter"
+    },
+    {
+      "id": 42,
+      "startTime": 185.76,
+      "endTime": 188.0,
+      "speaker": null,
+      "text": "I thought Tom was bad at thinking of contact"
+    },
+    {
+      "id": 43,
+      "startTime": 189.6,
+      "endTime": 194.2,
+      "speaker": null,
+      "text": "Yeah, it takes a cake yeah, I like Tom's radio contest"
+    },
+    {
+      "id": 44,
+      "startTime": 194.76,
+      "endTime": 201.12,
+      "speaker": null,
+      "text": "They're really good. Well, you'll give away some you'll announce on the air between seven and eight the contest rules"
+    },
+    {
+      "id": 45,
+      "startTime": 201.36,
+      "endTime": 206.72,
+      "speaker": null,
+      "text": "The people can call in the rest of the day and then they at the rest of the day then they get to play the game"
+    },
+    {
+      "id": 46,
+      "startTime": 206.72,
+      "endTime": 212.48,
+      "speaker": null,
+      "text": "After they marked it's like Tom come here Tom Tom people people are not that involved. You don't understand"
+    },
+    {
+      "id": 47,
+      "startTime": 212.48,
+      "endTime": 216.88,
+      "speaker": null,
+      "text": "They're not gonna give up their job. Yeah, play this game. Yeah, get with it"
+    },
+    {
+      "id": 48,
+      "startTime": 220.36,
+      "endTime": 226.64,
+      "speaker": null,
+      "text": "Hey speaking of games, you know our contest for the ten thousand five thousand and like the twenty five thousand thousand prizes"
+    },
+    {
+      "id": 49,
+      "startTime": 226.64,
+      "endTime": 229.52,
+      "speaker": null,
+      "text": "I know you got to do is send us your wackiest home videos for the video, right?"
+    },
+    {
+      "id": 50,
+      "startTime": 229.52,
+      "endTime": 232.84,
+      "speaker": null,
+      "text": "I've got like 35 letters for contest rules. Maybe nobody's interested"
+    },
+    {
+      "id": 51,
+      "startTime": 232.84,
+      "endTime": 239.76,
+      "speaker": null,
+      "text": "That's it. So what it turns out is is that 35 people will be competing for ten thousand dollars and we've got 12 15 prizes"
+    },
+    {
+      "id": 52,
+      "startTime": 239.76,
+      "endTime": 245.2,
+      "speaker": null,
+      "text": "Something like that. Yeah, so if you want to just send away for your contest rules real quick. I'm telling you a great chance"
+    },
+    {
+      "id": 53,
+      "startTime": 245.2,
+      "endTime": 250.98,
+      "speaker": null,
+      "text": "I wish I had a video tape of John DeBella running down the street last Wednesday night from his bar appearance"
+    },
+    {
+      "id": 54,
+      "startTime": 250.98,
+      "endTime": 257.0,
+      "speaker": null,
+      "text": "Cuz that would have been good for one. Well, all I know is is that and you're a little one-track, you know that but anybody the"
+    },
+    {
+      "id": 55,
+      "startTime": 258.28,
+      "endTime": 260.64,
+      "speaker": null,
+      "text": "Sorry, and he's like really out of his mind"
+    },
+    {
+      "id": 56,
+      "startTime": 265.4,
+      "endTime": 271.44,
+      "speaker": null,
+      "text": "Cuz that we beat those guys you got a new girlfriend yet, uh, no working on it. Mm-hmm"
+    },
+    {
+      "id": 57,
+      "startTime": 273.48,
+      "endTime": 277.4,
+      "speaker": null,
+      "text": "You'd be able to do a radio show because some girls on the request line, yeah, I know maybe DeBella's wife"
+    },
+    {
+      "id": 58,
+      "startTime": 277.82,
+      "endTime": 281.48,
+      "speaker": null,
+      "text": "Yeah, maybe she's interested in you know, she'll be available now. That's a good idea"
+    },
+    {
+      "id": 59,
+      "startTime": 282.56,
+      "endTime": 287.44,
+      "speaker": null,
+      "text": "Why don't you give her a call? You're a winner. That's a good idea. I think she only likes morning men though"
+    },
+    {
+      "id": 60,
+      "startTime": 288.0,
+      "endTime": 290.82,
+      "speaker": null,
+      "text": "All right, dude. Hey, you got the number, right?"
+    },
+    {
+      "id": 61,
+      "startTime": 291.44,
+      "endTime": 295.88,
+      "speaker": null,
+      "text": "He's gonna give me the number for the zookeepers hotline. I'm sure he'd love to hear from you today"
+    },
+    {
+      "id": 62,
+      "startTime": 295.88,
+      "endTime": 302.6,
+      "speaker": null,
+      "text": "Yeah, I don't know that I want to ruin my my head with calling. All right, dude. Okay, man. Congratulations. All righty"
+    },
+    {
+      "id": 63,
+      "startTime": 302.6,
+      "endTime": 304.6,
+      "speaker": null,
+      "text": "All right, talk to you. Bye"
+    },
+    {
+      "id": 64,
+      "startTime": 305.04,
+      "endTime": 307.04,
+      "speaker": null,
+      "text": "Andy an ecstatic Andy Bloom"
+    },
+    {
+      "id": 65,
+      "startTime": 308.04,
+      "endTime": 310.04,
+      "speaker": null,
+      "text": "Program director from Philadelphia"
+    },
+    {
+      "id": 66,
+      "startTime": 312.6,
+      "endTime": 314.6,
+      "speaker": null,
+      "text": "Want to need articles"
+    },
+    {
+      "id": 67,
+      "startTime": 315.76,
+      "endTime": 317.4,
+      "speaker": null,
+      "text": "Cool stuff"
+    },
+    {
+      "id": 68,
+      "startTime": 317.4,
+      "endTime": 322.48,
+      "speaker": null,
+      "text": "Yeah, this Stu Bikovsky wrote a column in Philadelphia saying that he wants to have a contest people send in ideas"
+    },
+    {
+      "id": 69,
+      "startTime": 324.04,
+      "endTime": 326.96,
+      "speaker": null,
+      "text": "And the way to take you yeah, what was that about I"
+    },
+    {
+      "id": 70,
+      "startTime": 328.44,
+      "endTime": 334.68,
+      "speaker": null,
+      "text": "Was laughing pretty hard, but I don't know if it's for the reasons that still wanted me to write. Absolutely. It's pretty funny though. I"
+    },
+    {
+      "id": 71,
+      "startTime": 335.36,
+      "endTime": 341.0,
+      "speaker": null,
+      "text": "Thought it was a very funny column, but I thought who's gonna sit down and actually dispatch him a letter"
+    },
+    {
+      "id": 72,
+      "startTime": 344.36,
+      "endTime": 347.84,
+      "speaker": null,
+      "text": "Here's what he said on the air about Philly the city that just made him numero uno"
+    },
+    {
+      "id": 73,
+      "startTime": 347.84,
+      "endTime": 350.18,
+      "speaker": null,
+      "text": "I don't know a damn thing about Philly and I could care left"
+    },
+    {
+      "id": 74,
+      "startTime": 351.04,
+      "endTime": 354.8,
+      "speaker": null,
+      "text": "It's not New York Times his pear shaped middle-aged side side kick"
+    },
+    {
+      "id": 75,
+      "startTime": 355.52,
+      "endTime": 357.52,
+      "speaker": null,
+      "text": "Robin Quivers"
+    },
+    {
+      "id": 76,
+      "startTime": 359.44,
+      "endTime": 366.68,
+      "speaker": null,
+      "text": "He likes taking those potshots at me now cuz I got so upset about the one he made right in the birthday party article"
+    },
+    {
+      "id": 77,
+      "startTime": 366.68,
+      "endTime": 369.72,
+      "speaker": null,
+      "text": "But I'm not sensitive anymore still. Yeah, she's thin now"
+    },
+    {
+      "id": 78,
+      "startTime": 374.6,
+      "endTime": 377.8,
+      "speaker": null,
+      "text": "So he wants to take me on a tour of Philadelphia"
+    },
+    {
+      "id": 79,
+      "startTime": 378.48,
+      "endTime": 383.68,
+      "speaker": null,
+      "text": "Well, he apparently had suggested this before I mean, I'm not I'm not impressed"
+    },
+    {
+      "id": 80,
+      "startTime": 384.64,
+      "endTime": 389.96,
+      "speaker": null,
+      "text": "Why would you want to get together with stu by coffee? Yeah, yeah, why would you want to even see where stu would hang out?"
+    },
+    {
+      "id": 81,
+      "startTime": 389.96,
+      "endTime": 392.16,
+      "speaker": null,
+      "text": "Cuz he's a newspaper column. He's a real cool guy"
+    },
+    {
+      "id": 82,
+      "startTime": 400.68,
+      "endTime": 404.28,
+      "speaker": null,
+      "text": "He does say he eats his own words because he thought we'd never be number one"
+    },
+    {
+      "id": 83,
+      "startTime": 404.48,
+      "endTime": 407.2,
+      "speaker": null,
+      "text": "Yeah, well that was nice even though he listens four hours a day"
+    },
+    {
+      "id": 84,
+      "startTime": 409.32,
+      "endTime": 414.44,
+      "speaker": null,
+      "text": "Very rarely see somebody actually admit to making a statement like that and then taking it back"
+    },
+    {
+      "id": 85,
+      "startTime": 415.08,
+      "endTime": 416.44,
+      "speaker": null,
+      "text": "So"
+    },
+    {
+      "id": 86,
+      "startTime": 416.44,
+      "endTime": 423.0,
+      "speaker": null,
+      "text": "Here comes another contest. Send me your idea about where I should take how weird tell him where and why in 25 words or less"
+    },
+    {
+      "id": 87,
+      "startTime": 423.0,
+      "endTime": 426.96,
+      "speaker": null,
+      "text": "The winner will get dinner for two with stu at a local restaurant. Oh, so he'll even go out to dinner with them"
+    }
+  ]
+}

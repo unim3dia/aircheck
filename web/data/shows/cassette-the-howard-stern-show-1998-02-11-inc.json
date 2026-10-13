@@ -1,0 +1,875 @@
+{
+  "showID": "cassette-the-howard-stern-show-1998-02-11-inc",
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Radio Host Discusses Film Nominations, Prostitution in France",
+      "summary": "During a radio broadcast, the host discusses film nominations while referencing actors Robert Duval and Bobby De Niro. The conversation then shifts to an explanation of legal prostitution in France alongside speculation about a potential modeling/actress ring involving wealthy individuals.",
+      "startTime": 1800.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "De Niro, Day Linked French Investigation",
+      "summary": "The broadcast details an investigation involving Robert De Niro and Bobby Day regarding potential prostitution activities in France. Diane Zamora is implicated in accusations of involvement with the death of a man who was a rival for her boyfriend’s affections.",
+      "startTime": 1937.26,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Sarah Graham Testifies About Adrian Jones Murder",
+      "summary": "During the trial, Sarah Graham testified that her fiancé, David Graham, killed Adrian Jones. Subsequently, Sergeant Major Jean McKinney faced a military trial concerning accusations of sexual harassment against him and several women in his office.",
+      "startTime": 2065.78,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Lewinsky Testimony and Immunity Discussions",
+      "summary": "The conversation centers around the planned testimony of Monica Lewinsky before the grand jury, alongside her mother’s previous testimony. Legal counsel discusses potential immunity deals offered by William Ginsburg and Kenneth Starr amid concerns about Lewinsky's cooperation.",
+      "startTime": 2203.82,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "ABC Announces 'TV Ticker' Return",
+      "summary": "'TV Ticker,' starring Richard Lewis and Kevin Nealon, will return to ABC on March 6th at 9:30 AM. The sitcom is replacing ‘Teen Angel’ in the TGIF lineup after a reported unsuccessful season.",
+      "startTime": 2336.46,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Sinatra Hospitalized for Routine Tests",
+      "summary": "Frank Sinatra was admitted to a hospital for routine medical testing, occurring nearly a year after his heart attack. The hosts discussed concerns about his health and referenced ongoing legal proceedings involving Reverend Sharpton.",
+      "startTime": 2462.1,
+      "imageURL": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 0,
+      "startTime": 1800.0,
+      "endTime": 1807.72,
+      "speaker": null,
+      "text": "well I I would have had I not even been nominated today I have that list of"
+    },
+    {
+      "id": 1,
+      "startTime": 1807.72,
+      "endTime": 1814.58,
+      "speaker": null,
+      "text": "people that I thank every day when I get up in the morning for this movie and"
+    },
+    {
+      "id": 2,
+      "startTime": 1814.58,
+      "endTime": 1819.98,
+      "speaker": null,
+      "text": "thanks Papa Bowie so sure I know I know all the people that I owe a debt of"
+    },
+    {
+      "id": 3,
+      "startTime": 1819.98,
+      "endTime": 1827.18,
+      "speaker": null,
+      "text": "gratitude in this movie and I'll never forget that meanwhile gets away without"
+    },
+    {
+      "id": 4,
+      "startTime": 1827.18,
+      "endTime": 1835.16,
+      "speaker": null,
+      "text": "naming a name and Robert Duval was Bobby Duval that's my boy performance in the"
+    },
+    {
+      "id": 5,
+      "startTime": 1835.16,
+      "endTime": 1841.16,
+      "speaker": null,
+      "text": "Apostle in the best actor category yeah he says he missed hearing his name on"
+    },
+    {
+      "id": 6,
+      "startTime": 1841.16,
+      "endTime": 1844.64,
+      "speaker": null,
+      "text": "TV because he has a life he's not like Greg Kinnear and I sit in front of"
+    },
+    {
+      "id": 7,
+      "startTime": 1844.64,
+      "endTime": 1849.08,
+      "speaker": null,
+      "text": "television stuff I had gotten up and I was so punchy from going from coast to"
+    },
+    {
+      "id": 8,
+      "startTime": 1849.08,
+      "endTime": 1853.34,
+      "speaker": null,
+      "text": "coast with all the publicity that I got dressed to go to the Regent Philbert"
+    },
+    {
+      "id": 9,
+      "startTime": 1853.34,
+      "endTime": 1858.06,
+      "speaker": null,
+      "text": "show I forgot and when the phone rang oh yeah and it's like wow that's really"
+    },
+    {
+      "id": 10,
+      "startTime": 1858.06,
+      "endTime": 1862.44,
+      "speaker": null,
+      "text": "nice but I for a moment here I was going out the door and had forgotten that you go"
+    },
+    {
+      "id": 11,
+      "startTime": 1862.44,
+      "endTime": 1868.8,
+      "speaker": null,
+      "text": "be they mentioned that I was nominated and that was great Bobby Duval yeah"
+    },
+    {
+      "id": 12,
+      "startTime": 1868.8,
+      "endTime": 1877.66,
+      "speaker": null,
+      "text": "baby buddy yeah the man Bobby I always want to call one of them guys Bobby yeah"
+    },
+    {
+      "id": 13,
+      "startTime": 1877.66,
+      "endTime": 1882.36,
+      "speaker": null,
+      "text": "now you can Bobby how are you baby speaking of Bobby's Robert De Niro is in"
+    },
+    {
+      "id": 14,
+      "startTime": 1882.36,
+      "endTime": 1886.14,
+      "speaker": null,
+      "text": "France Bobby De Niro working on a movie and yesterday he found himself in the"
+    },
+    {
+      "id": 15,
+      "startTime": 1886.14,
+      "endTime": 1896.18,
+      "speaker": null,
+      "text": "big investigation there's some kind of a prostitution ring yeah and France"
+    },
+    {
+      "id": 16,
+      "startTime": 1896.18,
+      "endTime": 1899.42,
+      "speaker": null,
+      "text": "prostitution is legal yes that's what I couldn't understand prostitution is"
+    },
+    {
+      "id": 17,
+      "startTime": 1899.42,
+      "endTime": 1903.86,
+      "speaker": null,
+      "text": "legal but pandering is not what is pandering I don't know if someone looked"
+    },
+    {
+      "id": 18,
+      "startTime": 1903.86,
+      "endTime": 1907.54,
+      "speaker": null,
+      "text": "that up and so we can find out exactly what's going on I know what it is it's"
+    },
+    {
+      "id": 19,
+      "startTime": 1907.54,
+      "endTime": 1917.02,
+      "speaker": null,
+      "text": "what I do at the end of my live show here by a mug in a t-shirt and they said"
+    },
+    {
+      "id": 20,
+      "startTime": 1917.02,
+      "endTime": 1922.58,
+      "speaker": null,
+      "text": "that these models would be models and actresses is who the sounds like a sort"
+    },
+    {
+      "id": 21,
+      "startTime": 1922.58,
+      "endTime": 1931.86,
+      "speaker": null,
+      "text": "of Heidi Flice prostitution ring they would be fixed up on dates with guys who"
+    },
+    {
+      "id": 22,
+      "startTime": 1931.86,
+      "endTime": 1937.26,
+      "speaker": null,
+      "text": "were very wealthy and France and Monaco and Saudi princes and stuff like that"
+    },
+    {
+      "id": 23,
+      "startTime": 1937.26,
+      "endTime": 1944.22,
+      "speaker": null,
+      "text": "Bobby D he's no homo and they said that he was just a minor nobody can get any"
+    },
+    {
+      "id": 24,
+      "startTime": 1944.22,
+      "endTime": 1949.66,
+      "speaker": null,
+      "text": "information as to whether he used the service or just knew somebody who might"
+    },
+    {
+      "id": 25,
+      "startTime": 1949.66,
+      "endTime": 1954.54,
+      "speaker": null,
+      "text": "be involved Bobby D don't need no whore"
+    },
+    {
+      "id": 26,
+      "startTime": 1961.42,
+      "endTime": 1968.18,
+      "speaker": null,
+      "text": "Bobby Bowie so anyway they are not saying exactly why he had to be questioned for"
+    },
+    {
+      "id": 27,
+      "startTime": 1968.18,
+      "endTime": 1970.98,
+      "speaker": null,
+      "text": "such a long time"
+    },
+    {
+      "id": 28,
+      "startTime": 1976.74,
+      "endTime": 1984.78,
+      "speaker": null,
+      "text": "yes lucky you really moved up the ladder yeah go ahead"
+    },
+    {
+      "id": 29,
+      "startTime": 1984.78,
+      "endTime": 1990.7,
+      "speaker": null,
+      "text": "a procurer pimp one who helps others to satisfy their vices so in other words"
+    },
+    {
+      "id": 30,
+      "startTime": 1990.7,
+      "endTime": 1994.18,
+      "speaker": null,
+      "text": "prostitution is legal but someone is not allowed to pimp"
+    },
+    {
+      "id": 31,
+      "startTime": 1994.18,
+      "endTime": 2000.1,
+      "speaker": null,
+      "text": "wouldn't the woman be pimping herself if she offered her services no no he would"
+    },
+    {
+      "id": 32,
+      "startTime": 2000.1,
+      "endTime": 2004.86,
+      "speaker": null,
+      "text": "not so in other words the guy who was acting as a pimp is what the guy who set"
+    },
+    {
+      "id": 33,
+      "startTime": 2004.86,
+      "endTime": 2008.4,
+      "speaker": null,
+      "text": "up the dates that's right"
+    },
+    {
+      "id": 34,
+      "startTime": 2012.14,
+      "endTime": 2020.06,
+      "speaker": null,
+      "text": "she's got belly jewelry so anyway Robert De Niro his name linked to a big"
+    },
+    {
+      "id": 35,
+      "startTime": 2020.06,
+      "endTime": 2028.42,
+      "speaker": null,
+      "text": "prostitution investigation in France Bobby day you're saying you want to go on"
+    },
+    {
+      "id": 36,
+      "startTime": 2028.42,
+      "endTime": 2032.7,
+      "speaker": null,
+      "text": "record is saying you do not believe he used the service"
+    },
+    {
+      "id": 37,
+      "startTime": 2033.98,
+      "endTime": 2053.26,
+      "speaker": null,
+      "text": "maybe a little bit trials going on Howard okay one involves two cadets one"
+    },
+    {
+      "id": 38,
+      "startTime": 2053.26,
+      "endTime": 2058.42,
+      "speaker": null,
+      "text": "a naval midshipman her name is Diane Zamora she's being been accused of"
+    },
+    {
+      "id": 39,
+      "startTime": 2058.42,
+      "endTime": 2065.78,
+      "speaker": null,
+      "text": "helping to kill a love rival for her boyfriend but when she's been on the"
+    },
+    {
+      "id": 40,
+      "startTime": 2065.78,
+      "endTime": 2071.42,
+      "speaker": null,
+      "text": "stand testifying she claims that she had no idea that her fiance David Graham was"
+    },
+    {
+      "id": 41,
+      "startTime": 2071.42,
+      "endTime": 2077.14,
+      "speaker": null,
+      "text": "going to kill 16 year old Adrian Jones who he had dated Zamora has told the"
+    },
+    {
+      "id": 42,
+      "startTime": 2077.14,
+      "endTime": 2081.18,
+      "speaker": null,
+      "text": "court it was Graham who did the killing"
+    },
+    {
+      "id": 43,
+      "startTime": 2081.18,
+      "endTime": 2097.7,
+      "speaker": null,
+      "text": "my playing the tape yes all right you saw a swing motion did you see Adrian"
+    },
+    {
+      "id": 44,
+      "startTime": 2097.7,
+      "endTime": 2110.46,
+      "speaker": null,
+      "text": "Jones when they occurred but she continued I think to date the guy and I"
+    },
+    {
+      "id": 45,
+      "startTime": 2110.46,
+      "endTime": 2115.14,
+      "speaker": null,
+      "text": "suppose the reason they were caught is because she sort of admitted to the"
+    },
+    {
+      "id": 46,
+      "startTime": 2115.14,
+      "endTime": 2122.18,
+      "speaker": null,
+      "text": "murder at one point but now she's saying only her boyfriend was responsible also"
+    },
+    {
+      "id": 47,
+      "startTime": 2122.18,
+      "endTime": 2129.38,
+      "speaker": null,
+      "text": "on trial is the she knows how much she knows she knows what is that kind of"
+    },
+    {
+      "id": 48,
+      "startTime": 2129.38,
+      "endTime": 2136.06,
+      "speaker": null,
+      "text": "thing to say Jerry pushy juice sergeant major of the Army Jean McKinney is also"
+    },
+    {
+      "id": 49,
+      "startTime": 2136.06,
+      "endTime": 2142.7,
+      "speaker": null,
+      "text": "undergoing a military trial he's been accused of sexually harassing many of"
+    },
+    {
+      "id": 50,
+      "startTime": 2142.7,
+      "endTime": 2148.78,
+      "speaker": null,
+      "text": "the women in his office well this is a conversation that was taped good with"
+    },
+    {
+      "id": 51,
+      "startTime": 2148.78,
+      "endTime": 2153.94,
+      "speaker": null,
+      "text": "the assistance of Army investigators between the sergeant major and one of"
+    },
+    {
+      "id": 52,
+      "startTime": 2153.94,
+      "endTime": 2159.58,
+      "speaker": null,
+      "text": "his accusers sergeant Christine federal"
+    },
+    {
+      "id": 53,
+      "startTime": 2166.06,
+      "endTime": 2171.34,
+      "speaker": null,
+      "text": "counsel yeah that's all they need"
+    },
+    {
+      "id": 54,
+      "startTime": 2177.3,
+      "endTime": 2187.42,
+      "speaker": null,
+      "text": "yeah we just talked about spirit of all so we have with each of us know"
+    },
+    {
+      "id": 55,
+      "startTime": 2187.42,
+      "endTime": 2195.06,
+      "speaker": null,
+      "text": "except the day you saw men's yard so I'm saying that he's trying to tell her how"
+    },
+    {
+      "id": 56,
+      "startTime": 2195.06,
+      "endTime": 2199.82,
+      "speaker": null,
+      "text": "to testify he's just saying hey look this is what is happening"
+    },
+    {
+      "id": 57,
+      "startTime": 2203.82,
+      "endTime": 2207.88,
+      "speaker": null,
+      "text": "why would you have to have that conversation if all you did was talk"
+    },
+    {
+      "id": 58,
+      "startTime": 2207.88,
+      "endTime": 2213.58,
+      "speaker": null,
+      "text": "about work I don't know sounds a little bit suspicious this is a guy who's been"
+    },
+    {
+      "id": 59,
+      "startTime": 2213.58,
+      "endTime": 2218.98,
+      "speaker": null,
+      "text": "claiming that the only reason he's up on charges is because he's black but that"
+    },
+    {
+      "id": 60,
+      "startTime": 2218.98,
+      "endTime": 2224.22,
+      "speaker": null,
+      "text": "phone conversation is pretty incriminating if you ask me yeah always"
+    },
+    {
+      "id": 61,
+      "startTime": 2224.22,
+      "endTime": 2232.1,
+      "speaker": null,
+      "text": "trying to bring a brother down is doing well always I'm sure that Daniel would"
+    },
+    {
+      "id": 62,
+      "startTime": 2232.1,
+      "endTime": 2237.5,
+      "speaker": null,
+      "text": "anyway that's part of the phone conversation make of it what you will I"
+    },
+    {
+      "id": 63,
+      "startTime": 2237.5,
+      "endTime": 2241.18,
+      "speaker": null,
+      "text": "was about to tell you that Monica Lewinsky is supposed to go before the"
+    },
+    {
+      "id": 64,
+      "startTime": 2241.18,
+      "endTime": 2246.26,
+      "speaker": null,
+      "text": "grand jury tomorrow right to testify should her lawyers not be able to"
+    },
+    {
+      "id": 65,
+      "startTime": 2246.26,
+      "endTime": 2251.18,
+      "speaker": null,
+      "text": "prevent it her lawyer has said William Ginsburg has said that Monica will"
+    },
+    {
+      "id": 66,
+      "startTime": 2251.18,
+      "endTime": 2256.06,
+      "speaker": null,
+      "text": "testify she's not going to do a Susan McDougal and go to jail and defy a"
+    },
+    {
+      "id": 67,
+      "startTime": 2256.06,
+      "endTime": 2264.38,
+      "speaker": null,
+      "text": "federal subpoena if she has to do it she'd be fresh meat in jail so we can't"
+    },
+    {
+      "id": 68,
+      "startTime": 2264.38,
+      "endTime": 2269.5,
+      "speaker": null,
+      "text": "expect to see her sit down before that grand jury if all of the appeals to the"
+    },
+    {
+      "id": 69,
+      "startTime": 2269.5,
+      "endTime": 2274.62,
+      "speaker": null,
+      "text": "courts fail William Ginsburg says that he had a deal for immunity with Kenneth"
+    },
+    {
+      "id": 70,
+      "startTime": 2274.62,
+      "endTime": 2278.66,
+      "speaker": null,
+      "text": "Starr and that Kenneth Starr reneged on that deal and he would like it implemented"
+    },
+    {
+      "id": 71,
+      "startTime": 2278.66,
+      "endTime": 2285.5,
+      "speaker": null,
+      "text": "anyway otherwise Monica will testify her mother meanwhile went to testify before"
+    },
+    {
+      "id": 72,
+      "startTime": 2285.5,
+      "endTime": 2290.26,
+      "speaker": null,
+      "text": "the grand jury yesterday and we'll be back on the stand today we do not know"
+    },
+    {
+      "id": 73,
+      "startTime": 2290.26,
+      "endTime": 2295.22,
+      "speaker": null,
+      "text": "anything about her testimony maybe all those leaks that they were complaining"
+    },
+    {
+      "id": 74,
+      "startTime": 2295.22,
+      "endTime": 2302.7,
+      "speaker": null,
+      "text": "about over the weekend are drying up and dr. Ruth Westheimer has reared her head"
+    },
+    {
+      "id": 75,
+      "startTime": 2302.7,
+      "endTime": 2308.94,
+      "speaker": null,
+      "text": "yes rear to head clocking in with some Valentine's advice from the parent time"
+    },
+    {
+      "id": 76,
+      "startTime": 2308.94,
+      "endTime": 2312.78,
+      "speaker": null,
+      "text": "website here is some of the advice she's giving"
+    },
+    {
+      "id": 77,
+      "startTime": 2312.78,
+      "endTime": 2320.7,
+      "speaker": null,
+      "text": "dr. roots tip for Valentine's Day on Valentine's Day don't forget to set"
+    },
+    {
+      "id": 78,
+      "startTime": 2320.7,
+      "endTime": 2328.62,
+      "speaker": null,
+      "text": "aside some special time for special condoms right with your partner say I"
+    },
+    {
+      "id": 79,
+      "startTime": 2328.62,
+      "endTime": 2336.46,
+      "speaker": null,
+      "text": "love you I love you I say like that I love you on Valentine's Day try to do a"
+    },
+    {
+      "id": 80,
+      "startTime": 2336.46,
+      "endTime": 2344.22,
+      "speaker": null,
+      "text": "different position I'll get out of you very much I wonder if she's gonna try a"
+    },
+    {
+      "id": 81,
+      "startTime": 2344.22,
+      "endTime": 2351.86,
+      "speaker": null,
+      "text": "different position yeah she's gonna help you she's gonna do it in a coffin now"
+    },
+    {
+      "id": 82,
+      "startTime": 2351.86,
+      "endTime": 2363.7,
+      "speaker": null,
+      "text": "that's a penis I think that dr. Ruth is very cute you're a chick I don't have to"
+    },
+    {
+      "id": 83,
+      "startTime": 2363.7,
+      "endTime": 2370.3,
+      "speaker": null,
+      "text": "do her yeah no Monica blue Klinski got a Valentine from Clinton yep roses are"
+    },
+    {
+      "id": 84,
+      "startTime": 2370.3,
+      "endTime": 2384.78,
+      "speaker": null,
+      "text": "red violets are blue please eat poison"
+    },
+    {
+      "id": 85,
+      "startTime": 2384.78,
+      "endTime": 2391.06,
+      "speaker": null,
+      "text": "Hillary and Diller yes I remember that show starring Richard Lewis and Kevin"
+    },
+    {
+      "id": 86,
+      "startTime": 2391.06,
+      "endTime": 2395.92,
+      "speaker": null,
+      "text": "Nealon didn't do too well in TV ticker today they're saying that it was one of"
+    },
+    {
+      "id": 87,
+      "startTime": 2395.92,
+      "endTime": 2399.74,
+      "speaker": null,
+      "text": "the biggest flops of the season big fluff but it's gonna get another chance"
+    },
+    {
+      "id": 88,
+      "startTime": 2399.74,
+      "endTime": 2404.22,
+      "speaker": null,
+      "text": "ABC has announced that the sitcom will be returning to the network schedule on"
+    },
+    {
+      "id": 89,
+      "startTime": 2404.22,
+      "endTime": 2409.62,
+      "speaker": null,
+      "text": "Friday March 6th as part of the fading TGIF kid lineup well I think if somebody"
+    },
+    {
+      "id": 90,
+      "startTime": 2409.62,
+      "endTime": 2418.46,
+      "speaker": null,
+      "text": "knew a chance the show will be airing at 930 replacing teen angel"
+    },
+    {
+      "id": 91,
+      "startTime": 2429.74,
+      "endTime": 2436.26,
+      "speaker": null,
+      "text": "hosting gig for the Espy Awards the other night from a show I didn't see"
+    },
+    {
+      "id": 92,
+      "startTime": 2436.26,
+      "endTime": 2440.46,
+      "speaker": null,
+      "text": "that they got I have that on tape I think Espy Awards yeah they show that on"
+    },
+    {
+      "id": 93,
+      "startTime": 2440.46,
+      "endTime": 2447.34,
+      "speaker": null,
+      "text": "TV well Michelle didn't like the show I'm on a roll"
+    },
+    {
+      "id": 94,
+      "startTime": 2447.34,
+      "endTime": 2452.62,
+      "speaker": null,
+      "text": "we suspect em seeing the Espys will do for McDonald what the Oscars did for"
+    },
+    {
+      "id": 95,
+      "startTime": 2452.62,
+      "endTime": 2462.1,
+      "speaker": null,
+      "text": "David Letterman wow except nobody saw the Espys well thank goodness because"
+    },
+    {
+      "id": 96,
+      "startTime": 2462.1,
+      "endTime": 2466.82,
+      "speaker": null,
+      "text": "apparently it wasn't going to help his career according to Michelle right I'll"
+    },
+    {
+      "id": 97,
+      "startTime": 2466.82,
+      "endTime": 2472.66,
+      "speaker": null,
+      "text": "be the judge of that yes you go and watch it but she's saying that Norm"
+    },
+    {
+      "id": 98,
+      "startTime": 2472.66,
+      "endTime": 2479.3,
+      "speaker": null,
+      "text": "should send on old Myra a thank-you note that's so rude she was not amused and"
+    },
+    {
+      "id": 99,
+      "startTime": 2479.3,
+      "endTime": 2485.22,
+      "speaker": null,
+      "text": "Frank Sinatra we're worried once again about old blue eyes you're worried"
+    },
+    {
+      "id": 100,
+      "startTime": 2485.22,
+      "endTime": 2490.54,
+      "speaker": null,
+      "text": "because he is checked into the hospital once again his family is saying that he"
+    },
+    {
+      "id": 101,
+      "startTime": 2490.54,
+      "endTime": 2494.7,
+      "speaker": null,
+      "text": "just went in for some routine testing but they always say that Frank Sinatra"
+    },
+    {
+      "id": 102,
+      "startTime": 2494.7,
+      "endTime": 2499.16,
+      "speaker": null,
+      "text": "has not been seen in public since he had a heart attack but the guy go already"
+    },
+    {
+      "id": 103,
+      "startTime": 2499.16,
+      "endTime": 2504.1,
+      "speaker": null,
+      "text": "almost a year ago and he is in his 80s for God's sake you know they're keeping"
+    },
+    {
+      "id": 104,
+      "startTime": 2504.1,
+      "endTime": 2509.98,
+      "speaker": null,
+      "text": "him alive that's probably in pain well in that condition and see if you'll be"
+    },
+    {
+      "id": 105,
+      "startTime": 2509.98,
+      "endTime": 2514.94,
+      "speaker": null,
+      "text": "so ready to go I'm ready to go now you change out of moments notice if I came"
+    },
+    {
+      "id": 106,
+      "startTime": 2514.94,
+      "endTime": 2524.66,
+      "speaker": null,
+      "text": "over there and poison you wouldn't drink and Reverend Al Sharpton will be back on"
+    },
+    {
+      "id": 107,
+      "startTime": 2524.66,
+      "endTime": 2530.58,
+      "speaker": null,
+      "text": "the stand again in the defamation trial that's going on up in Westchester where"
+    },
+    {
+      "id": 108,
+      "startTime": 2530.58,
+      "endTime": 2538.02,
+      "speaker": null,
+      "text": "he and two others are accused of trying to defame Stephen Pagonus defame I want"
+    },
+    {
+      "id": 109,
+      "startTime": 2538.02,
+      "endTime": 2546.42,
+      "speaker": null,
+      "text": "to live forever the three identified Pagonus who was 36 as part of a gang of"
+    },
+    {
+      "id": 110,
+      "startTime": 2546.42,
+      "endTime": 2555.3,
+      "speaker": null,
+      "text": "white men accused of raping and mutilating Tawana Brawley Sharpton is"
+    },
+    {
+      "id": 111,
+      "startTime": 2555.3,
+      "endTime": 2558.66,
+      "speaker": null,
+      "text": "now saying that whenever he spoke harshly and mentioned names he was"
+    },
+    {
+      "id": 112,
+      "startTime": 2558.66,
+      "endTime": 2560.5,
+      "speaker": null,
+      "text": "speaking as a spokesperson for the family"
+    },
+    {
+      "id": 113,
+      "startTime": 2560.5,
+      "endTime": 2567.58,
+      "speaker": null,
+      "text": "Wow that's all he was doing he's got a better imagination than OJ"
+    },
+    {
+      "id": 114,
+      "startTime": 2567.58,
+      "endTime": 2580.14,
+      "speaker": null,
+      "text": "thank you to the bear in Wilkesbury and the buzzard 93.1 in Indianapolis and"
+    },
+    {
+      "id": 115,
+      "startTime": 2580.14,
+      "endTime": 2586.98,
+      "speaker": null,
+      "text": "thank you to Jessica Hahn with Jessica Hahn calm thank you to Bobby Duval got"
+    },
+    {
+      "id": 116,
+      "startTime": 2586.98,
+      "endTime": 2591.06,
+      "speaker": null,
+      "text": "the movie Apostle out right now good buddy go see that Oscar-nominated"
+    },
+    {
+      "id": 117,
+      "startTime": 2591.06,
+      "endTime": 2593.9,
+      "speaker": null,
+      "text": "performance"
+    }
+  ]
+}

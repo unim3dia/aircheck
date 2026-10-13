@@ -1,0 +1,119 @@
+{
+  "showID": "cassette-clip-billy-corgan-perfect-live-on-the-howard-stern-show-1998-08-03",
+  "topics": [
+    {
+      "id": "topic-000",
+      "title": "Two Lovers Discuss Loss",
+      "summary": "The song features two individuals reflecting on their past relationship and the difficulties in communication as they acknowledge a shared sense of loss.",
+      "startTime": 0.0,
+      "imageURL": null
+    },
+    {
+      "id": "topic-001",
+      "title": "Vocalist Promises Perfection to Stranger",
+      "summary": "The vocalist states that they feel a shared connection with an unidentified person and guarantees future perfection together through telephone contact.",
+      "startTime": 51.44,
+      "imageURL": null
+    },
+    {
+      "id": "topic-002",
+      "title": "Voice Questions Past Identity",
+      "summary": "A voice expresses uncertainty about their personal identity and past recollections, reflecting on a time when they were familiar with themselves.",
+      "startTime": 84.08,
+      "imageURL": null
+    },
+    {
+      "id": "topic-003",
+      "title": "Singer Confirms Relationship Letters",
+      "summary": "The singer states their relationship is ongoing and confirms the sending of letters as a communication strategy while reiterating an intention for a 'perfect' partnership.",
+      "startTime": 112.08,
+      "imageURL": null
+    },
+    {
+      "id": "topic-004",
+      "title": "Love Song - 'Strangers On The Street'",
+      "summary": "'Strangers When We Meet' is a short love song featuring the lyrics ‘strangers when we meet’ and promises of lasting connection between two lovers who met unexpectedly.",
+      "startTime": 148.88,
+      "imageURL": null
+    },
+    {
+      "id": "topic-005",
+      "title": "Repeated Phrase ‘It’s You And I’",
+      "summary": "'It’s you and I’ is repeatedly stated by a single voice, with no accompanying action or explanation of its meaning.",
+      "startTime": 194.48,
+      "imageURL": null
+    }
+  ],
+  "transcript": [
+    {
+      "id": 0,
+      "startTime": 0.0,
+      "endTime": 26.64,
+      "speaker": null,
+      "text": "We're just like old friends, we just can't listen."
+    },
+    {
+      "id": 1,
+      "startTime": 26.64,
+      "endTime": 51.44,
+      "speaker": null,
+      "text": "The lovers make a mess, we have a reason so we can't help but feel that something has been lost."
+    },
+    {
+      "id": 2,
+      "startTime": 51.44,
+      "endTime": 59.84,
+      "speaker": null,
+      "text": "Please, you know you're just like me."
+    },
+    {
+      "id": 3,
+      "startTime": 59.84,
+      "endTime": 84.08,
+      "speaker": null,
+      "text": "This time, I promise we'll be perfect, perfect. Strangers down the line, lovers out of time."
+    },
+    {
+      "id": 4,
+      "startTime": 84.08,
+      "endTime": 112.08,
+      "speaker": null,
+      "text": "Memories unwind, so far, I still know who you are, but now I wonder who I was."
+    },
+    {
+      "id": 5,
+      "startTime": 112.08,
+      "endTime": 128.08,
+      "speaker": null,
+      "text": "You know it's not the end, we'll always be the best, the letters have been sent."
+    },
+    {
+      "id": 6,
+      "startTime": 128.08,
+      "endTime": 148.88,
+      "speaker": null,
+      "text": "Please, you know I always was someone to be. You see, I promise we'll be perfect, perfect."
+    },
+    {
+      "id": 7,
+      "startTime": 148.88,
+      "endTime": 163.68,
+      "speaker": null,
+      "text": "Strangers when we meet, strangers on the street, lovers while we sleep."
+    },
+    {
+      "id": 8,
+      "startTime": 163.68,
+      "endTime": 180.48,
+      "speaker": null,
+      "text": "You know this has to be, we always were someone, we promise that we'll be."
+    },
+    {
+      "id": 9,
+      "startTime": 194.48,
+      "endTime": 210.48,
+      "speaker": null,
+      "text": "It's you and I."
+    }
+  ]
+}
