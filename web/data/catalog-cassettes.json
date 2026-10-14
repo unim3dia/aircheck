@@ -885,18 +885,11 @@
       "date": "1988-06",
       "title": "[CLIP] Jack Bruce & Leslie West - Theme For An Imaginary Western (Live on The Howard Stern Show, June 1988)",
       "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "duration": 308.46,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/%5BCLIP%5D%20Jack%20Bruce%20%26%20Leslie%20West%20-%20Theme%20For%20An%20Imaginary%20Western%20%28Live%20on%20The%20Howard%20Stern%20Show%2C%20June%201988%29.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
-      "topics": [
-        {
-          "id": "topic-000",
-          "title": "[CLIP] Jack Bruce & Leslie West - Theme For An Imaginary Western (Live on The Howard Stern Show, June 1988)",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
-        }
-      ],
+      "topics": [],
       "recordingLabel": "[CLIP] Jack Bruce & Leslie West - Theme For An Imaginary Western (Live on The Howard Stern Show, June 1988)"
     },
     {
@@ -2607,18 +2600,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-tape-039-1989",
       "date": "1989",
-      "title": "1989 Tape 039 1989",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Dial-A-Date & A Bedroom Revelation",
+      "summary": "After a chaotic evening fueled by a Dial-a-Date recording, Darren, Susan, and Celeste find themselves entangled when Celeste changes into a revealing white gown in her bedroom while Darren nervously sits nearby. The situation escalates with discussions about intimacy and culminates in an awkward night of observation.",
+      "duration": 5552.15,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Tape%20039%201989.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Tape 039 1989",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Dial-A-Date & A Bedroom Revelation",
+          "summary": "After a chaotic evening fueled by a Dial-a-Date recording, Darren, Susan, and Celeste find themselves entangled when Celeste changes into a revealing white gown in her bedroom while Darren nervously sits nearby. The situation escalates with discussions about intimacy and culminates in an awkward night of observation.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Bedroom Mishap and Unfulfilled Fantasies",
+          "summary": "During a late-night radio segment, host Howard Stern recounts an awkward encounter with caller Darren involving suggestive behavior in bed. Despite attempts to escalate the situation – including mentioning lingerie and exploring fantasies – Darren remains largely unresponsive due to his restrictive underwear, ultimately ending the interaction without sexual activity.",
+          "startTime": 926.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Darren’s Unsolicited Dating Advice",
+          "summary": "During an on-air call, Robin attempts to advise Darren about his dating life. He expresses frustration with previous relationships and a desire for connection, leading to awkward exchanges involving foot licking and perceived inadequacy. The conversation devolves into humorous self-deprecation as both parties offer unsolicited advice before abruptly ending.",
+          "startTime": 1852.46,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Lost at Sea & Crystal Vibes",
+          "summary": "The broadcast begins with a man lost at sea expressing his distress through fragmented phrases and then shifts to a discussion about new age crystals and their purported ability to negate negative energy. A skeptical caller, Sandy, questions the topic before an awkward attempt is made to involve her further.",
+          "startTime": 2779.02,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Inappropriate Residential Facility Conversation",
+          "summary": "A man engages in crude and inappropriate conversations with residents of a residential facility for individuals with intellectual disabilities, making offensive remarks about their abilities and aspirations while attempting to establish his own importance.",
+          "startTime": 3702.5,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Howard Stern Show with Michael Winslow",
+          "summary": "Howard Stern interviews sound effects performer Michael Winslow, discussing Winslow's appearance on Hollywood Squares and his tendency to perform sound effects continuously during conversations, making it difficult to conduct a normal interview.",
+          "startTime": 4628.5,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Tape 039 1989"
@@ -3286,18 +3315,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-tape-053",
       "date": "1989",
-      "title": "1989 Tape 053",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Stern Continues Sam Kennison Rant",
+      "summary": "Howard Stern relentlessly attacks Sam Kennison and his family over the phone calls, fueled by listener outrage. He engages in extended conversations with limo driver Ronnie about career opportunities while repeatedly dismissing any potential explanation from Kennison regarding the controversy.",
+      "duration": 5665.8,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Tape%20053.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Tape 053",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Stern Continues Sam Kennison Rant",
+          "summary": "Howard Stern relentlessly attacks Sam Kennison and his family over the phone calls, fueled by listener outrage. He engages in extended conversations with limo driver Ronnie about career opportunities while repeatedly dismissing any potential explanation from Kennison regarding the controversy.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Howard Stern’s Radio Meltdown",
+          "summary": "During a chaotic radio segment, host Howard discusses personal conflicts including accusations of using Jessica, his brother’s suicide, and interactions with callers. He recounts events involving a video shoot, threats from John, and an apparent misunderstanding regarding a donation to a deceased family member's memorial fund; the conversation devolves into heated arguments about perceived slights and misinterpretations.”” 2 sentences max.",
+          "startTime": 944.72,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Sam Kennison and Howard Stern Dispute",
+          "summary": "Sam Kennison and Howard Stern argue about Kennison's recent Letterman appearance and his comedy choices. The conversation includes discussion of a benefit event for Bruce's mother, with Kennison donating $500 and Stern matching it for Danny Philbin.",
+          "startTime": 1890.28,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Howard Stern and Sam Kinison Reconciliation",
+          "summary": "Howard Stern and comedian Sam Kinison discuss their conflict and attempt reconciliation on air. The conversation covers disputes involving Bon Jovi, money owed for a benefit show, and accusations of disloyalty, with Stern proposing \"radio parole\" as a path forward.",
+          "startTime": 2842.8,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Sam Kinison Reconciliation on Howard Stern",
+          "summary": "Comedian Sam Kinison appears on Howard Stern's show to reconcile after a previous conflict involving a failed Bon Jovi appearance. The hosts and Kinison discuss the incident, exchange apologies, and establish terms for his return, including a one-year probation period.",
+          "startTime": 3778.24,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Howard Stern and Sam Kinison Reconciliation",
+          "summary": "Howard Stern and comedian Sam Kinison resolve their on-air feud with an \"amnesty\" agreement. The two discuss past conflicts involving film roles and other grievances, ultimately declaring peace and pledging future loyalty to each other.",
+          "startTime": 4723.2,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Tape 053"
@@ -5065,18 +5130,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-tape-089",
       "date": "1989",
-      "title": "1989 Tape 089",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Caller Suggests Violence Against Children",
+      "summary": "A radio program features a caller suggesting violent acts against children, followed by discussions about Mike Tyson’s security concerns and the Pope as an Antichrist figure. A segment involves boycotting California table grapes while discussing support for Dagestinos supermarket's boycott efforts.",
+      "duration": 5386.27,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Tape%20089.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Tape 089",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Caller Suggests Violence Against Children",
+          "summary": "A radio program features a caller suggesting violent acts against children, followed by discussions about Mike Tyson’s security concerns and the Pope as an Antichrist figure. A segment involves boycotting California table grapes while discussing support for Dagestinos supermarket's boycott efforts.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Radio Show Discussion of a Peculiar Caller",
+          "summary": "During the radio show, hosts discuss an unusual phone call from a woman with no arms and legs who requested to stay in Atlantic City for sixty days. They negotiate a deal where she plays ‘The Star Spangled Banner’ in exchange for lodging, highlighting her demanding nature and bizarre requests while discussing their broadcasting setup.",
+          "startTime": 899.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Radio Ramblings and a New Hire",
+          "summary": "During the broadcast, hosts discuss unsolicited thoughts, potential hires for the radio station (Pete Fornitello), listener feedback, and bizarre tangents including comparing salaries to foreign intelligence operatives. They also debate hiring practices, critique a coffee cake gift, and explore unusual topics like breast aesthetics and potential employment opportunities.",
+          "startTime": 1796.6,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Listener Calls and Contract Negotiations",
+          "summary": "During the broadcast, hosts discuss listener calls about ‘strong armstrongs’ (likely referring to alcohol consumption), one caller mentioning his friend Ben Manila who won a door special, and another discussing Pete Fornatale's shows. A significant portion is dedicated to Maury Paul’s contract negotiations with WNYW, including concerns over him taking $1 million and potential conflicts arising from his relationship with Connie Chan.",
+          "startTime": 2694.02,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Emmy Ticket Troubles & Connie’s Leather Pants",
+          "summary": "Howard nervously discusses his Emmy Awards anxiety and attempts to secure tickets for Carnegie Hall, joking about a tuxedo and potential attire choices like leather pants involving Richard, Robin, and Maury. He also mentions Jamie Lee Curtis and their interactions.",
+          "startTime": 3592.74,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Howard Stern Interviews Maury Povich",
+          "summary": "Howard Stern interviews television personality Maury Povich about his career, marriage to journalist Connie Chung, and work on his syndicated show. The conversation covers Povich's background, his role as host and producer, and personal anecdotes about his life and relationships.",
+          "startTime": 4489.64,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Tape 089"
@@ -7504,18 +7605,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-vol-14",
       "date": "1989",
-      "title": "1989 Vol. 14",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "FME Awards - Stern & Kinison",
+      "summary": "At the 9th annual FME Awards, Howard Stern and Robin Quivers featured a monologue referencing past guests like Jessica Hahn and Scott the Engineer. A significant portion of the broadcast centered on an animated exchange between Stern and Sam Kinison regarding Kinison’s behavior during interviews, culminating in Stern expressing frustration over Kinison's actions.",
+      "duration": 5654.21,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Vol.%2014.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Vol. 14",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "FME Awards - Stern & Kinison",
+          "summary": "At the 9th annual FME Awards, Howard Stern and Robin Quivers featured a monologue referencing past guests like Jessica Hahn and Scott the Engineer. A significant portion of the broadcast centered on an animated exchange between Stern and Sam Kinison regarding Kinison’s behavior during interviews, culminating in Stern expressing frustration over Kinison's actions.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Stern Interviews Chaos with Leslie West and Josh",
+          "summary": "Howard Stern conducts an increasingly chaotic interview featuring producer Leslie West repeatedly demanding payment for his show production, and a bizarre guest named Josh who engages in nonsensical arguments about record contracts. The segment culminates in the nomination of Luna the East African as ‘most incoherent guests’.",
+          "startTime": 942.72,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Ninth Annual FM Awards Broadcast",
+          "summary": "Howard Stern hosts the FM Awards ceremony with Robin Quiver, featuring comedy sketches and a tribute to late broadcaster Dickey Goodman. The show includes satirical award presentations, comedic monologues, and parody songs.",
+          "startTime": 1893.08,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Howard Stern Show Awards Sketch",
+          "summary": "A comedy sketch featuring mock awards for \"most embarrassing public moment\" with nominees including Dustin Hoffman, Rudy Giuliani, and baseball player Mike Smith. The segment includes a production number by cast member Boy Gary performing a self-deprecating rap song about his role on the show.",
+          "startTime": 2828.8,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Radio Host Criticizes Rival Disc Jockey",
+          "summary": "A radio host takes calls from listeners and discusses a videotape he released. He then plays and critiques a novelty record by rival disc jockey Imus, calling him talentless and accusing him of stealing material and copying other comedians' acts.",
+          "startTime": 3770.7,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Howard Stern Show Caller Segment",
+          "summary": "Howard Stern and his radio show staff take calls from listeners discussing video sales, past radio personalities, and station management. The segment includes banter about on-air contests and criticism of station personnel.",
+          "startTime": 4712.94,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Vol. 14"
@@ -7523,18 +7660,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-vol-15",
       "date": "1989",
-      "title": "1989 Vol. 15",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Stern Show Zoo Chaos & Morton Downey",
+      "summary": "During a Stern Show segment, the New York Zoo is destroyed as callers make outlandish claims about earnings and money, accuse others of fraud, and engage in bizarre behavior like peeing in decanters. Guests discuss selling the show for $15 per copy while Morton Downey complains about being stiffed on a deal involving urine.",
+      "duration": 3732.05,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Vol.%2015.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Vol. 15",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Stern Show Zoo Chaos & Morton Downey",
+          "summary": "During a Stern Show segment, the New York Zoo is destroyed as callers make outlandish claims about earnings and money, accuse others of fraud, and engage in bizarre behavior like peeing in decanters. Guests discuss selling the show for $15 per copy while Morton Downey complains about being stiffed on a deal involving urine.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Morton's Fabricated Claims",
+          "summary": "During a radio segment, hosts relentlessly mock Morton Downey Jr.'s outlandish and often contradictory claims about his past – including fabricated stories of being an FBI informant, operating a limo service with unusual trade deals, and having celebrity relationships. They highlight the absurdity of his attempts to construct a glamorous life while exposing his dishonesty.",
+          "startTime": 622.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Morton Downey Jr.'s Failed Ventures",
+          "summary": "Following a failed TV show, Morton Downey Jr. pursued various ventures including consulting fees, a real estate company (Genesis), motivational speaking engagements, and attempts at a singing career. He repeatedly made contradictory claims about these projects, leading to questions regarding his credibility and often shifting narratives.",
+          "startTime": 1244.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Morton Downey Jr.'s Bizarre Claims",
+          "summary": "During a lengthy discussion, Morton Downey Jr. repeatedly claims he was an FBI agent involved in the evergreen goldmine scam while detailing bizarre incidents like peeing in his limo and shaving his head with marital disputes. He insists on owning his limo despite numerous complications and accusations from former associates, further claiming to have been fired for consulting with a matrimonial attorney regarding a divorce.”} ظهرةً في هذا الملف: {",
+          "startTime": 1868.56,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Former Assistant Confronts Employer on Air",
+          "summary": "A former assistant calls into a radio show to confront her former employer, a man named Mort, about being fired with no notice and without severance. The conversation escalates as Mort denies wrongdoing and makes derogatory comments about the assistant's health and work performance.",
+          "startTime": 2489.76,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Morton Downey Jr. Confronts Former Secretary",
+          "summary": "Radio host confronts his former employee Missy over workplace disputes, including accusations about absences, undisclosed FBI work, and a disputed marriage. The two argue about employment termination, compensation, and various workplace incidents without resolving their disagreements.",
+          "startTime": 3110.6,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Vol. 15"
@@ -9007,18 +9180,54 @@
     {
       "id": "cassette-the-howard-stern-show-1990-tape-134",
       "date": "1990",
-      "title": "1990 Tape 134",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "\"It’s A.\"",
+      "summary": "The broadcast commences with the repeated phrase \"It’s a.\" The segment then abruptly concludes without further development or commentary.",
+      "duration": 5403.29,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201990%20Tape%20134.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1990 Tape 134",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "\"It’s A.\"",
+          "summary": "The broadcast commences with the repeated phrase \"It’s a.\" The segment then abruptly concludes without further development or commentary.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Hargrove and Silverman Welcome the 1990s",
+          "summary": "Hargrove and Fred Silverman announced the arrival of the 1990s with the phrase \"This is it. Welcome to the '90s.\"",
+          "startTime": 1800.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Fred Silverman Television Development Meeting",
+          "summary": "Host recounts a meeting with television executive Fred Silverman at Mr. Chow's restaurant where Silverman proposed buying five television stations and giving radio disc jockeys four-hour television shifts. The host was considered for the concept but never heard back, later learning Silverman signed Chicago DJ Jonathan Brandmeyer instead.",
+          "startTime": 1802.9,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Radio Host Recalls Former Program Director",
+          "summary": "A radio host discusses his experience working under a female program director who created detailed scheduling grids and made specific content recommendations. He describes her management style as frustrating but ultimately effective, noting that ratings improved under her tenure before she left for a position at ABC.",
+          "startTime": 2701.1,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Radio Hosts Discuss Former Managers",
+          "summary": "Two radio personalities discuss their experiences with various program directors and general managers, including critiques of John Hayes, who recently purchased a San Francisco radio station after leaving his previous position.",
+          "startTime": 3604.28,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Howard Stern Show Closing Segment",
+          "summary": "The show concludes with announcements of upcoming appearances by cast members, discussion of Francis Ford Coppola casting decisions, and playback of a rock song. A comedic song sketch about a father's daughter dating women closes the broadcast.",
+          "startTime": 4503.92,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1990 Tape 134"
@@ -11064,18 +11273,54 @@
     {
       "id": "cassette-the-howard-stern-show-1991-vol-05",
       "date": "1991",
-      "title": "1991 Vol. 05",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Celebrity Gay Rumors & Activist Pressure",
+      "summary": "This broadcast discusses circulating rumors about numerous celebrities being gay, fueled by magazine reports and speculation. Individuals named include zany dom del louise, Johnny Matthes, Rob Lowe, George Michael, Richard Carpenter, Mike Tyson, Robin Givens, Veronica Hamill, Linda Evans, peewee herman, and others. Activist groups like ACT UP push for LGBTQ+ visibility in entertainment while columnist Liz Smith’s alleged lesbian relationships add another layer to the discussion.",
+      "duration": 5646.35,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991%20Vol.%2005.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991 Vol. 05",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Celebrity Gay Rumors & Activist Pressure",
+          "summary": "This broadcast discusses circulating rumors about numerous celebrities being gay, fueled by magazine reports and speculation. Individuals named include zany dom del louise, Johnny Matthes, Rob Lowe, George Michael, Richard Carpenter, Mike Tyson, Robin Givens, Veronica Hamill, Linda Evans, peewee herman, and others. Activist groups like ACT UP push for LGBTQ+ visibility in entertainment while columnist Liz Smith’s alleged lesbian relationships add another layer to the discussion.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Liz Smith and Phone Call Chaos",
+          "summary": "During a bizarre phone call, the host discusses an outlandish scenario involving Liz Smith’s physical attributes and attempts to solicit feedback from listeners. The conversation veers into uncomfortable territory with graphic descriptions of her body and culminates in confusing conference calls with hot tub Johnnie and Richard Simmons.”}id: 1234567890",
+          "startTime": 941.18,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Phone Calls and a Mysterious Movie Guest",
+          "summary": "The host attempts to reach Dave and Jackie for calls but struggles due to their reluctance. He then engages in a bizarre conversation with a mystery guest, sounding like Marlon Brando, discussing recent movies, attempting to identify them through vague clues, and ultimately revealing himself as Richard Harris from ‘A Man Called Horse’.",
+          "startTime": 1885.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Tax Discussions & Bahamas Mishaps",
+          "summary": "Richard Harris discusses his tax situation living in the Bahamas versus Ireland/America, highlighting the lack of taxes in the former. He recounts an incident on ‘The Field’ set where co-star John Hurt became excessively drunk, singing songs and attempting a striptease, creating awkwardness for the cast and crew.",
+          "startTime": 2826.04,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Richard Harris Discusses \"The Field\"",
+          "summary": "Actor Richard Harris discusses his role in the film \"The Field,\" a story about an Irish farmer who rents a field his family has worked for generations before an American buyer purchases it for marijuana cultivation. Harris explains the film's metaphorical meaning about life's struggles and his process of memorizing dialogue for the lead role.",
+          "startTime": 3767.24,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Richard Harris Interview and Comedy Sketches",
+          "summary": "Radio host interviews actor Richard Harris about his film \"The Field\" and discusses his celebrity connections. The segment includes comedy sketches featuring William Shatner singing and a presidential impersonation, followed by discussion of Mayor Dinkins' efforts to bring the Grammy Awards back to New York.",
+          "startTime": 4706.96,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991 Vol. 05"
@@ -11252,18 +11497,54 @@
     {
       "id": "cassette-the-howard-stern-show-1991-vol-10",
       "date": "1991-04",
-      "title": "1991 Vol. 10",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "British Soldier’s Amputated Penis Following Skin Graft",
+      "summary": "A twenty-seven year old British soldier underwent a skin graft operation resulting in the amputation of his penis. After attempting suicide and experiencing personality changes, he was admitted due to an infected curved penis following the failed procedure; surgeons ultimately amputated it due to infection.",
+      "duration": 5707.31,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991%20Vol.%2010.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991 Vol. 10",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "British Soldier’s Amputated Penis Following Skin Graft",
+          "summary": "A twenty-seven year old British soldier underwent a skin graft operation resulting in the amputation of his penis. After attempting suicide and experiencing personality changes, he was admitted due to an infected curved penis following the failed procedure; surgeons ultimately amputated it due to infection.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Danny Bonadouche's Arrest and Transvestite Prostitute Incident",
+          "summary": "During a radio broadcast, hosts discussed Danny Bonadouche’s arrest following an incident involving a transvestite prostitute. Witnesses reported the alleged assault, theft of money, and subsequent attempts by Bonadouche to blame others while claiming police brutality.",
+          "startTime": 955.2,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Radio Callers Discuss Sexual Anxieties",
+          "summary": "During a radio show discussion, callers share anxieties about their sexual experiences and desires, specifically regarding partner size discrepancies. One listener expresses disappointment with a man’s smaller endowment while another recounts an experience where he felt overwhelmed by the perceived ‘spectacularness’ of a larger male partner.",
+          "startTime": 1902.62,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Gary Lewis’ Vietnam Confessions",
+          "summary": "During an interview, Gary Lewis recounts his experiences as a ‘grunt’ in the Vietnam War, revealing he received little support from his father Jerry Lewis and that many people were unaware of their familial connection. The conversation shifts to anecdotes about other musicians like the Turtles.”}​ 36 words”} H478592019-06-28T12:34:56Z",
+          "startTime": 2853.52,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Gary Lewis Interview and Concert Promotion",
+          "summary": "Gary Lewis discusses his Vietnam service, family relationships with his father Jerry Lewis and brother, and his marriage. He promotes an upcoming concert featuring Gary Lewis and the Playboys with The Turtles at the Radisson Hotel in Melville, Long Island.",
+          "startTime": 3808.72,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Gary Lewis and the Playboys Interview",
+          "summary": "Gary Lewis discusses growing up in Beverly Hills around famous families, his father's involvement in his childhood activities, and his band's live performances. The interview includes discussion of Dean Martin, Frank Sinatra, and other Hollywood figures, followed by Bob Geldof performing \"I Don't Care at All.\"",
+          "startTime": 4756.48,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991 Vol. 10",
@@ -11553,18 +11834,54 @@
     {
       "id": "cassette-the-howard-stern-show-1991-vol-18",
       "date": "1991-08-15",
-      "title": "1991 Vol. 18",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Howard Reacts To Douglas Kiker’s Death",
+      "summary": "During a radio broadcast, Howard Stern discusses his reaction to the death of Douglas Kiker, expressing disbelief and making crude comments about the deceased's appearance and life choices while suggesting an unusual method for ensuring Kiker continues to be tormented after death. The segment includes interruptions from other hosts discussing public opinion.",
+      "duration": 5466.84,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991%20Vol.%2018.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991 Vol. 18",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Howard Reacts To Douglas Kiker’s Death",
+          "summary": "During a radio broadcast, Howard Stern discusses his reaction to the death of Douglas Kiker, expressing disbelief and making crude comments about the deceased's appearance and life choices while suggesting an unusual method for ensuring Kiker continues to be tormented after death. The segment includes interruptions from other hosts discussing public opinion.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Elvis Special Prank Call with Captain Janks",
+          "summary": "A caller named Captain Janks describes calling into a live Bill Bixby television special about Elvis Presley being alive and in witness protection. Janks recounts the show's theory that Elvis worked undercover for the FBI in \"Operation Fountain Pen\" and discusses his prank call experience.",
+          "startTime": 912.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Captain Janks Phone Prank Caller Profile",
+          "summary": "Discussion of Captain Janks, a prolific prank caller who calls radio and television shows. Hosts describe his bootleg tape compilation of approximately 50,000 calls to various personalities, including an incident where he reached Steve Martin at Larry King's green room, and an unauthorized pizza delivery to Roseanne Barr using the host's name.",
+          "startTime": 1828.72,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Black Jeopardy Game Show Sketch",
+          "summary": "A comedy sketch featuring a parody game show called \"Black Jeopardy\" with categories including bloodlines, black crime, spelling, black foods, and black television. Contestants compete for prizes while hosts and guests make jokes throughout the game.",
+          "startTime": 2740.08,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Black Jeopardy Game Show",
+          "summary": "A comedy sketch featuring a parody game show with categories including \"Black TV,\" \"Black Crimes,\" \"Black Foods,\" and \"Bloodlines.\" Contestants compete by answering trivia questions in the style of Jeopardy, with humorous and offensive stereotypical content throughout the game.",
+          "startTime": 3653.56,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Black Jeopardy Game Show Segment",
+          "summary": "A comedy sketch featuring a parody game show called \"Black Jeopardy\" with contestants competing in categories and wagering points, followed by an unrelated angry monologue.",
+          "startTime": 4562.12,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991 Vol. 18",
@@ -12017,18 +12334,96 @@
     {
       "id": "cassette-the-howard-stern-show-1991-03-25",
       "date": "1991-03-25",
-      "title": "1991-03-25",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Marty's Ankle and Nutri-System",
+      "summary": "During a chaotic radio show, Marty recounts his bizarre ankle injury – carrying Jackie in a baby carrier while engaging in karate movements – alongside renting numerous movies including 'Flatliners.' He then promotes Nutri-System via a phone call, detailing its benefits for weight loss with an enthusiastic pitch.",
+      "duration": 13123.17,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991-03-25.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991-03-25",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Marty's Ankle and Nutri-System",
+          "summary": "During a chaotic radio show, Marty recounts his bizarre ankle injury – carrying Jackie in a baby carrier while engaging in karate movements – alongside renting numerous movies including 'Flatliners.' He then promotes Nutri-System via a phone call, detailing its benefits for weight loss with an enthusiastic pitch.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Steve Gutenberg Lands Broadway Role",
+          "summary": "Actor Steve Gutenberg is making his Broadway debut as part of the cast for ‘Prelude to a Kiss,’ playing alongside Timothy Hutton. The production’s success stems from Gutenberg's previous film roles and discussions surrounding John Claude Van Damme’s potential acting career, with some questioning whether he could transition into serious dramatic work.",
+          "startTime": 1094.54,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Tabloid Showdown & Celebrity Gossip",
+          "summary": "Three tabloid magazines aggressively compete for dominance, with one threatening collapse. Lis Smith negotiates a lucrative deal with News while dismissing loyalty concerns regarding celebrity relationships – including rumors of a stripper at a movie set and Dolly’s alleged infidelity - alongside commentary on social issues like healthcare reform. A caller expresses frustration over delayed tape deliveries, followed by an interview discussing haraldo's avoidance of Howard Stern due to past disagreements.",
+          "startTime": 2190.68,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Fertility Technology and Reproductive Ethics Debate",
+          "summary": "Radio hosts debate artificial insemination, test tube babies, and surrogacy, discussing concerns about fertility treatments, lesbian couples raising children, and medical complications. The conversation references the Mary Beth Whitehead case and includes anecdotes about fertility pill side effects and a couple who received triplets through assisted reproduction.",
+          "startTime": 3281.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Steve Guttenberg Broadway Debut Interview",
+          "summary": "Actor Steve Guttenberg discusses his Broadway debut in \"Prelude to a Kiss\" at the Helen Hayes Theatre, starting the next night. The conversation covers his film career, commercial work including a teddy gram advertisement, marriage, and memorizing lines for stage performance.",
+          "startTime": 4377.6,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Steve Gutenberg Broadway Debut Interview",
+          "summary": "Actor Steve Gutenberg discusses his Broadway debut in \"Prelude to a Kiss,\" describing his one-week memorization process for the 100-page script and rehearsals with the cast. He also talks about turning down film roles, developing his own movie projects with hired screenwriters, and his approach to acting in theater versus film.",
+          "startTime": 5470.72,
+          "imageURL": null
+        },
+        {
+          "id": "topic-006",
+          "title": "Steve Gutenberg Interview and Broadway Debut",
+          "summary": "Actor Steve Gutenberg discusses his film career, upcoming Broadway debut in \"Prelude to a Kiss,\" and his involvement in action movies. The conversation covers his work in Police Academy films, movie budgets, and his experiences with other actors and celebrities.",
+          "startTime": 6566.48,
+          "imageURL": null
+        },
+        {
+          "id": "topic-007",
+          "title": "Howard Stern Interviews Geraldo Rivera",
+          "summary": "Howard Stern conducts a comedic interview with Geraldo Rivera, asking absurd questions about his personal life, career, and public controversies. The segment includes banter about Rodney King, Richard Simmons, and Rivera's reluctance to appear on Stern's show.",
+          "startTime": 7657.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-008",
+          "title": "1991 Academy Awards Preview and Predictions",
+          "summary": "Radio hosts discuss the upcoming Academy Awards ceremony, including expected presenters, musical performances by Bon Jovi and others, and make predictions for major categories including Best Picture, Actor, and Actress winners.",
+          "startTime": 8749.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-009",
+          "title": "Howard Stern Radio Show Broadcast",
+          "summary": "Radio talk show featuring discussion of news topics including South African police violence, child sexual abuse in New York schools, Saddam Hussein's financial corruption, and Palm Sunday, interspersed with phone calls and comedic banter between hosts.",
+          "startTime": 9844.4,
+          "imageURL": null
+        },
+        {
+          "id": "topic-010",
+          "title": "Radio Show Calls and Commentary",
+          "summary": "A radio program featuring multiple caller segments and host commentary on various topics including a spokesmodel audition, callers discussing personal matters, and discussion of news events including the Happy Land Social Club fire anniversary and a school door incident.",
+          "startTime": 10935.88,
+          "imageURL": null
+        },
+        {
+          "id": "topic-011",
+          "title": "Sam Kinison Review and News",
+          "summary": "The crew responds to Sam Kinison's review and its claims about comments on the show. Robin then reads news about the Trump divorce settlement and a reported MacGyver copycat incident.",
+          "startTime": 12032.4,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991-03-25"
@@ -12202,18 +12597,103 @@
     {
       "id": "cassette-the-howard-stern-show-1991-03-28",
       "date": "1991-03-28",
-      "title": "1991-03-28",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Strange Conversations and Porn Star Introductions",
+      "summary": "The broadcast features a chaotic conversation filled with bizarre topics including marijuana use, cocaine references, fantasies about celebrities like Eric and Marsh King, and an extended discussion of pornographic film titles. A female performer named Asia is introduced who has worked in numerous adult films.",
+      "duration": 14196.45,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991-03-28.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991-03-28",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Strange Conversations and Porn Star Introductions",
+          "summary": "The broadcast features a chaotic conversation filled with bizarre topics including marijuana use, cocaine references, fantasies about celebrities like Eric and Marsh King, and an extended discussion of pornographic film titles. A female performer named Asia is introduced who has worked in numerous adult films.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Strange Encounters and TV Obsessions",
+          "summary": "A caller recounts bizarre encounters including making love with a pig and being frightened by dating. Others discuss their obsession with television shows like ‘Ramphar’ and Linda Evans, while sharing opinions on actors' performances and personal relationships – one man is obsessed with Kim Bassinger and another worries about his ex-wife after she refuses to rehearse her scenes.",
+          "startTime": 1094.16,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Necklace Obsession and Model Mania",
+          "summary": "Beefy Ed McMahon discusses a bizarre segment featuring celebrity photos, notably one with David Faustino alongside an unusually small neck and a young model. The conversation shifts to the prevalence of models in celebrity circles – referencing Sophia Lauren, Robin Quinlan, and their distinctive eyewear trends - before delving into Larry King's marital woes and Angie Dickinson’s ultimatum.",
+          "startTime": 2184.64,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Norris Family Name Game & Asia's Unusual Career",
+          "summary": "The hosts playfully debate naming conventions for Josh and Mindy Norris, suggesting outlandish names like Rodney and Minkey while Jackie offers comedic input. A lengthy discussion ensues about Letterman’s influence, Bob Costas’ media prominence, and a bizarre segment involving simulated ‘gay flash’ and anatomical modifications before shifting to Asia's career including her role in 'Last Temptation of Christ,' concluding with an awkward phone call discussing unusual sexual experiences.",
+          "startTime": 3276.58,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Howard's Unhinged Interview with Asia",
+          "summary": "During an interview, host Howard discusses infidelity involving Christie Brinkley and Billy Joel while simultaneously exploring the sexual habits of porn star Asia. The conversation quickly devolves into bizarre tangents about marital dissatisfaction, unusual dating preferences (including wanting to be tied up), a listener's experience voting for their boss at 7-Eleven, and increasingly inappropriate questions regarding her age and past relationships.",
+          "startTime": 4370.08,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Uncomfortable Slumber Party Revelations",
+          "summary": "During a recorded slumber party, a twelve-year-old girl discusses a ‘mommy and daddy’ game involving sexualized roleplay with her friends, leading to discussions about past gay relationships and potential adult entertainment careers. The conversation shifts to personal experiences including two homosexual encounters and explores the possibility of lucrative opportunities in the industry.",
+          "startTime": 5464.8,
+          "imageURL": null
+        },
+        {
+          "id": "topic-006",
+          "title": "Nude Singer Performs on Radio Show",
+          "summary": "A woman named Asia performs a song while naked in the studio, impressing the host who compares her talent favorably to established artists. She discusses her work as a dancer and a potential recording deal with a producer in Atlanta.",
+          "startTime": 6555.64,
+          "imageURL": null
+        },
+        {
+          "id": "topic-007",
+          "title": "Donnie Wahlberg Arrested for Hotel Fire",
+          "summary": "New Kids on the Block member Donnie Wahlberg was arrested after allegedly pouring vodka on a hotel rug and igniting it in Louisville. He posted $50,000 bail and faces potential felony charges. Fans gathered outside the hotel chanting his name.",
+          "startTime": 7644.08,
+          "imageURL": null
+        },
+        {
+          "id": "topic-008",
+          "title": "Radio Hosts Debate Abortion and Parenting",
+          "summary": "Hosts discuss a news story about a 12-year-old girl who allegedly abandoned a newborn in a trash compactor, then debate North Dakota's restrictive abortion law. They play audio clips from state senators debating the bill and discuss related policy issues.",
+          "startTime": 8736.36,
+          "imageURL": null
+        },
+        {
+          "id": "topic-009",
+          "title": "Howard Stern Discusses Aldo Ray's Death",
+          "summary": "Howard Stern and Robin discuss actor Aldo Ray's death at age 64, covering his throat cancer, career decline due to drinking, and final film roles including an X-rated film. The segment includes listener calls and discussion of Stern's \"Crucified by the FCC\" album sales.",
+          "startTime": 9829.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-010",
+          "title": "Caller Objects to Tape Cover Imagery",
+          "summary": "A female caller criticizes Howard Stern's tape cover depicting him as Christ on a cross, calling it disrespectful to religious beliefs. Stern defends the artistic choice and argues the caller is too uptight to listen to the show.",
+          "startTime": 10922.84,
+          "imageURL": null
+        },
+        {
+          "id": "topic-011",
+          "title": "Penile Implant Lawsuit and Medical Negligence",
+          "summary": "A New Jersey man sued his doctor over a penile implant that allegedly became dangerously bent at a 90-degree angle. The implant was replaced with a smaller one, with the patient's lawyer arguing the original 9.2-inch implant was too large for safe use.",
+          "startTime": 12018.78,
+          "imageURL": null
+        },
+        {
+          "id": "topic-012",
+          "title": "Prison Escapees Sought in New York",
+          "summary": "Two escaped prisoners from upstate New York are believed headed toward the broadcast area. Kenny Ryan, 34, of the Bronx, stabbed a five-year-old boy; George Gatto, 46, of Staten Island, shot a drug dealer during a robbery. Physical descriptions and tattoo details provided.",
+          "startTime": 13106.56,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991-03-28"
@@ -12304,18 +12784,110 @@
     {
       "id": "cassette-the-howard-stern-show-1991-04-01",
       "date": "1991-04-01",
-      "title": "1991-04-01",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Radio Show Guests and Unexpected Conversations",
+      "summary": "A radio show features a series of unusual guests including Howard Stern who discusses his outrageous humor. A segment transitions to an interview with a personality discussing their career, opinions on the week’s events, followed by a musical interlude featuring classic songs like ‘If You're Looking For Trouble.’ Finally, a comedic bit involving Lucille Ball and Ricky Ricardo recreates a scene from 'I Love Lucy,' culminating in a discussion about taking time off.",
+      "duration": 14300.79,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991-04-01.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991-04-01",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Radio Show Guests and Unexpected Conversations",
+          "summary": "A radio show features a series of unusual guests including Howard Stern who discusses his outrageous humor. A segment transitions to an interview with a personality discussing their career, opinions on the week’s events, followed by a musical interlude featuring classic songs like ‘If You're Looking For Trouble.’ Finally, a comedic bit involving Lucille Ball and Ricky Ricardo recreates a scene from 'I Love Lucy,' culminating in a discussion about taking time off.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Howard Stern and Mother Debate Childhood Neighborhoods",
+          "summary": "Howard Stern argues with his mother about her choice of neighborhoods during his childhood, claiming she deliberately selected communities with racial mixing that harmed his development. His mother defends her decisions and criticizes his current parenting choices and lack of social etiquette regarding thank-you notes.",
+          "startTime": 1021.72,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Howard Stern's Parents Discuss Family Dynamics",
+          "summary": "Howard Stern's mother and father appear on his radio show to discuss family relationships and parenting. Topics include his mother's ongoing maternal behavior toward her adult son, his father's management style, and a dispute over sending thank-you notes for gifts received.",
+          "startTime": 2045.88,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Howard Stern Discusses Family Relationships",
+          "summary": "Howard Stern and radio colleagues discuss their relationships with their mothers and parents, including how parental visits trigger childhood feelings and behavioral patterns. The conversation includes anecdotes about parental expectations, dietary advice, and generational differences in parenting styles.",
+          "startTime": 3067.36,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "K-Rock Radio Station Changes to All-Elvis Format",
+          "summary": "A radio station announces it is switching from classic rock to an all-Elvis Presley format called \"Elvis Jams,\" featuring the best of Elvis recordings. The station management believes the format will appeal to their existing 25-54 year-old audience.",
+          "startTime": 4086.04,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "WXRK Radio Station Switches to All-Elvis Format",
+          "summary": "Radio station 92.3 WXRK announces it will change to an all-Elvis music format starting at 10 a.m., playing only Elvis Presley recordings. Station management conducted focus groups supporting the format change, though on-air staff express skepticism about listener retention.",
+          "startTime": 5108.36,
+          "imageURL": null
+        },
+        {
+          "id": "topic-006",
+          "title": "Danny Bonaduce Arrested in Phoenix",
+          "summary": "Hosts discuss news article about former Partridge Family actor Danny Bonaduce's arrest in Phoenix on charges of robbing and beating a transvestite prostitute. Police found him hiding naked in his apartment closet after residents reported screaming.",
+          "startTime": 6131.36,
+          "imageURL": null
+        },
+        {
+          "id": "topic-007",
+          "title": "Baseball Card Signing Economics",
+          "summary": "Hosts discuss the business of celebrity baseball player autograph signings, including appearance fees, signing quotas, and pricing structures. Topics include Joe DiMaggio's $35,000 daily rate and Roy Campanella's physical challenges signing autographs despite his quadriplegia.",
+          "startTime": 7150.52,
+          "imageURL": null
+        },
+        {
+          "id": "topic-008",
+          "title": "Ann Landers Letters Read on Air",
+          "summary": "Radio hosts read and discuss two Ann Landers advice column letters: one from a young man concerned about sexual inadequacy, and another from a woman praising smaller-endowed partners. The hosts debate the letters' authenticity and content with explicit commentary.",
+          "startTime": 8171.92,
+          "imageURL": null
+        },
+        {
+          "id": "topic-009",
+          "title": "Nils Lofgren Basketball Wager and Album",
+          "summary": "Musician Nils Lofgren calls the show to discuss a basketball wager with the host, joking about his playing abilities and sky hook. The conversation includes discussion of Lofgren's new album and single \"Sticks and Stones,\" with the host praising his music and noting his work with Bruce Springsteen.",
+          "startTime": 9196.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-010",
+          "title": "Surrogate Mother Custody Dispute",
+          "summary": "A court case in Santa Ana, California involves a three-way custody dispute over a baby born to surrogate mother Elvira Jordan. The biological father Robert Macheta left his wife and took the infant, while Jordan sought to retain custody based on conditions the couple never signed.",
+          "startTime": 10215.8,
+          "imageURL": null
+        },
+        {
+          "id": "topic-011",
+          "title": "Caller Discusses Mental Health Stigma",
+          "summary": "A caller named Freestyle Read visits the studio to discuss stigma against people with mental health histories and the difficulty finding employment. She shares her background in martial arts and music, her struggles with depression, and criticizes media responsibility in portraying vulnerable populations.",
+          "startTime": 11237.6,
+          "imageURL": null
+        },
+        {
+          "id": "topic-012",
+          "title": "U.S. Army Rejects Performance Request",
+          "summary": "A radio host discusses why the U.S. Army declined his request to perform for troops at military bases. The Army cited concerns about the type of entertainment, rejecting the proposal immediately without hearing details of the planned show.",
+          "startTime": 12259.28,
+          "imageURL": null
+        },
+        {
+          "id": "topic-013",
+          "title": "Radio Show Gossip and News Roundup",
+          "summary": "A radio host discusses various news stories including a stabbing incident involving deaf men in Brooklyn, the \"ice princess\" Pamela Smart's first interview about her conviction, and celebrity gossip about Sandy Korn and Mike Tyson at a nightclub.",
+          "startTime": 13281.92,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991-04-01"
@@ -13214,18 +13786,68 @@
     {
       "id": "cassette-the-howard-stern-show-1991-04-18-inc",
       "date": "1991-04-18",
-      "title": "1991-04-18 INC",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Zookeeper's Philadelphia Ratings Decline",
+      "summary": "During a radio segment, hosts discuss a zookeeper’s initial high ratings (up to 17) in Philadelphia after simulcasting their show, followed by a rapid decline to 5.8 within months due to unsuccessful public engagement and being overshadowed by other stations.",
+      "duration": 8702.12,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991-04-18%20INC.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991-04-18 INC",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Zookeeper's Philadelphia Ratings Decline",
+          "summary": "During a radio segment, hosts discuss a zookeeper’s initial high ratings (up to 17) in Philadelphia after simulcasting their show, followed by a rapid decline to 5.8 within months due to unsuccessful public engagement and being overshadowed by other stations.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Howard & Jerry Debate Tom Snyder's Advertising",
+          "summary": "During the broadcast, Howard and Jerry discuss television personality Tom Snyder’s show, focusing on its promotion of questionable advertising practices such as 1-800 numbers for dating services. The conversation devolves into personal criticisms of Snyder’s appearance and perceived lack of intelligence alongside humorous anecdotes about Howard's own experiences with television appearances.",
+          "startTime": 1088.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "A Casual Conversation About Television and Personal Anxieties",
+          "summary": "During a relaxed conversation, the speakers discuss television ratings for Jerry Seinfeld’s show, exploring anxieties about attracting unwanted attention from women due to success. They debate whether public perception of appearance—particularly long hair—influences relationships while acknowledging challenges in maintaining relevance within entertainment.",
+          "startTime": 2176.6,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Discussion of Terri Gar & Bob Morton",
+          "summary": "During this radio segment, hosts discuss an article featuring producer Bob Morton’s connection to actress Terri Gar, including her attendance at a state dinner with the President and his wife. They playfully speculate about their relationship dynamics, referencing past events involving Morton and other women, highlighting humorous anecdotes and questioning media attention.",
+          "startTime": 3263.4,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Confused Identities and Dubious Claims",
+          "summary": "The broadcast features a chaotic mix of misidentified individuals, including claims about a doctor with AIDS, a college student accused of rape, and Senator Ted Kennedy’s past. Public opinion regarding releasing names associated with alleged crimes is questioned alongside concerns about blood supply safety and an individual's romantic history.",
+          "startTime": 4350.8,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Chemo, Plastic Surgery & a Troubled Caller",
+          "summary": "A caller obsessed with his appearance discusses changing chemotherapy plans while fixating on looking good for a new series. He believes brown rice can cure cancer and expresses desires to undergo plastic surgery after hearing about a doctor shot by a woman upset over a facelift, alongside other bizarre anecdotes.",
+          "startTime": 5441.04,
+          "imageURL": null
+        },
+        {
+          "id": "topic-006",
+          "title": "Caller Bo Discusses Kennedy Encounter",
+          "summary": "Caller Bo, identified as a lesbian from a previous Christmas show, phones in to discuss meeting Maxwell Taylor Kennedy at Studio 54 years ago. She claims his lawyer approached her at the nightclub and invited her to a Greenwich Village apartment, where she spent a weekend with the young Kennedy.",
+          "startTime": 6528.44,
+          "imageURL": null
+        },
+        {
+          "id": "topic-007",
+          "title": "Howard Stern Criticizes Radio and TV Personalities",
+          "summary": "Howard Stern discusses his competitive views of other radio and television personalities including Mark and Brian, Scott Shannon, Rick Dees, and Jonathan Brandmeyer, criticizing their talent and career moves. The interview also covers upcoming boxing weigh-ins, university condom machine protests, and New Kids on the Block fan reactions.",
+          "startTime": 7616.54,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991-04-18 INC"
@@ -15465,18 +16087,54 @@
     {
       "id": "cassette-the-howard-stern-show-1993-vol-07",
       "date": "1993",
-      "title": "1993 Vol. 07",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Daniel Carver’s Malfunctioning Klan Machine",
+      "summary": "A man named Daniel Carver repeatedly calls into a radio show to discuss a malfunctioning machine that plays Ku Klux Klan messages. He blames various callers, including ‘pafafoui,’ for the damage and expresses racist views about Black people while seeking donations to repair it; other hosts attempt to engage him in conversation regarding his business venture.",
+      "duration": 5693.43,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201993%20Vol.%2007.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1993 Vol. 07",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Daniel Carver’s Malfunctioning Klan Machine",
+          "summary": "A man named Daniel Carver repeatedly calls into a radio show to discuss a malfunctioning machine that plays Ku Klux Klan messages. He blames various callers, including ‘pafafoui,’ for the damage and expresses racist views about Black people while seeking donations to repair it; other hosts attempt to engage him in conversation regarding his business venture.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Brooklyn Yeshiva DJ Request",
+          "summary": "A caller requests Howard to book Ed McMahon as a DJ for a Jewish-Christian organization’s party at the Ritzaad yeshiva in Brooklyn. The event would involve playing ‘Hot Hot Hot,’ mimicking Scott's hand movements, and potentially featuring an insurance sales pitch from Ed McMahon.",
+          "startTime": 949.48,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Ed McMahon & Baseball Mishaps",
+          "summary": "The broadcast features an interview with Colonel Clink discussing duty, followed by a chaotic exchange with Don Mattingly about baseball and bodily functions. The segment includes inappropriate questions regarding personal encounters within the catcher's box, revealing unprofessional behavior and awkward interactions among the hosts.",
+          "startTime": 1899.52,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Allen Encounter and Cookie Hunt",
+          "summary": "During a radio broadcast, host Howard Stern recounts seeing Woody Allen in disguise – wearing a large hat – while seeking cookies with Neil Mattingly. They express frustration over Allen’s actions and observe Mattingly's behavior as he attempts to obtain refreshments, leading to humorous exchanges about the situation.",
+          "startTime": 2847.58,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Stuttering John Interviews Earl Monroe",
+          "summary": "Stuttering John conducts street interviews with basketball legend Earl Monroe, asking questions about television appearances and other topics. Monroe responds with humor and compliments the show's hosts.",
+          "startTime": 3795.14,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Pizza Business and Delivery Work",
+          "summary": "A pizzeria owner from Glen Ridge discusses operating two pizza restaurants, employee training, and pizza preparation. The conversation includes anecdotes about delivery jobs, restaurant work experiences, and the economics of the pizza business.",
+          "startTime": 4745.62,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1993 Vol. 07"
@@ -17244,18 +17902,54 @@
     {
       "id": "cassette-the-howard-stern-show-1997-05-01-inc",
       "date": "1997-05-01",
-      "title": "1997-05-01 INC",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Ellen DeGeneres Ex-Boyfriend Interview",
+      "summary": "A man claiming to be Ellen DeGeneres' high school boyfriend discusses their brief relationship, describing it as lasting about a month and a half with four sexual encounters. He recounts details about her appearance and sexual responsiveness, and discusses learning about her coming out as a lesbian years later.",
+      "duration": 5716.07,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201997-05-01%20INC.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1997-05-01 INC",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Ellen DeGeneres Ex-Boyfriend Interview",
+          "summary": "A man claiming to be Ellen DeGeneres' high school boyfriend discusses their brief relationship, describing it as lasting about a month and a half with four sexual encounters. He recounts details about her appearance and sexual responsiveness, and discusses learning about her coming out as a lesbian years later.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Howard Stern Show Vaginal Sound Performance",
+          "summary": "Radio host Howard Stern interviews female callers who demonstrate the ability to produce sounds by passing air through their vaginas. Two women perform the technique live on air, including a duet over \"Flight of the Bumblebee,\" while Stern discusses organizing a paid performance event.",
+          "startTime": 953.24,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Radio Show Broadcast with Celebrity Encounters",
+          "summary": "Radio hosts discuss attending a Ring Sting concert featuring Motown performances and Stevie Wonder, then recount celebrity encounters including meetings with Julia Roberts and Sidney Poitier. The show includes a call from a San Diego radio station manager about moving to a new frequency.",
+          "startTime": 1909.44,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Radio Host Flogging Sketch",
+          "summary": "A radio sketch featuring a guest in slave costume being chained to a tree and struck with a paddle. The host frames the act as commentary on racial double standards, referencing a competitor's event and discussing the guest's suspended license violations.",
+          "startTime": 2858.36,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Howard Stern Show Sketch and Interview",
+          "summary": "A radio show segment featuring a staged flogging sketch with a guest named Adrian, followed by a phone interview with basketball player Dennis Rodman discussing his new book and Oprah Winfrey's decision not to promote it on her show.",
+          "startTime": 3810.96,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Dennis Rodman Interview and Press Conference",
+          "summary": "Radio host interviews NBA player Dennis Rodman about his autobiography, basketball career, and personal life, followed by a comedic press conference segment addressing new radio markets in Fayetteville and Minneapolis.",
+          "startTime": 4765.32,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1997-05-01 INC"
@@ -19380,18 +20074,54 @@
     {
       "id": "cassette-the-howard-stern-show-1998-02-18-inc",
       "date": "1998-02-18",
-      "title": "1998-02-18 INC",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "The Post-it Inventor’s Rambling Interview",
+      "summary": "A chaotic radio interview features George Washington Lincoln, who claims to have invented the Post-it note through a bizarre twisting motion while high on airplane glue. The conversation rapidly shifts into unrelated topics including Black History Month, presidential politics, drug use, and references to Lola Philanin movies, with no clear connection between them.",
+      "duration": 3978.93,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201998-02-18%20INC.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1998-02-18 INC",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "The Post-it Inventor’s Rambling Interview",
+          "summary": "A chaotic radio interview features George Washington Lincoln, who claims to have invented the Post-it note through a bizarre twisting motion while high on airplane glue. The conversation rapidly shifts into unrelated topics including Black History Month, presidential politics, drug use, and references to Lola Philanin movies, with no clear connection between them.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Obsessions, Gambling and Hollywood Figures",
+          "summary": "The host discusses his bizarre obsession with Nev Campbell, including writing her love letters, attempting to impress her through job applications, and gambling debts. He recounts encounters with Bruce Willis at a party and details interactions with Naomi Campbel and Dan who worked as a security guard while discussing celebrity acquaintances.",
+          "startTime": 663.88,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Cody’s Jewelry, Stamos & War",
+          "summary": "Seven-year-old Cody wants his mother’s jewelry leading to a discussion about wealth distribution and Kathy Lee's aversion to ‘bimboes.’ Ralph attempts networking with John Stamos resulting in awkward conversations. The conversation devolves into personal grievances, observations regarding war preparations, and an Israeli Air Force pilot training Americans.",
+          "startTime": 1328.44,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Israeli Military and Iraq Deadline",
+          "summary": "American pilots are training in California alongside Israeli military surgeons, discussing potential action against Iraq due to an impending deadline for inspections. The Israelis express concern about Iraqi aggression and emphasize a need for decisive action by noon tomorrow, while also noting they can monitor events within the United States via surveillance.",
+          "startTime": 1991.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Unconscious Patient, Paparazzi Lawsuit, Wine Study",
+          "summary": "A man collapses during a Valentine's Day dinner and faces poor prognosis. Simultaneously, paparazzi are pursuing celebrities with legal action regarding intrusive photography practices. A French scientist’s study suggests moderate wine consumption may offer health benefits – though it also highlights potential risks for women.",
+          "startTime": 2656.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Katie Couric and Pinball History",
+          "summary": "During the broadcast, Robin discusses Katie Couric’s return after her husband’s death before shifting to a discussion of pinball machine history. They explore how video games impacted pinball’s popularity and its subsequent resurgence with technological advancements integrated into modern machines, alongside an unusual segment about alleged seduction techniques attributed to Brigham Young.",
+          "startTime": 3316.0,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1998-02-18 INC"
