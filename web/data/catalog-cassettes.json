@@ -1232,18 +1232,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-tape-012",
       "date": "1989",
-      "title": "1989 Tape 012",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Discussion of Gay Film Recognition and Network Plans",
+      "summary": "The conversation revolves around a perceived lack of attention given to gay films throughout history, including titles like ‘S&M’ and ‘Cabaret,’ with participants proposing establishing a cable television network. They discuss colorizing older film versions, advertising challenges due to reluctance from companies to promote products associated with the LGBTQ+ community, and exploring potential programming ideas such as a dating game or weather segment featuring a person with prominent buttocks.",
+      "duration": 2831.89,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Tape%20012.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Tape 012",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Discussion of Gay Film Recognition and Network Plans",
+          "summary": "The conversation revolves around a perceived lack of attention given to gay films throughout history, including titles like ‘S&M’ and ‘Cabaret,’ with participants proposing establishing a cable television network. They discuss colorizing older film versions, advertising challenges due to reluctance from companies to promote products associated with the LGBTQ+ community, and exploring potential programming ideas such as a dating game or weather segment featuring a person with prominent buttocks.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Uncomfortable Family Discussions & Radio Ramblings",
+          "summary": "During a meandering interview, two men discuss their unsuccessful attempts at adoption due to being homosexual, referencing concerns about instability and rejecting women. They reminisce about television appearances including Rowan & Martin’s Laughing Gas, discussing Bert Reynolds' volatile behavior and an underpants scene involving Bob Crane, while also speculating on Woody Allen films and playing a game show called ‘Clint Eastwood and his wife Maggie.’",
+          "startTime": 472.96,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Confessions and Celebrity Musings",
+          "summary": "A woman discusses past relationships including Bert Reynolds and Judy Garland, offering unsolicited opinions on lesbians and women in entertainment. She shares anecdotes about an apartment offer, jewelry sales, and a fascination with celebrity encounters like Desi Arnaz, concluding with encouragement to pursue television work.",
+          "startTime": 945.96,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Domestic Disputes and Phone Calls",
+          "summary": "During a radio broadcast, callers discuss domestic disputes involving physical altercations and erratic behavior while offering career advice to Judy. A caller attempts to utilize the host’s voice for a 900 number concept before abruptly disconnecting.",
+          "startTime": 1418.76,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Eddie Murphy's Radio Segment",
+          "summary": "During an erratic radio segment, Eddie Murphy recounts his awkward date with a correctional officer, marked by bizarre tangents about breath, personal anecdotes including football predictions and observations of men’s penises in locker rooms. Frequent interruptions from callers named Gary create chaotic exchanges centered around the topic.",
+          "startTime": 1888.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Shower, Wiener Discussions & Dr. Green",
+          "summary": "During a phone interview, hosts discuss a man taking a shower and an unusual encounter with someone in the same spot. They delve into bizarre conversations involving snippets of audio, suggestive comments about shampooing, and a rap song called ‘Funky Cold Medina’ interpreted as a magical drink. A school chancellor named Dr. Green makes outlandish claims including mandatory drug testing for six-year-olds and advocating contraceptive education.",
+          "startTime": 2361.0,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Tape 012"
@@ -4424,18 +4460,54 @@
     {
       "id": "cassette-the-howard-stern-show-1989-tape-077-1989-09-05",
       "date": "1989-09-05",
-      "title": "1989 Tape 077 1989-09-05",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Howard’s Telethon Frustrations",
+      "summary": "During a chaotic telethon for muscular dystrophy, Howard criticizes unprofessional behavior including an answering machine message and attempts to negotiate with Channel 9. He mocks the event's fundraising effectiveness, expresses frustration over being sidelined while others receive excessive airtime, particularly Sammy’s emotional appeals, and highlights the awkward involvement of individuals like Lloyd Lindsay Young.””",
+      "duration": 2921.78,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201989%20Tape%20077%201989-09-05.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1989 Tape 077 1989-09-05",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Howard’s Telethon Frustrations",
+          "summary": "During a chaotic telethon for muscular dystrophy, Howard criticizes unprofessional behavior including an answering machine message and attempts to negotiate with Channel 9. He mocks the event's fundraising effectiveness, expresses frustration over being sidelined while others receive excessive airtime, particularly Sammy’s emotional appeals, and highlights the awkward involvement of individuals like Lloyd Lindsay Young.””",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Radio Broadcast & Hospital Incident",
+          "summary": "During a radio broadcast, callers discuss Hot Rod Lincoln memorabilia and Commander Cody bands while attempting to contact the Ramones manager. A chaotic exchange involves a local television audience member fainting after an incident with a mental patient named Celeste who was hospitalized following a governor’s event.",
+          "startTime": 488.16,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Becky’s Chaotic Telethon Incident",
+          "summary": "During a live telethon, Becky recounts an incident involving Celeste and Jackie. After Celeste fell while attempting to interact with the audience, Jackie reacted negatively leading to accusations of harassment and a failed second show attempt; Becky sustained injury after falling from the stage.",
+          "startTime": 974.64,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Chaotic Bahamas Dream Contest",
+          "summary": "A radio segment descends into bizarre conversations about strange relationships, outlandish claims of weight loss, and an obsession with the Beatles’ “Day Tripper.” Listeners call in to win a trip to the Bahamas while discussing characters like ‘Becky the mental patient,’ Morton Downey, and Stan obsessed with pens. The broadcast concludes with Howard Stern interviewing someone regarding inventing \"Isle of Smiles\" and promoting a Carrefour hypermarket deal.",
+          "startTime": 1461.08,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Muscular Dystrophy Telethon Fundraising Disputes",
+          "summary": "During a muscular dystrophy telethon, discussions centered around DJ involvement and fundraising totals. Concerns arose about the station’s lack of connection to the event, with one DJ using it for publicity while Sammy significantly exceeded Tony Orlando in donations. Jerry delivered an emotional lecture on crying, showcasing footage of his son Gary Lewis’ music career, and a recurring theme involved promoting MasterCard calls during the broadcast.",
+          "startTime": 1958.52,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Telethon Mishaps & Tennis Outbursts",
+          "summary": "During a telethon, Jerry repeatedly displays inappropriate behavior while hugging his wife, oblivious to the camera crew following him; discussions arise about Channel 9’s interaction with disabled children and Tony Orlando's attempts at connection. Later, Yannick Noah confronts an Israeli player after he printed ‘F off your whole family’ on a plane, escalating into a heated exchange.”} ظهرةً لـ Telethon Chaos & Tennis Troubles",
+          "startTime": 2436.52,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1989 Tape 077 1989-09-05"
@@ -11068,18 +11140,54 @@
     {
       "id": "cassette-the-howard-stern-show-1991-vol-08",
       "date": "1991",
-      "title": "1991 Vol. 08",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Love Poems and Listener Analysis",
+      "summary": "Howard reads love poems received in the mail alongside an analysis by listener Jeff, who abruptly quits his construction job to move back to Florida and pursue writing aspirations. Frequent interruptions from callers discuss their own experiences, including a detailed breakdown of show personalities like Gary and Fred Norris.",
+      "duration": 5680.87,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991%20Vol.%2008.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991 Vol. 08",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Love Poems and Listener Analysis",
+          "summary": "Howard reads love poems received in the mail alongside an analysis by listener Jeff, who abruptly quits his construction job to move back to Florida and pursue writing aspirations. Frequent interruptions from callers discuss their own experiences, including a detailed breakdown of show personalities like Gary and Fred Norris.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Guests Discuss Radio Accuracy and Notable Guests",
+          "summary": "During a casual conversation, hosts discuss the accuracy of their radio program with an audience member who guesses at details while reminiscing about past guests like Sam Kinison, Richard Simmons, Joan Rivers, and Eddie Griffin. They also delve into guest ratings – including Pat Cooper’s frequent arguments and Joey & Markey Ramon's chaotic appearances - alongside discussions on Howard Stern memorabilia and the show’s history with recurring figures such as Stuttering John and Billy West.",
+          "startTime": 946.28,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Child Star Discussions and Telethon Concerns",
+          "summary": "The broadcast features a discussion about former child stars Billy Mummey, Jay North, and Macaulay Culkin. The conversation touches upon concerns regarding the exploitation of young actors like Culkin during telethons, including fundraising efforts for charitable causes and personal struggles faced by these individuals.",
+          "startTime": 1894.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Tony Orlando’s Unconventional Romance Reflections",
+          "summary": "During an interview, Tony Orlando recounts a twenty-year relationship that began at eighteen and ended due to his burgeoning success with Dawn. He reflects on watching a friend mature while discussing attraction at youth, ultimately admitting a desire for continued involvement in the entertainment industry despite past depression.",
+          "startTime": 2848.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Career Instability & Telethon Mishaps",
+          "summary": "The conversation details a period of instability in the subject’s career, marked by cocaine use, strained relationships with colleagues like Jerry Louis and Howard Stern, and mispronunciation errors during telethons. The hosts discuss personal grievances and self-destructive behavior while analyzing the challenges of public performance.",
+          "startTime": 3783.44,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Radio Show Prank and Confusion",
+          "summary": "During a radio broadcast, hosts engage in chaotic conversations about past acquaintances like Sonnyatra and Pat Cooper while attempting to prank two disc jockeys by inserting fabricated commercial breaks. The segment devolves into confusion as the hosts struggle to maintain control of the program amidst bizarre tangents and personal commentary.",
+          "startTime": 4726.96,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991 Vol. 08"
@@ -11465,18 +11573,54 @@
     {
       "id": "cassette-the-howard-stern-show-1991-vol-24",
       "date": "1991",
-      "title": "1991 Vol. 24",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "KKK Message & Racist Claims",
+      "summary": "The broadcast features a speaker delivering deeply offensive and racist statements including claims about KKK messaging, accusations against black people regarding cannibalism and sexual practices with animals, and historical distortions. The speaker promotes harmful stereotypes and engages in dehumanizing rhetoric.",
+      "duration": 5129.95,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991%20Vol.%2024.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991 Vol. 24",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "KKK Message & Racist Claims",
+          "summary": "The broadcast features a speaker delivering deeply offensive and racist statements including claims about KKK messaging, accusations against black people regarding cannibalism and sexual practices with animals, and historical distortions. The speaker promotes harmful stereotypes and engages in dehumanizing rhetoric.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Restroom Ramblings and Radio Dreams",
+          "summary": "During the broadcast, hosts discuss an unusual incident in a public restroom involving multiple stalls and a water-activated toilet. They then transition to Howard’s aspirations of becoming a radio DJ, including interviewing a CMA student about broadcasting techniques and playing Led Zeppelin's 'Rock & Roll,’ alongside personal anecdotes like Gary admiring Bob Hope and discussing ‘Full House.’",
+          "startTime": 856.76,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Stern Discusses Money & Calls Listeners",
+          "summary": "Howard Stern discusses his co-host's financial issues and suggests finding a girlfriend. He takes calls from listeners who express admiration for him, often referencing General Hospital storylines involving Paula Abdul and other celebrities, with some callers expressing opinions on the show’s content.",
+          "startTime": 1713.56,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Radio Star Interview & Family Troubles",
+          "summary": "A radio host, John, interviews his eight-year-old daughter Emily about her admiration for him and changes to ‘Full House.’ Concerns arise regarding a recent shift in ratings due to the show’s move to Tuesday nights, with discussions of audience growth. The conversation includes awkward questions about John's celibacy, attempts at grooming Emily, and an uncomfortable recollection of his controversial movie role.",
+          "startTime": 2564.68,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Stern Discusses John Stamos & Weird Radio Guests",
+          "summary": "Howard Stern discusses a caller named John with unusual health issues who takes animals and met him at a nightclub through Lori Lachlan. The conversation shifts to discussing the strange nature of radio guests, their backgrounds, and a brief discussion about meeting someone from Full House.",
+          "startTime": 3419.24,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Mars Phone Calls & Jeffrey Dahmer",
+          "summary": "John Stamos discusses his past relationships on Mars, including frequent women and bizarre scenarios involving other planets. Guests debate celibacy, celebrity encounters like Elvis and Brian Wilson (with questionable stories), and attempt to get Regis & Kathy Lee to stand on John’s head for a magazine photo while referencing Jeffrey Dahmer.",
+          "startTime": 4277.0,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991 Vol. 24"
@@ -12077,18 +12221,82 @@
     {
       "id": "cassette-the-howard-stern-show-1991-03-29",
       "date": "1991-03-29",
-      "title": "1991-03-29",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Disjointed Conversations and Legal Disputes",
+      "summary": "The broadcast features a chaotic conversation covering various topics including Fred’s dancing abilities, a lawsuit involving an interpreter for the Miss America pageant, claims of a man whose penis nearly exploded, car sales discussions, legal settlements (including one worth $200 million), and commentary on a chemical explosion in India. The hosts engage in tangential conversations about unrelated events like lawsuits and personal anecdotes.",
+      "duration": 11097.67,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201991-03-29.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1991-03-29",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Disjointed Conversations and Legal Disputes",
+          "summary": "The broadcast features a chaotic conversation covering various topics including Fred’s dancing abilities, a lawsuit involving an interpreter for the Miss America pageant, claims of a man whose penis nearly exploded, car sales discussions, legal settlements (including one worth $200 million), and commentary on a chemical explosion in India. The hosts engage in tangential conversations about unrelated events like lawsuits and personal anecdotes.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Listener Obsession & Contest Chaos",
+          "summary": "A morning radio host relentlessly promotes his show via phone calls and postcards, particularly focusing on attracting one fan who sends tapes. He attempts to organize a Howard Stern impression contest for listeners while grappling with the opinions of others, including an ambitious station manager seeking increased listenership.",
+          "startTime": 1110.4,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Howard Discusses Contest & Gross Commercial",
+          "summary": "During the broadcast, Howard discusses an advertising campaign promoting his contest alongside a television commercial featuring a large, unattractive couple. The hosts debate the effectiveness of the commercial and its bizarre content, particularly focusing on the couple's apparent hatred for the radio station.",
+          "startTime": 2224.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Jackie’s Lobster and Confusion",
+          "summary": "The conversation centers around Jackie, a man known for his unusual generosity – providing lobster dinners at the Friars Club with minimum bills to be paid – creating confusion and concern about potential exploitation. The discussion reveals an apparent lack of transparency regarding his activities and whether he's being used by others.",
+          "startTime": 3329.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Anxiety About a Strange Intern and Fear",
+          "summary": "Hosts discuss their anxieties regarding an intimidating colleague named Ed who exhibits eccentric behavior like inappropriate clothing and bizarre comments, alongside the habit of young intern Timmy sleeping in production studios. They attempt to engage him by trying to get him to play harmonica, highlighting ongoing tensions and oddities within the broadcast environment.",
+          "startTime": 4437.2,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Robert Maxwell and a Spokesmodel",
+          "summary": "A chaotic radio segment features bizarre questions about arousal, personal habits (including shaving), an obsession with Heidi Tomp, and nonsensical tangents. The hosts attempt to conduct a brief interview while discussing Robert Maxwell's purchase of The Daily News and engaging in increasingly strange conversations.",
+          "startTime": 5546.24,
+          "imageURL": null
+        },
+        {
+          "id": "topic-006",
+          "title": "Heidi Tong and Television Preferences",
+          "summary": "The radio host expresses skepticism about television executives’ bias against Chinese representation on screen while criticizing the perceived lack of attractiveness in current news presenters like Heidi Tong. The conversation shifts to a debate regarding televised executions, with prison officials objecting due to potential inmate distress.",
+          "startTime": 6654.84,
+          "imageURL": null
+        },
+        {
+          "id": "topic-007",
+          "title": "Strange Arrivals & Unstable Personalities",
+          "summary": "A young woman’s pregnancy is complicated by a troubled family history involving alleged abuse, leading to searches for estranged parents and an unsettling encounter with ‘Mr. and Mrs. Satan.’ Simultaneously, a judge's shoplifting escapades stem from stress, medical issues including a vaginal itch, and attempts at self-harm; while a teenager’s reckless gun use results in tragedy. Finally, the return of troops is met with spontaneous song and a bizarre spokesmodel competition involving bathing suits, singing, comedy, and an unexplained focus on individual contestants' personal struggles.",
+          "startTime": 7765.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-008",
+          "title": "Spokesmodel Audition Mishap",
+          "summary": "A chaotic audition for a spokesmodel contestant unfolds with Howard Stern and Robin Quivers, involving bizarre tangents about singing, accusations of dishonesty, and an unexpected interest in spanking. The session devolves into uncomfortable conversations regarding attractiveness and personal habits before culminating in a misguided attempt at musical performance.",
+          "startTime": 8875.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-009",
+          "title": "Howard and Robin's Risqué Conversation",
+          "summary": "During a radio show, Howard engages in increasingly suggestive conversation with Robin about sexual fantasies. They discuss outlandish scenarios involving celebrities like Sylvester Stallone and Yoko Ono, culminating in an imagined encounter before ending the segment with upbeat music and a contest reminder.",
+          "startTime": 9984.08,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1991-03-29"
@@ -14312,18 +14520,75 @@
     {
       "id": "cassette-the-howard-stern-show-1992-04-13-inc",
       "date": "1992-04-13",
-      "title": "1992-04-13 INC",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Caller Chaos & Sam Kinison Tribute",
+      "summary": "The show features a chaotic segment with callers discussing personal issues and measurements. A tribute is paid to Sam Kinison after his passing, including an impromptu video dedication. Staff members discuss their roles within the station's operations, highlighting Dia’s dual role as a Westwood One employee and occasional on-air contributor.",
+      "duration": 9388.98,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201992-04-13%20INC.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1992-04-13 INC",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Caller Chaos & Sam Kinison Tribute",
+          "summary": "The show features a chaotic segment with callers discussing personal issues and measurements. A tribute is paid to Sam Kinison after his passing, including an impromptu video dedication. Staff members discuss their roles within the station's operations, highlighting Dia’s dual role as a Westwood One employee and occasional on-air contributor.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Howard Stern Reports Kinison’s Near-Death",
+          "summary": "During a conversation with Bill Kennison, Howard learns that Sam Kinison nearly died after being struck by another vehicle while driving to Las Vegas. The details reveal an unsettling scene where Kinison was conscious for fifteen minutes and appeared to be conversing with an unseen presence as he experienced severe pain, adding a bizarre element to the story.” 54 words.",
+          "startTime": 1043.52,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Reflections on Sam Kennison’s Life and Death",
+          "summary": "Following comedian Sam Kennison’s death, friends share memories of his generosity, including stories about his willingness to travel for shows without asking for compensation and his struggles with substance abuse. They also recall his pride in achieving success despite past challenges and a poignant moment when he offered support during a personal crisis, concluding with an offer of cardboard cutouts for the funeral.",
+          "startTime": 2086.68,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Howard’s KLSX Comedy Corner Trivia Contest",
+          "summary": "During a radio show, Howard Stern hosts a trivia contest on KLSX, offering a weekend in New York City to listeners who answer questions about him and his guests correctly. The broadcast includes traffic reports from Rudy Grande, weather updates from Bill Riles, sports scores (Padres victory), celebrity news (Freddy Couples wins the Masters), legal developments (Rodney King trial), academic achievements (El Camino Real high school win), discussions of fax machines with computer condiments, and a commercial for Freeway Insurance.",
+          "startTime": 3133.28,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Howard Attempts to Call Wife About Sam Kinneson",
+          "summary": "During a radio show segment, Howard Stern attempts to call his wife while discussing stories about Sam Kinneson and the possibility of leaving. The conversation becomes emotionally charged when he learns his daughter Emily was upset with him due to his behavior, leading to an extended discussion with Allison regarding her feelings.",
+          "startTime": 4174.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Sam and Jessica’s Tumultuous Relationship",
+          "summary": "The conversation details a volatile relationship between Sam Kinison and Jessica, marked by frequent arguments fueled by his manipulation and her fervent belief in Jesus. Key moments include him accidentally soiling the pool at his LA home, shifting affections, and Jessica admitting her love for Jesus while he used it to manipulate her with false promises.”} ظهرت المشاكل بين سام وجيسيكا بسبب أسلوب سام في التلاعب بها، بالإضافة إلى إيمانها الراسخ بالله. تميز الحوار بأسئلة حول علاقاتهم المتوترة وتصرفاتهم الغريبة، مثل حادثة تلوث المسبح وادعاءاتها المتعلقة بالإيمان المسيحي.”} 54 words. <start_of_image> --> {",
+          "startTime": 5218.56,
+          "imageURL": null
+        },
+        {
+          "id": "topic-006",
+          "title": "Sam Kinneson's Erratic Nightlife and Celebrity Encounters",
+          "summary": "During a radio show discussion, the host recounts numerous anecdotes about comedian Sam Kinneson’s erratic behavior including his misuse of Xanax, bizarre comments regarding amyl nitrate during Letterman appearances, attempts to ‘hex’ talkshow hosts, and an awkward birthday gift involving ripped money. He also details interactions with celebrities like John Bon Jovi, Julian Lennon, Buddy Hackett, Katie Seagal, Richard Simmons, Max Alexander, and shares a story about his mother's unusual dream.",
+          "startTime": 6260.74,
+          "imageURL": null
+        },
+        {
+          "id": "topic-007",
+          "title": "Sam’s Chaotic Radio Sessions",
+          "summary": "During a radio show, hosts discuss Sam's erratic behavior including his interactions with Marty Kallner and an African woman who worked as a road manager. They recount stories of him drinking heavily, demanding specific favors like getting coke delivered, bizarre encounters highlighting his lifestyle, and the strange events surrounding Meg’s appearance.”} <start_of_image>\\n 20-song music marathon on 97.1 KLSX.",
+          "startTime": 7303.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-008",
+          "title": "Sam’s Erratic Behavior and Carly Simon’s Grief",
+          "summary": "The broadcast revisits Sam’s bizarre behavior including driving forward, interactions with women, and a bachelor party involving nude people. A strained phone call from Carly Simon reveals her grief over Sam's death and the complicated dynamics of their friendship circle, culminating in awkward discussions about drunken drivers.",
+          "startTime": 8347.0,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1992-04-13 INC"
@@ -14925,18 +15190,54 @@
     {
       "id": "cassette-the-howard-stern-show-1993-vol-02",
       "date": "1993",
-      "title": "1993 Vol. 02",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Robert’s Pharmaceutical Testing Scheme",
+      "summary": "A film student named Robert earns $7,000 by participating in pharmaceutical testing at a research facility where young men endure medical tests and experiments. He then uses the money to sell his movie script to Columbia Pictures.",
+      "duration": 5630.7,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201993%20Vol.%2002.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1993 Vol. 02",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Robert’s Pharmaceutical Testing Scheme",
+          "summary": "A film student named Robert earns $7,000 by participating in pharmaceutical testing at a research facility where young men endure medical tests and experiments. He then uses the money to sell his movie script to Columbia Pictures.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Richard Simmons, Envelope Riddles & Sternac",
+          "summary": "The broadcast features a chaotic discussion about Richard Simmons’ life and career, including bizarre gifts like an envelope filled with questions. Sternac delivers absurd riddles to the hosts, referencing figures such as Jonathan Lawton, Amy Fisher, and Joey Ramone while discussing potential film projects and personal grievances.”}ç erty-o's is that it? I am sick of this already. I",
+          "startTime": 939.98,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Boardwalk Story & Award Acceptance",
+          "summary": "Howard recounts bizarre stories under the boardwalk involving Katie Beers and King Kong, attempts to accept an award from the Gavin Report while engaging in chaotic banter with David Dalton. He makes absurd claims about innovation and industry recognition during a live audio acceptance speech.",
+          "startTime": 1881.84,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "David Dalton’s Award Obsession",
+          "summary": "During this broadcast, David Dalton repeatedly demands recognition for his radio work and makes outlandish claims regarding his influence. He engages in bizarre conversations, including an awkward interview with John List, while fixating on the perceived lack of awards despite significant achievements like a successful national morning show simulcast.",
+          "startTime": 2816.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Robert Blake's Erratic Interview",
+          "summary": "During an erratic radio interview, Robert Blake discusses his troubled past including allegations of abuse by his parents and drug use. He talks about tumultuous childhood experiences, claims numerous talk show appearances, and bizarre tangents regarding sex and actresses before taking a break to discuss the John List story.",
+          "startTime": 3758.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Robert Blake’s Unhinged Radio Callers",
+          "summary": "During a radio segment featuring Robert Blake, callers attempt to elicit details about his past affairs with Hollywood starlets and his troubled childhood. The conversation quickly descends into bizarre tangents involving fantasies of sex with Kathie Lee Gifford, an obsession with Mandela, and increasingly inappropriate suggestions regarding oral sex, ultimately escalating into demands for him to perform the act.",
+          "startTime": 4696.96,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1993 Vol. 02"
@@ -14944,18 +15245,54 @@
     {
       "id": "cassette-the-howard-stern-show-1993-vol-03",
       "date": "1993",
-      "title": "1993 Vol. 03",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Raymond Burr’s Gay Husband and Maxwell House",
+      "summary": "A comedian recounts a story about Raymond Burr, fascinated by Maxwell House Coffee commercials after visiting his teenage father’s recording studio as a teenager; he exhibited stereotypical ‘queer’ behavior afterward – flitting around and acting strangely to the astonishment of everyone involved.",
+      "duration": 5431.9,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201993%20Vol.%2003.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1993 Vol. 03",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Raymond Burr’s Gay Husband and Maxwell House",
+          "summary": "A comedian recounts a story about Raymond Burr, fascinated by Maxwell House Coffee commercials after visiting his teenage father’s recording studio as a teenager; he exhibited stereotypical ‘queer’ behavior afterward – flitting around and acting strangely to the astonishment of everyone involved.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Dice, Bells, and House Hunting",
+          "summary": "Richard Dice recounts his experience buying a mansion in Long Island after initially being wary of superstition surrounding the property. He describes encountering an attorney with African art collection and ultimately closing on the house despite initial concerns about potential bad luck.",
+          "startTime": 906.64,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Superstitions, Celebrity Plugs & Rapid-Fire Questions",
+          "summary": "The broadcast features a chaotic discussion about superstitions like ladders and cracks. Jessica Hahn plugs her celebrity centerfold video featuring explicit scenes with a midget, while Max Casella promotes his role on ‘Doogie Howser’ and Howard attempts to steer the conversation towards romantic encounters involving celebrities, culminating in rapid-fire questions and product pitches.”} <start_of_image>\\n 201432501100",
+          "startTime": 1814.12,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Richard Bell’s Nightly Calls and Florida Plans",
+          "summary": "Richard Bell discusses his nightly phone calls, a lost high school ring, and plans for comedy dates in Tampa, Fort Lauderdale, and Orlando. He details an unusual habit of watching Lady Chatterley's Lover to avoid his wife while discussing new curse words he intends to use on the road.",
+          "startTime": 2717.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Little Richard Award Controversy Revisited",
+          "summary": "During the radio show, Howard discusses Little Richard’s frustration with the Grammy organization after they initially offered only two tickets for his lifetime achievement award and then rescinded that offer. The situation highlights differing opinions about honoring musical icons and underscores a misunderstanding regarding acceptance protocols.",
+          "startTime": 3622.12,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "Movie Discussions and Toilet Logs",
+          "summary": "Robin and Howard discuss recent movie releases, primarily focusing on ‘Single White Females’ and their rental experiences at Blockbuster. They share opinions on films like 'Lawless,' discussing anxieties about breaking toilet logs and personal habits during the segment, punctuated by a phone call regarding these concerns.”} <start_of_image> deserves to be in this archive card because it accurately reflects the content of the transcript while adhering to all specified constraints.",
+          "startTime": 4527.2,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1993 Vol. 03"
@@ -17486,18 +17823,54 @@
     {
       "id": "cassette-the-howard-stern-show-1998-tape-21-june-4-june-5",
       "date": "1998-06",
-      "title": "1998 Tape 21  June 4 & June 5",
-      "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-      "duration": null,
+      "title": "Rock Band Reflections and Troubles",
+      "summary": "Several individuals discuss their admiration for a rock band’s recent soundtrack release, touching on the band's six-year history, personal struggles with playing instruments, financial difficulties stemming from album sales, and past legal issues including jail time related to drug use. One participant shares anecdotes about his father in music and reveals details of his troubled childhood.",
+      "duration": 5629.49,
       "url": "https://archive.org/download/Howard-Stern-Show-Cassette-Tapes/The%20Howard%20Stern%20Show%201998%20Tape%2021%20%20June%204%20%26%20June%205.mp3",
-      "transcriptAvailable": false,
+      "transcriptAvailable": true,
       "source": "Howard Stern Show Cassette Tapes",
       "topics": [
         {
           "id": "topic-000",
-          "title": "1998 Tape 21  June 4 & June 5",
-          "summary": "Streamable cassette transfer; transcription and segment notes coming next.",
-          "startTime": 0
+          "title": "Rock Band Reflections and Troubles",
+          "summary": "Several individuals discuss their admiration for a rock band’s recent soundtrack release, touching on the band's six-year history, personal struggles with playing instruments, financial difficulties stemming from album sales, and past legal issues including jail time related to drug use. One participant shares anecdotes about his father in music and reveals details of his troubled childhood.",
+          "startTime": 0.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-001",
+          "title": "Persistent ‘I Know What This Is About’",
+          "summary": "The broadcast consists entirely of the repeated phrase 'Oh, I know what this is about,' delivered with minimal context and often referencing celebrity deaths or betting odds on mortality rates. Interjections include commentary regarding Bob Hope's longevity and a discussion concerning potential bets related to deceased figures.",
+          "startTime": 949.66,
+          "imageURL": null
+        },
+        {
+          "id": "topic-002",
+          "title": "Death Pool Discussions and Goldwater Funeral Coverage",
+          "summary": "During a radio segment, hosts discuss hypothetical death pool betting scenarios with callers offering morbid perspectives before transitioning to reporting on Barry Goldwater’s funeral service. The program includes musical performances from Slim Whitman and an American Indian singer performing a rap song honoring the deceased senator, alongside extended coverage of the event including digging the grave.",
+          "startTime": 1877.0,
+          "imageURL": null
+        },
+        {
+          "id": "topic-003",
+          "title": "Senator McCain Discusses Goldwater and American Values",
+          "summary": "During a meandering conversation, Senator John McCain discusses his late father-in-law, Barry Goldwater, expressing fondness for him while lamenting perceived restrictions on freedom of expression. He voices concerns about proposed legislation regarding flag desecration and prayer in schools, dismissing them as wasteful and unnecessary. The discussion briefly touches upon personal frustrations with unsolicited commentary before transitioning to a tangential exploration of hypothetical scenarios involving totem poles and buffalo balls.",
+          "startTime": 2817.16,
+          "imageURL": null
+        },
+        {
+          "id": "topic-004",
+          "title": "Executive Kissing and Farting Talent",
+          "summary": "During an interview, Howard Stern discusses his desire for executives to kiss him after successful deals while Gwyneth Paltrow expresses surprise at media attention. The conversation then shifts to a young man named Chris who can intentionally fart on command, leading to humorous discussions about training and potential career opportunities.",
+          "startTime": 3754.58,
+          "imageURL": null
+        },
+        {
+          "id": "topic-005",
+          "title": "French Opera Star & Farting Demonstrations",
+          "summary": "A French opera star, Lapetamaine, demonstrates his ability to blow out candles from twenty feet away. Howard attempts to replicate the technique with awkward demonstrations involving air intake and expulsion, while a guest, Gary, participates in an extended farting session.",
+          "startTime": 4697.92,
+          "imageURL": null
         }
       ],
       "recordingLabel": "The Howard Stern Show 1998 Tape 21  June 4 & June 5",
