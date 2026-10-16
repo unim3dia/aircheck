@@ -127,8 +127,11 @@ let swipeStart=null;$('#app').addEventListener('touchstart',event=>{if(route()[0
 let playerTouch=null;$('#bottom-player').addEventListener('touchstart',event=>{playerTouch={x:event.touches[0].clientX,y:event.touches[0].clientY}},{passive:true});$('#bottom-player').addEventListener('touchend',event=>{if(playerTouch.y-event.changedTouches[0].clientY>45)openExpanded();playerTouch=null},{passive:true});$('#expanded-player').addEventListener('touchstart',event=>{playerTouch={x:event.touches[0].clientX,y:event.touches[0].clientY}},{passive:true});$('#expanded-player').addEventListener('touchend',event=>{const point=event.changedTouches[0],dx=point.clientX-playerTouch.x,dy=point.clientY-playerTouch.y;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy))nextSegment(dx<0?1:-1);else if(dy>60)closeExpanded();playerTouch=null},{passive:true});
 let mousePlayerDrag=null;$('#bottom-player').addEventListener('pointerdown',event=>{if(event.pointerType==='mouse'&&!event.target.closest('input'))mousePlayerDrag={x:event.clientX,y:event.clientY}});$('#bottom-player').addEventListener('pointerup',event=>{if(mousePlayerDrag&&mousePlayerDrag.y-event.clientY>45)openExpanded();mousePlayerDrag=null});
 function warmArchiveCatalogs(){
-  const connection=navigator.connection||navigator.mozConnection||navigator.webkitConnection;
-  if(connection?.saveData||/^(slow-2g|2g)$/.test(connection?.effectiveType||''))return;
+  const preconnect=document.createElement('link');
+  preconnect.rel='preconnect';
+  preconnect.href='https://archive.org';
+  preconnect.crossOrigin='anonymous';
+  document.head.append(preconnect);
   Promise.all(['2007','2008'].map(loadSatelliteYear)).then(loadCassettes).catch(()=>{});
 }
 window.onhashchange=render;render();
