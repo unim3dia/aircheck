@@ -3,12 +3,14 @@ import {dateBadge,shortDate,monthYear} from './dates.js';
 const $ = selector => document.querySelector(selector);
 const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const state = {catalog:{},cassettes:null,year:'2006',month:1,show:null,data:null,playingShow:null,playingData:null,tab:'segments',activeSegment:null,search:'',mediaShowId:null,sharedPlayerRoute:null};
+const stashShow={id:'stash-trey-anastasio-2026-11-02',date:'2026-11-02',title:'Trey Anastasio — Stash',duration:435.513479,url:'assets/trey-anastasio-stash-live.mp3',topics:[{title:'Trey Anastasio — “Stash”',summary:'Live on the Howard Stern Show · November 2, 2026',startTime:0}],transcriptAvailable:false};
+const stashData={topics:stashShow.topics,transcript:[]};
 const indexes={},showCache={},catalogLoads={}; let cassetteLoad=null,lastHistoryWrite=0;
 function setTheme(theme,remember=true){document.documentElement.dataset.theme=theme;document.body.dataset.theme=theme;document.documentElement.style.colorScheme=theme;if(remember)localStorage.setItem('aircheck-theme',theme);const dark=theme==='dark',button=$('#theme-button');button.textContent=dark?'☀':'☾';button.title=dark?'Switch to light mode':'Switch to dark mode';button.setAttribute('aria-label',button.title);document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#171816':'#f6f0e5')}
 const time = seconds => {seconds=Math.max(0,Math.floor(seconds||0));return `${Math.floor(seconds/3600)}:${String(Math.floor(seconds%3600/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`};
 const duration = seconds => `${Math.floor(seconds/3600)} hr ${Math.floor(seconds%3600/60)} min`;
 const title = show => show.topics?.[0]?.title || show.title || 'Archive broadcast';
-const allShows=()=>[...Object.values(state.catalog).flat(),...(state.cassettes?.items||[])]; const yearShows=()=>state.catalog[state.year]||[];
+const allShows=()=>[...Object.values(state.catalog).flat(),...(state.cassettes?.items||[]),stashShow]; const yearShows=()=>state.catalog[state.year]||[];
 async function loadSatelliteYear(year){
   if(state.catalog[year])return state.catalog[year];
   if(catalogLoads[year])return catalogLoads[year];
@@ -25,12 +27,13 @@ async function loadCassettes(){
   return cassetteLoad;
 }
 async function loadCatalogForShow(id){
+  if(id===stashShow.id)return stashShow;
   if(id.startsWith('cassette-'))await loadCassettes();
   else if(/^20(?:06|07|08)-/.test(id))await loadSatelliteYear(id.slice(0,4));
   return allShows().find(show=>show.id===id);
 }
 async function loadAllCatalogs(){await Promise.all(['2006','2007','2008'].map(loadSatelliteYear));await loadCassettes();}
-const route=()=>location.hash.replace(/^#/,'').split('/'); const go=value=>{location.hash=value}; const showRoute=(id,seconds=0)=>go(`show/${id}/${Math.floor(seconds)}`);
+const route=()=>location.hash.replace(/^#/,'').split('/'); const go=value=>{location.hash=value}; const showRoute=(id,seconds=0)=>id===stashShow.id?go('stash'):go(`show/${id}/${Math.floor(seconds)}`);
 const esc=value=>String(value||'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
 const favoriteRoom=createFavorites({escape:esc,time,date:shortDate,playChapter:async chapter=>{const show=await loadCatalogForShow(chapter.show);if(!show)throw new Error('Broadcast unavailable');const data=await loadShowData(show.id,show);await play(show,chapter.at,data);}});
 async function loadShowData(id,show){if(showCache[id])return showCache[id];showCache[id]=show?.transcriptAvailable?await fetch(`data/shows/${id}.json`).then(response=>response.json()):{topics:show?.topics||[],transcript:[]};return showCache[id];}
@@ -57,7 +60,11 @@ function library(){
 }
 function cassetteLibrary(){
   const items=state.cassettes?.items||[], years=[...new Set(items.map(item=>item.date.slice(0,4)))];
-  $('#app').innerHTML=`<section class="cassette-library"><p class="kicker">THE CASSETTE TAPES</p><h1>Howard Stern Show Cassette Tapes</h1><p class="note">Digitized tapes spanning the early K-Rock years through the 1990s. Every entry is streamable; transcripts, segment notes, and historical context will be added in stages.</p>${years.map(year=>`<section class="cassette-year"><h2>${year==='unda'?'Undated':year}</h2><div class="show-grid">${items.filter(item=>item.date.slice(0,4)===year).map(card).join('')}</div></section>`).join('')}</section>`;
+  $('#app').innerHTML=`<section class="cassette-library"><header class="cassette-heading"><div><p class="kicker">THE CASSETTE TAPES</p><h1>Howard Stern Show Cassette Tapes</h1><p class="note">Digitized tapes spanning the early K-Rock years through the 1990s. Every entry is streamable; transcripts, segment notes, and historical context will be added in stages.</p></div><img src="assets/cassette-hero-howard-robin.jpg" alt="Howard Stern and Robin Quivers in studio"></header>${years.map(year=>`<section class="cassette-year"><h2>${year==='unda'?'Undated':year}</h2><div class="show-grid">${items.filter(item=>item.date.slice(0,4)===year).map(card).join('')}</div></section>`).join('')}</section>`;
+}
+function stashRoom(){
+  const isStash=state.playingShow?.id===stashShow.id,playing=isStash&&!$('#audio').paused;
+  $('#app').innerHTML=`<section class="stash-room"><div class="stash-art"><img src="assets/stash-trey-artwork.jpg" alt="Trey Anastasio performing Stash live on the Howard Stern Show"></div><div class="stash-copy"><p class="kicker">STASH</p><h1>Trey Anastasio</h1><p class="stash-track">“Stash”</p><p class="note">Live on the Howard Stern Show<br>November 2, 2026</p><button class="stash-play" data-stash-play aria-label="${playing?'Pause':'Play'} Trey Anastasio performing Stash">${playing?'Ⅱ':'▶'} <span>${playing?'Pause':'Play'}</span></button></div></section>`;
 }
 async function detail(id){
   const show=await loadCatalogForShow(id);if(!show)return go('home');
@@ -74,6 +81,7 @@ function updatePlayer(){
   $('#progress').max=max;$('#progress').value=value;$('#progress').style.setProperty('--playhead-position',position);$('#mic-playhead').style.setProperty('--playhead-position',position);$('#elapsed').textContent=time(value);$('#remaining').textContent=`−${time(max-value)}`;
   $('#player-toggle').textContent=audio.paused?'▶':'Ⅱ';$('#player-toggle').setAttribute('aria-label',audio.paused?'Play current broadcast':'Pause current broadcast');const top=$('#toggle-button');top.textContent='';top.dataset.state=audio.paused?'play':'pause';top.setAttribute('aria-label',audio.paused?'Play current broadcast':'Pause current broadcast');const headline=$('#show-headline');if(headline&&state.show?.id===show.id)headline.textContent=activeTitle();
   const hero=$('.hero-play');if(hero&&state.show?.id===show.id)hero.textContent=audio.paused?'HeyNow':'Stop the Clock';
+  const stashButton=$('[data-stash-play]');if(stashButton&&show.id===stashShow.id){stashButton.setAttribute('aria-label',`${audio.paused?'Play':'Pause'} Trey Anastasio performing Stash`);stashButton.innerHTML=`${audio.paused?'▶':'Ⅱ'} <span>${audio.paused?'Play':'Pause'}</span>`;}
   $('#mute-volume').classList.toggle('muted',audio.muted||audio.volume===0);$('#volume-state').textContent=(audio.muted||audio.volume===0)?'MUTE':'';
   if(!$('#expanded-player').hidden){const activeTopic=state.playingData?.topics?.find((topic,index)=>value>=topic.startTime&&value<(state.playingData.topics[index+1]?.startTime??Infinity));$('#expanded-date').textContent=shortDate(show.date);$('#expanded-title').textContent=activeTopic?.title||title(show);$('#expanded-segment').textContent=copy;$('#expanded-progress').max=max;$('#expanded-progress').value=value;$('#expanded-progress').style.setProperty('--playhead-position',position);$('#expanded-mic-playhead').style.left=position;$('#expanded-elapsed').textContent=time(value);$('#expanded-remaining').textContent=`−${time(max-value)}`;$('#expanded-toggle').textContent=audio.paused?'▶':'Ⅱ';}
   updateMediaSession();
@@ -109,7 +117,7 @@ function historyPage(){const byId=new Map(allShows().map(show=>[show.id,show])),
 async function render(){
   const current=route();
   document.querySelectorAll('[data-section]').forEach(link=>{
-    if(link.dataset.section===(current[0]==='favorites'?'favorites':current[0]==='cassettes'?'cassettes':'broadcasts'))link.setAttribute('aria-current','page');
+    if(link.dataset.section===(current[0]==='favorites'?'favorites':current[0]==='cassettes'?'cassettes':current[0]==='stash'?'stash':'broadcasts'))link.setAttribute('aria-current','page');
     else link.removeAttribute('aria-current');
   });
   if(current[0]!=='player'&&state.sharedPlayerRoute){state.sharedPlayerRoute=null;closeExpanded();}
@@ -120,6 +128,8 @@ async function render(){
     openExpanded();
   }else if(current[0]==='cassettes'){
     state.randomMode=false;await loadCassettes();cassetteLibrary();
+  }else if(current[0]==='stash'){
+    state.randomMode=false;state.show=stashShow;state.data=stashData;stashRoom();
   }else if(current[0]==='favorites'){
     state.randomMode=false;$('#app').innerHTML=favoriteRoom.render(current[1]);window.scrollTo({top:0,behavior:'instant'});
   }else if(current[0]==='show'){
@@ -129,7 +139,7 @@ async function render(){
   else if(current[0]==='history')historyPage();
   else{state.randomMode=false;await loadSatelliteYear(state.year);library();}
 }
-document.addEventListener('click',event=>{const show=event.target.closest('[data-show]'),playButton=event.target.closest('[data-play]'),tab=event.target.closest('[data-tab]'),result=event.target.closest('[data-search-show]'),historyButton=event.target.closest('[data-history]');if(show)showRoute(show.dataset.show);else if(result)showRoute(result.dataset.searchShow,result.dataset.searchTime);else if(historyButton)showRoute(historyButton.dataset.history,historyButton.dataset.historyTime);else if(playButton&&state.show){if(playButton.classList.contains('hero-play')){state.playingShow?.id===state.show.id?togglePlayback():play(state.show,0,state.data)}else play(state.show,+playButton.dataset.play,state.data)}else if(tab){state.tab=tab.dataset.tab;renderDetail();syncTranscript()}else if(event.target.closest('#show-back'))history.back();});
+document.addEventListener('click',event=>{const show=event.target.closest('[data-show]'),playButton=event.target.closest('[data-play]'),stashButton=event.target.closest('[data-stash-play]'),tab=event.target.closest('[data-tab]'),result=event.target.closest('[data-search-show]'),historyButton=event.target.closest('[data-history]');if(show)showRoute(show.dataset.show);else if(result)showRoute(result.dataset.searchShow,result.dataset.searchTime);else if(historyButton)showRoute(historyButton.dataset.history,historyButton.dataset.historyTime);else if(stashButton){state.playingShow?.id===stashShow.id?togglePlayback():play(stashShow,0,stashData);stashRoom()}else if(playButton&&state.show){if(playButton.classList.contains('hero-play')){state.playingShow?.id===state.show.id?togglePlayback():play(state.show,0,state.data)}else play(state.show,+playButton.dataset.play,state.data)}else if(tab){state.tab=tab.dataset.tab;renderDetail();syncTranscript()}else if(event.target.closest('#show-back'))history.back();});
 function nextSegment(direction){const topics=state.playingData?.topics||[],now=$('#audio').currentTime||0;let index=topics.findIndex((topic,i)=>now>=topic.startTime&&now<(topics[i+1]?.startTime??Infinity));if(index<0)index=direction>0?-1:0;seek(topics[Math.max(0,Math.min(topics.length-1,index+direction))]?.startTime??now);}
 $('#back-button').onclick=()=>history.back();$('#random-button').onclick=random;$('#expanded-random').onclick=random;$('#history-button').onclick=()=>go('history');$('#share-button').onclick=shareCurrentPosition;$('#toggle-button').onclick=togglePlayback;$('#player-toggle').onclick=togglePlayback;$('#expanded-toggle').onclick=togglePlayback;$('#player-title').onclick=()=>state.playingShow&&showRoute(state.playingShow.id,$('#audio').currentTime);$('#skip-back').onclick=()=>seek(Math.max(0,$('#audio').currentTime-15));$('#skip-forward').onclick=()=>seek($('#audio').currentTime+15);$('#expanded-back').onclick=()=>seek(Math.max(0,$('#audio').currentTime-15));$('#expanded-forward').onclick=()=>seek($('#audio').currentTime+15);$('#expand-player-button').onclick=openExpanded;$('#expanded-share').onclick=shareCurrentPosition;$('#close-player').onclick=closeExpanded;$('#progress').oninput=event=>seek(event.target.value);$('#expanded-progress').oninput=event=>seek(event.target.value);$('#mute-volume').onclick=()=>{const audio=$('#audio');audio.muted=!audio.muted;updatePlayer()};
 $('#theme-button').onclick=()=>{localStorage.setItem('aircheck-theme-choice','true');setTheme(document.body.dataset.theme==='dark'?'light':'dark')};setTheme(localStorage.getItem('aircheck-theme-choice')?localStorage.getItem('aircheck-theme'):(matchMedia('(max-width: 850px)').matches?'dark':'light'),false);
